@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EC5D572F-7496-478F-97C2-AE15D224374F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BMDT.SECS</RootNamespace>
+    <AssemblyName>BMDT.SECS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\Lib\log4net\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbsSecsHandler.cs" />
+    <Compile Include="ICallback.cs" />
+    <Compile Include="ISecsHandler.cs" />
+    <Compile Include="Message\BasicTransactionInfo.cs" />
+    <Compile Include="Message\ConversationTimeout.cs" />
+    <Compile Include="Message\CTestMessage.cs" />
+    <Compile Include="Message\CTestMessage_DSIDCOUNT.cs" />
+    <Compile Include="Message\DataTooLong.cs" />
+    <Compile Include="Message\ConstDef.cs" />
+    <Compile Include="Message\IllegalData.cs" />
+    <Compile Include="Message\PrivateUtility.cs" />
+    <Compile Include="Message\S1F0.cs" />
+    <Compile Include="Message\S1F15_RequestOffLine.cs" />
+    <Compile Include="Message\S1F16_RequestOffLineAck.cs" />
+    <Compile Include="Message\S1F17_RequestOnLine.cs" />
+    <Compile Include="Message\S1F18_RequestOnLineAck.cs" />
+    <Compile Include="Message\S1F1_AreYouThere.cs" />
+    <Compile Include="Message\S1F2_IAmHere.cs" />
+    <Compile Include="Message\S1F2_OnLineData.cs" />
+    <Compile Include="Message\S2F111_CurrentRecipeDataRequest.cs" />
+    <Compile Include="Message\S2F112_CurrentRecipeDataRequestAck.cs" />
+    <Compile Include="Message\S2F113_CurrentEQPDataRequest.cs" />
+    <Compile Include="Message\S2F114_CurrentEQPDataRequestAck.cs" />
+    <Compile Include="Message\S2F17_DateTimeRequest.cs" />
+    <Compile Include="Message\S2F18_DateTimeDataRequestAck.cs" />
+    <Compile Include="Message\S2F31_DateAndTimeSetRequest.cs" />
+    <Compile Include="Message\S2F32_DateAndTimeSetRequestAck.cs" />
+    <Compile Include="Message\S2F41_EQPDownRequest.cs" />
+    <Compile Include="Message\S2F41_OPCallRequest.cs" />
+    <Compile Include="Message\S2F42_EQPDownRequestAck.cs" />
+    <Compile Include="Message\S2F42_OPCallRequestAck.cs" />
+    <Compile Include="Message\S5F1_AlarmReport.cs" />
+    <Compile Include="Message\S5F2_AlarmReportAck.cs" />
+    <Compile Include="Message\S6F111_CurrentRecipeDataReport.cs" />
+    <Compile Include="Message\S6F111_CurrentRecipeDataReport_.cs" />
+    <Compile Include="Message\S6F112_CurrentRecipeDataReportAck.cs" />
+    <Compile Include="Message\S6F113_CurrentEQPDataReport.cs" />
+    <Compile Include="Message\S6F113_CurrentEQPDataReport_.cs" />
+    <Compile Include="Message\S6F114_CurrentEQPDataReportAck.cs" />
+    <Compile Include="Message\S6F11_ControlLocalChangeReport.cs" />
+    <Compile Include="Message\S6F11_ControlOfflineChangeReport.cs" />
+    <Compile Include="Message\S6F11_EQPStateChangeReport.cs" />
+    <Compile Include="Message\S6F11_ProcessStateReport.cs" />
+    <Compile Include="Message\S6F12EQPStateChangeReportAck.cs" />
+    <Compile Include="Message\S6F12_ControlLocalChangeReportAck.cs" />
+    <Compile Include="Message\S6F12_ControlOfflineChangeReportAck.cs" />
+    <Compile Include="Message\S6F12_ProcessStateReportAck.cs" />
+    <Compile Include="Message\S6F151_TackTimeReport.cs" />
+    <Compile Include="Message\S6F152_TackTimeReportAck.cs" />
+    <Compile Include="Message\S6F3_ProcessDataReport.cs" />
+    <Compile Include="Message\S6F3_ProcessDataReport_.cs" />
+    <Compile Include="Message\S6F4_ProcessDataReportAck.cs" />
+    <Compile Include="Message\TransactionTimerTimeout.cs" />
+    <Compile Include="Message\UnrecognizedDeviceId.cs" />
+    <Compile Include="Message\UnrecognizedStreamType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SECSWrapper.cs" />
+    <Compile Include="Service\ISECSService.cs" />
+    <Compile Include="Service\OnlinesScenario.cs" />
+    <Compile Include="Service\SECSServiceImpl.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\WinSECS\WinSECS\WinSECS\WinSECS.csproj">
+      <Project>{b435e9c8-4372-42f6-8151-3cb8f54fc369}</Project>
+      <Name>WinSECS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

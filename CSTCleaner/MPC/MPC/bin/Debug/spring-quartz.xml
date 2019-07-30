@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects  xmlns="http://www.springframework.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.net http://www.springframework.net/xsd/spring-objects.xsd">
+
+
+  <!--这里的type表示的是name类型所在的命名空间和程序集
+      在代码中是通过引用name来实现注入的-->
+
+  <!--配置继承自Quartz类的定时任务-->
+  <object id="extendQuartzSchedul" type="Spring.Scheduling.Quartz.JobDetailObject,Spring.Scheduling.Quartz2">
+    <property name="JobType" value="MPC.Schedule.ExtendQuartzSchedul,MPC"></property>
+    <property name="JobDataAsMap">
+      <dictionary>
+        <entry key="SchedulName" value="ExtendQuartzSchedul"></entry>
+      </dictionary>
+    </property>
+  </object>
+  
+  <!--配置自定义任务类-->
+  <object id="customizeSchedul" type="MPC.Schedule.CustomizeSchedul,MPC">
+    <property name="SchedulName" value="CustomizeSchedul"></property>
+  </object>
+  
+  <object id="customizeJob" type="Spring.Scheduling.Quartz.MethodInvokingJobDetailFactoryObject, Spring.Scheduling.Quartz2">
+    <!-- We don't actually need to implement IJob as we can use delegation -->
+    <property name="TargetObject" ref="customizeSchedul"/>
+    <property name="TargetMethod" value="Excute"/>
+     <!-- Automatic IStatefulJob wrapping当为Flase时，只有当前线程结束后才能进入 -->
+    <property name="concurrent" value="false"/> 
+  </object>
+    <!--简单的触发器-->
+   <object id="simpleTrigger" type="Spring.Scheduling.Quartz.SimpleTriggerObject, Spring.Scheduling.Quartz2">
+    <!-- see the example of method invoking job above -->
+    <property name="jobDetail" ref="customizeJob" />
+    <!-- 5 seconds -->
+    <property name="startDelay" value="5s" />
+    <!-- repeat every 5 seconds -->
+    <property name="repeatInterval" value="20s" />
+  </object>
+  
+   <!--复杂的触发器-->
+    <object id="cronTrigger" type="Spring.Scheduling.Quartz.CronTriggerObject,Spring.Scheduling.Quartz2">
+    <property name="jobDetail" ref="extendQuartzSchedul" />
+    <!-- run every 20 second of minute -->
+    <property name="cronExpressionString" value="0/20 * * * * ?" />
+  </object>
+  <!--创建计划-->
+  <object id ="scheduler" type=" Spring.Scheduling.Quartz.SchedulerFactoryObject,Spring.Scheduling.Quartz2">
+    <property name="triggers">
+      <list>
+        <ref object="cronTrigger" />
+        <ref object="simpleTrigger" />
+      </list>
+    </property>
+    <property name="ApplicationContextSchedulerContextKey" value="schedul"></property>
+    <property name="SchedulerName" value="scheduler"></property>
+    <property name="QuartzProperties">
+      <dictionary>
+        <!--设置线程程池-->
+        <entry key="quartz.threadPool.type" value="Quartz.Simpl.SimpleThreadPool, Quartz"/>
+        <!--设置线程池数量-->
+        <entry key="quartz.threadPool.threadCount" value="1"/>
+        <entry key="quartz.threadPool.threadPriority" value="Normal"/>
+      </dictionary>
+    </property>
+  </object>
+
+  
+ </objects> 

@@ -1,0 +1,3 @@
+[2019-07-24 16:03:47.309] [ERROR] [10] [SECSServiceImpl][Send_S6F11_ControlStateLocalChangeReport] -Secs Not Connected!
+[2019-07-24 16:04:00.613] [ERROR] [10] [SECSServiceImpl][Send_S6F11_ControlStateLocalChangeReport] -Secs Not Connected!
+[2019-07-24 16:05:09.994] [ERROR] [9] [SECSServiceImpl][Send_S6F11_ControlStateLocalChangeReport] -Secs Not Connected!

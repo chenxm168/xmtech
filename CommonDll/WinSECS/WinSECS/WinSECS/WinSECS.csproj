@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B435E9C8-4372-42F6-8151-3CB8F54FC369}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinSECS</RootNamespace>
+    <AssemblyName>WinSECS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\log4net\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="callback\AbstractCallback.cs" />
+    <Compile Include="callback\Callback.cs" />
+    <Compile Include="callback\CallbackManager.cs" />
+    <Compile Include="callback\Connected.cs" />
+    <Compile Include="callback\Disconnected.cs" />
+    <Compile Include="callback\Illegal.cs" />
+    <Compile Include="callback\ISECSListener.cs" />
+    <Compile Include="callback\Logging.cs" />
+    <Compile Include="callback\Received.cs" />
+    <Compile Include="callback\SendCompleted.cs" />
+    <Compile Include="callback\SendFailed.cs" />
+    <Compile Include="callback\Timeout.cs" />
+    <Compile Include="callback\UnknownReceived.cs" />
+    <Compile Include="connect\connectManager.cs" />
+    <Compile Include="connect\Handshake.cs" />
+    <Compile Include="connect\HSMSInterface.cs" />
+    <Compile Include="connect\HSMSReader.cs" />
+    <Compile Include="connect\HSMSWriter.cs" />
+    <Compile Include="connect\IConnection.cs" />
+    <Compile Include="connect\LinkTestActor.cs" />
+    <Compile Include="connect\readerUtility.cs" />
+    <Compile Include="connect\Reserved.cs" />
+    <Compile Include="connect\SECS1BlockCollection.cs" />
+    <Compile Include="connect\SECS1BlockDispatcher.cs" />
+    <Compile Include="connect\SECS1Stream.cs" />
+    <Compile Include="connect\T4ElapsedEventHandler.cs" />
+    <Compile Include="connect\WriterUtility.cs" />
+    <Compile Include="driver\ISingleplugIn.cs" />
+    <Compile Include="driver\SinglePlugIn.cs" />
+    <Compile Include="global\EnumSet.cs" />
+    <Compile Include="global\ErrorObject.cs" />
+    <Compile Include="global\IReturnObject.cs" />
+    <Compile Include="global\ISECSConfig.cs" />
+    <Compile Include="global\ISECSIO.cs" />
+    <Compile Include="global\ReturnObject.cs" />
+    <Compile Include="global\SEComError.cs" />
+    <Compile Include="global\SECSConfig.cs" />
+    <Compile Include="global\SECSException.cs" />
+    <Compile Include="global\SECSWrapper.cs" />
+    <Compile Include="logger\ConnectionLogger.cs" />
+    <Compile Include="logger\LoggerManager.cs" />
+    <Compile Include="logger\MessageLogger.cs" />
+    <Compile Include="logger\MyLevel.cs" />
+    <Compile Include="logger\ReportLogger.cs" />
+    <Compile Include="logger\TimeoutLogger.cs" />
+    <Compile Include="manager\abstractManager.cs" />
+    <Compile Include="manager\IManager.cs" />
+    <Compile Include="manager\IManager_Fields.cs" />
+    <Compile Include="manager\ManagerFactory.cs" />
+    <Compile Include="MessageHandler\Composer.cs" />
+    <Compile Include="MessageHandler\Composer_messagename_only.cs" />
+    <Compile Include="MessageHandler\Dispatcher.cs" />
+    <Compile Include="MessageHandler\DispatcherModelingFactory.cs" />
+    <Compile Include="MessageHandler\LengthFilterFactory.cs" />
+    <Compile Include="MessageHandler\ModelingMessageFactory.cs" />
+    <Compile Include="message\BasicTransactionInfo.cs" />
+    <Compile Include="message\CTestMessage.cs" />
+    <Compile Include="message\CTestMessage_DSIDCOUNT.cs" />
+    <Compile Include="message\DataTooLong.cs" />
+    <Compile Include="message\IllegalData.cs" />
+    <Compile Include="message\PrivateUtility.cs" />
+    <Compile Include="message\S10F0_ABORTTRANSACTION.cs" />
+    <Compile Include="message\S10F10_BROADCASTREPLY.cs" />
+    <Compile Include="message\S10F1_TERMINALREQUEST.cs" />
+    <Compile Include="message\S10F2_AUTOREPLY.cs" />
+    <Compile Include="message\S10F3_TERMINALDISPLAYSEND.cs" />
+    <Compile Include="message\S10F4_TERMINALDISPLAYREPLY.cs" />
+    <Compile Include="message\S10F9_BROADCASTSEND.cs" />
+    <Compile Include="message\S1F0_ABORTTRANSACTION.cs" />
+    <Compile Include="message\S1F101_SVSTATUSREQUEST.cs" />
+    <Compile Include="message\S1F102_SVSTATUSREPLY.cs" />
+    <Compile Include="message\S1F102_SVSTATUSREPLY_SVID_COUNT.cs" />
+    <Compile Include="message\S1F11_FDCEQPSTATUSNAMELISTREQUEST.cs" />
+    <Compile Include="message\S1F11_FDCEQPSTATUSNAMELISTREQUEST_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F11_NOUSE.cs" />
+    <Compile Include="message\S1F11_NOUSE_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F12_FDCEQPSTATUSNAMELISTREPLY_TYPE1.cs" />
+    <Compile Include="message\S1F12_FDCEQPSTATUSNAMELISTREPLY_TYPE1_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F12_FDCEQPSTATUSNAMELISTREPLY_TYPE1_TOOL_COUNT_SVID_COUNT.cs" />
+    <Compile Include="message\S1F12_FDCEQPSTATUSNAMELISTREPLY_TYPE2.cs" />
+    <Compile Include="message\S1F12_FDCEQPSTATUSNAMELISTREPLY_TYPE2_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F12_FDCEQPSTATUSNAMELISTREPLY_TYPE2_TOOL_COUNT_SVID_COUNT.cs" />
+    <Compile Include="message\S1F15_iOFFLINECHANGEREQUEST.cs" />
+    <Compile Include="message\S1F15_OFFLINECHANGEREQUEST.cs" />
+    <Compile Include="message\S1F16_OFFLINECHANGEREPLY.cs" />
+    <Compile Include="message\S1F16_REPLY.cs" />
+    <Compile Include="message\S1F17_iONLINECHANGEREQUEST.cs" />
+    <Compile Include="message\S1F17_ONLINECHANGEREQUEST.cs" />
+    <Compile Include="message\S1F18_ONLINECHANGEREPLY.cs" />
+    <Compile Include="message\S1F18_REPLY.cs" />
+    <Compile Include="message\S1F1_AREYOUTHERE_TOEQP.cs" />
+    <Compile Include="message\S1F1_AREYOUTHERE_TOHOST.cs" />
+    <Compile Include="message\S1F2_IAMHERE.cs" />
+    <Compile Include="message\S1F2_ONLINEDATA.cs" />
+    <Compile Include="message\S1F3_FDCEQPSTATUSREQUEST.cs" />
+    <Compile Include="message\S1F3_FDCEQPSTATUSREQUEST_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F3_FDCEQPSTATUSREQUEST_TOOL_COUNT_SVID_COUNT.cs" />
+    <Compile Include="message\S1F3_NOUSE.cs" />
+    <Compile Include="message\S1F3_NOUSE_1.cs" />
+    <Compile Include="message\S1F3_NOUSE_1_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F3_NOUSE_1_TOOL_COUNT_SVID_COUNT.cs" />
+    <Compile Include="message\S1F3_NOUSE_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F3_NOUSE_TOOL_COUNT_SVID_COUNT.cs" />
+    <Compile Include="message\S1F4_FDCEQPSTATUSREPLY_TYPE1.cs" />
+    <Compile Include="message\S1F4_FDCEQPSTATUSREPLY_TYPE1_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F4_FDCEQPSTATUSREPLY_TYPE1_TOOL_COUNT_SVID_COUNT.cs" />
+    <Compile Include="message\S1F4_FDCEQPSTATUSREPLY_TYPE2.cs" />
+    <Compile Include="message\S1F4_FDCEQPSTATUSREPLY_TYPE2_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F4_FDCEQPSTATUSREPLY_TYPE2_TOOL_COUNT_SVID_COUNT.cs" />
+    <Compile Include="message\S1F4_FDCEQPSTATUSREPLY_TYPE3.cs" />
+    <Compile Include="message\S1F4_FDCEQPSTATUSREPLY_TYPE3_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F4_FDCEQPSTATUSREPLY_TYPE3_TOOL_COUNT_SVID_COUNT.cs" />
+    <Compile Include="message\S1F5_EQPSTATUSREQUEST.cs" />
+    <Compile Include="message\S1F5_iEQPSTATUSREQUEST.cs" />
+    <Compile Include="message\S1F5_iNOUSE_2.cs" />
+    <Compile Include="message\S1F5_iNOUSE_31.cs" />
+    <Compile Include="message\S1F5_iNOUSE_32.cs" />
+    <Compile Include="message\S1F5_iNOUSE_33.cs" />
+    <Compile Include="message\S1F5_iNOUSE_4.cs" />
+    <Compile Include="message\S1F5_iNOUSE_5.cs" />
+    <Compile Include="message\S1F5_NOUSE_11.cs" />
+    <Compile Include="message\S1F5_NOUSE_2.cs" />
+    <Compile Include="message\S1F5_NOUSE_21.cs" />
+    <Compile Include="message\S1F5_NOUSE_22.cs" />
+    <Compile Include="message\S1F5_NOUSE_3.cs" />
+    <Compile Include="message\S1F5_NOUSE_31.cs" />
+    <Compile Include="message\S1F5_NOUSE_32.cs" />
+    <Compile Include="message\S1F5_NOUSE_33.cs" />
+    <Compile Include="message\S1F5_NOUSE_3_TYPE1.cs" />
+    <Compile Include="message\S1F5_NOUSE_4_TYPE1.cs" />
+    <Compile Include="message\S1F5_NOUSE_4_TYPE2.cs" />
+    <Compile Include="message\S1F5_NOUSE_5.cs" />
+    <Compile Include="message\S1F5_NOUSE_6_TYPE1.cs" />
+    <Compile Include="message\S1F5_NOUSE_6_TYPE2.cs" />
+    <Compile Include="message\S1F5_NOUSE_6_TYPE3.cs" />
+    <Compile Include="message\S1F6_CFEQPPORTREPLY.cs" />
+    <Compile Include="message\S1F6_CFEQPPORTREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_CFEQPPORTREPLY_TOOL_COUNT_PORT_COUNT.cs" />
+    <Compile Include="message\S1F6_CFUNITREPLY.cs" />
+    <Compile Include="message\S1F6_CFUNITREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_CFUNITREPLY_TOOL_COUNT_UNIT_COUNT.cs" />
+    <Compile Include="message\S1F6_CFUNITREPLY_TOOL_COUNT_UNIT_COUNT_PORT_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPALARMREPLY.cs" />
+    <Compile Include="message\S1F6_EQPALARMREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPALARMREPLY_TOOL_COUNT_ALARM_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPCOMPONENTREPLY.cs" />
+    <Compile Include="message\S1F6_EQPCOMPONENTREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPCOMPONENTREPLY_TOOL_COUNT_GLASS_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPGLASSREPLY_TYPE1.cs" />
+    <Compile Include="message\S1F6_EQPGLASSREPLY_TYPE1_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPGLASSREPLY_TYPE1_TOOL_COUNT_GLASS_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPGLASSREPLY_TYPE2.cs" />
+    <Compile Include="message\S1F6_EQPGLASSREPLY_TYPE2_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPGLASSREPLY_TYPE2_TOOL_COUNT_GLASS_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPGLASSREPLY_TYPE3.cs" />
+    <Compile Include="message\S1F6_EQPGLASSREPLY_TYPE3_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPGLASSREPLY_TYPE3_TOOL_COUNT_GLASS_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPJOBREPLY_TYPE1.cs" />
+    <Compile Include="message\S1F6_EQPJOBREPLY_TYPE1_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPJOBREPLY_TYPE1_TOOL_COUNT_JOB_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPJOBREPLY_TYPE1_TOOL_COUNT_JOB_COUNT_GLASS_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPJOBREPLY_TYPE2.cs" />
+    <Compile Include="message\S1F6_EQPJOBREPLY_TYPE2_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPJOBREPLY_TYPE2_TOOL_COUNT_JOB_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPJOBREPLY_TYPE2_TOOL_COUNT_JOB_COUNT_GLASS_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPLOCALSTATUSREPLY.cs" />
+    <Compile Include="message\S1F6_EQPLOCALSTATUSREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPMASKREQUEST.cs" />
+    <Compile Include="message\S1F6_EQPMASKREQUEST_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPMASKREQUEST_TOOL_COUNT_MASK_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPPARAMETERREPLY.cs" />
+    <Compile Include="message\S1F6_EQPPARAMETERREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPPARAMETERREPLY_TOOL_COUNT_EOID_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPPORTREPLY_TYPE1.cs" />
+    <Compile Include="message\S1F6_EQPPORTREPLY_TYPE1_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPPORTREPLY_TYPE1_TOOL_COUNT_PORT_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPPORTREPLY_TYPE2.cs" />
+    <Compile Include="message\S1F6_EQPPORTREPLY_TYPE2_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPPORTREPLY_TYPE2_TOOL_COUNT_PORT_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPPROCESSREPLY.cs" />
+    <Compile Include="message\S1F6_EQPPROCESSREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPPROCESSREPLY_TOOL_COUNT_PORT_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPPROCESSREPLY_TOOL_COUNT_PORT_COUNT_GLASS_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPUNITREPLY.cs" />
+    <Compile Include="message\S1F6_EQPUNITREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_EQPUNITREPLY_TOOL_COUNT_UNIT_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPALARMREPLY.cs" />
+    <Compile Include="message\S1F6_iEQPALARMREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPALARMREPLY_TOOL_COUNT_ALARM_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPCOMPONENTREPLY.cs" />
+    <Compile Include="message\S1F6_iEQPCOMPONENTREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPCOMPONENTREPLY_TOOL_COUNT_GLASS_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPLOCALSTATUSREPLY.cs" />
+    <Compile Include="message\S1F6_iEQPLOCALSTATUSREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPPORTREPLY.cs" />
+    <Compile Include="message\S1F6_iEQPPORTREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPPORTREPLY_TOOL_COUNT_PORT_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPPROCESSREPLY.cs" />
+    <Compile Include="message\S1F6_iEQPPROCESSREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPPROCESSREPLY_TOOL_COUNT_PORT_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPPROCESSREPLY_TOOL_COUNT_PORT_COUNT_GLASS_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPSTATUSREPLY.cs" />
+    <Compile Include="message\S1F6_iEQPSTATUSREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPSTATUSREPLY_TOOL_COUNT_EOID_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPUNITREPLY.cs" />
+    <Compile Include="message\S1F6_iEQPUNITREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S1F6_iEQPUNITREPLY_TOOL_COUNT_UNIT_COUNT.cs" />
+    <Compile Include="message\S2F0_ABORTTRANSACTION.cs" />
+    <Compile Include="message\S2F101_OPERATORCALLSEND.cs" />
+    <Compile Include="message\S2F102_OPERATORCALLREPLY.cs" />
+    <Compile Include="message\S2F103_EOIDEQPPARAMETERCHANGEREQUEST.cs" />
+    <Compile Include="message\S2F103_EOIDEQPPARAMETERCHANGEREQUEST_TOOL_COUNT.cs" />
+    <Compile Include="message\S2F103_EOIDEQPPARAMETERCHANGEREQUEST_TOOL_COUNT_EOID_COUNT.cs" />
+    <Compile Include="message\S2F104_EOIDEQPPARAMETERCHANGEREPLY.cs" />
+    <Compile Include="message\S2F104_EOIDEQPPARAMETERCHANGEREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S2F104_EOIDEQPPARAMETERCHANGEREPLY_TOOL_COUNT_EOID_COUNT.cs" />
+    <Compile Include="message\S2F15_ECMEQPNEWCONSTANTREQUEST.cs" />
+    <Compile Include="message\S2F15_ECMEQPNEWCONSTANTREQUEST_TOOL_COUNT.cs" />
+    <Compile Include="message\S2F15_ECMEQPNEWCONSTANTREQUEST_TOOL_COUNT_ECID_COUNT.cs" />
+    <Compile Include="message\S2F16_ECMEQPNEWCONSTANTREPLY.cs" />
+    <Compile Include="message\S2F16_ECMEQPNEWCONSTANTREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S2F16_ECMEQPNEWCONSTANTREPLY_TOOL_COUNT_ECID_COUNT.cs" />
+    <Compile Include="message\S2F17_ONLINEDATETIMEREQUEST.cs" />
+    <Compile Include="message\S2F18_ONLINEDATETIMEDATA.cs" />
+    <Compile Include="message\S2F23_FDCTRACEINITREQUEST.cs" />
+    <Compile Include="message\S2F24_FDCTRACEINITREPLY.cs" />
+    <Compile Include="message\S2F29_ECMEQPCONSTANTNAMELISTREQUEST.cs" />
+    <Compile Include="message\S2F29_ECMEQPCONSTANTNAMELISTREQUEST_TOOL_COUNT.cs" />
+    <Compile Include="message\S2F30_ECMEQPCONSTANTNAMELISTREPLY.cs" />
+    <Compile Include="message\S2F30_ECMEQPCONSTANTNAMELISTREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S2F30_ECMEQPCONSTANTNAMELISTREPLY_TOOL_COUNT_ECID_COUNT.cs" />
+    <Compile Include="message\S2F41_GLASSCOMMAND.cs" />
+    <Compile Include="message\S2F41_iEQPCOMMAND.cs" />
+    <Compile Include="message\S2F41_iGLASSCOMMAND.cs" />
+    <Compile Include="message\S2F41_iJOBPROCESSCOMMAND.cs" />
+    <Compile Include="message\S2F41_iSPECIFICAREARWCOMMAND.cs" />
+    <Compile Include="message\S2F41_JOBPROCESSCOMMAND.cs" />
+    <Compile Include="message\S2F41_PORTCOMMAND.cs" />
+    <Compile Include="message\S2F41_PORTCOMMAND_PORT_COUNT.cs" />
+    <Compile Include="message\S2F41_UNITCOMMAND.cs" />
+    <Compile Include="message\S2F41_UNITCOMMAND_UNIT_COUNT.cs" />
+    <Compile Include="message\S2F42_GLASSREPLY.cs" />
+    <Compile Include="message\S2F42_iEQPREPLY.cs" />
+    <Compile Include="message\S2F42_iGLASSREPLY.cs" />
+    <Compile Include="message\S2F42_iJOBPROCESSREPLY.cs" />
+    <Compile Include="message\S2F42_iSPECIFICAREARWREPLY.cs" />
+    <Compile Include="message\S2F42_JOBPROCESSREPLY.cs" />
+    <Compile Include="message\S2F42_PORTREPLY.cs" />
+    <Compile Include="message\S2F42_PORTREPLY_PORT_COUNT.cs" />
+    <Compile Include="message\S2F42_UNITREPLY.cs" />
+    <Compile Include="message\S2F42_UNITREPLY_UNIT_COUNT.cs" />
+    <Compile Include="message\S3F0_ABORTTRANSACTION.cs" />
+    <Compile Include="message\S3F101_CASSETTEINFORMATIONSEND_TYPE1.cs" />
+    <Compile Include="message\S3F101_CASSETTEINFORMATIONSEND_TYPE1_GLASS_COUNT.cs" />
+    <Compile Include="message\S3F101_CASSETTEINFORMATIONSEND_TYPE2.cs" />
+    <Compile Include="message\S3F101_CASSETTEINFORMATIONSEND_TYPE2_GLASS_COUNT.cs" />
+    <Compile Include="message\S3F101_CASSETTEINFORMATIONSEND_TYPE3.cs" />
+    <Compile Include="message\S3F101_CASSETTEINFORMATIONSEND_TYPE3_GLASS_COUNT.cs" />
+    <Compile Include="message\S3F101_CASSETTEINFORMATIONSEND_TYPE4.cs" />
+    <Compile Include="message\S3F101_CASSETTEINFORMATIONSEND_TYPE4_GLASS_COUNT.cs" />
+    <Compile Include="message\S3F101_iCASSETTEINFORMATIONSEND.cs" />
+    <Compile Include="message\S3F101_iCASSETTEINFORMATIONSEND_GLASS_COUNT.cs" />
+    <Compile Include="message\S3F102_CASSETTEINFORMATIONREPLY_TYPE1.cs" />
+    <Compile Include="message\S3F102_CASSETTEINFORMATIONREPLY_TYPE1_GLASS_COUNT.cs" />
+    <Compile Include="message\S3F102_CASSETTEINFORMATIONREPLY_TYPE2.cs" />
+    <Compile Include="message\S3F102_CASSETTEINFORMATIONREPLY_TYPE2_GLASS_COUNT.cs" />
+    <Compile Include="message\S3F102_CASSETTEINFORMATIONREPLY_TYPE3.cs" />
+    <Compile Include="message\S3F102_CASSETTEINFORMATIONREPLY_TYPE3_GLASS_COUNT.cs" />
+    <Compile Include="message\S3F102_CASSETTEINFORMATIONREPLY_TYPE4.cs" />
+    <Compile Include="message\S3F102_CASSETTEINFORMATIONREPLY_TYPE4_GLASS_COUNT.cs" />
+    <Compile Include="message\S3F102_iCASSETTEINFORMATIONREPLY.cs" />
+    <Compile Include="message\S3F102_iCASSETTEINFORMATIONREPLY_GLASS_COUNT.cs" />
+    <Compile Include="message\S3F1_MASKINFORMAIONREQEUST.cs" />
+    <Compile Include="message\S3F2_MASKINFORMAIONREPLY.cs" />
+    <Compile Include="message\S3F2_MASKINFORMAIONREPLY_MASK_COUNT.cs" />
+    <Compile Include="message\S5F0_ABORTTRANSACTION.cs" />
+    <Compile Include="message\S5F101_ALARMLISTREQUEST.cs" />
+    <Compile Include="message\S5F101_NOUSE.cs" />
+    <Compile Include="message\S5F102_ALARMLISTREPLY_TYPE1.cs" />
+    <Compile Include="message\S5F102_ALARMLISTREPLY_TYPE1_TOOL_COUNT.cs" />
+    <Compile Include="message\S5F102_ALARMLISTREPLY_TYPE1_TOOL_COUNT_ALARM_COUNT.cs" />
+    <Compile Include="message\S5F102_ALARMLISTREPLY_TYPE2.cs" />
+    <Compile Include="message\S5F102_ALARMLISTREPLY_TYPE2_TOOL_COUNT.cs" />
+    <Compile Include="message\S5F102_ALARMLISTREPLY_TYPE2_TOOL_COUNT_ALARM_COUNT.cs" />
+    <Compile Include="message\S5F103_ALARMRESETREQEUST.cs" />
+    <Compile Include="message\S5F103_ALARMRESETREQEUST_TOOL_COUNT.cs" />
+    <Compile Include="message\S5F103_ALARMRESETREQEUST_TOOL_COUNT_ALARM_COUNT.cs" />
+    <Compile Include="message\S5F104_ALARMRESETREPLY.cs" />
+    <Compile Include="message\S5F104_ALARMRESETREPLY_TOOL_COUNT.cs" />
+    <Compile Include="message\S5F104_ALARMRESETREPLY_TOOL_COUNT_ALARM_COUNT.cs" />
+    <Compile Include="message\S5F1_ALARMREPORTEVENT.cs" />
+    <Compile Include="message\S5F2_ALARMREPORTREPLY.cs" />
+    <Compile Include="message\S6F0_ABORTTRANSACTION.cs" />
+    <Compile Include="message\S6F101_LOTLISTREQUEST.cs" />
+    <Compile Include="message\S6F102_LOTLISTREPLY.cs" />
+    <Compile Include="message\S6F11_CFINDEXERCONTROLEVENT.cs" />
+    <Compile Include="message\S6F11_CFSLOTINFOCHANGEEVENT.cs" />
+    <Compile Include="message\S6F11_CFSORTINFO.cs" />
+    <Compile Include="message\S6F11_CFSORTINFO_SLOTINFO_COUNT.cs" />
+    <Compile Include="message\S6F11_EQPEVENT.cs" />
+    <Compile Include="message\S6F11_F1PSH01.cs" />
+    <Compile Include="message\S6F11_F1PSH01_1.cs" />
+    <Compile Include="message\S6F11_F1PSH01_1_GLASS_COUNT.cs" />
+    <Compile Include="message\S6F11_F1PSH01_GLASS_COUNT.cs" />
+    <Compile Include="message\S6F11_GLASSEVENT_TYPE1.cs" />
+    <Compile Include="message\S6F11_GLASSEVENT_TYPE2.cs" />
+    <Compile Include="message\S6F11_GLASSMEVENT.cs" />
+    <Compile Include="message\S6F11_GLASSMEVENT_GLASS_COUNT.cs" />
+    <Compile Include="message\S6F11_iCOMPONENTEVENT_TYPE1.cs" />
+    <Compile Include="message\S6F11_iCOMPONENTEVENT_TYPE2.cs" />
+    <Compile Include="message\S6F11_iPROCESSEVENT_TYPE1.cs" />
+    <Compile Include="message\S6F11_iPROCESSEVENT_TYPE1_GLASS_COUNT.cs" />
+    <Compile Include="message\S6F11_iPROCESSEVENT_TYPE2.cs" />
+    <Compile Include="message\S6F11_iPROCESSEVENT_TYPE2_GLASS_COUNT.cs" />
+    <Compile Include="message\S6F11_iPROCESSEVENT_TYPE3.cs" />
+    <Compile Include="message\S6F11_iPROCESSEVENT_TYPE3_GLASS_COUNT.cs" />
+    <Compile Include="message\S6F11_iSPECIALEVENT.cs" />
+    <Compile Include="message\S6F11_iSPECIALEVENT_MATERIAL_COUNT.cs" />
+    <Compile Include="message\S6F11_JOBPROCESSEVENT.cs" />
+    <Compile Include="message\S6F11_JOBPROCESSEVENT_GLASS_COUNT.cs" />
+    <Compile Include="message\S6F11_JOBPROCESSEVENT_TYPE1.cs" />
+    <Compile Include="message\S6F11_JOBPROCESSEVENT_TYPE1_GLASS_COUNT.cs" />
+    <Compile Include="message\S6F11_LOTMEVEMT.cs" />
+    <Compile Include="message\S6F11_MASKEVENT_TYPE2.cs" />
+    <Compile Include="message\S6F11_PORTEVENT.cs" />
+    <Compile Include="message\S6F11_PORTEVENT_TYPE1.cs" />
+    <Compile Include="message\S6F11_SPECIALEVENT_TYPE2.cs" />
+    <Compile Include="message\S6F11_SPECIFIEDEVENT.cs" />
+    <Compile Include="message\S6F11_SPECIFIEDEVENT_MATERIAL_COUNT.cs" />
+    <Compile Include="message\S6F11_TESTEVENT.cs" />
+    <Compile Include="message\S6F12.cs" />
+    <Compile Include="message\S6F12_1.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_1.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_10.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_11.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_12.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_13.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_14.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_15.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_16.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_17.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_18.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_19.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_2.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_20.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_21.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_3.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_4.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_5.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_6.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_7.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_8.cs" />
+    <Compile Include="message\S6F12_AUTOREPLY_9.cs" />
+    <Compile Include="message\S6F13.cs" />
+    <Compile Include="message\S6F13_DFSDATACOLLECTION_TYPE1.cs" />
+    <Compile Include="message\S6F13_DFSDATACOLLECTION_TYPE2.cs" />
+    <Compile Include="message\S6F13_DFSDATACOLLECTION_TYPE3.cs" />
+    <Compile Include="message\S6F13_DFSDATACOLLECTION_TYPE3_LEVEL_COUNT.cs" />
+    <Compile Include="message\S6F13_DFSDATACOLLECTION_TYPE3_LEVEL_COUNT_FIRST_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE1.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE1_LEVEL_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE1_LEVEL_COUNT_FIRST_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE1_LEVEL_COUNT_SECOND_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE1_LEVEL_COUNT_SECOND_COUNT_THIRD_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE2.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE2_LEVEL_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE2_LEVEL_COUNT_FIRST_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE2_LEVEL_COUNT_SECOND_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE2_LEVEL_COUNT_SECOND_COUNT_THIRD_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE3.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE3_LEVEL_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE3_LEVEL_COUNT_FIRST_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE3_LEVEL_COUNT_SECOND_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE3_LEVEL_COUNT_SECOND_COUNT_THIRD_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE4.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE4_LEVEL_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE4_LEVEL_COUNT_FIRST_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE4_LEVEL_COUNT_SECOND_COUNT.cs" />
+    <Compile Include="message\S6F13_GLASSDATACOLLECTION_TYPE4_LEVEL_COUNT_SECOND_COUNT_THIRD_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_LEVEL_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_LEVEL_COUNT_FIRST_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_LEVEL_COUNT_SECOND_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_LEVEL_COUNT_SECOND_COUNT_THIRD_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE1.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE1_LEVEL_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE1_LEVEL_COUNT_FIRST_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE1_LEVEL_COUNT_SECOND_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE1_LEVEL_COUNT_SECOND_COUNT_THIRD_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE2.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE2_LEVEL_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE2_LEVEL_COUNT_FIRST_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE2_LEVEL_COUNT_SECOND_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE2_LEVEL_COUNT_SECOND_COUNT_THIRD_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE3.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE3_LEVEL_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE3_LEVEL_COUNT_FIRST_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE3_LEVEL_COUNT_SECOND_COUNT.cs" />
+    <Compile Include="message\S6F13_JOBDATACOLLECTION_TYPE3_LEVEL_COUNT_SECOND_COUNT_THIRD_COUNT.cs" />
+    <Compile Include="message\S6F14.cs" />
+    <Compile Include="message\S6F14_AUTOREPLY.cs" />
+    <Compile Include="message\S6F14_AUTOREPLY_1.cs" />
+    <Compile Include="message\S6F14_AUTOREPLY_2.cs" />
+    <Compile Include="message\S6F14_AUTOREPLY_3.cs" />
+    <Compile Include="message\S6F14_AUTOREPLY_4.cs" />
+    <Compile Include="message\S6F14_AUTOREPLY_5.cs" />
+    <Compile Include="message\S6F14_AUTOREPLY_6.cs" />
+    <Compile Include="message\S6F14_AUTOREPLY_7.cs" />
+    <Compile Include="message\S6F14_AUTOREPLY_8.cs" />
+    <Compile Include="message\S6F14_AUTOREPLY_9.cs" />
+    <Compile Include="message\S6F14_AUTOREPLY_9_1.cs" />
+    <Compile Include="message\S6F1_FDCTRACEDATASEND_TYPE1.cs" />
+    <Compile Include="message\S6F1_FDCTRACEDATASEND_TYPE2.cs" />
+    <Compile Include="message\S6F1_FDCTRACEDATASEND_TYPE2_SV_COUNT.cs" />
+    <Compile Include="message\S6F2_AUTOREPLY.cs" />
+    <Compile Include="message\S6F2_FDCTRACEDATAREPLY.cs" />
+    <Compile Include="message\S7F0_ABORTTRANSACTION.cs" />
+    <Compile Include="message\S7F101_F1PSH01.cs" />
+    <Compile Include="message\S7F101_F1PSH01_TOOL_COUNT.cs" />
+    <Compile Include="message\S7F101_RMSCURRENTPPIDREQUEST.cs" />
+    <Compile Include="message\S7F101_RMSCURRENTPPIDREQUEST_TOOL_COUNT.cs" />
+    <Compile Include="message\S7F102.cs" />
+    <Compile Include="message\S7F102_RMSCURRENTPPIDREPLY.cs" />
+    <Compile Include="message\S7F103_RMSPPIDEXISTENCEREQUEST.cs" />
+    <Compile Include="message\S7F104_RMSPPIDEXISTENCEREPLY.cs" />
+    <Compile Include="message\S7F104_RMSPPIDEXISTENCEREPLY_PPID_COUNT.cs" />
+    <Compile Include="message\S7F105_RMSPPIDCHANGETIMEREQUEST.cs" />
+    <Compile Include="message\S7F106_RMSPPIDCHANGETIMEREPLY.cs" />
+    <Compile Include="message\S7F106_RMSPPIDCHANGETIMEREPLY_PPID_COUNT.cs" />
+    <Compile Include="message\S7F23_RMSFORMATTEDPPIDCHANGEREQUEST_A.cs" />
+    <Compile Include="message\S7F23_RMSFORMATTEDPPIDCHANGEREQUEST_A_TOOL_COUNT.cs" />
+    <Compile Include="message\S7F23_RMSFORMATTEDPPIDCHANGEREQUEST_A_TOOL_COUNT_CCODE_COUNT.cs" />
+    <Compile Include="message\S7F23_RMSFORMATTEDPPIDCHANGEREQUEST_A_TOOL_COUNT_CCODE_COUNT_PPARM_COUNT.cs" />
+    <Compile Include="message\S7F23_RMSFORMATTEDPPIDCHANGEREQUEST_B.cs" />
+    <Compile Include="message\S7F23_RMSFORMATTEDPPIDCHANGEREQUEST_B_TOOL_COUNT.cs" />
+    <Compile Include="message\S7F24_REPLY.cs" />
+    <Compile Include="message\S7F24_REPLY_1.cs" />
+    <Compile Include="message\S7F25_NOUSE.cs" />
+    <Compile Include="message\S7F25_NOUSE_1.cs" />
+    <Compile Include="message\S7F25_RMSFORMATTEDPPIDDATAREQUEST.cs" />
+    <Compile Include="message\S7F26_RMSFORMATTEDPPIDDATAREPLY_A.cs" />
+    <Compile Include="message\S7F26_RMSFORMATTEDPPIDDATAREPLY_A_TOOL_COUNT.cs" />
+    <Compile Include="message\S7F26_RMSFORMATTEDPPIDDATAREPLY_A_TOOL_COUNT_CCODE_COUNT.cs" />
+    <Compile Include="message\S7F26_RMSFORMATTEDPPIDDATAREPLY_A_TOOL_COUNT_CCODE_COUNT_PPARM_COUNT.cs" />
+    <Compile Include="message\S7F26_RMSFORMATTEDPPIDDATAREPLY_B.cs" />
+    <Compile Include="message\S7F26_RMSFORMATTEDPPIDDATAREPLY_B_1.cs" />
+    <Compile Include="message\S7F26_RMSFORMATTEDPPIDDATAREPLY_B_TOOL_COUNT.cs" />
+    <Compile Include="message\S9F0_ABORTTRANSACTION.cs" />
+    <Compile Include="message\TransactionTimerTimeout.cs" />
+    <Compile Include="message\UnrecognizedDeviceId.cs" />
+    <Compile Include="message\UnrecognizedFunctionType.cs" />
+    <Compile Include="message\UnrecognizedStreamType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="structure\AsciiFormat.cs" />
+    <Compile Include="structure\BinaryFormat.cs" />
+    <Compile Include="structure\BooleanFormat.cs" />
+    <Compile Include="structure\ByteToObject.cs" />
+    <Compile Include="structure\Float4Format.cs" />
+    <Compile Include="structure\Float8Format.cs" />
+    <Compile Include="structure\Format.cs" />
+    <Compile Include="structure\FormatCollection.cs" />
+    <Compile Include="structure\FormatFactory.cs" />
+    <Compile Include="structure\FormatType.cs" />
+    <Compile Include="structure\FormatUtility.cs" />
+    <Compile Include="structure\HashFactory.cs" />
+    <Compile Include="structure\IFormat.cs" />
+    <Compile Include="structure\IFormatCollection.cs" />
+    <Compile Include="structure\Int1Format.cs" />
+    <Compile Include="structure\Int2Format.cs" />
+    <Compile Include="structure\Int4Format.cs" />
+    <Compile Include="structure\Int8Format.cs" />
+    <Compile Include="structure\ISECSTransaction.cs" />
+    <Compile Include="structure\JISFormat.cs" />
+    <Compile Include="structure\LengthFilterInfo.cs" />
+    <Compile Include="structure\ListFormat.cs" />
+    <Compile Include="structure\ObjectToByte.cs" />
+    <Compile Include="structure\SECS1Block.cs" />
+    <Compile Include="structure\SECSTransaction.cs" />
+    <Compile Include="structure\Uint1Format.cs" />
+    <Compile Include="structure\Uint2Format.cs" />
+    <Compile Include="structure\Uint4Format.cs" />
+    <Compile Include="structure\Uint8Format.cs" />
+    <Compile Include="structure\Visitor.cs" />
+    <Compile Include="structure\XFormat.cs" />
+    <Compile Include="timeout\ISECSTimout.cs" />
+    <Compile Include="timeout\SECSTimeout.cs" />
+    <Compile Include="timeout\TimerChecker.cs" />
+    <Compile Include="timeout\TimerManager.cs" />
+    <Compile Include="Utility\BigEndianBitConverter.cs" />
+    <Compile Include="Utility\ByteStream.cs" />
+    <Compile Include="Utility\ConstUtils.cs" />
+    <Compile Include="Utility\CSharpUtil.cs" />
+    <Compile Include="Utility\GetResource.cs" />
+    <Compile Include="Utility\headerInformation.cs" />
+    <Compile Include="Utility\IThreadRunnable.cs" />
+    <Compile Include="Utility\loggerHelper.cs" />
+    <Compile Include="Utility\modelingFileParser.cs" />
+    <Compile Include="Utility\modelingKey.cs" />
+    <Compile Include="Utility\Queue.cs" />
+    <Compile Include="Utility\SECSTransactionUtilcs.cs" />
+    <Compile Include="Utility\StringUtils.cs" />
+    <Compile Include="Utility\SupportClass.cs" />
+    <Compile Include="Utility\SyncActivator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Utility\log4net.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\log4net2.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\log4net.xml" />
+    <Content Include="Resources\SecsConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\cx.log4net\cx.log4net.csproj">
+      <Project>{631d5fe4-ac65-4194-b9b5-aab3ac64e062}</Project>
+      <Name>cx.log4net</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

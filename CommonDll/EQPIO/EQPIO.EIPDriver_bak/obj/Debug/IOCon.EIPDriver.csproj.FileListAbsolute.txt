@@ -1,0 +1,3 @@
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\Debug\IOCon.EIPDriver.csprojResolveAssemblyReference.cache
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\Debug\IOCon.EIPDriver.IOCon.EIPDriver.Compiler.Resources.Description.resources
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\Debug\IOCon.EIPDriver.csproj.GenerateResource.Cache

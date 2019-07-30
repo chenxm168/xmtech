@@ -1,0 +1,23 @@
+[2019-07-16 08:59:52.328] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 08:59:55.549] [DEBUG] [9] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [UPDATE  EQUIPMENT   SET  EQUIPMENTNAME = 'C1CCL01' ,  RMSUSEFLAG = 'N' ,  CURRENTSTATUSTIME = '2019-04-24 16:02:47.924' ,  EQUIPMENTSTATUS = 'Run' ,  EQUIPMENTTYPE = 'Cassette Cleaner' ,  OLDEQUIPMENTSTATUS = 'Run' ,  ONLINECONTROLSTATUS = 'Offline' ,  SHOP = 'Array' ,  PROJECTTYPE = 'New' ,  STATUSCODE = '' ,  DESCRIPTION = 'Cassette Cleaner'   WHERE  EQUIPMENTNAME = 'C1CCL01' ]
+[2019-07-16 08:59:56.193] [DEBUG] [9] [SQLiteHelper][CloseConnection] -DB connection Close.
+[2019-07-16 09:00:49.308] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 09:01:00.185] [DEBUG] [9] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [UPDATE  EQUIPMENT   SET  EQUIPMENTNAME = 'C1CCL01' ,  RMSUSEFLAG = 'N' ,  CURRENTSTATUSTIME = '2019-04-24 16:02:47.924' ,  EQUIPMENTSTATUS = 'Run' ,  EQUIPMENTTYPE = 'Cassette Cleaner' ,  OLDEQUIPMENTSTATUS = 'Run' ,  ONLINECONTROLSTATUS = 'Offline' ,  SHOP = 'Array' ,  PROJECTTYPE = 'New' ,  STATUSCODE = '' ,  DESCRIPTION = 'Cassette Cleaner'   WHERE  EQUIPMENTNAME = 'C1CCL01' ]
+[2019-07-16 09:01:00.744] [DEBUG] [9] [SQLiteHelper][CloseConnection] -DB connection Close.
+[2019-07-16 09:19:56.150] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 09:25:10.249] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 09:36:51.770] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 09:54:12.675] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 09:59:02.475] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 10:04:52.491] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 10:29:09.678] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 11:02:22.259] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 11:34:17.626] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 14:04:27.360] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 14:06:39.520] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 14:12:53.243] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 15:01:38.458] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 15:21:31.387] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 15:28:16.253] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 15:33:06.799] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-16 15:45:27.596] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.

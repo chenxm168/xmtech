@@ -1,0 +1,206 @@
+[2019-07-18 09:53:21.548] [ERROR] [9] [ControlManager][Init] -Init Error ControlManager :    在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   在 EQPIO.Controller.ControlManager.Init(String filePath) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\ControlManager.cs:行号 907
+[2019-07-18 09:56:21.334] [ERROR] [9] [ControlManager][Init] -Init Error ControlManager :    在 EQPIO.Controller.ControlManager.Init(String filePath) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\ControlManager.cs:行号 907
+[2019-07-18 09:59:39.820] [INFO ] [8] [ControlManager][Init] -Init ControlManager
+[2019-07-18 09:59:40.151] [INFO ] [8] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-18 09:59:40.156] [INFO ] [8] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-18 09:59:40.161] [INFO ] [8] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-18 09:59:40.163] [INFO ] [8] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-18 09:59:40.167] [INFO ] [8] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-18 09:59:40.179] [INFO ] [8] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-18 09:59-40_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-18 09:59:40.181] [INFO ] [8] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-18 09:59:40.256] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-18 10:00:23.109] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 10:00:23.157] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-18 10:00:23.170] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-07-18 10:00:23.184] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 10:46:44.500] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-18 10:46:44.837] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-18 10:46:44.842] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-18 10:46:44.846] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-18 10:46:44.848] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-18 10:46:44.851] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-18 10:46:44.860] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-18 10:46-44_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-18 10:46:44.862] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-18 10:46:44.884] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-18 10:47:21.325] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 10:47:21.385] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-07-18 10:47:21.416] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 10:47:21.416] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-18 10:49:58.333] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-18 10:49:58.674] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-18 10:49:58.679] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-18 10:49:58.683] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-18 10:49:58.685] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-18 10:49:58.688] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-18 10:49:58.699] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-18 10:49-58_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-18 10:49:58.701] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-18 10:49:58.709] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-18 10:50:24.751] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-18 10:50:24.773] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 10:50:24.794] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-07-18 10:50:24.829] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 11:05:59.518] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-18 11:05:59.888] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-18 11:05:59.894] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-18 11:05:59.898] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-18 11:05:59.900] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-18 11:05:59.902] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-18 11:05:59.913] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-18 11:05-59_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-18 11:05:59.915] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-18 11:05:59.932] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-18 11:47:11.398] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-18 11:47:17.978] [ERROR] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy InitXml Error : 值不能为 null。
+参数名: s
+[2019-07-18 11:47:17.979] [ERROR] [9] [ControlManager][InitMEthernet] -Xml Init Error
+[2019-07-18 11:47:17.979] [ERROR] [9] [ControlManagerFactory][getControlManager] -ControlManager Init MEthernet Error : Xml Init Error
+[2019-07-18 11:48:13.621] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-18 11:48:13.645] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 11:48:13.677] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-07-18 11:48:13.678] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 11:49:25.215] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-18 11:49:25.388] [ERROR] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy InitXml Error : 值不能为 null。
+参数名: s
+[2019-07-18 11:49:25.389] [ERROR] [9] [ControlManager][InitMEthernet] -Xml Init Error
+[2019-07-18 11:49:25.389] [ERROR] [9] [ControlManagerFactory][getControlManager] -ControlManager Init MEthernet Error : Xml Init Error
+[2019-07-18 11:50:37.059] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-18 11:50:37.078] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 11:50:37.091] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-07-18 11:50:37.112] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 11:51:06.840] [INFO ] [8] [ControlManager][Init] -Init ControlManager
+[2019-07-18 11:52:05.212] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-18 11:52:31.372] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-18 11:52:31.378] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-18 11:52:31.382] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-18 11:52:31.383] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-18 11:52:31.386] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-18 11:52:31.396] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-18 11:52-31_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-18 11:52:31.398] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-18 11:52:31.415] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-18 11:52:49.202] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-18 11:52:49.214] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 11:52:49.223] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-07-18 11:52:49.267] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 15:33:03.289] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-18 15:33:03.493] [ERROR] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy InitXml Error : “<”是意外的标记。标记应为“>”。 第 125 行，位置 1。
+[2019-07-18 15:33:03.494] [ERROR] [9] [ControlManager][InitMEthernet] -Xml Init Error
+[2019-07-18 15:33:03.494] [ERROR] [9] [ControlManagerFactory][getControlManager] -ControlManager Init MEthernet Error : Xml Init Error
+[2019-07-18 15:33:18.676] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 15:33:18.694] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-07-18 15:33:18.694] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-18 15:33:18.702] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 15:34:06.278] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-18 15:35:01.992] [ERROR] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy InitXml Error : “<”是意外的标记。标记应为“>”。 第 125 行，位置 1。
+[2019-07-18 15:35:01.993] [ERROR] [9] [ControlManager][InitMEthernet] -Xml Init Error
+[2019-07-18 15:35:01.994] [ERROR] [9] [ControlManagerFactory][getControlManager] -ControlManager Init MEthernet Error : Xml Init Error
+[2019-07-18 15:35:09.947] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-18 15:35:09.971] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 15:35:09.982] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-07-18 15:35:09.993] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 15:35:58.152] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-18 15:37:46.052] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-18 15:39:10.412] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-18 15:39:18.975] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-18 15:39:18.981] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-18 15:39:18.984] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-18 15:39:18.987] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-18 15:39:18.997] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-18 15:39-18_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-18 15:39:19.000] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-18 15:39:19.010] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-18 15:39:26.984] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-18 15:39:27.058] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 15:39:27.070] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 15:39:27.075] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-07-18 17:17:39.767] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-18 17:17:40.138] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-18 17:17:40.144] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-18 17:17:40.148] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-18 17:17:40.149] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-18 17:17:40.152] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-18 17:17:40.163] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-18 17:17-40_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-18 17:17:40.165] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-18 17:17:40.174] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-18 17:17:58.115] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 17:17:58.115] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-18 17:17:58.157] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-07-18 17:17:58.159] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-18 18:30:25.769] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-18 18:31:31.756] [INFO ] [9] [ControlManager][Init] -Init ControlManager

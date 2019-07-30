@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  	<ConnectionInfo DriverName = "MNetConfig" Channel = "151" NetworkNo = "1" StationNo = "1" PLCMapFile = "PLCMap.xml"/>
+</Configuration>

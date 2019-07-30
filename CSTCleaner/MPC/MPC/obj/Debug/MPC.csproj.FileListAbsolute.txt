@@ -1,0 +1,265 @@
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\MPC.exe.config
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\spring-objects.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\MPC.exe
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\MPC.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.Core.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Iesi.Collections.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\log4net.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\NHibernate.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Quartz.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Aop.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Core.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Data.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.Core.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.Core.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Iesi.Collections.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\log4net.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\NHibernate.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Aop.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Aop.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Core.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Core.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Data.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Data.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\obj\Debug\MPC.csprojResolveAssemblyReference.cache
+D:\000\Documents\Visual Studio 2012\MPC\MPC\obj\Debug\MPC.Form1.resources
+D:\000\Documents\Visual Studio 2012\MPC\MPC\obj\Debug\MPC.Properties.Resources.resources
+D:\000\Documents\Visual Studio 2012\MPC\MPC\obj\Debug\MPC.csproj.GenerateResource.Cache
+D:\000\Documents\Visual Studio 2012\MPC\MPC\obj\Debug\MPC.exe
+D:\000\Documents\Visual Studio 2012\MPC\MPC\obj\Debug\MPC.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Log4Net.config.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\spring-quartz.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Quartz.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Quartz.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\MPC.exe.config
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\obj\Debug\MPC.exe
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\obj\Debug\MPC.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Log4Net.config.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\spring-objects.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\spring-quartz.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\MPC.exe
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\MPC.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.Core.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Iesi.Collections.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\log4net.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\NHibernate.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Quartz.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Aop.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Core.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Data.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.Core.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.Core.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Iesi.Collections.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\log4net.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\NHibernate.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Quartz.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Quartz.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Aop.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Aop.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Core.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Core.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Data.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Data.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\obj\Debug\MPC.csprojResolveAssemblyReference.cache
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\obj\Debug\MPC.Form1.resources
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\obj\Debug\MPC.Properties.Resources.resources
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\obj\Debug\MPC.csproj.GenerateResource.Cache
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\DLL\tibrv.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\DLL\TIBCO.Rendezvous.dll.config
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\DLL\TIBCO.Rendezvous.netmodule
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Log4Net.config.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\spring-objects.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\spring-quartz.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\tibrv.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\MPC.exe.config
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\MPC.exe
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\MPC.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Common.Logging.Core.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Common.Logging.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.Controller.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.MessageData.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\HF.DB.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Iesi.Collections.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\log4net.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\NHibernate.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Quartz.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Aop.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Core.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Data.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\TIBMessageIo.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.Common.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.EIPDriver.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.MNetDriver.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.MNetProtocol.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.RabbitMQInterface.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\TIBCO.Rendezvous.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\System.Data.SQLite.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\VariableCompolet.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\HF.BC.JSON.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\RabbitMQ.Client.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\fastJSON.dll
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.Controller.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.MessageData.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\TIBMessageIo.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\HF.DB.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Common.Logging.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Common.Logging.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Common.Logging.Core.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Common.Logging.Core.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Iesi.Collections.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\log4net.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\NHibernate.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Quartz.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Quartz.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Aop.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Aop.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Core.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Core.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Data.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Data.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.Common.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.EIPDriver.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.MNetDriver.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.MNetProtocol.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\EQPIO.RabbitMQInterface.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\System.Data.SQLite.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\HF.BC.JSON.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\TIBCO.Rendezvous.netmodule
+D:\develop\CSTCleanerProject\MPC\MPC\obj\Debug\MPC.csprojResolveAssemblyReference.cache
+D:\develop\CSTCleanerProject\MPC\MPC\obj\Debug\MPC.Form1.resources
+D:\develop\CSTCleanerProject\MPC\MPC\obj\Debug\MPC.Properties.Resources.resources
+D:\develop\CSTCleanerProject\MPC\MPC\obj\Debug\MPC.csproj.GenerateResource.Cache
+D:\develop\CSTCleanerProject\MPC\MPC\obj\Debug\MPC.exe
+D:\develop\CSTCleanerProject\MPC\MPC\obj\Debug\MPC.pdb
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Resources\EQPConfig.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Resources\MNetConfig2.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Config\EQPConfig.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Config\MNetConfig.xml
+D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Config\PLCMap.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\MPC.exe.config
+D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.exe
+D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Resources\EQPConfig.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Resources\MNetConfig2.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\DLL\tibrv.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\DLL\TIBCO.Rendezvous.dll.config
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\DLL\TIBCO.Rendezvous.netmodule
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Config\EQPConfig.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Config\MNetConfig.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Config\PLCMap.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Log4Net.config.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-quartz.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\tibrv.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\MPC.exe
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\MPC.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.Core.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.Controller.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.MessageData.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\HF.DB.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Iesi.Collections.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\log4net.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\NHibernate.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Quartz.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Aop.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Core.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Data.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\TIBMessageIo.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.Common.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.EIPDriver.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.MNetDriver.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.MNetProtocol.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.RabbitMQInterface.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\System.Data.SQLite.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\TIBCO.Rendezvous.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\VariableCompolet.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\HF.BC.JSON.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\RabbitMQ.Client.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\fastJSON.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.Controller.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.MessageData.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\HF.DB.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\TIBMessageIo.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.Core.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.Core.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Iesi.Collections.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\log4net.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\NHibernate.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Quartz.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Quartz.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Aop.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Aop.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Core.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Core.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Data.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Data.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.Common.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.EIPDriver.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.MNetDriver.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.MNetProtocol.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.RabbitMQInterface.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\System.Data.SQLite.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\HF.BC.JSON.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\TIBCO.Rendezvous.netmodule
+D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.csprojResolveAssemblyReference.cache
+D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.Form1.resources
+D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.Properties.Resources.resources
+D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.csproj.GenerateResource.Cache
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\ECS.DB

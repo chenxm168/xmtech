@@ -1,0 +1,9 @@
+D:\develop\ECS_Clean\EQPIO.MessageData\bin\Debug\EQPIO.MessageData.dll
+D:\develop\ECS_Clean\EQPIO.MessageData\bin\Debug\EQPIO.MessageData.pdb
+D:\develop\ECS_Clean\EQPIO.MessageData\obj\Debug\EQPIO.MessageData.dll
+D:\develop\ECS_Clean\EQPIO.MessageData\obj\Debug\EQPIO.MessageData.pdb
+D:\develop\CommonDll\EQPIO\EQPIO.MessageData\bin\Debug\EQPIO.MessageData.dll
+D:\develop\CommonDll\EQPIO\EQPIO.MessageData\bin\Debug\EQPIO.MessageData.pdb
+D:\develop\CommonDll\EQPIO\EQPIO.MessageData\obj\Debug\EQPIO.MessageData.csprojResolveAssemblyReference.cache
+D:\develop\CommonDll\EQPIO\EQPIO.MessageData\obj\Debug\EQPIO.MessageData.dll
+D:\develop\CommonDll\EQPIO\EQPIO.MessageData\obj\Debug\EQPIO.MessageData.pdb

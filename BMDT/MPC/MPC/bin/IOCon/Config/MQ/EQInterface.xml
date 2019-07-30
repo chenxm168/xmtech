@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Objects>
+	<Property MessageType = "PLC" HostName = "PLCEAS" HostIP = "127.0.0.1" ProducerExchange = "XEPLC" ProducerRoutingKey = "Eq2sPLC" ConsumerExchange = "XSPLC" ConsumerRoutingKey = "s2EqPLC" ConsumerQueue = "TOEQ_QueuePLC" Value = "true" />
+	<Property MessageType = "EIP" HostName = "EIPEAS" HostIP = "127.0.0.1" ProducerExchange = "XEEIP" ProducerRoutingKey = "Eq2sEIP" ConsumerExchange = "XSEIP" ConsumerRoutingKey = "s2EqEIP" ConsumerQueue = "TOEQ_QueueEIP" Value = "false" />
+	<Property MessageType = "PLCFDC" HostName = "PLCFDC" HostIP = "127.0.0.1" ProducerExchange = "XETRACE" ProducerRoutingKey = "Ioc2FdcTRACE" ConsumerExchange = "XSTRACE" ConsumerRoutingKey = "Fdc2IocTRACE" ConsumerQueue = "FROMFDC_QueueTRACE" Value = "false"/>
+	<Property MessageType = "EIPFDC" HostName = "EIPFDC" HostIP = "127.0.0.1" ProducerExchange = "XETRACE" ProducerRoutingKey = "Ioc2FdcTRACE" ConsumerExchange = "XSTRACE" ConsumerRoutingKey = "Fdc2IocTRACE" ConsumerQueue = "FROMFDC_QueueTRACE" Value = "false"/>
+	<Property MessageType = "LIC" HostName = "LICEAS" HostIP = "10.141.70.92" ProducerExchange = "EX.EMPSERVER" ProducerRoutingKey = "EMPSERVER" ConsumerExchange = "XSLIC" ConsumerRoutingKey = "EMP2IOCon" ConsumerQueue = "TOIOCon_QueueLIC" Value = "false" />
+    <Property MessageType = "RGA" HostName = "RGAEAS" HostIP = "127.0.0.1" ProducerExchange = "XERGA" ProducerRoutingKey = "Eq2sRGA" ConsumerExchange = "XSRGA" ConsumerRoutingKey = "Eq2sRGA" ConsumerQueue = "TORGA_Queue" Value = "false"/>
+</Objects>

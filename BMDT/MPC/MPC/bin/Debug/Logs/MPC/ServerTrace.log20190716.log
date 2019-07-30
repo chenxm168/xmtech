@@ -1,0 +1,12 @@
+[2019-07-16 08:59:56.026] [DEBUG] [mProtocol_OnEventReceived] [Form1][OnEQPConnection] -EQP Connection!
+[2019-07-16 09:01:00.650] [DEBUG] [mProtocol_OnEventReceived] [Form1][OnEQPConnection] -EQP Connection!
+[2019-07-16 14:06:57.335] [DEBUG] [CallBackActor] [AbsSecsHandler][proc] -hsms connected!
+[2019-07-16 14:12:54.380] [DEBUG] [CallBackActor] [AbsSecsHandler][proc] -hsms connected!
+[2019-07-16 14:13:23.844] [DEBUG] [CallBackActor] [AbsSecsHandler][proc] -hsms disconnected!
+[2019-07-16 14:13:59.051] [DEBUG] [CallBackActor] [AbsSecsHandler][proc] -hsms connected!
+[2019-07-16 15:01:40.967] [DEBUG] [CallBackActor] [AbsSecsHandler][proc] -hsms connected!
+[2019-07-16 15:21:37.261] [DEBUG] [CallBackActor] [AbsSecsHandler][proc] -hsms connected!
+[2019-07-16 15:24:55.207] [DEBUG] [CallBackActor] [AbsSecsHandler][proc] -hsms disconnected!
+[2019-07-16 15:28:23.385] [DEBUG] [CallBackActor] [AbsSecsHandler][proc] -hsms connected!
+[2019-07-16 15:33:08.822] [DEBUG] [CallBackActor] [AbsSecsHandler][proc] -hsms connected!
+[2019-07-16 15:45:27.126] [DEBUG] [CallBackActor] [AbsSecsHandler][proc] -hsms connected!

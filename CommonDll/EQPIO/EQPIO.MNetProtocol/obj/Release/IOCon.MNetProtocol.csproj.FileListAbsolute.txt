@@ -1,0 +1,10 @@
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MNetProtocol\bin\Release\IOCon.MNetProtocol.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MNetProtocol\bin\Release\IOCon.MNetProtocol.pdb
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MNetProtocol\bin\Release\IOCon.Common.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MNetProtocol\bin\Release\log4net.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MNetProtocol\bin\Release\WibuKeyClassLibrary.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MNetProtocol\bin\Release\WIBUKEYLib.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MNetProtocol\bin\Release\IOCon.Common.pdb
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MNetProtocol\obj\Release\IOCon.MNetProtocol.csprojResolveAssemblyReference.cache
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MNetProtocol\obj\Release\IOCon.MNetProtocol.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MNetProtocol\obj\Release\IOCon.MNetProtocol.pdb

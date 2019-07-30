@@ -1,0 +1,6 @@
+D:\CxmWork\Develop\project\WinSECS\WinSECS\Log4netCustomizedAppender\bin\Debug\Log4netCustomizedAppender.dll
+D:\CxmWork\Develop\project\WinSECS\WinSECS\Log4netCustomizedAppender\bin\Debug\Log4netCustomizedAppender.pdb
+D:\CxmWork\Develop\project\WinSECS\WinSECS\Log4netCustomizedAppender\bin\Debug\log4net.dll
+D:\CxmWork\Develop\project\WinSECS\WinSECS\Log4netCustomizedAppender\bin\Debug\log4net.xml
+D:\CxmWork\Develop\project\WinSECS\WinSECS\Log4netCustomizedAppender\obj\Debug\Log4netCustomizedAppender.dll
+D:\CxmWork\Develop\project\WinSECS\WinSECS\Log4netCustomizedAppender\obj\Debug\Log4netCustomizedAppender.pdb

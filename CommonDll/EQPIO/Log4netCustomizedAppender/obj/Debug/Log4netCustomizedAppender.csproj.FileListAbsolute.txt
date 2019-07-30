@@ -1,0 +1,13 @@
+D:\develop\ECS_Clean\Log4netCustomizedAppender\bin\Debug\Log4netCustomizedAppender.dll
+D:\develop\ECS_Clean\Log4netCustomizedAppender\bin\Debug\Log4netCustomizedAppender.pdb
+D:\develop\ECS_Clean\Log4netCustomizedAppender\bin\Debug\log4net.dll
+D:\develop\ECS_Clean\Log4netCustomizedAppender\bin\Debug\log4net.xml
+D:\develop\ECS_Clean\Log4netCustomizedAppender\obj\Debug\Log4netCustomizedAppender.csprojResolveAssemblyReference.cache
+D:\develop\ECS_Clean\Log4netCustomizedAppender\obj\Debug\Log4netCustomizedAppender.dll
+D:\develop\ECS_Clean\Log4netCustomizedAppender\obj\Debug\Log4netCustomizedAppender.pdb
+D:\develop\CommonDll\EQPIO\Log4netCustomizedAppender\bin\Debug\Log4netCustomizedAppender.dll
+D:\develop\CommonDll\EQPIO\Log4netCustomizedAppender\bin\Debug\Log4netCustomizedAppender.pdb
+D:\develop\CommonDll\EQPIO\Log4netCustomizedAppender\bin\Debug\log4net.dll
+D:\develop\CommonDll\EQPIO\Log4netCustomizedAppender\bin\Debug\log4net.xml
+D:\develop\CommonDll\EQPIO\Log4netCustomizedAppender\obj\Debug\Log4netCustomizedAppender.dll
+D:\develop\CommonDll\EQPIO\Log4netCustomizedAppender\obj\Debug\Log4netCustomizedAppender.pdb

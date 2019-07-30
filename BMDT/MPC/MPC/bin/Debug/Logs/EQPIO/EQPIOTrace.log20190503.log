@@ -1,0 +1,1199 @@
+[2019-05-03 11:09:26.111] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 11:09:26.475] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 11:09:26.480] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 11:09:26.484] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 11:09:26.486] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 11:09:26.489] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:09:26.496] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 11:09-26_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:09:26.513] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:09:26.575] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 11:12:59.636] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 11:12:59.962] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 11:12:59.967] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 11:12:59.971] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 11:12:59.972] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 11:12:59.975] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:12:59.985] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 11:12-59_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:12:59.986] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:12:59.999] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 11:15:36.175] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 11:15:36.552] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 11:15:36.557] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 11:15:36.562] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 11:15:36.563] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 11:15:36.566] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:15:36.577] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 11:15-36_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:15:36.579] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:15:36.590] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 11:15:51.681] [ERROR] [ScanThreadProc] [MNet3EScanUnit][Reader] -Message : 正在中止线程。
+[2019-05-03 11:15:51.689] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-05-03 11:15-51_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:15:52.141] [INFO ] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:15:52.142] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-05-03 11:15:52.191] [INFO ] [ReConnectThreadProc] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:20:09.186] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 11:20:09.488] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 11:20:09.493] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 11:20:09.498] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 11:20:09.499] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 11:20:09.502] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:20:09.510] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 11:20-09_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:20:09.512] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:20:09.525] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 11:21:12.724] [ERROR] [ScanThreadProc] [MNet3EScanUnit][Reader] -Message : 正在中止线程。
+[2019-05-03 11:21:12.728] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-05-03 11:21-12_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:21:13.209] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-05-03 11:29:26.985] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 11:29:27.294] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 11:29:27.299] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 11:29:27.303] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 11:29:27.304] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 11:29:27.307] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:29:27.315] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 11:29-27_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:29:27.317] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:29:27.328] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 11:29:46.521] [ERROR] [ScanThreadProc] [MNet3EScanUnit][Reader] -Message : 正在中止线程。
+[2019-05-03 11:29:46.526] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-05-03 11:29-46_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:31:23.227] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 11:31:23.525] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 11:31:23.531] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 11:31:23.537] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 11:31:23.538] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 11:31:23.541] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:31:23.549] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 11:31-23_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:31:23.550] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:31:23.562] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 11:32:34.541] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 11:32:34.840] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 11:32:34.845] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 11:32:34.849] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 11:32:34.851] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 11:32:34.853] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:32:34.862] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 11:32-34_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:32:34.864] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:32:34.875] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 11:32:50.656] [ERROR] [ScanThreadProc] [MNet3EScanUnit][Reader] -Message : 正在中止线程。
+[2019-05-03 11:32:50.662] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-05-03 11:32-50_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:32:50.692] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-05-03 11:32:50.723] [INFO ] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:32:50.727] [ERROR] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -System.Threading.ThreadAbortException: 正在中止线程。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Reader(ReceiveStatus status) 位置 d:\develop\ECS_Clean\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 462
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadWriter(Byte[] dataArry, ReceiveStatus status) 位置 d:\develop\ECS_Clean\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 628
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadBitProtocol(String device, String address, Int32 length) 位置 d:\develop\ECS_Clean\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 357
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ScanBit(MultiBlock multiBlock, Block bitScanTargetBlock) 位置 d:\develop\ECS_Clean\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 807
+[2019-05-03 11:32:53.257] [INFO ] [ReConnectThreadProc] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:33:20.366] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-05-03 11:33-07_4 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:33:26.185] [INFO ] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:33:26.209] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-05-03 11:33:26.224] [ERROR] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Start Failed...
+[2019-05-03 11:34:46.147] [INFO ] [8] [ControlManager][Init] -Init ControlManager
+[2019-05-03 11:34:46.453] [INFO ] [8] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 11:34:46.458] [INFO ] [8] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 11:34:46.462] [INFO ] [8] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 11:34:46.463] [INFO ] [8] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 11:34:46.466] [INFO ] [8] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:34:46.474] [INFO ] [8] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 11:34-46_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:34:46.476] [INFO ] [8] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:34:46.487] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 11:35:08.186] [ERROR] [ScanThreadProc] [MNet3EScanUnit][Reader] -Message : 正在中止线程。
+[2019-05-03 11:35:08.190] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-05-03 11:35-08_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:35:08.216] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-05-03 11:35:08.219] [INFO ] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:35:08.245] [ERROR] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -System.Threading.ThreadAbortException: 正在中止线程。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Reader(ReceiveStatus status) 位置 d:\develop\ECS_Clean\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 462
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadWriter(Byte[] dataArry, ReceiveStatus status) 位置 d:\develop\ECS_Clean\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 628
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadBitProtocol(String device, String address, Int32 length) 位置 d:\develop\ECS_Clean\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 357
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ScanBit(MultiBlock multiBlock, Block bitScanTargetBlock) 位置 d:\develop\ECS_Clean\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 807
+[2019-05-03 11:35:08.250] [INFO ] [ReConnectThreadProc] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:35:08.368] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 11:35:08.355] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 11:35:08.343] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 11:35:08.345] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 11:35:08.312] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-05-03 11:35-08_4 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:35:08.423] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-05-03 11:35:08.424] [ERROR] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Start Failed...
+[2019-05-03 11:35:08.425] [INFO ] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:35:08.619] [INFO ] [ReConnectThreadProc] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:36:40.471] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 11:36:40.821] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 11:36:40.826] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 11:36:40.830] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 11:36:40.831] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 11:36:40.834] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:36:40.842] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 11:36-40_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:36:40.844] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:36:40.856] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 11:36:51.930] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 11:36:51.950] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 11:36:51.976] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 11:36:52.007] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 11:44:03.438] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 11:44:03.746] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 11:44:03.752] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 11:44:03.756] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 11:44:03.758] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 11:44:03.761] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:44:03.769] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 11:44-03_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:44:03.771] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:44:03.782] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 11:45:16.050] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : PortStatus, Data : 0
+[2019-05-03 11:45:16.071] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteStatus, Data : 0
+[2019-05-03 11:45:16.072] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteSequenceNo, Data : 0
+[2019-05-03 11:45:16.073] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteID, Data : 
+[2019-05-03 11:45:16.074] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : JobCountinCassette, Data : 0
+[2019-05-03 11:45:16.075] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CompletedCassetteData, Data : 0
+[2019-05-03 11:45:16.075] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : OperatorID, Data : 
+[2019-05-03 11:45:16.076] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[BIT] Item Name : JobExistenceSlot, Data : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[2019-05-03 11:45:16.077] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : LoadingCassetteType, Data : 0
+[2019-05-03 11:45:16.253] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : Q-TimeFlag, Data : 0
+[2019-05-03 11:45:16.274] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#1PortStatusChangeReportReply, Data : 1
+[2019-05-03 11:45:16.275] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:16.276] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-05-03 11:45-16_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190503114516024 
+, Event Name       : L2_Port#1PortStatusChangeReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#1PortStatusBlock 
+, ==Read Item List== 
+, Read ItemName : PortStatus, Value : 0 
+, Read ItemName : CassetteStatus, Value : 0 
+, Read ItemName : CassetteSequenceNo, Value : 0 
+, Read ItemName : CassetteID, Value :  
+, Read ItemName : JobCountinCassette, Value : 0 
+, Read ItemName : CompletedCassetteData, Value : 0 
+, Read ItemName : OperatorID, Value :  
+, Read ItemName : JobExistenceSlot, Value : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+, Read ItemName : LoadingCassetteType, Value : 0 
+, Read ItemName : Q-TimeFlag, Value : 0 
+, Write BlockName : L2_B_Port#1PortStatusChangeReportReply 
+, ==Write Item List== 
+, Write ItemName : Port#1PortStatusChangeReportReply, Value : 1 
+}
+[2019-05-03 11:45:16.453] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1PortStatusChangeReport, Item Value : 1, index : 139
+[2019-05-03 11:45:16.286] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-05-03 11:45:16.480] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#1PortStatusChangeReportReply, Data : 0
+[2019-05-03 11:45:16.481] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:16.653] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1PortStatusChangeReport
+[2019-05-03 11:45:16.653] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1PortStatusChangeReport, Item Value : 0, index : 139
+[2019-05-03 11:45:21.285] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : PortStatus, Data : 0
+[2019-05-03 11:45:21.287] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteStatus, Data : 0
+[2019-05-03 11:45:21.287] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteSequenceNo, Data : 0
+[2019-05-03 11:45:21.288] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteID, Data : 
+[2019-05-03 11:45:21.289] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : JobCountinCassette, Data : 0
+[2019-05-03 11:45:21.290] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CompletedCassetteData, Data : 0
+[2019-05-03 11:45:21.290] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : OperatorID, Data : 
+[2019-05-03 11:45:21.291] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[BIT] Item Name : JobExistenceSlot, Data : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[2019-05-03 11:45:21.303] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : LoadingCassetteType, Data : 0
+[2019-05-03 11:45:21.304] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : Q-TimeFlag, Data : 0
+[2019-05-03 11:45:21.317] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#2PortStatusChangeReportReply, Data : 1
+[2019-05-03 11:45:21.318] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:21.319] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-05-03 11:45-21_3 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190503114521272 
+, Event Name       : L2_Port#2PortStatusChangeReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2PortStatusBlock 
+, ==Read Item List== 
+, Read ItemName : PortStatus, Value : 0 
+, Read ItemName : CassetteStatus, Value : 0 
+, Read ItemName : CassetteSequenceNo, Value : 0 
+, Read ItemName : CassetteID, Value :  
+, Read ItemName : JobCountinCassette, Value : 0 
+, Read ItemName : CompletedCassetteData, Value : 0 
+, Read ItemName : OperatorID, Value :  
+, Read ItemName : JobExistenceSlot, Value : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+, Read ItemName : LoadingCassetteType, Value : 0 
+, Read ItemName : Q-TimeFlag, Value : 0 
+, Write BlockName : L2_B_Port#2PortStatusChangeReportReply 
+, ==Write Item List== 
+, Write ItemName : Port#2PortStatusChangeReportReply, Value : 1 
+}
+[2019-05-03 11:45:21.503] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2PortStatusChangeReport, Item Value : 1, index : 140
+[2019-05-03 11:45:21.321] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-05-03 11:45:21.535] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#2PortStatusChangeReportReply, Data : 0
+[2019-05-03 11:45:21.702] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:21.703] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2PortStatusChangeReport
+[2019-05-03 11:45:21.902] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2PortStatusChangeReport, Item Value : 0, index : 140
+[2019-05-03 11:45:26.532] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : PortStatus, Data : 0
+[2019-05-03 11:45:26.533] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteStatus, Data : 0
+[2019-05-03 11:45:26.534] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteSequenceNo, Data : 0
+[2019-05-03 11:45:26.535] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteID, Data : 
+[2019-05-03 11:45:26.535] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : JobCountinCassette, Data : 0
+[2019-05-03 11:45:26.536] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CompletedCassetteData, Data : 0
+[2019-05-03 11:45:26.537] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : OperatorID, Data : 
+[2019-05-03 11:45:26.538] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[BIT] Item Name : JobExistenceSlot, Data : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[2019-05-03 11:45:26.563] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : LoadingCassetteType, Data : 0
+[2019-05-03 11:45:26.564] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : Q-TimeFlag, Data : 0
+[2019-05-03 11:45:26.578] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#1PortStatusChangeReportReply, Data : 1
+[2019-05-03 11:45:26.579] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:26.580] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-05-03 11:45-26_4 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190503114526518 
+, Event Name       : L2_Port#1PortStatusChangeReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#1PortStatusBlock 
+, ==Read Item List== 
+, Read ItemName : PortStatus, Value : 0 
+, Read ItemName : CassetteStatus, Value : 0 
+, Read ItemName : CassetteSequenceNo, Value : 0 
+, Read ItemName : CassetteID, Value :  
+, Read ItemName : JobCountinCassette, Value : 0 
+, Read ItemName : CompletedCassetteData, Value : 0 
+, Read ItemName : OperatorID, Value :  
+, Read ItemName : JobExistenceSlot, Value : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+, Read ItemName : LoadingCassetteType, Value : 0 
+, Read ItemName : Q-TimeFlag, Value : 0 
+, Write BlockName : L2_B_Port#1PortStatusChangeReportReply 
+, ==Write Item List== 
+, Write ItemName : Port#1PortStatusChangeReportReply, Value : 1 
+}
+[2019-05-03 11:45:26.763] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1PortStatusChangeReport, Item Value : 1, index : 139
+[2019-05-03 11:45:26.588] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-05-03 11:45:26.791] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#1PortStatusChangeReportReply, Data : 0
+[2019-05-03 11:45:26.962] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:26.962] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1PortStatusChangeReport
+[2019-05-03 11:45:27.162] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1PortStatusChangeReport, Item Value : 0, index : 139
+[2019-05-03 11:45:31.591] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : PortStatus, Data : 0
+[2019-05-03 11:45:31.592] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteStatus, Data : 0
+[2019-05-03 11:45:31.593] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteSequenceNo, Data : 0
+[2019-05-03 11:45:31.594] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteID, Data : 
+[2019-05-03 11:45:31.595] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : JobCountinCassette, Data : 0
+[2019-05-03 11:45:31.596] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CompletedCassetteData, Data : 0
+[2019-05-03 11:45:31.596] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : OperatorID, Data : 
+[2019-05-03 11:45:31.597] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[BIT] Item Name : JobExistenceSlot, Data : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[2019-05-03 11:45:31.613] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : LoadingCassetteType, Data : 0
+[2019-05-03 11:45:31.614] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : Q-TimeFlag, Data : 0
+[2019-05-03 11:45:31.626] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#2PortStatusChangeReportReply, Data : 1
+[2019-05-03 11:45:31.627] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:31.628] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-05-03 11:45-31_5 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190503114531578 
+, Event Name       : L2_Port#2PortStatusChangeReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2PortStatusBlock 
+, ==Read Item List== 
+, Read ItemName : PortStatus, Value : 0 
+, Read ItemName : CassetteStatus, Value : 0 
+, Read ItemName : CassetteSequenceNo, Value : 0 
+, Read ItemName : CassetteID, Value :  
+, Read ItemName : JobCountinCassette, Value : 0 
+, Read ItemName : CompletedCassetteData, Value : 0 
+, Read ItemName : OperatorID, Value :  
+, Read ItemName : JobExistenceSlot, Value : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+, Read ItemName : LoadingCassetteType, Value : 0 
+, Read ItemName : Q-TimeFlag, Value : 0 
+, Write BlockName : L2_B_Port#2PortStatusChangeReportReply 
+, ==Write Item List== 
+, Write ItemName : Port#2PortStatusChangeReportReply, Value : 1 
+}
+[2019-05-03 11:45:31.813] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2PortStatusChangeReport, Item Value : 1, index : 140
+[2019-05-03 11:45:31.638] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-05-03 11:45:31.844] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#2PortStatusChangeReportReply, Data : 0
+[2019-05-03 11:45:32.012] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:32.012] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2PortStatusChangeReport
+[2019-05-03 11:45:32.212] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2PortStatusChangeReport, Item Value : 0, index : 140
+[2019-05-03 11:45:37.041] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : PortStatus, Data : 0
+[2019-05-03 11:45:37.042] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteStatus, Data : 0
+[2019-05-03 11:45:37.043] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteSequenceNo, Data : 0
+[2019-05-03 11:45:37.043] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteID, Data : 
+[2019-05-03 11:45:37.044] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : JobCountinCassette, Data : 0
+[2019-05-03 11:45:37.045] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CompletedCassetteData, Data : 0
+[2019-05-03 11:45:37.046] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : OperatorID, Data : 
+[2019-05-03 11:45:37.046] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[BIT] Item Name : JobExistenceSlot, Data : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[2019-05-03 11:45:37.054] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : LoadingCassetteType, Data : 0
+[2019-05-03 11:45:37.055] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : Q-TimeFlag, Data : 0
+[2019-05-03 11:45:37.075] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#1PortStatusChangeReportReply, Data : 1
+[2019-05-03 11:45:37.076] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:37.077] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-05-03 11:45-37_6 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190503114537026 
+, Event Name       : L2_Port#1PortStatusChangeReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#1PortStatusBlock 
+, ==Read Item List== 
+, Read ItemName : PortStatus, Value : 0 
+, Read ItemName : CassetteStatus, Value : 0 
+, Read ItemName : CassetteSequenceNo, Value : 0 
+, Read ItemName : CassetteID, Value :  
+, Read ItemName : JobCountinCassette, Value : 0 
+, Read ItemName : CompletedCassetteData, Value : 0 
+, Read ItemName : OperatorID, Value :  
+, Read ItemName : JobExistenceSlot, Value : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+, Read ItemName : LoadingCassetteType, Value : 0 
+, Read ItemName : Q-TimeFlag, Value : 0 
+, Write BlockName : L2_B_Port#1PortStatusChangeReportReply 
+, ==Write Item List== 
+, Write ItemName : Port#1PortStatusChangeReportReply, Value : 1 
+}
+[2019-05-03 11:45:37.254] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1PortStatusChangeReport, Item Value : 1, index : 139
+[2019-05-03 11:45:37.077] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-05-03 11:45:37.279] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#1PortStatusChangeReportReply, Data : 0
+[2019-05-03 11:45:37.453] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:37.453] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1PortStatusChangeReport
+[2019-05-03 11:45:37.654] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1PortStatusChangeReport, Item Value : 0, index : 139
+[2019-05-03 11:45:42.082] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : PortStatus, Data : 0
+[2019-05-03 11:45:42.083] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteStatus, Data : 0
+[2019-05-03 11:45:42.084] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteSequenceNo, Data : 0
+[2019-05-03 11:45:42.085] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteID, Data : 
+[2019-05-03 11:45:42.086] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : JobCountinCassette, Data : 0
+[2019-05-03 11:45:42.086] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CompletedCassetteData, Data : 0
+[2019-05-03 11:45:42.087] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : OperatorID, Data : 
+[2019-05-03 11:45:42.088] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[BIT] Item Name : JobExistenceSlot, Data : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[2019-05-03 11:45:42.105] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : LoadingCassetteType, Data : 0
+[2019-05-03 11:45:42.106] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : Q-TimeFlag, Data : 0
+[2019-05-03 11:45:42.120] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#2PortStatusChangeReportReply, Data : 1
+[2019-05-03 11:45:42.121] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:42.122] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-05-03 11:45-42_7 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190503114542068 
+, Event Name       : L2_Port#2PortStatusChangeReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2PortStatusBlock 
+, ==Read Item List== 
+, Read ItemName : PortStatus, Value : 0 
+, Read ItemName : CassetteStatus, Value : 0 
+, Read ItemName : CassetteSequenceNo, Value : 0 
+, Read ItemName : CassetteID, Value :  
+, Read ItemName : JobCountinCassette, Value : 0 
+, Read ItemName : CompletedCassetteData, Value : 0 
+, Read ItemName : OperatorID, Value :  
+, Read ItemName : JobExistenceSlot, Value : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+, Read ItemName : LoadingCassetteType, Value : 0 
+, Read ItemName : Q-TimeFlag, Value : 0 
+, Write BlockName : L2_B_Port#2PortStatusChangeReportReply 
+, ==Write Item List== 
+, Write ItemName : Port#2PortStatusChangeReportReply, Value : 1 
+}
+[2019-05-03 11:45:42.305] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2PortStatusChangeReport, Item Value : 1, index : 140
+[2019-05-03 11:45:42.124] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-05-03 11:45:42.339] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#2PortStatusChangeReportReply, Data : 0
+[2019-05-03 11:45:42.504] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:42.505] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2PortStatusChangeReport
+[2019-05-03 11:45:42.704] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2PortStatusChangeReport, Item Value : 0, index : 140
+[2019-05-03 11:45:47.333] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : PortStatus, Data : 0
+[2019-05-03 11:45:47.334] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteStatus, Data : 0
+[2019-05-03 11:45:47.335] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteSequenceNo, Data : 0
+[2019-05-03 11:45:47.336] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteID, Data : 
+[2019-05-03 11:45:47.337] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : JobCountinCassette, Data : 0
+[2019-05-03 11:45:47.337] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CompletedCassetteData, Data : 0
+[2019-05-03 11:45:47.338] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : OperatorID, Data : 
+[2019-05-03 11:45:47.339] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[BIT] Item Name : JobExistenceSlot, Data : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[2019-05-03 11:45:47.340] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : LoadingCassetteType, Data : 0
+[2019-05-03 11:45:47.535] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : Q-TimeFlag, Data : 0
+[2019-05-03 11:45:47.547] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#1PortStatusChangeReportReply, Data : 1
+[2019-05-03 11:45:47.548] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:47.549] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-05-03 11:45-47_8 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190503114547318 
+, Event Name       : L2_Port#1PortStatusChangeReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#1PortStatusBlock 
+, ==Read Item List== 
+, Read ItemName : PortStatus, Value : 0 
+, Read ItemName : CassetteStatus, Value : 0 
+, Read ItemName : CassetteSequenceNo, Value : 0 
+, Read ItemName : CassetteID, Value :  
+, Read ItemName : JobCountinCassette, Value : 0 
+, Read ItemName : CompletedCassetteData, Value : 0 
+, Read ItemName : OperatorID, Value :  
+, Read ItemName : JobExistenceSlot, Value : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+, Read ItemName : LoadingCassetteType, Value : 0 
+, Read ItemName : Q-TimeFlag, Value : 0 
+, Write BlockName : L2_B_Port#1PortStatusChangeReportReply 
+, ==Write Item List== 
+, Write ItemName : Port#1PortStatusChangeReportReply, Value : 1 
+}
+[2019-05-03 11:45:47.550] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-05-03 11:45:47.736] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1PortStatusChangeReport, Item Value : 1, index : 139
+[2019-05-03 11:45:47.768] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#1PortStatusChangeReportReply, Data : 0
+[2019-05-03 11:45:47.782] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-05-03 11:45:47.940] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1PortStatusChangeReport
+[2019-05-03 11:45:47.940] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1PortStatusChangeReport, Item Value : 0, index : 139
+[2019-05-03 11:46:09.543] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 11:46:09.558] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 11:46:09.576] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 11:46:09.597] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 11:49:49.564] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 11:49:49.944] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 11:49:49.949] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 11:49:49.954] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 11:49:49.955] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 11:49:49.958] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 11:49:49.969] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 11:49-49_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 11:49:49.971] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 11:49:49.986] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 11:49:57.747] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 11:49:57.761] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 11:49:57.778] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 11:49:57.782] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 12:03:23.300] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 12:03:23.614] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 12:03:23.620] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 12:03:23.624] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 12:03:23.626] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 12:03:23.629] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 12:03:23.637] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 12:03-23_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 12:03:23.639] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 12:03:23.650] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 12:03:46.552] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 12:03:46.568] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 12:03:46.610] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 12:03:46.610] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 12:12:10.346] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 12:12:10.721] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 12:12:10.726] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 12:12:10.730] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 12:12:10.732] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 12:12:10.734] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 12:12:10.742] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 12:12-10_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 12:12:10.744] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 12:12:10.758] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 12:12:22.428] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 12:12:22.443] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 12:12:22.456] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 12:12:22.457] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 13:56:13.303] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 13:56:13.678] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 13:56:13.683] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 13:56:13.688] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 13:56:13.689] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 13:56:13.692] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 13:56:13.701] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 13:56-13_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 13:56:13.703] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 13:56:13.785] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 13:57:40.250] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 13:57:40.596] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 13:57:40.601] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 13:57:40.605] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 13:57:40.607] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 13:57:40.609] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 13:57:40.617] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 13:57-40_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 13:57:40.619] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 13:57:40.631] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 13:57:46.014] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 13:57:46.065] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 13:57:46.075] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 13:57:46.099] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 14:34:15.765] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 14:34:16.114] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 14:34:16.120] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 14:34:16.124] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 14:34:16.126] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 14:34:16.128] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 14:34:16.136] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 14:34-16_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 14:34:16.138] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 14:34:16.150] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 14:34:26.294] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 14:34:26.315] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 14:34:26.326] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 14:34:26.351] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 14:34:53.064] [INFO ] [8] [ControlManager][Init] -Init ControlManager
+[2019-05-03 14:34:53.376] [INFO ] [8] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 14:34:53.381] [INFO ] [8] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 14:34:53.385] [INFO ] [8] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 14:34:53.387] [INFO ] [8] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 14:34:53.390] [INFO ] [8] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 14:34:53.403] [INFO ] [8] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 14:34-53_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 14:34:53.405] [INFO ] [8] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 14:34:53.418] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 14:35:12.573] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 14:35:12.593] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 14:35:12.613] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 14:35:12.626] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 14:41:20.288] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 14:41:20.679] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 14:41:20.685] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 14:41:20.689] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 14:41:20.691] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 14:41:20.693] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 14:41:20.701] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 14:41-20_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 14:41:20.703] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 14:41:20.715] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 14:42:03.016] [ERROR] [ScanThreadProc] [MNet3EScanUnit][Reader] -Message : 正在中止线程。
+[2019-05-03 14:42:03.020] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-05-03 14:42-03_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 14:42:03.066] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-05-03 14:42:03.089] [INFO ] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 14:42:03.174] [ERROR] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -System.Threading.ThreadAbortException: 正在中止线程。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Reader(ReceiveStatus status) 位置 d:\develop\ECS_Clean\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 462
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadWriter(Byte[] dataArry, ReceiveStatus status) 位置 d:\develop\ECS_Clean\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 628
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadBitProtocol(String device, String address, Int32 length) 位置 d:\develop\ECS_Clean\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 357
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ScanBit(MultiBlock multiBlock, Block bitScanTargetBlock) 位置 d:\develop\ECS_Clean\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 807
+[2019-05-03 14:42:03.175] [INFO ] [ReConnectThreadProc] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 14:42:03.238] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-05-03 14:42-03_4 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 14:42:03.284] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 14:42:03.262] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 14:42:03.295] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 14:42:03.250] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 14:42:03.374] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-05-03 14:42:03.374] [ERROR] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Start Failed...
+[2019-05-03 14:42:03.389] [INFO ] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 14:42:03.544] [INFO ] [ReConnectThreadProc] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 14:42:26.953] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 14:42:27.274] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 14:42:27.279] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 14:42:27.283] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 14:42:27.284] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 14:42:27.287] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 14:42:27.295] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 14:42-27_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 14:42:27.297] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 14:42:27.310] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 14:43:03.205] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 14:43:03.211] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 14:43:03.220] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 14:43:03.255] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 14:43:54.180] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 14:43:54.505] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 14:43:54.511] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 14:43:54.514] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 14:43:54.516] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 14:43:54.519] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 14:43:54.532] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 14:43-54_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 14:43:54.534] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 14:43:54.545] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 14:45:52.815] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 14:45:53.188] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 14:45:53.193] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 14:45:53.197] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 14:45:53.199] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 14:45:53.202] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 14:45:53.209] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 14:45-53_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 14:45:53.211] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 14:45:53.224] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 14:46:17.355] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 14:46:17.365] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 14:46:17.375] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 14:46:17.387] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 14:46:32.023] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 14:46:32.308] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 14:46:32.313] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 14:46:32.317] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 14:46:32.319] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 14:46:32.322] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 14:46:32.338] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 14:46-32_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 14:46:32.340] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 14:46:32.351] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 14:50:58.655] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 14:50:58.684] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 14:50:58.697] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 14:50:58.708] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 15:25:33.821] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 15:25:34.118] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 15:25:34.123] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 15:25:34.128] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 15:25:34.129] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 15:25:34.132] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 15:25:34.143] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 15:25-34_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 15:25:34.145] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 15:25:34.157] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 15:26:06.969] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 15:26:12.180] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 15:34:39.052] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 15:34:39.363] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 15:34:39.368] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 15:34:39.372] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 15:34:39.374] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 15:34:39.377] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 15:34:39.385] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 15:34-39_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 15:34:39.386] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 15:34:39.399] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 15:35:39.448] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 15:35:39.789] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 15:35:39.794] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 15:35:39.798] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 15:35:39.799] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 15:35:39.802] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 15:35:39.812] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 15:35-39_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 15:35:39.814] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 15:35:39.827] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 15:41:54.856] [INFO ] [8] [ControlManager][Init] -Init ControlManager
+[2019-05-03 15:41:55.241] [INFO ] [8] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 15:41:55.247] [INFO ] [8] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 15:41:55.251] [INFO ] [8] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 15:41:55.253] [INFO ] [8] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 15:41:55.256] [INFO ] [8] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 15:53:41.023] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 15:53:41.322] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 15:53:41.328] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 15:53:41.332] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 15:53:41.333] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 15:53:41.336] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 15:53:59.972] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 15:53-41_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 15:53:59.974] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 15:53:59.985] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 15:55:16.389] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 15:55:16.710] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 15:55:16.715] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 15:55:16.719] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 15:55:16.720] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 15:55:16.723] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 15:55:24.263] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 15:55:24.266] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 15:55-16_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 15:55:24.270] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 15:59:22.275] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 15:59:22.574] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 15:59:22.579] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 15:59:22.584] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 15:59:22.585] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 15:59:22.588] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 15:59:22.599] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 15:59-22_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 15:59:22.601] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 15:59:22.610] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 16:00:11.089] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 16:00:11.393] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 16:00:11.399] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 16:00:11.402] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 16:00:11.404] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 16:00:11.407] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 16:00:11.415] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 16:00-11_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 16:00:11.417] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 16:01:37.639] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 16:01:37.949] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 16:01:37.955] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 16:01:37.959] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 16:01:37.960] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 16:01:37.963] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 16:01:44.736] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 16:01:44.748] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 16:01-37_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 16:01:44.750] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 16:26:34.145] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-05-03 16:26:34.432] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 16:26:34.437] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 16:26:34.442] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 16:26:34.443] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 16:26:34.446] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 16:26:34.456] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 16:26-34_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 16:26:34.458] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 16:26:34.467] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 16:26:51.420] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 16:26:51.446] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 16:26:51.453] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 16:26:51.485] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 16:46:31.726] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 16:46:32.009] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 16:46:32.014] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 16:46:32.018] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 16:46:32.020] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 16:46:32.023] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 16:46:32.034] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 16:46-32_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 16:46:32.036] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 16:46:32.046] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 16:46:39.891] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 16:46:39.911] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 16:46:39.923] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 16:46:39.944] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 16:49:54.312] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-05-03 16:49:54.653] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-05-03 16:49:54.658] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-05-03 16:49:54.662] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-05-03 16:49:54.664] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-05-03 16:49:54.667] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-05-03 16:49:54.679] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-05-03 16:49-54_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-05-03 16:49:54.680] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-05-03 16:49:54.688] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-05-03 16:50:19.891] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-05-03 16:50:19.976] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-05-03 16:50:19.978] [ERROR] [LicenseAlarmProc] [ControlManager][LicenseAlarmProc] -LicenseAlarmProc Error : 正在中止线程。
+[2019-05-03 16:50:19.986] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。

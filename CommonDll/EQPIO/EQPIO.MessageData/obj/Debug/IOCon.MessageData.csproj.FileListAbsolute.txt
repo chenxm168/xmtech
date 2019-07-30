@@ -1,0 +1,5 @@
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MessageData\bin\Debug\IOCon.MessageData.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MessageData\bin\Debug\IOCon.MessageData.pdb
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MessageData\obj\Debug\IOCon.MessageData.csprojResolveAssemblyReference.cache
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MessageData\obj\Debug\IOCon.MessageData.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.MessageData\obj\Debug\IOCon.MessageData.pdb

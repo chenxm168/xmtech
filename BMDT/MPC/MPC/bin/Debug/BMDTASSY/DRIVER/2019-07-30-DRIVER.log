@@ -1,0 +1,119 @@
+[16:11:36.516][DEBUG][10] Message Initialize Time StartTime : 16:11:36 506 EndTime : 16:11:36 516
+[16:11:36.517][DEBUG][10] Composer Message Size : 27 Dispatcher Message Size : 20
+[16:11:36.546][INFO][ConnectionManager] [connectManager][connect] - Start
+[16:11:36.547][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[16:11:36.547][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[16:11:36.547][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[16:11:36.547][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[16:17:29.006][DEBUG][9] Message Initialize Time StartTime : 16:17:28 998 EndTime : 16:17:29 006
+[16:17:29.006][DEBUG][9] Composer Message Size : 27 Dispatcher Message Size : 20
+[16:17:29.023][INFO][ConnectionManager] [connectManager][connect] - Start
+[16:17:29.024][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[16:17:29.024][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[16:17:29.024][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[16:17:29.024][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[16:21:07.091][DEBUG][10] Message Initialize Time StartTime : 16:21:07 084 EndTime : 16:21:07 091
+[16:21:07.092][DEBUG][10] Composer Message Size : 27 Dispatcher Message Size : 20
+[16:21:07.108][INFO][ConnectionManager] [connectManager][connect] - Start
+[16:21:07.109][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[16:21:07.109][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[16:21:07.109][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[16:21:07.109][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[16:23:47.137][DEBUG][9] Message Initialize Time StartTime : 16:23:47 129 EndTime : 16:23:47 137
+[16:23:47.137][DEBUG][9] Composer Message Size : 27 Dispatcher Message Size : 20
+[16:23:47.154][INFO][ConnectionManager] [connectManager][connect] - Start
+[16:23:47.155][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[16:23:47.155][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[16:23:47.155][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[16:23:47.155][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[16:25:46.414][DEBUG][9] Message Initialize Time StartTime : 16:25:46 407 EndTime : 16:25:46 414
+[16:25:46.415][DEBUG][9] Composer Message Size : 27 Dispatcher Message Size : 20
+[16:25:46.429][INFO][ConnectionManager] [connectManager][connect] - Start
+[16:25:46.430][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[16:25:46.430][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[16:25:46.430][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[16:25:46.430][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[16:29:39.727][DEBUG][10] Message Initialize Time StartTime : 16:29:39 719 EndTime : 16:29:39 727
+[16:29:39.728][DEBUG][10] Composer Message Size : 27 Dispatcher Message Size : 20
+[16:29:39.749][INFO][ConnectionManager] [connectManager][connect] - Start
+[16:29:39.750][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[16:29:39.750][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[16:29:39.750][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[16:29:39.751][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[16:37:17.090][DEBUG][10] Message Initialize Time StartTime : 16:37:17 083 EndTime : 16:37:17 090
+[16:37:17.091][DEBUG][10] Composer Message Size : 27 Dispatcher Message Size : 20
+[16:37:17.109][INFO][ConnectionManager] [connectManager][connect] - Start
+[16:37:17.110][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[16:37:17.110][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[16:37:17.110][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[16:37:17.110][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[16:39:04.751][DEBUG][8] Message Initialize Time StartTime : 16:39:04 742 EndTime : 16:39:04 751
+[16:39:04.752][DEBUG][8] Composer Message Size : 27 Dispatcher Message Size : 20
+[16:39:04.780][INFO][ConnectionManager] [connectManager][connect] - Start
+[16:39:04.781][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[16:39:04.781][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[16:39:04.781][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[16:39:04.781][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[16:44:02.670][DEBUG][9] Message Initialize Time StartTime : 16:44:02 663 EndTime : 16:44:02 670
+[16:44:02.671][DEBUG][9] Composer Message Size : 27 Dispatcher Message Size : 20
+[16:44:02.688][INFO][ConnectionManager] [connectManager][connect] - Start
+[16:44:02.689][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[16:44:02.689][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[16:44:02.689][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[16:44:02.689][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[16:49:42.182][DEBUG][9] Message Initialize Time StartTime : 16:49:42 173 EndTime : 16:49:42 182
+[16:49:42.183][DEBUG][9] Composer Message Size : 27 Dispatcher Message Size : 20
+[16:49:42.215][INFO][ConnectionManager] [connectManager][connect] - Start
+[16:49:42.215][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[16:49:42.215][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[16:49:42.216][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[16:49:42.216][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[16:54:10.474][DEBUG][9] Message Initialize Time StartTime : 16:54:10 465 EndTime : 16:54:10 474
+[16:54:10.475][DEBUG][9] Composer Message Size : 27 Dispatcher Message Size : 20
+[16:54:10.501][INFO][ConnectionManager] [connectManager][connect] - Start
+[16:54:10.502][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[16:54:10.502][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[16:54:10.502][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[16:54:10.502][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[17:01:33.302][DEBUG][9] Message Initialize Time StartTime : 17:01:33 295 EndTime : 17:01:33 302
+[17:01:33.303][DEBUG][9] Composer Message Size : 27 Dispatcher Message Size : 20
+[17:01:33.318][INFO][ConnectionManager] [connectManager][connect] - Start
+[17:01:33.319][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[17:01:33.319][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[17:01:33.319][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[17:01:33.319][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[17:04:55.516][DEBUG][9] Message Initialize Time StartTime : 17:04:55 507 EndTime : 17:04:55 516
+[17:04:55.518][DEBUG][9] Composer Message Size : 27 Dispatcher Message Size : 20
+[17:04:55.536][INFO][ConnectionManager] [connectManager][connect] - Start
+[17:04:55.537][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[17:04:55.537][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[17:04:55.537][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[17:04:55.537][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[17:16:31.438][DEBUG][10] Message Initialize Time StartTime : 17:16:31 428 EndTime : 17:16:31 438
+[17:16:31.440][DEBUG][10] Composer Message Size : 27 Dispatcher Message Size : 20
+[17:16:31.475][INFO][ConnectionManager] [connectManager][connect] - Start
+[17:16:31.476][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[17:16:31.476][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[17:16:31.476][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[17:16:31.476][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[17:23:41.867][DEBUG][10] Message Initialize Time StartTime : 17:23:41 858 EndTime : 17:23:41 867
+[17:23:41.868][DEBUG][10] Composer Message Size : 27 Dispatcher Message Size : 20
+[17:23:41.900][INFO][ConnectionManager] [connectManager][connect] - Start
+[17:23:41.902][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[17:23:41.902][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[17:23:41.902][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[17:23:41.902][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[17:48:20.540][DEBUG][9] Message Initialize Time StartTime : 17:48:20 533 EndTime : 17:48:20 540
+[17:48:20.541][DEBUG][9] Composer Message Size : 27 Dispatcher Message Size : 20
+[17:48:20.561][INFO][ConnectionManager] [connectManager][connect] - Start
+[17:48:20.562][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[17:48:20.562][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[17:48:20.562][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[17:48:20.562][INFO][ConnectionManager] [connectManager][connect] - Accept Ready
+[17:50:38.129][DEBUG][9] Message Initialize Time StartTime : 17:50:38 121 EndTime : 17:50:38 129
+[17:50:38.130][DEBUG][9] Composer Message Size : 27 Dispatcher Message Size : 20
+[17:50:38.146][INFO][ConnectionManager] [connectManager][connect] - Start
+[17:50:38.146][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[17:50:38.146][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[17:50:38.147][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[17:50:38.147][INFO][ConnectionManager] [connectManager][connect] - Accept Ready

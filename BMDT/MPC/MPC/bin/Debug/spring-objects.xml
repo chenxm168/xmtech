@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<objects  xmlns="http://www.springframework.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" -->
+<!--	xsi:schemaLocation="http://www.springframework.net http://www.springframework.net/xsd/spring-objects.xsd">-->
+<objects xmlns="http://www.springframework.net"
+         xmlns:db="http://www.springframework.net/database">
+  <!--Import Quartz -->
+   <!--<import resource="spring-quartz.xml"/>--> 
+   <!--<import resource="spring-db.xml"/>-->
+  <!--<object id="enumdef" type="ECS.POJO.EnumDef,ECS"  >
+    <constructor-arg name="name" value="Test-JadgeCode"/>
+    <constructor-arg  name="desc" value="Jadge Code"/>
+    <property name="EnumdefName"  ref ="cultureFactory">
+     
+    </property>
+    <property name="Description" value="TESTttttttt"/>
+  </object>
+  <object id="cultureFactory"
+        type="Spring.Objects.Factory.Config.PropertyRetrievingFactoryObject, Spring.Core">
+    <property name="StaticProperty">
+      <value>ECS.POJO.TestStaticClass.Name, ECS</value>
+    </property>
+  </object>-->
+  
+   <object id="portStatusChange" type="MPC.Server.EQP.PortStatusChange,MPC" />
+  <object id="eqpConnected" type="MPC.Server.EQP.EQPConnected,MPC" />
+  <object id="eqpDisconnected" type="MPC.Server.EQP.EQPDisconnected,MPC" />
+  <object id="L2_ControlStateChangeRequest" type="MPC.Server.EQP.L2ControlStateChangeRequest,MPC" />
+  <object id="L2_EQPStateChangeReport" type="MPC.Server.EQP.L2EQPStateChangeReport,MPC" />
+  <object id="L2_AlarmStatusChangeReport" type="MPC.Server.EQP.L2AlarmStatusChangeReport,MPC" >
+    <property name="UnitMap">
+      <dictionary key-type="int" value-type="string">
+        <entry key="1" value="ASSY01"/>
+      </dictionary>
+    </property>
+  </object>
+
+  <object id="m_EQPEventProcess" type="BMDTEQP.Service.EQPEventHandler,BMDTEQP"  >
+    <property name="EventHandlers">
+      <dictionary key-type="string" value-type="EQPIO.Controller.IEPQEventHandler,EQPIO.Controller">
+        <entry key="Connection" value-ref="eqpConnected"/>
+        <entry key="Disconnected" value-ref="eqpDisconnected"/>
+        <entry key="L2_ControlStateChangeRequest" value-ref="L2_ControlStateChangeRequest"/>
+        <entry key="L2_EquipmentStatusChangeReport" value-ref="L2_EQPStateChangeReport"/>
+        <entry key="L2_AlarmStatusChangeReport" value-ref="L2_AlarmStatusChangeReport"/>
+      </dictionary>
+    </property>
+  </object>
+
+  <object id="commandService" type="BMDTEQP.Service.CommandServiceImpl,BMDTEQP">
+    <property name="PLCManager" ref="controlManager"/>
+  </object>
+  
+
+  <object id="controlManagerFactory" type="EQPIO.Controller.ControlManagerFactory,EQPIO.Controller"  >
+    <!--<constructor-arg name="configfile" value="Config//MachineConfig.xml"/>-->
+     <property name="EQPEventHandler" ref="m_EQPEventProcess"/>
+  </object>
+
+  <object id="controlManager"
+  type="EQPIO.Controller.ControlManager,EQPIO.Controller"
+  factory-method="getControlManager"
+  factory-object="controlManagerFactory" singleton="true">
+    <property name="EQPEventHandler" ref="m_EQPEventProcess"/>
+    <!--<property name="EQPTraceDataHandler" ref="m_EQPEventProcess"/>-->   
+  </object>
+  <!--
+  <object id="tibMessageInfo" type="TIBMessageIo.MessageInfo,TIBMessageIo" singleton="true" >
+    <constructor-arg name="tibXml" value="tibrv.xml"/>
+    <constructor-arg name="field" value="configuration"/>
+  </object>
+  
+  <object id="tIBMessageService" type="TIBMessageIo.TIBMessageService,TIBMessageIo" singleton="true" >
+    <constructor-arg name="msgInfo" ref="tibMessageInfo"/>
+ 
+  </object>
+
+  <object id="TibSender" type="TIBMessageIo.TIBAdapter,TIBMessageIo" singleton="true" >
+ 
+    <property name="TIB" ref="tIBMessageService"/>
+  </object>
+
+  <object id="TibMessageHandler" type="MPC.Server.TIB.TIBMessageHandler,MPC" singleton="true" >
+    <listener event="ListenerReceived" method="Tib_OnMessageReceived">
+      <ref object="tIBMessageService"/>
+    </listener>
+  </object> -->
+
+  <object id="serverManager" type="MPC.Server.ServerManager,MPC" singleton="true" />
+
+
+
+
+  <object id="MachineControlStateChangeRequestProc" type="MPC.Server.TIB.MachineControlStateChangeRequestHandler,MPC" singleton="false">
+  </object>
+
+  <object id="CurrentDateTimeRequestProc" type="MPC.Server.TIB.CurrentDateTimeRequestHandler,MPC" singleton="false">
+  </object>
+
+  <object id="AreYouThereResponseProc" type="MPC.Server.TIB.AreYouThereResponseHandler,MPC" singleton="false">
+  </object>
+
+  <object id="MachineControlStateRequestProc" type="MPC.Server.TIB.MachineControlStateRequestHandler,MPC" singleton="false">
+  </object>
+
+  
+  <!--secs config-->
+  <object  id="secsWrapper" type="BMDT.SECS.SECSWrapper,BMDT.SECS" init-method="Initialize3">
+    <property name="Handlers">
+      <dictionary>
+        <entry key="S2F17_DateTimeRequest" value-ref="dateTimeRequestHandler"/>
+        <entry key="S6F12_ControlLocalChangeReportAck" value-ref="controlLocalChangeReportAckHandler"/>
+      <entry key="S2F18_DateTimeDataRequestAck" value-ref="secsDateTimeRequestAckHandler"/>
+      <entry key="S1F15_RequestOffLine" value-ref="secsRequestOffineHandler"/>
+        <entry key="S1F17_RequestOnLine" value-ref="secsRequestOnLineHandler"/>
+      
+      </dictionary>
+    </property>
+  </object>
+
+  <object id="SECService" type="BMDT.SECS.Service.SECSServiceImpl,BMDT.SECS" >
+    <property name="Secs" ref="secsWrapper"/>
+  </object>
+
+  <object id="secsConnectedHandler" type="MPC.Server.SECS.Handlers.SecsConnectedHandler,MPC" >
+    <property name="Secs" ref="secsWrapper"/>
+  </object>
+
+  <object id="secsDisconnectedHandler" type="MPC.Server.SECS.Handlers.SecsDisconnectedHandler,MPC" >
+    <property name="Secs" ref="secsWrapper"/>
+  </object>
+
+  <object id="dateTimeRequestHandler" type="MPC.Server.SECS.Handlers.DateTimeRequestHandler,MPC" >
+    <property name="Secs" ref="secsWrapper"/>
+  </object>
+
+  <object id="controlLocalChangeReportAckHandler" type="MPC.Server.SECS.Handlers.SecsControlLocalChangeReportAckHandler,MPC" >
+    <property name="Secs" ref="secsWrapper"/>
+  </object>
+  
+ <object id="secsDateTimeRequestAckHandler" type="MPC.Server.SECS.Handlers.SecsDateTimeRequestAckHandler,MPC" >
+    <property name="Secs" ref="secsWrapper"/>
+  </object>
+  
+ <object id="secsRequestOffineHandler" type="MPC.Server.SECS.Handlers.SecsRequestOffineHandler,MPC" >
+    <property name="Secs" ref="secsWrapper"/>
+  </object>
+
+  <object id="secsRequestOnLineHandler" type="MPC.Server.SECS.Handlers.SecsRequestOnLineHandler,MPC" >
+    <property name="Secs" ref="secsWrapper"/>
+  </object>
+  
+</objects>

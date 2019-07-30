@@ -1,0 +1,29 @@
+<IOConOption>
+	<!-- Option(1)이벤트 로깅에서 해당 keyword를 포함하는 경우 스킵  -->
+	<LoggingFilter>
+		<FilterItem Name="MACHINEHEARTBEATSIGNAL" /> <!-- Default: Option에서 삭제해도 코드에서 적용되고 있음 (1) -->
+		<FilterItem Name="EQUIPMENTALIVE" /> <!-- Default(2) -->
+		<FilterItem Name="PVDAlive" />
+		<FilterItem Name="MachineALive" />
+	</LoggingFilter>
+	<!-- IOCon에 의해 ON 처리된 BIT는 TimeoutCheck에 의해 자동으로 OFf처리 -->
+	<!-- Option(2) TimeoutCheck 기능을 변형하여 사용하고자 할 때 필요한 옵션 조정(미사용 or 시간 증가) -->
+	<TimeoutCheck>
+		<!-- 해당 이름의 Item은 TimeoutCheck 동작하지 않음 Skip(true)함 -->
+		<!-- ExtensionInterval 을 설정해도 사용하지 않음 -->
+		<CheckItem Name="MACHINEHEARTBEATSIGNAL" Skip="true" />
+		<!-- 해당 이름의 Item은 TimeoutCheck를 Skip(false) 하지 않지만 -->
+		<!-- 기본 체크시간(Default:4s)에 추가적인 시간을 더 주고 TimeoutCheck를 진행함 -->
+		<!-- -(마이너스)는 적용할 수 없습니다. 최소 4초라는 TimeoutCheck 규칙 -->
+		<!-- ExtensionInterval 이 설정되지 않으면 0값으로 동작 -->
+		<CheckItem Name="EQUIPMENTALIVE" Skip="false" ExtensionInterval="2"/>
+	</TimeoutCheck>
+	<!-- Option(3) Scan 대상만큼 Thread를 만들면서 발생하는 시스템 부하 발생을 분산 -->
+	<ScanBlockGrouping Count="3" />
+	<!-- Option(4) Runtime에서 Scan 상태를 조정할 수 있는 대상을 LinkSignal로 제한 -->
+	<!-- LinkSignal로 판단하기 위한 기준 키워드를 입력 -->
+	<RuntimeScanControl>
+		<LINKSIGNALUPSTREAM Keyword="LINKSIGNAL_H_UPSTREAM" />
+		<LINKSIGNALDOWNSTREAM Keyword="LINKSIGNAL_H_DOWNSTREAM" />
+	</RuntimeScanControl>
+</IOConOption>

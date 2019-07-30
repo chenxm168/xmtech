@@ -1,0 +1,8 @@
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\Release\IOCon.EIPDriver.IOCon.EIPDriver.Compiler.Resources.Description.resources
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\Release\IOCon.EIPDriver.csproj.GenerateResource.Cache
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\bin\Release\IOCon.EIPDriver.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\bin\Release\IOCon.EIPDriver.pdb
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\bin\Release\log4net.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\bin\Release\VariableCompolet.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\Release\IOCon.EIPDriver.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\Release\IOCon.EIPDriver.pdb

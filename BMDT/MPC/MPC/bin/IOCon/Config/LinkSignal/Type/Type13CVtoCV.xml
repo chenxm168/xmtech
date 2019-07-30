@@ -1,0 +1,21 @@
+<TypeDefine>
+  <Type>
+    <Signal Sequence="0" UpStream="UpstreamPath#9SendAble" DownStream="" OnOff="On" />
+    <Signal Sequence="1" UpStream="" DownStream="DownstreamPath#1ReceiveAble" OnOff="On" />
+    <Signal Sequence="2" UpStream="UpstreamPath#9SendStart" DownStream="" OnOff="On" />
+    <Signal Sequence="3" UpStream="" DownStream="DownstreamPath#1ConveyerState" OnOff="On" />
+    <Signal Sequence="4" UpStream="UpstreamPath#9ConveyerState" DownStream="" OnOff="On" />
+    <Signal Sequence="5" UpStream="" DownStream="DownstreamPath#1JobTransferSignal1" OnOff="On" />
+    <Signal Sequence="6" UpStream="" DownStream="DownstreamPath#1ReceiveComplete" OnOff="On" />
+    <Signal Sequence="7" UpStream="" DownStream="DownstreamPath#1ConveyerState" OnOff="Off" />
+    <Signal Sequence="8" UpStream="UpstreamPath#9SendComplete" DownStream="" OnOff="On" />
+    <Signal Sequence="9" UpStream="UpstreamPath#9ConveyerState" DownStream="" OnOff="Off" />
+    <Signal Sequence="10" UpStream="" DownStream="DownstreamPath#1ReceiveAble" OnOff="Off" />
+    <Signal Sequence="11" UpStream="" DownStream="DownstreamPath#1ReceiveStart" OnOff="Off" />
+    <Signal Sequence="12" UpStream="" DownStream="DownstreamPath#1ReceiveComplete" OnOff="Off" />
+    <Signal Sequence="13" UpStream="" DownStream="DownstreamPath#1JobTransferSignal1" OnOff="Off" />
+    <Signal Sequence="14" UpStream="UpstreamPath#9SendAble" DownStream="" OnOff="Off" />
+    <Signal Sequence="15" UpStream="UpstreamPath#9SendStart" DownStream="" OnOff="Off" />
+    <Signal Sequence="16" UpStream="UpstreamPath#9SendComplete" DownStream="" OnOff="Off" />
+  </Type>
+</TypeDefine>

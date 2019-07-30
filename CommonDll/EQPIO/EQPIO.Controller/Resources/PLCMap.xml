@@ -1,0 +1,145 @@
+<PLCDriver>
+<ItemGroupCollection>
+    <ItemGroup Name="Port#1PortStatusBlock">
+      <Item Name="PortStatus" Offset="0" Points="1" Representation="I" />
+      <Item Name="CassetteStatus" Offset="1" Points="1" Representation="I" />
+      <Item Name="CassetteSequenceNo" Offset="2" Points="1" Representation="I" />
+      <Item Name="CassetteID" Offset="3" Points="13" Representation="A" />
+      <Item Name="JobCountinCassette" Offset="16" Points="1" Representation="I" />
+      <Item Name="CompletedCassetteData" Offset="17" Points="1" Representation="I" />
+      <Item Name="OperatorID" Offset="18" Points="4" Representation="A" />
+      <Item Name="JobExistenceSlot" Offset="22" Points="8" Representation="B" />
+      <Item Name="LoadingCassetteType" Offset="30" Points="1" Representation="I" />
+      <Item Name="Q-TimeFlag" Offset="31" Points="1" Representation="I" />
+    </ItemGroup>
+    <ItemGroup Name="Port#2PortStatusBlock">
+      <Item Name="PortStatus" Offset="0" Points="1" Representation="I" />
+      <Item Name="CassetteStatus" Offset="1" Points="1" Representation="I" />
+      <Item Name="CassetteSequenceNo" Offset="2" Points="1" Representation="I" />
+      <Item Name="CassetteID" Offset="3" Points="13" Representation="A" />
+      <Item Name="JobCountinCassette" Offset="16" Points="1" Representation="I" />
+      <Item Name="CompletedCassetteData" Offset="17" Points="1" Representation="I" />
+      <Item Name="OperatorID" Offset="18" Points="4" Representation="A" />
+      <Item Name="JobExistenceSlot" Offset="22" Points="8" Representation="B" />
+      <Item Name="LoadingCassetteType" Offset="30" Points="1" Representation="I" />
+      <Item Name="Q-TimeFlag" Offset="31" Points="1" Representation="I" />
+    </ItemGroup>
+	
+	 <ItemGroup Name="CIMMessageSetCommandBlock">
+      <Item Name="CIMMessage" Offset="0" Points="16" Representation="A" />
+      <Item Name="CIMMessageID" Offset="16" Points="1" Representation="I" />
+      <Item Name="TouchPanelNo" Offset="17" Points="1" Representation="I" />
+    </ItemGroup>
+	
+</ItemGroupCollection>
+
+<BlockMap>
+    <Block Name="L2_B_LTM_H" DeviceCode="B" HeadDevice="0x000AE0" Points="284">
+	  <Item Name="EquipmentAlive" Offset="0" Points="1" Representation="BIT" />
+      <Item Name="Port#1PortStatusChangeReport" Offset="139" Points="1" Representation="BIT" />
+      <Item Name="Port#2PortStatusChangeReport" Offset="140" Points="1" Representation="BIT" />     
+    </Block>
+	<!--
+    <Block Name="L2_B_Port#1PortStatusChangeReportReply" DeviceCode="B" HeadDevice="0x0006093" Points="1">
+      <Item Name="Port#1PortStatusChangeReportReply" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+	
+    <Block Name="L2_B_Port#2PortStatusChangeReportReply" DeviceCode="B" HeadDevice="0x0006094" Points="1">
+      <Item Name="Port#2PortStatusChangeReportReply" Offset="0" Points="1" Representation="BIT" />
+    </Block>  -->
+	
+	   <Block Name="L2_B_Port#1PortStatusChangeReportReply" DeviceCode="B" HeadDevice="0x0001093" Points="1">
+      <Item Name="Port#1PortStatusChangeReportReply" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+	
+    <Block Name="L2_B_Port#2PortStatusChangeReportReply" DeviceCode="B" HeadDevice="0x0001094" Points="1">
+      <Item Name="Port#2PortStatusChangeReportReply" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+
+	 <Block Name="L2_W_Port#1PortStatusBlock" DeviceCode="W" HeadDevice="0x00043A" Points="36">
+      <ItemGroup Name="Port#1PortStatusBlock" />
+    </Block>
+	
+    <Block Name="L2_W_Port#2PortStatusBlock" DeviceCode="W" HeadDevice="0x00046A" Points="36">
+      <ItemGroup Name="Port#2PortStatusBlock" />
+    </Block>
+	
+	
+	<!--BMDT Map -->
+	 <Block Name="L2_B_CIMMessageSetCommand" DeviceCode="B" HeadDevice="0x000603B" Points="1">
+      <Item Name="CIMMessageSetCommand" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+	
+    <Block Name="L2_W_CIMMessageSetCommandBlock" DeviceCode="W" HeadDevice="0x0015013" Points="18">
+      <ItemGroup Name="CIMMessageSetCommandBlock" />
+    </Block>
+
+</BlockMap>
+<Transaction>
+    <Receive>
+      <Trx Name="L2_Port#1PortStatusChangeReport" Key="L_MB_LTM.L2_B_LTM_H.Port#1PortStatusChangeReport" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_Port#1PortStatusBlock" Action="R" LogMode="NORMAL">
+          <Block Name="L2_W_Port#1PortStatusBlock" />
+        </MultiBlock>
+        <MultiBlock Name="L2_MB_Port#1PortStatusChangeReportReply" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_Port#1PortStatusChangeReportReply">
+            <Item Name="Port#1PortStatusChangeReportReply" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+      <Trx Name="L2_Port#2PortStatusChangeReport" Key="L_MB_LTM.L2_B_LTM_H.Port#2PortStatusChangeReport" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_Port#2PortStatusBlock" Action="R" LogMode="NORMAL">
+          <Block Name="L2_W_Port#2PortStatusBlock" />
+        </MultiBlock>
+        <MultiBlock Name="L2_MB_Port#2PortStatusChangeReportReply" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_Port#2PortStatusChangeReportReply">
+            <Item Name="Port#2PortStatusChangeReportReply" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+	  
+	  <!--BMDT Map-->
+	   <Trx Name="L2_CIMMessageSetCommandReply" Key="L_MB_LTM.L2_B_LTM_H.CIMMessageSetCommandReply" BitOffEvent="false" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_CIMMessageSetCommand" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_CIMMessageSetCommand">
+            <Item Name="CIMMessageSetCommand" Value="0" SyncValue="false" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+	  
+	   <Trx Name="L2_EquipmentStatusChangeReport" Key="L_MB_LTM.L2_B_LTM_H.EquipmentStatusChangeReport" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_EquipmentStatusBlock" Action="R" LogMode="NORMAL">
+          <Block Name="L2_W_EquipmentStatusBlock" />
+        </MultiBlock>
+        <MultiBlock Name="L2_MB_EquipmentStatusChangeReportReply" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_EquipmentStatusChangeReportReply">
+            <Item Name="EquipmentStatusChangeReportReply" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+	  
+	 </Receive>
+	 
+	 <Send>
+	    <Trx Name="L2_CIMMessageSetCommand">
+        <MultiBlock Name="L2_MB_CIMMessageSetCommandBlock" Action="W" LogMode="NORMAL">
+          <Block Name="L2_W_CIMMessageSetCommandBlock" />
+        </MultiBlock>
+        <MultiBlock Name="L2_MB_CIMMessageSetCommand" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_CIMMessageSetCommand">
+            <Item Name="CIMMessageSetCommand" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+	 </Send>
+</Transaction>
+   
+<DataGathering>
+    <Scan>
+      <MultiBlock Name="L_MB_LTM" Interval="200" StartUp="true" Priority="5" LogMode="NORMAL">
+        <Block Name="L2_B_LTM_H" Trigger="D" />
+      </MultiBlock>
+    </Scan>
+</DataGathering>
+
+</PLCDriver>

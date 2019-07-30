@@ -1,0 +1,11 @@
+[2019-07-26 09:38:47.215] [ERROR] [mProtocol_OnEventReceived] [SECSServiceImpl][Send_S6F11_ControlStateLocalChangeReport] -Secs Not Connected!
+[2019-07-26 09:41:37.537] [ERROR] [mProtocol_OnEventReceived] [SECSServiceImpl][Send_S6F11_ControlStateLocalChangeReport] -Secs Not Connected!
+[2019-07-26 10:25:41.914] [ERROR] [mProtocol_OnEventReceived] [SECSServiceImpl][Send_S6F11_ControlStateLocalChangeReport] -Secs Not Connected!
+[2019-07-26 10:27:29.818] [ERROR] [CallBackActor] [AbsSecsHandler][proc] -Date Format Error:[该字符串未被识别为有效的 DateTime。]
+[2019-07-26 10:30:22.809] [ERROR] [CallBackActor] [AbsSecsHandler][proc] -Date Format Error:[该字符串未被识别为有效的 DateTime。]
+[2019-07-26 13:43:55.972] [ERROR] [CallBackActor] [AbsSecsHandler][proc] -Date Format Error:[该字符串未被识别为有效的 DateTime。]
+[2019-07-26 15:26:27.032] [ERROR] [CallBackActor] [AbsSecsHandler][proc] -Date Format Error:[该字符串未被识别为有效的 DateTime。]
+[2019-07-26 15:31:35.896] [ERROR] [CallBackActor] [AbsSecsHandler][proc] -Date Format Error:[该字符串未被识别为有效的 DateTime。]
+[2019-07-26 15:33:06.179] [ERROR] [CallBackActor] [AbsSecsHandler][proc] -Date Format Error:[该字符串未被识别为有效的 DateTime。]
+[2019-07-26 16:18:15.046] [ERROR] [CallBackActor] [AbsSecsHandler][proc] -Date Format Error:[该字符串未被识别为有效的 DateTime。]
+[2019-07-26 17:23:04.439] [ERROR] [CallBackActor] [AbsSecsHandler][proc] -Date Format Error:[该字符串未被识别为有效的 DateTime。]

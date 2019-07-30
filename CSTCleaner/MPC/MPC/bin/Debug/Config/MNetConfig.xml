@@ -1,0 +1,3 @@
+<Configuration>
+  <ConnectionInfo LocalName="L2" PLCMapFile="Config/PLCMap.xml" IpAddress="192.168.51.9" MelsecPort="7006,7007" FixedBufferPort="7002" IsMelsecEnabled="true" IsFixedBufferEnabled="false" CodeType="ASCII" NetworkNo="99" PCNo="1" CPUType = "Q" DirectAccess="false"/>
+  </Configuration>

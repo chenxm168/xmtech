@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{512CE2C4-4492-4A98-B1DA-53BE847F268D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BMDTEQP</RootNamespace>
+    <AssemblyName>BMDTEQP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\Lib\log4net\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GetRresource.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\EQPEventHandler.cs" />
+    <Compile Include="Service\ICommandService.cs" />
+    <Compile Include="Service\IMessageHandler.cs" />
+    <Compile Include="Service\ITrxSendService.cs" />
+    <Compile Include="Service\CommandServiceImpl.cs" />
+    <Compile Include="Service\TrxSendFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\EQPIO\EQPIO.Common\EPQIO.Common.csproj">
+      <Project>{e50a938a-1891-4a55-b117-ae88cc32eb53}</Project>
+      <Name>EPQIO.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EQPIO\EQPIO.Controller\EQPIO.Controller.csproj">
+      <Project>{9c96f329-1883-4879-af93-2a580197a36d}</Project>
+      <Name>EQPIO.Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EQPIO\EQPIO.MessageData\EQPIO.MessageData.csproj">
+      <Project>{d78d40c3-1c4c-46bb-96ab-f2bdcd8c8388}</Project>
+      <Name>EQPIO.MessageData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EQPIO\HF.BC.JSON\HF.BC.JSON.csproj">
+      <Project>{e53d2fe5-dc66-4834-afaa-35cf36c0ddd4}</Project>
+      <Name>HF.BC.JSON</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

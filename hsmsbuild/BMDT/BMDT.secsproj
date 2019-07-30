@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<PROJECT>
+  <PROJECTNAME>BMDT</PROJECTNAME>
+  <DEVTOOL>
+    <SMDLIST>
+    </SMDLIST>
+    <ITEMSETTING>
+      <L name="" count="0" isFixed="False" isItemKey="False" value="">
+      </L>
+      <A name="" count="0" isFixed="False" isItemKey="False" value="">
+      </A>
+      <B name="" count="0" isFixed="False" isItemKey="False" value="">
+      </B>
+      <BOOL name="" count="0" isFixed="False" isItemKey="False" value="">
+      </BOOL>
+      <I1 name="" count="0" isFixed="False" isItemKey="False" value="">
+      </I1>
+      <I2 name="" count="0" isFixed="False" isItemKey="False" value="">
+      </I2>
+      <I4 name="" count="0" isFixed="False" isItemKey="False" value="">
+      </I4>
+      <I8 name="" count="0" isFixed="False" isItemKey="False" value="">
+      </I8>
+      <U1 name="" count="0" isFixed="False" isItemKey="False" value="">
+      </U1>
+      <U2 name="" count="0" isFixed="False" isItemKey="False" value="">
+      </U2>
+      <U4 name="" count="0" isFixed="False" isItemKey="False" value="">
+      </U4>
+      <U8 name="" count="0" isFixed="False" isItemKey="False" value="">
+      </U8>
+      <F4 name="" count="0" isFixed="False" isItemKey="False" value="">
+      </F4>
+      <F8 name="" count="0" isFixed="False" isItemKey="False" value="">
+      </F8>
+      <JIS name="" count="0" isFixed="False" isItemKey="False" value="">
+      </JIS>
+      <X name="" count="0" isFixed="False" isItemKey="False" value="">
+      </X>
+    </ITEMSETTING>
+  </DEVTOOL>
+  <CONFIGURATOR>
+    <DRIVERLIST>
+      <SELECTEDTYPE>
+      </SELECTEDTYPE>
+      <SELECTEDNODE>
+      </SELECTEDNODE>
+    </DRIVERLIST>
+  </CONFIGURATOR>
+</PROJECT>

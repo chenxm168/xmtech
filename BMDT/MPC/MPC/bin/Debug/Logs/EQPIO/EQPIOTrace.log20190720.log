@@ -1,0 +1,840 @@
+[2019-07-20 11:27:05.124] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 11:27:05.320] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 451
+[2019-07-20 11:27:05.440] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 11:27:05.464] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 11:27:05.506] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-20 11:27:05.536] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-20 11:27:05.542] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-20 11:27:05.572] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-20 11:27-05_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-20 11:27:05.574] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-20 11:27:05.646] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-20 11:29:23.870] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 11:29:24.136] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 451
+[2019-07-20 11:29:24.262] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 11:29:24.267] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 11:29:24.271] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-20 11:29:24.272] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-20 11:29:24.275] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-20 11:29:24.285] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-20 11:29-24_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-20 11:29:24.289] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-20 11:29:24.296] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-20 11:36:47.507] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 11:36:47.811] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 11:36:47.932] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 11:36:47.937] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 11:36:47.941] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-20 11:36:47.943] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-20 11:36:47.946] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-20 11:36:47.956] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-20 11:36-47_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-20 11:36:47.957] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-20 11:36:47.965] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-20 11:38:17.499] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720113658472 
+, Event Name       : L2_L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-20 11:38:17.533] [ERROR] [10] [ControlManager][mqProxy_OnMelsecEthernetRequestReceived] -mqProxy_OnMelsecEthernetRequestReceived : System.FormatException: 输入字符串的格式不正确。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 EQPIO.Controller.Proxy.MProtocolProxy.WriteData(MessageData`1 data) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 1337
+   在 EQPIO.Controller.ControlManager.mqProxy_OnMelsecEthernetRequestReceived(Object sender, MessageData`1 message) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\ControlManager.cs:行号 393
+[2019-07-20 11:38:33.981] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 11:38:33.988] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 11:38:33.999] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 11:39:27.286] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 11:39:27.604] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 11:39:27.733] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 11:39:27.738] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 11:39:27.742] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-20 11:39:27.743] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-20 11:39:27.746] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-20 11:39:27.759] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-20 11:39-27_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-20 11:39:27.760] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-20 11:39:27.771] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-20 11:39:58.361] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720113939322 
+, Event Name       : L2_L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2__W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 11:39:58.383] [ERROR] [9] [ControlManager][mqProxy_OnMelsecEthernetRequestReceived] -mqProxy_OnMelsecEthernetRequestReceived : System.FormatException: 输入字符串的格式不正确。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 EQPIO.Controller.Proxy.MProtocolProxy.WriteData(MessageData`1 data) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 1337
+   在 EQPIO.Controller.ControlManager.mqProxy_OnMelsecEthernetRequestReceived(Object sender, MessageData`1 message) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\ControlManager.cs:行号 393
+[2019-07-20 11:40:56.736] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 11:40:56.787] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 11:40:56.817] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 11:41:12.632] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 11:41:12.899] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 11:41:13.034] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 11:41:13.039] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 11:41:13.043] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-20 11:41:13.044] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-20 11:41:13.047] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-20 11:41:13.059] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-20 11:41-13_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-20 11:41:13.077] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-20 11:41:13.068] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-20 11:41:23.418] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720114122519 
+, Event Name       : L2_L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 11:41:23.458] [ERROR] [10] [ControlManager][mqProxy_OnMelsecEthernetRequestReceived] -mqProxy_OnMelsecEthernetRequestReceived : System.FormatException: 输入字符串的格式不正确。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 EQPIO.Controller.Proxy.MProtocolProxy.WriteData(MessageData`1 data) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 1337
+   在 EQPIO.Controller.ControlManager.mqProxy_OnMelsecEthernetRequestReceived(Object sender, MessageData`1 message) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\ControlManager.cs:行号 393
+[2019-07-20 11:45:49.871] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720114547863 
+, Event Name       : L2_L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 11:46:41.116] [ERROR] [10] [ControlManager][mqProxy_OnMelsecEthernetRequestReceived] -mqProxy_OnMelsecEthernetRequestReceived : System.FormatException: 输入字符串的格式不正确。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 EQPIO.Controller.Proxy.MProtocolProxy.WriteData(MessageData`1 data) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 1337
+   在 EQPIO.Controller.ControlManager.mqProxy_OnMelsecEthernetRequestReceived(Object sender, MessageData`1 message) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\ControlManager.cs:行号 393
+[2019-07-20 11:46:44.252] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 11:46:44.280] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 11:46:44.285] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 11:47:10.077] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 11:47:10.360] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 11:47:10.500] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 11:47:10.505] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 11:47:10.509] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-20 11:47:10.510] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-20 11:47:10.513] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-20 11:47:10.523] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-20 11:47-10_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-20 11:47:10.525] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-20 11:47:10.534] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-20 11:47:23.842] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720114722118 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 11:47:30.134] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-20 11:47:30.136] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-20 11:47:30.137] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720114722118 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 11:47:30.142] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-20 11:48:20.267] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 11:48:20.268] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 11:48:20.270] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 11:50:38.643] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 11:50:38.905] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 11:50:39.027] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 11:50:39.032] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 11:50:39.037] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-20 11:50:39.038] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-20 11:50:39.041] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-20 11:50:39.051] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-20 11:50-39_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-20 11:50:39.093] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-20 11:50:39.062] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-20 11:51:13.375] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720115050068 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : L2__W_CIMMessageSetCommandBlock 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 11:51:23.481] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-20 11:51:23.485] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-20 11:51:23.486] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720115050068 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : L2__W_CIMMessageSetCommandBlock 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 11:51:23.492] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-20 11:52:28.190] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 11:52:28.211] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 11:52:28.222] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 11:55:50.262] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 11:55:50.559] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 11:55:50.681] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 11:55:50.686] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 11:55:50.691] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-20 11:55:50.692] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-20 11:55:50.695] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-20 11:55:50.705] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-20 11:55-50_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-20 11:55:50.707] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-20 11:55:50.716] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-20 11:56:03.378] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720115602482 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 11:56:03.401] [INFO ] [10] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-20 11:56:03.406] [INFO ] [10] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-20 11:56:03.407] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720115602482 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 11:56:03.408] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-20 11:56:48.351] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720115646182 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 11:56:48.367] [INFO ] [10] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-20 11:56:48.368] [INFO ] [10] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-20 11:56:48.369] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720115646182 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 11:56:48.372] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-20 12:15:23.121] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 12:15:23.173] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 12:15:23.199] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 12:16:29.475] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 12:16:29.773] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 12:16:29.911] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 12:16:29.916] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 12:16:29.921] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-20 12:16:29.922] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-20 12:16:29.925] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-20 12:16:29.934] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-20 12:16-29_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-20 12:16:29.942] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-20 12:16:29.944] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-20 12:16:43.631] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720121642034 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 12:16:43.655] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-20 12:16:43.656] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-20 12:16:43.657] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190720121642034 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-20 12:16:43.663] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-20 12:20:30.710] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 12:20:30.720] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 12:20:30.742] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:12:08.269] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:12:08.699] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:12:08.954] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:12:08.961] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:12:30.112] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:13:01.405] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:13:01.747] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:13:01.967] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:13:01.974] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:13:23.127] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:13:44.251] [ERROR] [12] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:13:44.295] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 20:13:45.627] [ERROR] [10] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 20:13:45.675] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:13:45.685] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:13:45.686] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 20:17:46.517] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:17:46.892] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:17:47.134] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:17:47.141] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:18:08.267] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:18:29.379] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:18:29.422] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 20:18:30.650] [ERROR] [9] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 20:18:30.673] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 20:18:30.730] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:18:30.741] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:23:53.111] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:23:53.654] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:23:53.976] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:23:53.987] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:24:15.182] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:24:36.411] [ERROR] [12] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:24:36.413] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 20:24:37.670] [ERROR] [9] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 20:24:37.767] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:24:37.783] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 20:24:37.790] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:26:05.870] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:26:06.388] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:26:06.721] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:26:06.728] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:26:27.934] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:26:49.077] [ERROR] [6] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:26:49.170] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 20:26:50.482] [ERROR] [10] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 20:26:50.528] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 20:26:50.546] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:26:50.603] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:32:06.904] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:32:07.432] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:32:07.767] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:32:07.774] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:32:07.954] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 套接字操作尝试一个无法连接的主机。 192.168.51.9:7006
+[2019-07-20 20:32:08.169] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 套接字操作尝试一个无法连接的主机。 192.168.51.9:7006
+[2019-07-20 20:32:08.169] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 套接字操作尝试一个无法连接的主机。 192.168.51.9:7007
+[2019-07-20 20:32:08.226] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 套接字操作尝试一个无法连接的主机。 192.168.51.9:7007
+[2019-07-20 20:32:09.231] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 套接字操作尝试一个无法连接的主机。 192.168.51.9:7006
+[2019-07-20 20:32:09.280] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 套接字操作尝试一个无法连接的主机。 192.168.51.9:7007
+[2019-07-20 20:32:09.684] [ERROR] [9] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 20:32:09.730] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 20:32:09.827] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:32:09.835] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:34:33.872] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:34:34.400] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:34:34.737] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:34:34.745] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:34:55.925] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:35:17.132] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 20:35:17.152] [ERROR] [12] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:35:18.541] [ERROR] [9] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 20:35:18.582] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 20:35:18.629] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:35:18.649] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:42:36.167] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:42:36.659] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:42:36.952] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:42:36.959] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:42:58.123] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:43:19.276] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:43:19.334] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 20:43:20.640] [ERROR] [10] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 20:43:20.667] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 20:43:20.713] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:43:20.743] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:44:05.316] [INFO ] [8] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:44:05.822] [ERROR] [8] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:44:06.118] [INFO ] [8] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:44:06.124] [INFO ] [8] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:44:27.292] [ERROR] [8] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:44:48.395] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:44:48.500] [ERROR] [8] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 20:44:49.789] [ERROR] [8] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 20:44:49.814] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 20:44:49.863] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:44:49.903] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:47:59.650] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:47:59.985] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:48:00.191] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:48:00.197] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:48:21.342] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:48:42.480] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 20:48:42.504] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:48:43.732] [ERROR] [10] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 20:48:43.753] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 20:48:43.772] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:48:43.835] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:50:46.864] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:50:47.213] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:50:47.426] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:50:47.432] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:51:08.541] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:51:29.671] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 20:51:29.677] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:51:30.754] [ERROR] [9] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 20:51:30.787] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:51:30.789] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 20:51:30.810] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:57:33.684] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:57:34.001] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:57:34.200] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:57:34.206] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:57:55.307] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:58:16.340] [ERROR] [12] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 20:58:16.437] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 20:58:17.629] [ERROR] [9] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 20:58:17.650] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 20:58:17.657] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:58:17.675] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 20:59:29.106] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 20:59:29.435] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 20:59:29.634] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 20:59:29.640] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 20:59:50.763] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:00:11.886] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:00:11.890] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:00:12.979] [ERROR] [9] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 21:00:12.997] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 21:00:13.015] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:00:13.028] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:01:53.438] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:01:53.816] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 21:01:54.025] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 21:01:54.031] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 21:02:15.147] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:02:36.259] [ERROR] [14] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:02:36.273] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:02:37.551] [ERROR] [9] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 21:02:37.570] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 21:02:37.587] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:02:37.611] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:10:15.669] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:10:16.007] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 21:10:16.205] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 21:10:16.211] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 21:11:24.579] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:11:36.996] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 21:12:23.450] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 21:12:35.407] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:13:35.087] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:20:51.418] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:22:06.561] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:22:12.479] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 21:22:18.314] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 21:22:20.996] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 21:22:42.100] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:23:03.133] [ERROR] [14] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:23:03.229] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:23:04.400] [ERROR] [10] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 21:23:04.423] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 21:23:04.469] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:23:04.508] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:24:26.552] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:25:09.117] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 21:25:32.589] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 21:25:40.712] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 21:26:01.826] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:26:22.864] [ERROR] [6] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:26:22.969] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:26:24.129] [ERROR] [10] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 21:26:24.148] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 21:26:24.174] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:26:24.186] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:29:13.301] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:29:25.308] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 21:29:46.197] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 21:29:50.155] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 21:30:11.273] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:30:32.387] [ERROR] [6] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:30:32.405] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:31:21.673] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:31:21.691] [ERROR] [6] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:32:10.424] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:32:11.114] [ERROR] [9] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 21:32:11.133] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 21:32:11.179] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:32:11.225] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:37:08.122] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:37:08.547] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 21:37:14.545] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 21:37:14.551] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 21:37:35.683] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:37:56.795] [ERROR] [14] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:37:56.815] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:39:17.433] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:39:28.722] [ERROR] [9] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 21:39:28.740] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 21:39:28.762] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:39:28.791] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:43:50.935] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:43:51.258] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 21:43:51.445] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 21:43:51.450] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 21:44:12.561] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:44:33.603] [ERROR] [14] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:44:33.704] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:44:39.700] [ERROR] [10] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 21:44:39.718] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 21:44:39.734] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:44:39.745] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:49:38.849] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:49:39.190] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 21:49:39.383] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 21:49:39.389] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 21:50:00.509] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:50:21.554] [ERROR] [14] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:50:21.648] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:50:22.832] [ERROR] [10] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 21:50:22.853] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 21:50:22.867] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:50:22.892] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:53:36.143] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:53:36.454] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 21:53:36.637] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 21:53:36.643] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 21:53:57.756] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:54:18.852] [ERROR] [6] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:54:18.883] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:54:39.919] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 21:54:40.892] [ERROR] [6] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 21:54:41.284] [ERROR] [10] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 21:54:41.304] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 21:54:41.321] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:54:41.347] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 21:59:39.340] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 21:59:39.701] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 21:59:39.913] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 21:59:39.919] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 22:00:01.052] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:00:22.153] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:00:22.185] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:00:43.240] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:00:44.230] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:01:05.270] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:01:06.261] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:01:27.309] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:01:28.314] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:01:49.369] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:01:50.360] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:02:12.858] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:02:12.878] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:02:34.887] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:02:34.915] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:02:57.092] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:02:57.119] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:03:19.153] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:03:19.171] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:03:41.204] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:03:41.214] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:05:41.702] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-20 22:05:42.049] [ERROR] [9] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-20 22:05:42.274] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-20 22:05:42.279] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-20 22:06:03.416] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:06:24.532] [ERROR] [14] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:06:24.553] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:06:45.612] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:06:46.582] [ERROR] [14] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:07:07.652] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:07:08.623] [ERROR] [14] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:07:29.698] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-07-20 22:07:30.692] [ERROR] [14] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-07-20 22:07:35.335] [ERROR] [9] [MNet3EScanUnit][Close] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Close() 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 144
+[2019-07-20 22:07:35.399] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-20 22:07:35.413] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-20 22:07:35.427] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。

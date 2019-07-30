@@ -1,0 +1,1566 @@
+[2019-07-22 08:16:17.610] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-22 08:16:17.792] [ERROR] [10] [MProtocolProxy][SetPlcMap] -System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EQPIO.Controller.Proxy.MProtocolProxy.SetPlcMap(XmlSerializer xmlSerialize, ItemGroupCollection itemGroupCollection, XmlNode xml) 位置 d:\develop\CommonDll\EQPIO\EQPIO.Controller\Proxy\MProtocolProxy.cs:行号 457
+[2019-07-22 08:16:17.920] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 08:16:17.925] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 08:16:17.930] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 08:16:17.932] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 08:16:17.935] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 08:16:17.944] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 08:16-17_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 08:16:17.945] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 08:16:18.034] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 08:16:26.774] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722081626769 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:16:26.986] [INFO ] [10] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 08:16:26.989] [INFO ] [10] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 08:16:26.990] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722081626769 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:16:26.992] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 08:24:40.462] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722082336704 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:24:40.480] [INFO ] [10] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 08:24:40.480] [INFO ] [10] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 08:24:40.482] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722082336704 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:24:40.484] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 08:28:17.622] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722082815782 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:29:12.840] [INFO ] [10] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 08:29:12.841] [INFO ] [10] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 08:29:12.841] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722082815782 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:29:12.843] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 08:29:28.772] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722082926682 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:35:51.895] [INFO ] [10] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 08:35:51.896] [INFO ] [10] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 08:35:51.896] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722082926682 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:35:51.903] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 08:37:39.022] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722083735956 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:38:35.159] [INFO ] [10] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 08:38:35.159] [INFO ] [10] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 08:38:35.160] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722083735956 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:38:35.166] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 08:38:42.449] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722083840306 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:38:55.156] [INFO ] [10] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 08:38:55.156] [INFO ] [10] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 08:38:55.157] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722083840306 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:38:55.163] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 08:39:37.919] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722083935209 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:47:18.128] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 08:47:18.420] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 08:47:18.425] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 08:47:18.429] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 08:47:18.431] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 08:47:18.434] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 08:47:18.447] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 08:47-18_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 08:47:18.449] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 08:47:18.458] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 08:48:24.808] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722084821525 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:49:24.739] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] ASCII Item Name : CIMMessage, Data : Test CIMMessage!!!!!!!!!!!!
+[2019-07-22 08:49:33.424] [ERROR] [9] [MNet3EUnit][Reader] -[Error] IOException Error : 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。
+[2019-07-22 08:49:33.426] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] Int Item Name : CIMMessageID, Data : 0001
+[2019-07-22 08:49:48.477] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 08:49:48.478] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 08:49:48.478] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722084821525 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:49:48.480] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 08:51:48.244] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722085146330 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:56:43.992] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] ASCII Item Name : CIMMessage, Data : Test CIMMessage!!!!!!!!!!!!
+[2019-07-22 08:56:54.357] [ERROR] [9] [MNet3EUnit][Reader] -[Error] IOException Error : 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。
+[2019-07-22 08:56:54.357] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] Int Item Name : CIMMessageID, Data : 0001
+[2019-07-22 08:57:05.324] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 08:57:05.324] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 08:57:05.325] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722085146330 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 08:57:05.329] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 08:57:09.230] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722085708008 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 09:03:15.632] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] ASCII Item Name : CIMMessage, Data : Test CIMMessage!!!!!!!!!!!!
+[2019-07-22 09:03:32.036] [ERROR] [9] [MNet3EUnit][Reader] -[Error] IOException Error : 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。
+[2019-07-22 09:03:32.037] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] Int Item Name : CIMMessageID, Data : 0001
+[2019-07-22 09:03:38.187] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 09:03:38.188] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 09:03:38.189] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722085708008 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!! 
+, Write ItemName : CIMMessageID, Value : 0001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 09:03:38.192] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 09:06:47.401] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 09:06:47.713] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 09:06:47.718] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 09:06:47.722] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 09:06:47.723] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 09:06:47.726] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 09:06:47.736] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 09:06-47_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 09:06:47.738] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 09:06:47.750] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 09:07:16.884] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722090653447 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!!              
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 09:07:45.412] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] ASCII Item Name : CIMMessage, Data : Test CIMMessage!!!!!!!!!!!!             
+[2019-07-22 09:07:59.710] [ERROR] [9] [MNet3EUnit][Reader] -[Error] IOException Error : 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。
+[2019-07-22 09:07:59.711] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] Int Item Name : CIMMessageID, Data : 00001
+[2019-07-22 09:08:04.879] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 09:08:04.880] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 09:08:04.881] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722090653447 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!!              
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 09:08:04.882] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 09:13:34.590] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-22 09:13:34.604] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 09:13:34.614] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 09:14:06.576] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 09:14:06.904] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 09:14:06.909] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 09:14:06.912] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 09:14:06.914] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 09:14:06.917] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 09:14:06.927] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 09:14-06_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 09:14:06.929] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 09:14:07.013] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 09:14:16.072] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722091414057 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!!              
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 09:14:25.455] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] ASCII Item Name : CIMMessage, Data : Test CIMMessage!!!!!!!!!!!!             
+[2019-07-22 09:14:34.893] [ERROR] [9] [MNet3EUnit][Reader] -[Error] IOException Error : 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。
+[2019-07-22 09:14:34.894] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] Int Item Name : CIMMessageID, Data : 00001
+[2019-07-22 09:18:04.599] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 09:18:04.601] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 09:18:04.601] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722091414057 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!!              
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 09:18:04.606] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 09:18:13.272] [ERROR] [ScanThreadProc] [MNet3EScanUnit][Reader] -Message : 正在中止线程。
+[2019-07-22 09:18:13.281] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-07-22 09:18-13_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 09:18:13.295] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-07-22 09:18:13.299] [INFO ] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 09:18:13.360] [ERROR] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -System.Threading.ThreadAbortException: 正在中止线程。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Reader(ReceiveStatus status) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 462
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadWriter(Byte[] dataArry, ReceiveStatus status) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 628
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadBitProtocol(String device, String address, Int32 length) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 357
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ScanBit(MultiBlock multiBlock, Block bitScanTargetBlock) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 807
+[2019-07-22 09:18:13.364] [INFO ] [ReConnectThreadProc] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 09:18:13.447] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-07-22 09:18-13_4 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 09:18:13.480] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-07-22 09:18:13.558] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 09:18:13.513] [INFO ] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 09:18:13.479] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-22 09:18:13.561] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 09:18:13.620] [ERROR] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Start Failed...
+[2019-07-22 09:18:13.679] [INFO ] [ReConnectThreadProc] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 09:18:13.754] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 09:21:06.187] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 09:21:06.543] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 09:21:06.548] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 09:21:06.552] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 09:21:06.554] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 09:21:06.556] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 09:21:06.565] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 09:21-06_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 09:21:06.568] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 09:21:06.650] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 09:21:16.443] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722092113947 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!!              
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 09:23:26.377] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] ASCII Item Name : CIMMessage, Data : Test CIMMessage!!!!!!!!!!!!             
+[2019-07-22 09:24:05.443] [INFO ] [9] [MProtocolProxy][Unit_OnDisconnected] -MelsecEthernet OnDisconnected : L2 
+[2019-07-22 09:24:05.451] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] Int Item Name : CIMMessageID, Data : 00001
+[2019-07-22 09:24:05.452] [INFO ] [15] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 09:24:05.460] [INFO ] [15] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 09:24:05.469] [INFO ] [9] [MProtocolProxy][Unit_OnDisconnected] -MelsecEthernet OnDisconnected : L2 
+[2019-07-22 09:24:05.471] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 09:24:05.471] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 09:24:05.472] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722092113947 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : Test CIMMessage!!!!!!!!!!!!              
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 09:24:05.480] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 09:24:05.977] [INFO ] [14] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 09:24:05.978] [INFO ] [14] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 09:24:10.852] [ERROR] [ScanThreadProc] [MNet3EScanUnit][Reader] -Message : 正在中止线程。
+[2019-07-22 09:24:10.856] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-07-22 09:24-10_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 09:24:10.880] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-07-22 09:24:10.889] [ERROR] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -System.Threading.ThreadAbortException: 正在中止线程。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Reader(ReceiveStatus status) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 462
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadWriter(Byte[] dataArry, ReceiveStatus status) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 628
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadBitProtocol(String device, String address, Int32 length) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 357
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ScanBit(MultiBlock multiBlock, Block bitScanTargetBlock) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 807
+[2019-07-22 09:24:11.098] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-22 09:24:11.149] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 09:24:11.150] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 09:47:32.895] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 09:47:33.251] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 09:47:33.256] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 09:47:33.261] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 09:47:33.263] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 09:47:33.266] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 09:47:33.280] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 09:47-33_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 09:47:33.283] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 09:47:33.357] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 09:47:49.185] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722094749184 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlStatus, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 09:47:57.883] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : ControlStateChangeCommand, Data : 1
+[2019-07-22 09:47:57.884] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 09:47:57.885] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722094749184 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlStatus, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 09:47:57.893] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 09:53:27.351] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722095327351 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlStatus, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 09:53:47.371] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : ControlStateChangeCommand, Data : 1
+[2019-07-22 09:53:47.372] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 09:53:47.372] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722095327351 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlStatus, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 09:53:47.373] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 09:56:15.612] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722095615612 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlStatus, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 09:57:51.472] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : ControlStateChangeCommand, Data : 1
+[2019-07-22 09:57:51.472] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 09:57:51.473] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722095615612 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlStatus, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 09:57:51.482] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 09:58:20.317] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722095820317 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlStatus, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 09:58:47.538] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : ControlStateChangeCommand, Data : 1
+[2019-07-22 09:58:47.539] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 09:58:47.539] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722095820317 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlStatus, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 09:58:47.548] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 09:58:54.727] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722095854727 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlStatus, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 10:00:52.357] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : ControlStateChangeCommand, Data : 1
+[2019-07-22 10:00:52.357] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 10:00:52.358] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722095854727 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlStatus, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 10:00:52.366] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 10:00:58.507] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722100058507 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlStatus, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 10:08:17.435] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-22 10:08:17.788] [INFO ] [10] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 10:08:17.793] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 10:08:17.798] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 10:08:17.799] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 10:08:17.802] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 10:08:17.815] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 10:08-17_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 10:08:17.817] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 10:08:17.842] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 10:08:24.309] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722100824308 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlStatus, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 10:11:11.130] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 10:11:11.512] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 10:11:11.518] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 10:11:11.523] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 10:11:11.524] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 10:11:11.527] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 10:11:11.544] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 10:11-11_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 10:11:11.545] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 10:11:11.550] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 10:11:17.644] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722101117643 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlState, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 10:11:47.229] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] Int Item Name : ControlState, Data : 3
+[2019-07-22 10:11:51.324] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : ControlStateChangeCommand, Data : 1
+[2019-07-22 10:11:51.325] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 10:11:52.044] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722101117643 
+, Event Name       : L2_ControlStateChangeCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_ControlStateChangeCommandBlock 
+, ==Write Item List== 
+, Write ItemName : ControlState, Value : 3 
+, Write BlockName : L2_B_ControlStateChangeCommand 
+, ==Write Item List== 
+, Write ItemName : ControlStateChangeCommand, Value : 1 
+}
+[2019-07-22 10:11:52.045] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 10:18:18.041] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-22 10:18:18.041] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 10:18:18.045] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 10:19:12.979] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 10:19:13.325] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 10:19:13.331] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 10:19:13.334] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 10:19:13.336] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 10:19:13.339] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 10:19:13.352] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 10:19-13_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 10:19:13.356] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 10:19:13.363] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 10:20:44.438] [INFO ] [8] [ControlManager][Init] -Init ControlManager
+[2019-07-22 10:20:44.781] [INFO ] [8] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 10:20:44.786] [INFO ] [8] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 10:20:44.794] [INFO ] [8] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 10:20:44.795] [INFO ] [8] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 10:20:44.798] [INFO ] [8] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 10:20:44.809] [INFO ] [8] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 10:20-44_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 10:20:44.821] [INFO ] [8] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 10:20:44.820] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 10:21:34.487] [INFO ] [8] [ControlManager][Init] -Init ControlManager
+[2019-07-22 10:21:34.828] [INFO ] [8] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 10:21:34.833] [INFO ] [8] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 10:21:34.837] [INFO ] [8] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 10:21:34.838] [INFO ] [8] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 10:21:34.841] [INFO ] [8] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 10:21:34.859] [INFO ] [8] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 10:21-34_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 10:21:34.861] [INFO ] [8] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 10:21:34.871] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 10:23:02.608] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 10:23:02.940] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 10:23:02.947] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 10:23:02.951] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 10:23:02.953] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 10:23:02.955] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 10:23:02.972] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 10:23-02_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 10:23:02.973] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 10:23:02.981] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 10:23:25.861] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722102323689 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : cim message:RRRRRRRR 
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 10:23:44.460] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] ASCII Item Name : CIMMessage, Data : cim message:RRRRRRRR
+[2019-07-22 10:23:49.615] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] Int Item Name : CIMMessageID, Data : 00001
+[2019-07-22 10:23:51.740] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 10:23:51.742] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 10:23:52.405] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722102323689 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : cim message:RRRRRRRR 
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 10:23:52.407] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 10:41:20.223] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 10:41:20.567] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 10:41:20.573] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 10:41:20.577] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 10:41:20.579] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 10:41:20.582] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 10:41:20.592] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 10:41-20_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 10:41:20.594] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 10:41:20.603] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 10:41:34.412] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722104134408 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : cim message:                             
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 10:41:43.937] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] ASCII Item Name : CIMMessage, Data : cim message:                            
+[2019-07-22 10:41:45.351] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] Int Item Name : CIMMessageID, Data : 00001
+[2019-07-22 10:41:46.291] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 10:41:46.292] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 10:41:46.293] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722104134408 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : cim message:                             
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 10:41:46.301] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 10:45:54.815] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722104554815 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : cim message:                             
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 10:46:00.907] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] ASCII Item Name : CIMMessage, Data : cim message:                            
+[2019-07-22 10:46:02.275] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] Int Item Name : CIMMessageID, Data : 00001
+[2019-07-22 10:46:02.881] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 10:46:02.882] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 10:46:02.883] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722104554815 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : cim message:                             
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 10:46:02.891] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 10:46:55.765] [ERROR] [ScanThreadProc] [MNet3EScanUnit][Reader] -Message : 正在中止线程。
+[2019-07-22 10:46:55.768] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-07-22 10:46-55_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 10:46:55.773] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-07-22 10:46:55.782] [ERROR] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -System.Threading.ThreadAbortException: 正在中止线程。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Reader(ReceiveStatus status) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 462
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadWriter(Byte[] dataArry, ReceiveStatus status) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 628
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadBitProtocol(String device, String address, Int32 length) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 357
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ScanBit(MultiBlock multiBlock, Block bitScanTargetBlock) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 807
+[2019-07-22 10:46:56.014] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-22 10:46:56.027] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 10:46:56.038] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 10:47:26.012] [INFO ] [8] [ControlManager][Init] -Init ControlManager
+[2019-07-22 10:47:26.353] [INFO ] [8] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 10:47:26.359] [INFO ] [8] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 10:47:26.363] [INFO ] [8] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 10:47:26.364] [INFO ] [8] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 10:47:26.367] [INFO ] [8] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 10:47:26.379] [INFO ] [8] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 10:47-26_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 10:47:26.380] [INFO ] [8] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 10:47:26.389] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 10:47:35.224] [INFO ] [8] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722104735218 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : cim message:                             
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 10:47:39.451] [INFO ] [8] [MNet3EUnit][WriteWord] -[WriteWord] ASCII Item Name : CIMMessage, Data : cim message:                            
+[2019-07-22 10:47:41.245] [INFO ] [8] [MNet3EUnit][WriteWord] -[WriteWord] Int Item Name : CIMMessageID, Data : 00001
+[2019-07-22 10:47:41.857] [INFO ] [8] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 10:47:41.858] [INFO ] [8] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 10:47:41.859] [INFO ] [8] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722104735218 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : cim message:                             
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 10:47:41.861] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 10:49:53.801] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-22 10:49:53.846] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 10:49:53.849] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 11:21:06.264] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 11:21:06.598] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 11:21:06.604] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 11:21:06.609] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 11:21:06.611] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 11:21:06.613] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 11:21:06.624] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 11:21-06_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 11:21:06.626] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 11:21:06.635] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 11:32:02.572] [ERROR] [ScanThreadProc] [MNet3EScanUnit][Reader] -Message : 正在中止线程。
+[2019-07-22 11:32:02.579] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-07-22 11:32-02_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 11:32:02.584] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-07-22 11:32:02.591] [INFO ] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 11:32:02.614] [ERROR] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -System.Threading.ThreadAbortException: 正在中止线程。
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.Reader(ReceiveStatus status) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 462
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadWriter(Byte[] dataArry, ReceiveStatus status) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 628
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ReadBitProtocol(String device, String address, Int32 length) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 357
+   在 EQPIO.MNetProtocol.MNet3EScanUnit.ScanBit(MultiBlock multiBlock, Block bitScanTargetBlock) 位置 d:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\MNet3EScanUnit.cs:行号 807
+[2019-07-22 11:32:02.615] [INFO ] [ReConnectThreadProc] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 11:32:02.808] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-22 11:32:02.854] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 11:32:02.867] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 11:32:02.868] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Disconnection 
+, Transaction Name : 2019-07-22 11:32-02_4 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 11:32:02.961] [INFO ] [ScanThreadProc] [MProtocolProxy][mPScanUnit_OnDisconnected] -Scan MelsecEthernet OnDisconnected : L2 
+[2019-07-22 11:32:02.961] [ERROR] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Start Failed...
+[2019-07-22 12:01:08.769] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 12:01:09.101] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 12:01:09.106] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 12:01:09.111] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 12:01:09.112] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 12:01:09.115] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 12:01:09.127] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 12:01-09_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 12:01:09.129] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 12:01:09.136] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 12:06:24.616] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-22 12:06:24.634] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 12:06:24.644] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 12:11:20.943] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 12:11:21.327] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 12:11:21.333] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 12:11:21.337] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 12:11:21.339] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 12:11:21.342] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 12:11:21.354] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 12:11-21_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 12:11:21.357] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 12:11:21.366] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 13:53:28.224] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 13:53:28.592] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 13:53:28.597] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 13:53:28.601] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 13:53:28.603] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 13:53:28.606] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 13:53:28.616] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 13:53-28_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 13:53:28.618] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 13:53:28.629] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 13:54:57.969] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteRequest 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722135457962 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : cim message:                             
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 13:55:07.092] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] ASCII Item Name : CIMMessage, Data : cim message:                            
+[2019-07-22 13:55:08.483] [INFO ] [9] [MNet3EUnit][WriteWord] -[WriteWord] Int Item Name : CIMMessageID, Data : 00001
+[2019-07-22 13:55:09.111] [INFO ] [9] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : CIMMessageSetCommand, Data : 1
+[2019-07-22 13:55:09.112] [INFO ] [9] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-07-22 13:55:09.113] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : WriteReply 
+, Transaction Name :  
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       : 20190722135457962 
+, Event Name       : L2_CIMMessageSetCommand 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   : Write Success 
+, Write BlockName : L2_W_CIMMessageSetCommandBlock 
+, ==Write Item List== 
+, Write ItemName : CIMMessage, Value : cim message:                             
+, Write ItemName : CIMMessageID, Value : 00001 
+, Write BlockName : L2_B_CIMMessageSetCommand 
+, ==Write Item List== 
+, Write ItemName : CIMMessageSetCommand, Value : 1 
+}
+[2019-07-22 13:55:09.114] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-07-22 13:56:56.563] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-22 13:56:56.660] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 13:56:56.660] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 14:35:56.306] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 14:35:56.615] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 14:35:56.620] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 14:35:56.625] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 14:35:56.627] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 14:35:56.630] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 14:35:56.641] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 14:35-56_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 14:35:56.643] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 14:35:56.653] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 14:38:32.264] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-22 14:38:32.280] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 14:38:32.296] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 14:43:07.101] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-22 14:43:07.420] [INFO ] [9] [MProtocolProxy][InitByInnerResource] -MProtocolProxy : InitXxml
+[2019-07-22 14:43:07.429] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-22 14:43:07.434] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-22 14:43:07.435] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-22 14:43:07.438] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-22 14:43:07.450] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-22 14:43-07_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-22 14:43:07.452] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-22 14:43:07.463] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-22 14:44:02.756] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-07-22 14:44:02.768] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-07-22 14:44:02.785] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。

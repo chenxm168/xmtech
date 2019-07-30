@@ -1,0 +1,2 @@
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\x64\Debug\IOCon.EIPDriver.IOCon.EIPDriver.Compiler.Resources.Description.resources
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\x64\Debug\IOCon.EIPDriver.csproj.GenerateResource.Cache

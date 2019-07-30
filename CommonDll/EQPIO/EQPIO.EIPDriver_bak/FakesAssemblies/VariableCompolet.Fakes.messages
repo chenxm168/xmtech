@@ -1,0 +1,1 @@
+D:\develop\ECS_Clean\EQPIO.EIPDriver\Fakes\VariableCompolet_bak.fakes : error : 未能正确加载程序集 D:\develop\ECS_Clean\EQPIO.EIPDriver\DLL\VariableCompolet.dll 未能从程序集“VariableCompolet, Version=1.6.0.0, Culture=neutral, PublicKeyToken=f3505d5782c23c5d”中加载类型“OMRON.Compolet.Variable.EventMemory.PrimitiveType.EmMemoryInfo”，因为它在 12 偏移位置处包含一个对象字段，该字段已由一个非对象字段不正确地对齐或重叠。

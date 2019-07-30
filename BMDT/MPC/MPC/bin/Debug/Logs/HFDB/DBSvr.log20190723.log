@@ -1,0 +1,6 @@
+[2019-07-23 09:54:27.983] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-23 09:54:30.882] [DEBUG] [9] [SQLiteHelper][CloseConnection] -DB connection Close.
+[2019-07-23 11:24:20.087] [DEBUG] [8] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-23 11:24:24.273] [DEBUG] [8] [SQLiteHelper][CloseConnection] -DB connection Close.
+[2019-07-23 12:06:07.740] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-23 12:06:10.342] [DEBUG] [9] [SQLiteHelper][CloseConnection] -DB connection Close.

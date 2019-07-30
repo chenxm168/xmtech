@@ -1,0 +1,34 @@
+[2019-07-17 16:29:27.738] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-17 16:34:10.145] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-17 16:34:14.554] [DEBUG] [10] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [INSERT INTO ALARMHISTORY  ( OBJECTNO , EVENTNAME , HISTORYTIME , ALST , ALCD , ALID , ALTX , UNITID )  VALUES ( 'S_20190717163414432' , 'Set' , '2019-07-17 16:34:14.432' , 0 , 1 , 00001 , 'alarm text1' , 'Assy_u1' ) ]
+[2019-07-17 16:39:25.077] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-17 16:39:58.725] [DEBUG] [9] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [INSERT INTO ALARMHISTORY  ( OBJECTNO , EVENTNAME , HISTORYTIME , ALST , ALCD , ALID , ALTX , UNITID )  VALUES ( 'S_20190717163958619' , 'Set' , '2019-07-17 16:39:58.619' , 1 , 1 , 00001 , 'alarm text1' , 'Assy_u1' ) ]
+[2019-07-17 16:40:50.932] [DEBUG] [9] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [INSERT INTO ALARMHISTORY  ( OBJECTNO , EVENTNAME , HISTORYTIME , ALST , ALCD , ALID , ALTX , UNITID )  VALUES ( 'S_20190717164050841' , 'Set' , '2019-07-17 16:40:50.841' , 1 , 1 , 00001 , 'alarm text1' , 'Assy_u1' ) ]
+[2019-07-17 16:46:25.165] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-17 16:46:32.262] [DEBUG] [9] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [INSERT INTO ALARMHISTORY  ( OBJECTNO , EVENTNAME , HISTORYTIME , ALST , ALCD , ALID , ALTX , UNITID )  VALUES ( 'S_20190717164632260' , 'Set' , '2019-07-17 16:46:32.260' , 1 , 1 , '00001' , 'alarm text1' , 'Assy_u1' ) ]
+[2019-07-17 16:54:37.750] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-17 16:54:42.653] [ERROR] [9] [SQLiteHelper][ExecuteSqlGetDt] -SQL logic error
+near "FROM": syntax error
+[2019-07-17 17:01:51.061] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-17 17:01:59.985] [DEBUG] [10] [AbsService][ExtQueryBySql] -Pre Excute sql [SELECT FROM ALARMHISTORY WHERE UNITID='Assy_u1' AND ( HISTORYTIME BETWEEN '2019-07-14 17:01:59' AND '2019-07-14 17:01:59 )]
+[2019-07-17 17:01:59.986] [DEBUG] [10] [AbsService][ExtQueryBySqlRtnDt] -Pre Excute sql [SELECT FROM ALARMHISTORY WHERE UNITID='Assy_u1' AND ( HISTORYTIME BETWEEN '2019-07-14 17:01:59' AND '2019-07-14 17:01:59 )]
+[2019-07-17 17:02:00.020] [ERROR] [10] [SQLiteHelper][ExecuteSqlGetDt] -SQL logic error
+near "FROM": syntax error
+[2019-07-17 17:03:12.491] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-17 17:03:17.550] [DEBUG] [9] [AbsService][ExtQueryBySql] -Pre Excute sql [SELECT * FROM ALARMHISTORY WHERE UNITID='Assy_u1' AND ( HISTORYTIME BETWEEN '2019-07-14 17:03:17' AND '2019-07-14 17:03:17 )]
+[2019-07-17 17:03:17.551] [DEBUG] [9] [AbsService][ExtQueryBySqlRtnDt] -Pre Excute sql [SELECT * FROM ALARMHISTORY WHERE UNITID='Assy_u1' AND ( HISTORYTIME BETWEEN '2019-07-14 17:03:17' AND '2019-07-14 17:03:17 )]
+[2019-07-17 17:03:17.590] [ERROR] [9] [SQLiteHelper][ExecuteSqlGetDt] -SQL logic error
+unrecognized token: "'2019-07-14 17:03:17 )"
+[2019-07-17 17:08:35.065] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-17 17:09:23.345] [DEBUG] [10] [AbsService][ExtQueryBySql] -Pre Excute sql [SELECT * FROM ALARMHISTORY WHERE UNITID='Assy_u1' AND ( HISTORYTIME BETWEEN '2019-07-14 17:09:23' AND '2019-07-14 17:09:23 )]
+[2019-07-17 17:09:23.346] [DEBUG] [10] [AbsService][ExtQueryBySqlRtnDt] -Pre Excute sql [SELECT * FROM ALARMHISTORY WHERE UNITID='Assy_u1' AND ( HISTORYTIME BETWEEN '2019-07-14 17:09:23' AND '2019-07-14 17:09:23 )]
+[2019-07-17 17:09:23.384] [ERROR] [10] [SQLiteHelper][ExecuteSqlGetDt] -SQL logic error
+unrecognized token: "'2019-07-14 17:09:23 )"
+[2019-07-17 17:11:56.541] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-17 17:12:58.450] [DEBUG] [10] [AbsService][ExtQueryBySql] -Pre Excute sql [SELECT * FROM ALARMHISTORY WHERE UNITID='Assy_u1' AND ( HISTORYTIME BETWEEN '2019-07-14 17:12:20' AND '2019-07-14 17:12:20' )]
+[2019-07-17 17:12:58.452] [DEBUG] [10] [AbsService][ExtQueryBySqlRtnDt] -Pre Excute sql [SELECT * FROM ALARMHISTORY WHERE UNITID='Assy_u1' AND ( HISTORYTIME BETWEEN '2019-07-14 17:12:20' AND '2019-07-14 17:12:20' )]
+[2019-07-17 17:14:20.371] [DEBUG] [10] [AbsService][ExtQueryBySql] -Pre Excute sql [SELECT * FROM ALARMHISTORY WHERE UNITID='Assy_u1' AND ( HISTORYTIME BETWEEN '2019-07-14 17:14:20' AND '2019-07-14 17:14:20' )]
+[2019-07-17 17:14:38.763] [DEBUG] [10] [AbsService][ExtQueryBySqlRtnDt] -Pre Excute sql [SELECT * FROM ALARMHISTORY WHERE UNITID='Assy_u1' AND ( HISTORYTIME BETWEEN '2019-07-14 17:14:20' AND '2019-07-14 17:14:20' )]
+[2019-07-17 17:18:28.372] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-17 17:18:32.818] [DEBUG] [10] [AbsService][ExtQueryBySql] -Pre Excute sql [SELECT * FROM ALARMHISTORY WHERE UNITID='Assy_u1' AND ( HISTORYTIME BETWEEN '2019-07-14 17:18:32' AND '2019-07-17 17:18:32' )]
+[2019-07-17 17:18:32.819] [DEBUG] [10] [AbsService][ExtQueryBySqlRtnDt] -Pre Excute sql [SELECT * FROM ALARMHISTORY WHERE UNITID='Assy_u1' AND ( HISTORYTIME BETWEEN '2019-07-14 17:18:32' AND '2019-07-17 17:18:32' )]

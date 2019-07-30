@@ -1,0 +1,32 @@
+<TypeDefine>
+  <Type>
+    <Signal Sequence="0" UpStream="UpstreamPath#1ExchangePossible" DownStream="" OnOff="On" />
+    <Signal Sequence="1" UpStream="UpstreamPath#1Send(Possible)" DownStream="" OnOff="On" />
+    <Signal Sequence="2" UpStream="" DownStream="DownstreamPath#1ExchangePossible" OnOff="On" />
+    <Signal Sequence="3" UpStream="" DownStream="DownstreamPath#1Receive(Possible)" OnOff="On" />
+    <Signal Sequence="4" UpStream="UpstreamPath#1ExchangeExecute" DownStream="" OnOff="On" />
+    <Signal Sequence="5" UpStream="UpstreamPath#1SendStart" DownStream="" OnOff="On" />
+    <Signal Sequence="6" UpStream="" DownStream="DownstreamPath#1ExchangeExecute" OnOff="On" />
+    <Signal Sequence="7" UpStream="" DownStream="DownstreamPath#1ReceiveStart" OnOff="On" />
+    <Signal Sequence="5" UpStream="" DownStream="DownstreamPath#1JobTransfer" OnOff="On" />
+    <Signal Sequence="8" UpStream="UpstreamPath#1UpstreamTrouble" DownStream="" OnOff="On" />
+    <Signal Sequence="9" UpStream="UpstreamPath#1UpstreamTrouble" DownStream="" OnOff="Off" />
+    <Signal Sequence="10" UpStream="UpstreamPath#1ReceiveResumeRequest" DownStream="" OnOff="On" />
+    <Signal Sequence="11" UpStream="" DownStream="DownstreamPath#1RecoveryAckReply" OnOff="On" />
+    <Signal Sequence="12" UpStream="UpstreamPath#1SendResumeRequest" DownStream="" OnOff="Off" />
+    <Signal Sequence="13" UpStream="" DownStream="DownstreamPath#1RecoveryAckReply" OnOff="Off" />
+    <Signal Sequence="14" UpStream="" DownStream="DownstreamPath#1ReceiveComplete" OnOff="On" />
+    <Signal Sequence="15" UpStream="UpstreamPath#1SendComplete" DownStream="" OnOff="On" />
+    <Signal Sequence="16" UpStream="UpstreamPath#1ExchangePossible" DownStream="" OnOff="Off" />
+    <Signal Sequence="17" UpStream="UpstreamPath#1Send(Possible)" DownStream="" OnOff="Off" />
+    <Signal Sequence="18" UpStream="UpstreamPath#1ExchangeExecute" DownStream="" OnOff="Off" />
+    <Signal Sequence="19" UpStream="UpstreamPath#1SendStart" DownStream="" OnOff="Off" />
+    <Signal Sequence="20" UpStream="UpstreamPath#1SendComplete" DownStream="" OnOff="Off" />
+    <Signal Sequence="21" UpStream="" DownStream="DownstreamPath#1ExchangePossible" OnOff="Off" />
+    <Signal Sequence="22" UpStream="" DownStream="DownstreamPath#1Receive(Possible)" OnOff="Off" />
+    <Signal Sequence="23" UpStream="" DownStream="DownstreamPath#1ExchangeExecute" OnOff="Off" />
+    <Signal Sequence="24" UpStream="" DownStream="DownstreamPath#1ReceiveStart" OnOff="Off" />
+    <Signal Sequence="25" UpStream="" DownStream="DownstreamPath#1ReceiveComplete" OnOff="Off" />
+    <Signal Sequence="5" UpStream="" DownStream="DownstreamPath#1JobTransfer" OnOff="Off" />
+  </Type>
+</TypeDefine>

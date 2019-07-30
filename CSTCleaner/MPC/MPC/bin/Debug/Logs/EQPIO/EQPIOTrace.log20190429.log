@@ -1,0 +1,586 @@
+[2019-04-29 11:56:30.925] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-04-29 11:56:31.289] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 11:56:31.294] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 11:56:52.387] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 11:57:13.460] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 11:57:13.487] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 11:57:34.543] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 11:57:35.502] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 11:57:56.588] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 12:10:56.347] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-04-29 12:10:56.631] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 12:10:56.639] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 12:11:17.752] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 12:11:38.807] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 12:11:38.869] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 12:11:59.914] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 12:12:00.882] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:05:29.091] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-04-29 16:05:29.391] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 16:05:29.396] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 16:05:50.510] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:06:11.605] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:06:11.622] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:06:32.673] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:06:33.661] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:06:54.727] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:06:55.713] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:07:16.780] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:07:17.771] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:07:38.831] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:07:39.823] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:08:00.880] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:08:01.870] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:08:22.928] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:08:23.915] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:08:44.991] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:08:45.958] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:09:07.040] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:09:08.013] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:09:29.094] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:09:30.062] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:09:51.146] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:09:52.110] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:10:13.195] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:10:14.158] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:10:35.250] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:10:36.203] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:10:57.309] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:10:58.260] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:11:19.361] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:11:20.315] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:11:45.135] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:11:45.180] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:12:07.221] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:12:07.251] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:12:29.306] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:12:29.331] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:12:51.360] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:12:51.381] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:13:13.399] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:13:13.423] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:13:44.222] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:13:44.243] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:15:30.198] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-04-29 16:15:30.479] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 16:15:30.485] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 16:15:51.579] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:16:12.652] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:16:12.677] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:16:33.728] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:16:34.695] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:16:55.776] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:16:56.739] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:17:17.834] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:17:18.792] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:17:39.884] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:17:40.842] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:18:01.930] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:18:02.887] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:18:23.982] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:18:24.936] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:18:46.036] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:18:46.988] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:19:08.086] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:19:09.039] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:19:30.139] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:19:31.091] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:19:52.184] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:19:53.134] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:20:14.222] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:20:15.186] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:20:36.271] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:20:37.243] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:20:58.321] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:20:59.291] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:21:20.376] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:21:21.347] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:21:42.428] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:21:43.391] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:22:04.468] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:22:05.455] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:22:26.518] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:22:27.507] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:22:48.568] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:22:49.561] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:23:10.620] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:23:11.605] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:23:32.665] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:23:33.668] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:23:54.719] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:23:55.718] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:24:16.774] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:24:17.776] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:24:38.827] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:24:39.825] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:25:00.883] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:25:01.876] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:25:22.937] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:25:23.925] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:25:44.985] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:25:45.973] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:26:07.039] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:26:08.021] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:26:29.083] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:26:30.070] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:26:51.121] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:26:52.100] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:27:13.173] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:27:14.154] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:27:35.227] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:27:36.193] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:27:57.276] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:27:58.247] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:28:19.328] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:28:20.287] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:28:41.375] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:28:42.337] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:29:03.428] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:29:04.384] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:29:25.474] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:29:26.434] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:29:47.527] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:29:48.484] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:30:34.758] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-04-29 16:30:35.052] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 16:30:35.057] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 16:31:16.964] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-04-29 16:31:17.276] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 16:31:17.282] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 16:31:38.380] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:31:59.460] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:31:59.485] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:32:20.531] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:32:21.509] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:32:42.574] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:32:43.561] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:33:04.630] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:33:05.607] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:33:26.676] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:33:27.637] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:33:48.725] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:33:49.692] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:34:10.779] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:34:11.745] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:34:32.832] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:34:33.792] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:34:54.884] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:34:55.846] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:35:16.928] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:35:17.896] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:35:38.980] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:35:39.947] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:36:01.031] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:36:01.972] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:36:23.086] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:36:24.019] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:36:45.146] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:36:46.065] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:37:07.187] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:37:08.108] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:37:29.235] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:37:30.156] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:37:51.284] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:37:52.198] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:38:14.090] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:38:14.223] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:38:39.497] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:38:39.507] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:39:01.565] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:39:01.573] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:40:04.035] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-04-29 16:40:04.349] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 16:40:04.355] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 16:40:25.453] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:40:46.542] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:40:46.554] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:41:11.612] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:41:11.654] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:41:51.624] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:41:51.624] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:42:13.964] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:42:14.011] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:42:36.010] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:42:36.044] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:42:58.094] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:42:58.098] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:43:20.144] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:43:20.164] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:43:42.213] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:43:42.220] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:44:04.267] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:44:04.277] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:44:26.335] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:44:26.348] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:44:48.396] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:44:48.424] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:45:10.459] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:45:10.484] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:46:50.485] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-04-29 16:46:50.800] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 16:46:50.805] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 16:47:11.908] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:47:33.003] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:47:33.021] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:47:54.077] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:47:55.053] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:48:16.122] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:48:17.102] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:48:42.569] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:48:42.579] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:49:04.626] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:49:04.642] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:49:26.687] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:49:26.722] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:49:52.752] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:49:53.523] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:50:53.595] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-04-29 16:50:53.893] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 16:50:53.898] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 16:51:15.027] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:51:36.139] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:51:36.140] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:51:57.192] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:51:58.189] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:52:21.769] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:52:21.811] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:52:46.642] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:52:46.660] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:53:08.698] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:53:08.712] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:53:35.241] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 16:53:35.246] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 16:58:17.680] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:00:34.796] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-04-29 17:00:35.124] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 17:00:35.130] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 17:00:56.220] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:01:17.340] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:01:17.340] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:01:38.390] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:01:39.391] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:02:01.705] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:02:01.709] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:02:41.622] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:02:41.649] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:03:07.118] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:03:07.134] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:05:28.184] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-04-29 17:05:28.479] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 17:05:28.485] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 17:05:49.605] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:06:10.701] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:06:10.701] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:06:31.756] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:06:32.760] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:07:01.517] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:07:03.068] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:07:24.079] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:07:25.182] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:07:46.131] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:07:47.232] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:08:08.184] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:08:09.283] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:08:30.230] [ERROR] [13] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:08:31.341] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:09:47.955] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-04-29 17:09:48.375] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 17:09:48.382] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 17:10:09.491] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:10:30.578] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:10:30.596] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:10:51.649] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:10:52.628] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:11:13.693] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:11:14.660] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:11:35.745] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:11:36.709] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:11:57.800] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:11:58.751] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:12:19.845] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:12:20.796] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:12:41.901] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:12:42.843] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:13:03.948] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:13:04.891] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:13:26.001] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:13:26.947] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:13:48.053] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:13:48.999] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:14:10.101] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:14:11.052] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:14:32.147] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:14:33.099] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:14:54.190] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:14:55.141] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:15:16.243] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:15:17.184] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:15:38.292] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:15:39.236] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:16:00.342] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:16:01.279] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:41:53.929] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-04-29 17:41:54.275] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 17:41:54.281] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 17:42:15.381] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:42:36.480] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:42:36.498] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:42:57.555] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:42:58.534] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:43:19.605] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:43:20.582] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:43:41.656] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:43:42.637] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:44:03.715] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:44:04.687] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:44:25.760] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:44:26.718] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:44:47.806] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:44:48.761] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:45:09.857] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:45:10.807] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:45:31.903] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:45:32.855] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:45:53.961] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:45:54.895] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:46:16.014] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:46:16.939] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:46:38.059] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:46:38.993] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:47:00.108] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:47:01.036] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:47:22.152] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:47:23.076] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:47:44.205] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:47:45.126] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:48:06.253] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:48:07.177] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:48:28.299] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:48:29.228] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:48:50.355] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:48:51.272] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:49:12.399] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:49:13.325] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:49:34.447] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:49:35.374] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:49:56.498] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:49:57.420] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:50:18.546] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:50:19.476] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:50:40.599] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:50:41.522] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:51:02.649] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:51:03.577] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:51:24.696] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:51:25.624] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:51:46.748] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:51:47.664] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:52:08.802] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:52:09.702] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:52:30.849] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:52:31.748] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:52:52.911] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:52:53.782] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:53:14.964] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:53:15.844] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:53:37.010] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:53:37.896] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:53:59.059] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:53:59.950] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:54:21.106] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:54:22.000] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:54:43.160] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:54:44.050] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:55:05.213] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:55:06.099] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:55:27.254] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:55:28.151] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:55:49.300] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:55:50.195] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:56:11.353] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:56:12.239] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:56:33.403] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:56:34.294] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:56:55.460] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:56:56.335] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:57:17.506] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:57:18.381] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:57:39.555] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:57:40.430] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:58:01.604] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:58:02.472] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:58:23.652] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:58:24.516] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:58:45.704] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:58:46.564] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:59:07.753] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:59:08.610] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:59:29.803] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:59:30.667] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 17:59:51.850] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 17:59:52.709] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:00:13.902] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:00:14.755] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:00:35.952] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:00:36.799] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:00:57.997] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:00:58.842] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:01:20.043] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:01:20.889] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:01:42.096] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:01:42.907] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:02:04.157] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:02:04.965] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:02:26.208] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:02:27.015] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:02:48.270] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:02:49.061] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:03:10.329] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:03:11.113] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:03:32.377] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:03:33.167] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:30:19.386] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-04-29 18:30:19.669] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 18:30:19.674] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 18:30:40.781] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:32:35.621] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-04-29 18:32:35.900] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 18:32:35.905] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 18:32:57.007] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:33:18.139] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:33:18.156] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:33:39.202] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:33:40.192] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:34:01.253] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:34:02.231] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:34:23.306] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:34:24.278] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:34:45.361] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:34:46.328] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:35:07.418] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:35:08.382] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:35:29.473] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7007
+[2019-04-29 18:35:30.434] [ERROR] [11] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.51.9:7006
+[2019-04-29 18:35:30.476] [INFO ] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-04-29 18:35:30.481] [INFO ] [ReConnectThreadProc] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-04-29 18:35:30.587] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-04-29 18:35:31.437] [INFO ] [11] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-04-29 18:35:31.484] [INFO ] [11] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-04-29 18:35-31_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-04-29 18:35:31.498] [INFO ] [11] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-04-29 18:36:25.992] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-04-29 18:36:26.278] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-29 18:36:26.284] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-29 18:36:26.288] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-04-29 18:36:26.289] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-04-29 18:36:26.292] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-04-29 18:36:26.301] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-04-29 18:36-26_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-04-29 18:36:26.302] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-04-29 18:36:26.315] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-04-29 18:37:18.581] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : PortStatus, Data : 0
+[2019-04-29 18:37:18.598] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteStatus, Data : 0
+[2019-04-29 18:37:18.599] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteSequenceNo, Data : 0
+[2019-04-29 18:37:18.600] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteID, Data : 
+[2019-04-29 18:37:18.601] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : JobCountinCassette, Data : 0
+[2019-04-29 18:37:18.602] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CompletedCassetteData, Data : 0
+[2019-04-29 18:37:18.603] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : OperatorID, Data : 
+[2019-04-29 18:37:18.604] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[BIT] Item Name : JobExistenceSlot, Data : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[2019-04-29 18:37:18.610] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : LoadingCassetteType, Data : 0
+[2019-04-29 18:37:18.611] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : Q-TimeFlag, Data : 0
+[2019-04-29 18:37:18.636] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#1PortStatusChangeReportReply, Data : 1
+[2019-04-29 18:37:18.637] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-04-29 18:37:18.639] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-04-29 18:37-18_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190429183718555 
+, Event Name       : L2_Port#1PortStatusChangeReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#1PortStatusBlock 
+, ==Read Item List== 
+, Read ItemName : PortStatus, Value : 0 
+, Read ItemName : CassetteStatus, Value : 0 
+, Read ItemName : CassetteSequenceNo, Value : 0 
+, Read ItemName : CassetteID, Value :  
+, Read ItemName : JobCountinCassette, Value : 0 
+, Read ItemName : CompletedCassetteData, Value : 0 
+, Read ItemName : OperatorID, Value :  
+, Read ItemName : JobExistenceSlot, Value : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+, Read ItemName : LoadingCassetteType, Value : 0 
+, Read ItemName : Q-TimeFlag, Value : 0 
+, Write BlockName : L2_B_Port#1PortStatusChangeReportReply 
+, ==Write Item List== 
+, Write ItemName : Port#1PortStatusChangeReportReply, Value : 1 
+}
+[2019-04-29 18:37:18.810] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1PortStatusChangeReport, Item Value : 1, index : 139
+[2019-04-29 18:37:18.645] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-04-29 18:38:28.643] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#1PortStatusChangeReportReply, Data : 0
+[2019-04-29 18:38:28.645] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-04-29 18:38:28.646] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1PortStatusChangeReport
+[2019-04-29 18:38:28.646] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1PortStatusChangeReport, Item Value : 0, index : 139
+[2019-04-29 18:38:31.044] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : PortStatus, Data : 0
+[2019-04-29 18:38:31.045] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteStatus, Data : 0
+[2019-04-29 18:38:31.046] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CassetteSequenceNo, Data : 0
+[2019-04-29 18:38:31.049] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteID, Data : 
+[2019-04-29 18:38:31.049] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : JobCountinCassette, Data : 0
+[2019-04-29 18:38:31.050] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : CompletedCassetteData, Data : 0
+[2019-04-29 18:38:31.051] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : OperatorID, Data : 
+[2019-04-29 18:38:31.052] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[BIT] Item Name : JobExistenceSlot, Data : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[2019-04-29 18:38:31.054] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : LoadingCassetteType, Data : 0
+[2019-04-29 18:38:31.055] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[Int:offset <= 1, point =1] Item Name : Q-TimeFlag, Data : 0
+[2019-04-29 18:38:31.069] [INFO ] [ScanThreadProc] [MNet3EUnit][WriteBit] -[WriteBit] Item Name : Port#1PortStatusChangeReportReply, Data : 1
+[2019-04-29 18:38:31.070] [INFO ] [ScanThreadProc] [MProtocolProxy][WriteTransactionData] -Write TransactionData
+[2019-04-29 18:38:31.071] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-04-29 18:38-31_3 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190429183831031 
+, Event Name       : L2_Port#1PortStatusChangeReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#1PortStatusBlock 
+, ==Read Item List== 
+, Read ItemName : PortStatus, Value : 0 
+, Read ItemName : CassetteStatus, Value : 0 
+, Read ItemName : CassetteSequenceNo, Value : 0 
+, Read ItemName : CassetteID, Value :  
+, Read ItemName : JobCountinCassette, Value : 0 
+, Read ItemName : CompletedCassetteData, Value : 0 
+, Read ItemName : OperatorID, Value :  
+, Read ItemName : JobExistenceSlot, Value : 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+, Read ItemName : LoadingCassetteType, Value : 0 
+, Read ItemName : Q-TimeFlag, Value : 0 
+, Write BlockName : L2_B_Port#1PortStatusChangeReportReply 
+, ==Write Item List== 
+, Write ItemName : Port#1PortStatusChangeReportReply, Value : 1 
+}
+[2019-04-29 18:38:31.254] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1PortStatusChangeReport, Item Value : 1, index : 139
+[2019-04-29 18:38:31.079] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1

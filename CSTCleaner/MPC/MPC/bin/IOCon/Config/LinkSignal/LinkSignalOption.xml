@@ -1,0 +1,6 @@
+<LinkSignalOption>
+	<LinkSignalBlock>
+		<UpstreamBlockName Name="LINKSIGNAL_H_UPSTREAM" />
+		<DownstreamBlockName Name="LINKSIGNAL_H_DOWNSTREAM" />
+	</LinkSignalBlock>
+</LinkSignalOption>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Array PRD-->
+<!--
+<configuration>
+  <tibrvProxy name="mesProxy">
+    <service>8200</service>
+    <network>;225.11.11.2</network>
+    <daemon>tcp:10.116.110.101:7500</daemon>
+    <sourceSubject>TRULY.G5A.EAP.PRD.FAB.A1CVD01</sourceSubject>
+    <targetSubject>TRULY.G5A.MES.PRD.FAB.PEMsvr</targetSubject>
+    <fieldName>xmlData</fieldName>
+    <messageSet>\tibrv\mes.xml</messageSet>
+  </tibrvProxy>
+  <daemonList>
+    <daemon>tcp:10.116.110.102:7500</daemon>
+    <daemon>tcp:10.116.110.103:7500</daemon>
+  </daemonList>
+</configuration>
+-->
+<!--CF PRD-->
+<!--
+<configuration>
+	<tibrvProxy name="mesProxy">
+		<service>8200</service>
+		<network>;225.11.11.2</network>
+		<daemon>tcp:10.116.110.102:7500</daemon>		
+		<sourceSubject>TRULY.G5A.EAP.PRD.FAB.${eos.name}</sourceSubject>
+		<targetSubject>TRULY.G5A.MES.PRD.FAB.PEMsvr</targetSubject> 
+		<fieldName>xmlData</fieldName>
+		<messageSet>\tibrv\mes.xml</messageSet>
+	</tibrvProxy>
+	<daemonList>
+	<daemon>tcp:10.116.110.101:7500</daemon>	
+	<daemon>tcp:10.116.110.103:7500</daemon>	
+	</daemonList>
+</configuration>
+-->
+<!--CELL PRD-->
+<!--
+<configuration>
+	<tibrvProxy name="mesProxy">
+		<service>8200</service>
+		<network>;225.11.11.2</network>
+		<daemon>tcp:10.116.110.103:7500</daemon>		
+		<sourceSubject>TRULY.G5A.EAP.PRD.FAB.${eos.name}</sourceSubject>
+		<targetSubject>TRULY.G5A.MES.PRD.FAB.PEMsvr</targetSubject>
+		<fieldName>xmlData</fieldName>
+		<messageSet>\tibrv\mes.xml</messageSet>
+	</tibrvProxy>
+	<daemonList>
+	<daemon>tcp:10.116.110.101:7500</daemon>	
+	<daemon>tcp:10.116.110.102:7500</daemon>	
+	</daemonList>
+</configuration>
+-->
+<!--TEST-->
+
+<configuration>
+  <tibrvProxy name="mesProxy">
+    <service>8200</service>
+    <network>;225.11.11.2</network>
+    <daemon>tcp:10.116.111.201:7500</daemon>
+    <sourceSubject>TRULY.G5A.EAP.TST.FAB.C1CCL01</sourceSubject>
+    <targetSubject>TRULY.G5A.MES.TST.FAB.PEMsvr</targetSubject>
+    <fieldName>xmlData</fieldName>
+    <messageSet>\tibrv\mes.xml</messageSet>
+  </tibrvProxy>
+</configuration>
+
+<!-- Local -->
+<!--
+<configuration>
+	<tibrvProxy name="mesProxy">
+		<service></service>
+		<network></network>
+		<daemon></daemon>
+		<sourceSubject>A1CVD01</sourceSubject>
+		<targetSubject>A1CVD01</targetSubject>
+		<fieldName>xmlData</fieldName>
+		<messageSet>\tibrv\mes.xml</messageSet>
+	</tibrvProxy>
+</configuration>
+-->
+
+

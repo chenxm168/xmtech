@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30BB9E29-3F6A-4F71-A443-ACA821B3ADC6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HF.DB</RootNamespace>
+    <AssemblyName>HF.DB</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FirebirdSql.Data.FirebirdClient, Version=2.1.0.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\log4net\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.110.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.110.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.110.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Service\AbsService.cs" />
+    <Compile Include="AbsSqlGenerator.cs" />
+    <Compile Include="HFDBParameter.cs" />
+    <Compile Include="IDBHelper.cs" />
+    <Compile Include="ObjectService\AbsService2.cs" />
+    <Compile Include="ColummAttribute.cs" />
+    <Compile Include="DBHelperManager.cs" />
+    <Compile Include="FirebirdDB\FirebirdConnectionString.cs" />
+    <Compile Include="FirebirdDB\FirebirdHelper.cs" />
+    <Compile Include="IExcuteSql2.cs" />
+    <Compile Include="ISQLExcutable2.cs" />
+    <Compile Include="ObjectService\AbsServiceProxy.cs" />
+    <Compile Include="ObjectService\Type1\Pojo\AlarmHistory.cs" />
+    <Compile Include="ObjectService\Type1\Pojo\AlarmSpec.cs" />
+    <Compile Include="ObjectService\Type1\Pojo\Equipment.cs" />
+    <Compile Include="ObjectService\Type1\Pojo\Machine.cs" />
+    <Compile Include="ObjectService\Type1\Pojo\MachineHistory.cs" />
+    <Compile Include="ObjectService\Type1\Pojo\Port.cs" />
+    <Compile Include="ObjectService\Type1\Pojo\PortHistory.cs" />
+    <Compile Include="ObjectService\Type1\Service\EquipmentServiceImpl.cs" />
+    <Compile Include="ObjectService\Type1\Service\EquipmentServiceImplProxy.cs" />
+    <Compile Include="ObjectService\Type1\Service\IAlarmService.cs" />
+    <Compile Include="ObjectService\Type1\Service\IEquipmentService.cs" />
+    <Compile Include="ObjectService\Type1\Service\IMachineService.cs" />
+    <Compile Include="ObjectService\Type1\Service\IPortService.cs" />
+    <Compile Include="ObjectService\Type1\Service\MachineServerImpl.cs" />
+    <Compile Include="ObjectService\Type1\Service\MachineServiceImplProxy.cs" />
+    <Compile Include="ObjectService\Type1\Service\PortServiceImpl.cs" />
+    <Compile Include="ObjectService\Type1\Service\PortServiceImplProxy.cs" />
+    <Compile Include="ObjectService\ServiceManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AbsDBHelper2.cs" />
+    <Compile Include="Service\AbsServiceProxy.cs" />
+    <Compile Include="Service\ServiceFactory.cs" />
+    <Compile Include="SQLiteDB\SQLiteHelper.cs" />
+    <Compile Include="SqlUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DLL\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\..\ECS_Clean\packages\System.Data.SQLite.Core.1.0.110.0\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\..\ECS_Clean\packages\System.Data.SQLite.Core.1.0.110.0\build\net45\System.Data.SQLite.Core.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

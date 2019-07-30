@@ -1,0 +1,20 @@
+<SIMULATIONSCENARIO>
+  <TRANSACTION>
+    <S1F15_RequestOffLine optional="False">
+      <STREAM>1</STREAM>
+      <FUNCTION>15</FUNCTION>
+      <HOSTMODEACTION>SendPrimary</HOSTMODEACTION>
+      <MODE>Auto</MODE>
+      <PrimaryAutoReply>False</PrimaryAutoReply>
+      <SENDINTERVAL>0</SENDINTERVAL>
+    </S1F15_RequestOffLine>
+    <S1F16_RequestOffLineAck optional="False">
+      <STREAM>1</STREAM>
+      <FUNCTION>16</FUNCTION>
+      <HOSTMODEACTION>ReceiveSecondary</HOSTMODEACTION>
+      <MODE>None</MODE>
+      <PrimaryAutoReply>False</PrimaryAutoReply>
+      <SENDINTERVAL>0</SENDINTERVAL>
+    </S1F16_RequestOffLineAck>
+  </TRANSACTION>
+</SIMULATIONSCENARIO>

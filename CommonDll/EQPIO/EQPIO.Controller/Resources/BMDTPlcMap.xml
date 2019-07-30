@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PLCDriver>
+
+  <ItemGroupCollection>
+
+    <ItemGroup Name="ControlStateBlock">
+      <Item Name="ControlState" Offset="0" Points="1" Representation="I" />
+    </ItemGroup>        
+
+
+    <ItemGroup Name="EquipmentStatusBlock">
+      <Item Name="EquipmentStatus" Offset="0" Points="1" Representation="I" />
+    </ItemGroup>
+
+    <ItemGroup Name="DateTimeSetCommandBlock">
+      <Item Name="DateTime" Offset="0" Points="3" Representation="H" />
+    </ItemGroup>
+
+    <ItemGroup Name="CIMMessageSetBlock">
+      <Item Name="CIMMessageID" Offset="0" Points="1" Representation="I" />
+      <Item Name="CIMMessage" Offset="1" Points="20" Representation="A" />
+          
+    </ItemGroup>
+
+    <ItemGroup Name="AlarmBlock">
+      <Item Name="AlarmStatus" Offset="0" Points="1" Representation="I" />
+      <Item Name="AlarmCode" Offset="1" Points="1" Representation="I" />
+      <Item Name="AlarmID" Offset="2" Points="1" Representation="I" />
+      <Item Name="Unit" Offset="3" Points="1" Representation="I" />
+	  <Item Name="AlarmText" Offset="4" Points="20" Representation="A" />
+    </ItemGroup>
+
+    <ItemGroup Name="ProcessDataBlock">
+      <Item Name="Stage" Offset="0" Points="1" Representation="I" />
+      <Item Name="Unit" Offset="1" Points="1" Representation="I" />
+      <Item Name="Panel" Offset="2" Points="5" Representation="A" />
+      <Item Name="Bul" Offset="7" Points="13" Representation="A" />
+      <Item Name="PnlJudge" Offset="7" Points="1" Representation="I" />
+    </ItemGroup>
+    <!-- 
+    <ItemGroup Name="CurrentEQPDataReportBlock">
+      <Item Name="DV1" Offset="0" Points="10" Representation="A" />
+      <Item Name="DV2" Offset="10" Points="1" Representation="I" />      
+    </ItemGroup>
+    
+    
+    -->
+    
+    
+  </ItemGroupCollection>
+
+  <BlockMap>
+
+    <Block Name="L2_B_LTM_H" DeviceCode="B" HeadDevice="0x000AE0" Points="96">
+      <Item Name="EquipmentAlive"                             Offset="0" Points="1" Representation="BIT" />
+      <Item Name="ControlStateChangeRequest"                  Offset="1" Points="1" Representation="BIT" />
+      <Item Name="EquipmentStatusChangeReport"                Offset="2" Points="1" Representation="BIT" />
+      <Item Name="AlarmStatusChangeReport"                    Offset="3" Points="1" Representation="BIT" />
+      <Item Name="ProcessStartReport"                         Offset="4" Points="1" Representation="BIT" />
+      <Item Name="ProcessEndReport"                           Offset="5" Points="1" Representation="BIT" />
+      <Item Name="CurrentEQPDataReport"                       Offset="6" Points="1" Representation="BIT" />
+      <Item Name="ControlStateChangeCommandReply"             Offset="48" Points="1" Representation="BIT" />
+      <Item Name="DateTimeSetCommandReply"                    Offset="49" Points="1" Representation="BIT" />
+      <Item Name="CIMMessageSetCommandReply"                  Offset="50" Points="1" Representation="BIT" />
+      <Item Name="EquipmentDownCommandReply"                  Offset="51" Points="1" Representation="BIT" />
+      <Item Name="EquipmentStateRequestReply"                 Offset="52" Points="1" Representation="BIT" />
+    </Block>
+
+
+    <Block Name="L2_B_EquipmentAliveReply" DeviceCode="B" HeadDevice="0x001AE0" Points="1">
+      <Item Name="EquipmentAliveReply" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+    
+    <Block Name="L2_B_ControlStateChangeRequestReply" DeviceCode="B" HeadDevice="0x001AE1" Points="1">
+      <Item Name="ControlStateChangeRequestReply" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+
+    <Block Name="L2_B_EquipmentStatusChangeReportReply" DeviceCode="B" HeadDevice="0x001AE2" Points="1">
+      <Item Name="EquipmentStatusChangeReportReply" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+
+    <Block Name="L2_B_AlarmStatusChangeReportReply" DeviceCode="B" HeadDevice="0x001AE3" Points="1">
+      <Item Name="AlarmStatusChangeReportReply" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+
+    <Block Name="L2_B_ProcessStartReportReply" DeviceCode="B" HeadDevice="0x001AE4" Points="1">
+      <Item Name="ProcessStartReportReply" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+
+    <Block Name="L2_B_ProcessEndReportReply" DeviceCode="B" HeadDevice="0x001AE5" Points="1">
+      <Item Name="ProcessEndReportReply" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+    
+    <Block Name="L2_B_ControlStateChangeCommand" DeviceCode="B" HeadDevice="0x001B10" Points="1">
+      <Item Name="ControlStateChangeCommand" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+
+    <Block Name="L2_B_DateTimeSetCommand" DeviceCode="B" HeadDevice="0x001B11" Points="1">
+      <Item Name="DateTimeSetCommand" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+
+    <Block Name="L2_B_CIMMessageSetCommand" DeviceCode="B" HeadDevice="0x001B12" Points="1">
+      <Item Name="CIMMessageSetCommand" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+
+    <Block Name="L2_B_EquipmentDownCommand" DeviceCode="B" HeadDevice="0x001B13" Points="1">
+      <Item Name="EquipmentDownCommand" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+    
+     <Block Name="L2_B_EquipmentStateRequest" DeviceCode="B" HeadDevice="0x001B14" Points="1">
+      <Item Name="ControlState" Offset="0" Points="1" Representation="BIT" />
+    </Block>
+    
+
+    <Block Name="L2_W_ControlStateChangeRequestBlock" DeviceCode="W" HeadDevice="0x001000" Points="1">
+      <ItemGroup Name="ControlStateBlock" />
+    </Block>
+
+    <Block Name="L2_W_EquipmentStatusChangeReportBlock" DeviceCode="W" HeadDevice="0x001001" Points="1">
+      <ItemGroup Name="EquipmentStatusBlock" />
+    </Block>
+
+    <Block Name="L2_W_AlarmStatusChangeReportBlock" DeviceCode="W" HeadDevice="0x001002" Points="24">
+      <ItemGroup Name="AlarmBlock" />
+    </Block>
+
+    <Block Name="L2_W_ProcessStartReportBlock" DeviceCode="W" HeadDevice="0x001020" Points="38">
+      <ItemGroup Name="ProcessDataBlock" />
+    </Block>
+
+    <Block Name="L2_W_ProcessEndReportBlock" DeviceCode="W" HeadDevice="0x001050" Points="38">
+      <ItemGroup Name="ProcessDataBlock" />
+    </Block>
+
+    <Block Name="L2_W_ControlStateChangeCommandBlock" DeviceCode="W" HeadDevice="0x001100" Points="1">
+       <!--<Item Name="ControlState" Offset="0" Points="1" Representation="I" />-->
+      <ItemGroup Name="ControlStateBlock" />
+    </Block>
+    
+     <Block Name="L2_W_DateTimeSetCommandBlock" DeviceCode="W" HeadDevice="0x001101" Points="3">
+       <ItemGroup Name="DateTimeSetCommandBlock" />
+    </Block>
+
+    <Block Name="L2_W_CIMMessageSetCommandBlock" DeviceCode="W" HeadDevice="0x001104" Points="21">
+      <ItemGroup Name="CIMMessageSetBlock" />
+    </Block>
+
+  </BlockMap>
+
+  <Transaction>
+    <Receive>
+      <Trx Name="L2_EquipmentAlive" Key="L_MB_LTM.L2_B_LTM_H.EquipmentAlive" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+
+        <MultiBlock Name="L2_MB_EquipmentAliveReply" Action="W" LogMode="NONE">
+          <Block Name="L2_B_EquipmentAliveReply">
+            <Item Name="EquipmentAliveReply" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+      
+      
+      <Trx Name="L2_ControlStateChangeRequest" Key="L_MB_LTM.L2_B_LTM_H.ControlStateChangeRequest" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_ControlStateChangeRequestBlock" Action="R" LogMode="NORMAL">
+          <Block Name="L2_W_ControlStateChangeRequestBlock" />
+        </MultiBlock>
+        <MultiBlock Name="L2_MB_ControlStateChangeRequestReply" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_ControlStateChangeRequestReply">
+            <Item Name="ControlStateChangeRequestReply" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+
+      <Trx Name="L2_EquipmentStatusChangeReport" Key="L_MB_LTM.L2_B_LTM_H.EquipmentStatusChangeReport" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_EquipmentStatusChangeReportBlock" Action="R" LogMode="NORMAL">
+          <Block Name="L2_W_EquipmentStatusChangeReportBlock" />
+        </MultiBlock>
+        <MultiBlock Name="L2_MB_EquipmentStatusChangeReportReply" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_EquipmentStatusChangeReportReply">
+            <Item Name="EquipmentStatusChangeReportReply" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+
+
+      <Trx Name="L2_AlarmStatusChangeReport" Key="L_MB_LTM.L2_B_LTM_H.AlarmStatusChangeReport" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_AlarmStatusChangeReportBlock" Action="R" LogMode="NORMAL">
+          <Block Name="L2_W_AlarmStatusChangeReportBlock" />
+        </MultiBlock>
+        <MultiBlock Name="L2_MB_AlarmStatusChangeReportReply" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_AlarmStatusChangeReportReply">
+            <Item Name="AlarmStatusChangeReportReply" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+
+
+      <Trx Name="L2_ProcessStartReport" Key="L_MB_LTM.L2_B_LTM_H.ProcessStartReport" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_ProcessStartReportBlock" Action="R" LogMode="NORMAL">
+          <Block Name="L2_W_ProcessStartReportBlock" />
+        </MultiBlock>
+        <MultiBlock Name="L2_MB_ProcessStartReportReply" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_ProcessStartReportReply">
+            <Item Name="ProcessStartReportReply" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+      
+        <Trx Name="L2_ProcessEndReport" Key="L_MB_LTM.L2_B_LTM_H.ProcessEndReport" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_ProcessEndReportBlock" Action="R" LogMode="NORMAL">
+          <Block Name="L2_W_ProcessEndReportBlock" />
+        </MultiBlock>
+        <MultiBlock Name="L2_MB_ProcessEndReportReply" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_ProcessEndReportReply">
+            <Item Name="ProcessEndReportReply" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+
+
+      <Trx Name="L2_ControlStateChangeCommandReply" Key="L_MB_LTM.L2_B_LTM_H.ControlStateChangeCommandReply" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_ControlStateChangeCommand" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_ControlStateChangeCommand">
+            <Item Name="ControlStateChangeCommand" Value="0" SyncValue="false" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+
+      <Trx Name="L2_DateTimeSetCommandReply" Key="L_MB_LTM.L2_B_LTM_H.DateTimeSetCommandReply" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_DateTimeSetCommand" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_DateTimeSetCommand">
+            <Item Name="DateTimeSetCommand" Value="0" SyncValue="false" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+
+      <Trx Name="L2_CIMMessageSetCommandReply" Key="L_MB_LTM.L2_B_LTM_H.CIMMessageSetCommandReply" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_CIMMessageSetCommand" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_CIMMessageSetCommand">
+            <Item Name="CIMMessageSetCommand" Value="0" SyncValue="false" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+
+      <Trx Name="L2_EquipmentDownCommandReply" Key="L_MB_LTM.L2_B_LTM_H.EquipmentDownCommandReply" BitOffEvent="true" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_EquipmentDownCommand" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_EquipmentDownCommand">
+            <Item Name="EquipmentDownCommand" Value="0" SyncValue="false" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+      
+      
+    </Receive>
+
+    <Send>
+
+      <Trx Name="L2_ControlStateChangeCommand">
+        <MultiBlock Name="L2_MB_ControlStateChangeCommandBlock" Action="W" LogMode="NORMAL">
+          <Block Name="L2_W_ControlStateChangeCommandBlock" />
+        </MultiBlock>
+        <MultiBlock Name="L2_MB_ControlStateChangeCommand" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_ControlStateChangeCommand">
+            <Item Name="ControlStateChangeCommand" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+
+      <Trx Name="L2_DateTimeSetCommand">
+        <MultiBlock Name="L2_MB_DateTimeSetCommandBlock" Action="W" LogMode="NORMAL">
+          <Block Name="L2_W_DateTimeSetCommandBlock" />
+        </MultiBlock>
+        <MultiBlock Name="L2_MB_DateTimeSetCommand" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_DateTimeSetCommand">
+            <Item Name="DateTimeSetCommand" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+
+      <Trx Name="L2_CIMMessageSetCommand">
+        <MultiBlock Name="L2_MB_CIMMessageSetCommandBlock" Action="W" LogMode="NORMAL">
+          <Block Name="L2_W_CIMMessageSetCommandBlock" />
+        </MultiBlock>
+        <MultiBlock Name="L2_MB_CIMMessageSetCommand" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_CIMMessageSetCommand">
+            <Item Name="CIMMessageSetCommand" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+
+      <Trx Name="L2_EquipmentDownCommand">
+
+        <MultiBlock Name="L2_MB_CIMMessageSetCommand" Action="W" LogMode="NORMAL">
+          <Block Name="L2_B_EquipmentDownCommand">
+            <Item Name="CIMMessageSetCommand" Value="1" SyncValue="true" />
+          </Block>
+        </MultiBlock>
+      </Trx>
+      
+    </Send>
+  </Transaction>
+
+  <DataGathering>
+    <Scan>
+      <MultiBlock Name="L_MB_LTM" Interval="200" StartUp="true" Priority="5" LogMode="NORMAL">
+        <Block Name="L2_B_LTM_H" Trigger="D" />
+      </MultiBlock>
+    </Scan>
+    
+  </DataGathering>
+
+
+</PLCDriver>

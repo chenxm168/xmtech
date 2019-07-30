@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E50A938A-1891-4A55-B117-AE88CC32EB53}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EQPIO.Common</RootNamespace>
+    <AssemblyName>EQPIO.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\MPC\MPC\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Block.cs" />
+    <Compile Include="BlockMap.cs" />
+    <Compile Include="CheckItem.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="ConfigManager.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="ConnectionInfo.cs" />
+    <Compile Include="ConstDefine.cs" />
+    <Compile Include="DataGathering.cs" />
+    <Compile Include="datagridConfigration.cs" />
+    <Compile Include="DeviceCodeConst.cs" />
+    <Compile Include="DeviceMemory.cs" />
+    <Compile Include="EIPDriverConfig.cs" />
+    <Compile Include="enumConnectionType.cs" />
+    <Compile Include="FilterItem.cs" />
+    <Compile Include="Globalproperties.cs" />
+    <Compile Include="ILicenseCheck.cs" />
+    <Compile Include="IOConOption.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemGroup.cs" />
+    <Compile Include="ItemGroupCollection.cs" />
+    <Compile Include="LicenseCkeckerElecKey.cs" />
+    <Compile Include="LicenseCkeckerWibuKey.cs" />
+    <Compile Include="LinkTest.cs" />
+    <Compile Include="LoggingFilter.cs" />
+    <Compile Include="LoggingFilterText.cs" />
+    <Compile Include="LogText.cs" />
+    <Compile Include="MNetDev.cs" />
+    <Compile Include="MultiBlock.cs" />
+    <Compile Include="Objects.cs" />
+    <Compile Include="OnDemand.cs" />
+    <Compile Include="pageEIPDriverConfigration.cs" />
+    <Compile Include="pageMNetDriverConfigration.cs" />
+    <Compile Include="pageMNetProtocolConfigration.cs" />
+    <Compile Include="pageRabbitMQInterfaceConfigration.cs" />
+    <Compile Include="PLCDriver.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property.cs" />
+    <Compile Include="ReadBlock.cs" />
+    <Compile Include="Receive.cs" />
+    <Compile Include="Scan.cs" />
+    <Compile Include="ScanStatusEachConnectionType.cs" />
+    <Compile Include="Send.cs" />
+    <Compile Include="TimeoutCheck.cs" />
+    <Compile Include="Transaction.cs" />
+    <Compile Include="Trx.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

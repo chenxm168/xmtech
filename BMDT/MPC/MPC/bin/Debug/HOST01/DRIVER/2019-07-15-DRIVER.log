@@ -1,0 +1,7 @@
+[17:58:00.200][DEBUG][9] Message Initialize Time StartTime : 17:58:00 193 EndTime : 17:58:00 200
+[17:58:05.892][DEBUG][9] Composer Message Size : 18 Dispatcher Message Size : 24
+[17:58:05.944][INFO][ConnectionManager] [connectManager][connect] - Start
+[17:58:05.945][INFO][ConnectionManager] [connectManager][serverReady] - Start
+[17:58:05.945][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDING
+[17:58:05.945][INFO][ConnectionManager] [connectManager][serverReady] - HSMS BINDED
+[17:58:05.945][INFO][ConnectionManager] [connectManager][connect] - Accept Ready

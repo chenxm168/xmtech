@@ -1,0 +1,13 @@
+c:\Users\OIC\documents\visual studio 2013\Projects\HSMSCom\cx.log4net\bin\Debug\cx.log4net.dll
+c:\Users\OIC\documents\visual studio 2013\Projects\HSMSCom\cx.log4net\bin\Debug\cx.log4net.pdb
+c:\Users\OIC\documents\visual studio 2013\Projects\HSMSCom\cx.log4net\bin\Debug\log4net.dll
+c:\Users\OIC\documents\visual studio 2013\Projects\HSMSCom\cx.log4net\bin\Debug\log4net.xml
+c:\Users\OIC\documents\visual studio 2013\Projects\HSMSCom\cx.log4net\obj\Debug\cx.log4net.dll
+c:\Users\OIC\documents\visual studio 2013\Projects\HSMSCom\cx.log4net\obj\Debug\cx.log4net.pdb
+D:\develop\CommonDll\cx.log4net\bin\Debug\cx.log4net.dll
+D:\develop\CommonDll\cx.log4net\bin\Debug\cx.log4net.pdb
+D:\develop\CommonDll\cx.log4net\bin\Debug\log4net.dll
+D:\develop\CommonDll\cx.log4net\bin\Debug\log4net.xml
+D:\develop\CommonDll\cx.log4net\obj\Debug\cx.log4net.dll
+D:\develop\CommonDll\cx.log4net\obj\Debug\cx.log4net.pdb
+D:\develop\CommonDll\cx.log4net\obj\Debug\cx.log4net.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.RabbitMQInterface\bin\Release\IOCon.RabbitMQInterface.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.RabbitMQInterface\bin\Release\IOCon.RabbitMQInterface.pdb
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.RabbitMQInterface\bin\Release\IOCon.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.RabbitMQInterface\bin\Release\log4net.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.RabbitMQInterface\bin\Release\fastJSON.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.RabbitMQInterface\bin\Release\IOCon.pdb
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.RabbitMQInterface\obj\Release\IOCon.RabbitMQInterface.csprojResolveAssemblyReference.cache
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.RabbitMQInterface\obj\Release\IOCon.RabbitMQInterface.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.RabbitMQInterface\obj\Release\IOCon.RabbitMQInterface.pdb

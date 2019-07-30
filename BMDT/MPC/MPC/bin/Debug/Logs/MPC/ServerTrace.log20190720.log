@@ -1,0 +1,9 @@
+[2019-07-20 11:38:33.971] [DEBUG] [mProtocol_OnEventReceived] [Form1][OnEQPConnection] -EQP Connection!
+[2019-07-20 11:40:56.725] [DEBUG] [mProtocol_OnEventReceived] [Form1][OnEQPConnection] -EQP Connection!
+[2019-07-20 11:46:44.238] [DEBUG] [mProtocol_OnEventReceived] [Form1][OnEQPConnection] -EQP Connection!
+[2019-07-20 11:48:20.164] [DEBUG] [mProtocol_OnEventReceived] [Form1][OnEQPConnection] -EQP Connection!
+[2019-07-20 11:52:28.177] [DEBUG] [mProtocol_OnEventReceived] [Form1][OnEQPConnection] -EQP Connection!
+[2019-07-20 12:15:23.098] [DEBUG] [mProtocol_OnEventReceived] [Form1][OnEQPConnection] -EQP Connection!
+[2019-07-20 12:20:30.700] [DEBUG] [mProtocol_OnEventReceived] [Form1][OnEQPConnection] -EQP Connection!
+[2019-07-20 22:03:54.902] [ERROR] [9] [ObjectManager][getObject] -No object named 'TibSender' is defined : Cannot find definition for object [TibSender]
+[2019-07-20 22:07:35.341] [DEBUG] [mProtocol_OnEventReceived] [Form1][OnEQPConnection] -EQP Connection!

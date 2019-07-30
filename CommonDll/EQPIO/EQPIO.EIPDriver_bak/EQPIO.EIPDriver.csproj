@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23237ED9-FA26-44F0-B9ED-93DCF36FE920}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EQPIO.EIPDriver</RootNamespace>
+    <AssemblyName>EQPIO.EIPDriver</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VariableCompolet">
+      <HintPath>DLL\VariableCompolet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HF.BC.Tool.EIPDriver\Config\EIPConfig.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Data\DictionaryList.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Data\Item.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Data\Represent\Representation.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Data\Represent\RepresentationA.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Data\Represent\RepresentationB.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Data\Represent\RepresentationBIT.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Data\Represent\RepresentationI.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Data\Tag.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Data\TagFactory.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Data\Trx.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Compiler\BlockCompiler.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Compiler\CompileResult.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Compiler\DataGatherCompiler.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Compiler\EIPMapCompiler.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Compiler\ErrorCode.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Compiler\ItemGroupCompiler.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Compiler\Severity.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Compiler\SubCompiler.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Compiler\TagCompiler.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Compiler\TrxCompiler.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\DataGathering\IScanTimer.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\DataGathering\ScanAnalysis.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\DataGathering\ScanTimer.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\DataGathering\SVDataTimer.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\DataLink.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Data\Block.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Data\BlockingQueue.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Data\MultiTag.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Data\Represent\RepresentationSI.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Data\TimeOutChecker.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\EventHandler\EIPDriverEventHandler.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\EventHandler\EIPEvent.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\EventHandler\EIPEventHandler.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Threading\AbstractEventInvoker.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Driver\Threading\AbstractThread.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\EIPClient.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\EIPConst.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\EIPDriver.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Enums\ActionEnum.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Enums\ConfigureError.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Enums\ConnectionStatus.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Enums\LogModeEnum.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Enums\TriggerEnum.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Enums\TrxBitOffEnum.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Parser\WordTypeParser.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Utils\ArrayUtils.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Utils\BinaryUtils.cs" />
+    <Compile Include="HF.BC.Tool.EIPDriver\Utils\XmlUtils.cs" />
+    <Compile Include="EQPIO.EIPDriver.Compiler.Resources\Description.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EQPIO.EIPDriver.Compiler.Resources\Description.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fakesd\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Fakes Include="Fakes\VariableCompolet.fakes" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

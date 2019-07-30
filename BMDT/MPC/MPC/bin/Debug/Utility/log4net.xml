@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<log4net>
+  <appender name="DRIVER" type="cx.log4net.appender.DynamicFileAppender">
+    <rootDir value="./logs" />
+    <file value="DRIVER/%d{yyyy-MM-dd}/%d{yyyy-MM-dd}-DRIVER.log/%d{yyyy-MM-dd_HH}-DRIVER.log" />
+    <deleteDatePattern value="dd" />
+    <deletePeriod value="3" />
+    <deletePath value="DRIVER" />
+    <deleteExtension value="*.log" />
+    <appendToFile value="true" />
+    <!-- A1 uses PatternLayout -->
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="[%d{HH:mm:ss.fff}][%-4p][%t] %m%n" />
+      <!--
+            <conversionPattern value="%d [%-15t] %-5p %m (%C.%M:%L)%n"  %d{HH:mm:ss.SSS}[%-4p][%t] %m%n/>
+-->
+    </layout>
+    <immediateFlush value="true" />
+  </appender>
+  <appender name="SECS-I" type="cx.log4net.appender.DynamicFileAppender">
+    <rootDir value="./logs" />
+    <file value="SECS1/%d{yyyy-MM-dd}/%d{yyyy-MM-dd}-SECS1.log/%d{yyyy-MM-dd_HH}-SECS1.log" />
+    <deleteDatePattern value="dd" />
+    <deletePeriod value="3" />
+    <deletePath value="SECS1" />
+    <deleteExtension value="*.log" />
+    <appendToFile value="true" />
+    <!-- A1 uses PatternLayout -->
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="[%d{HH:mm:ss.fff}] %m%n" />
+    </layout>
+    <immediateFlush value="true" />
+  </appender>
+  <appender name="SECS-II" type="cx.log4net.appender.DynamicFileAppender">
+    <rootDir value="./logs" />
+    <file value="SECS2/%d{yyyy-MM-dd}/%d{yyyy-MM-dd}-SECS2.log/%d{yyyy-MM-dd_HH}-SECS2.log" />
+    <deleteDatePattern value="dd" />
+    <deletePeriod value="3" />
+    <deletePath value="SECS2" />
+    <deleteExtension value="*.log" />
+    <appendToFile value="true" />
+    <!-- A1 uses PatternLayout -->
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="[%d{HH:mm:ss.fff}] %m%n" />
+    </layout>
+    <immediateFlush value="true" />
+  </appender>
+  <appender name="REPORT" type="cx.log4net.appender.DynamicFileAppender">
+    <rootDir value="./logs" />
+    <file value="REPORT/%d{yyyy-MM-dd}/%d{yyyy-MM-dd}-REPORT.log/%d{yyyy-MM-dd_HH}-REPORT.log" />
+    <deleteDatePattern value="dd" />
+    <deletePeriod value="3" />
+    <deletePath value="REPORT" />
+    <deleteExtension value="*.log" />
+    <appendToFile value="true" />
+    <!-- A1 uses PatternLayout -->
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="[%d{HH:mm:ss.fff}] %m%n" />
+    </layout>
+    <immediateFlush value="true" />
+  </appender>
+  <appender name="UNKNOWN" type="cx.log4net.appender.DynamicFileAppender">
+    <rootDir value="./logs" />
+    <file value="UNKNOWN/%d{yyyy-MM-dd}/%d{yyyy-MM-dd}-UNKNOWN.log/%d{yyyy-MM-dd_HH}-UNKNOWN.log" />
+    <deleteDatePattern value="dd" />
+    <deletePeriod value="3" />
+    <deletePath value="UNKNOWN" />
+    <deleteExtension value="*.log" />
+    <appendToFile value="true" />
+    <!-- A1 uses PatternLayout -->
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="[%d{HH:mm:ss.fff}] %m%n" />
+    </layout>
+    <immediateFlush value="true" />
+  </appender>
+  <logger name="SEComDriver.DRIVER" additivity="false">
+    <level value="ALL" />
+    <appender-ref ref="DRIVER" />
+  </logger>
+  <logger name="SEComDriver.SECS-I" additivity="false">
+    <level value="ALL" />
+    <appender-ref ref="SECS-I" />
+    <!--<appender-ref ref="log-evt" />-->
+  </logger>
+  <logger name="SEComDriver.SECS-II" additivity="false">
+    <level value="ALL" />
+    <appender-ref ref="SECS-II" />
+    <!--<appender-ref ref="log-evt" />-->
+  </logger>
+  <logger name="SEComDriver.REPORT" additivity="false">
+    <level value="ALL" />
+    <appender-ref ref="REPORT" />
+  </logger>
+  <logger name="SEComDriver.UNKNOWN" additivity="false">
+    <level value="ALL" />
+    <appender-ref ref="UNKNOWN" />
+  </logger>
+</log4net>
+
+
+
+

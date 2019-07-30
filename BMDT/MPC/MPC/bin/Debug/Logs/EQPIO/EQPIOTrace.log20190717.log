@@ -1,0 +1,190 @@
+[2019-07-17 16:29:22.088] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-17 16:29:22.369] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-17 16:29:22.374] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-17 16:29:22.379] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-17 16:29:22.381] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-17 16:29:22.384] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-17 16:29:22.395] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-17 16:29-22_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-17 16:29:22.397] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-17 16:29:22.474] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-17 16:34:04.632] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-17 16:34:04.952] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-17 16:34:04.957] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-17 16:34:04.961] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-17 16:34:04.963] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-17 16:34:04.966] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-17 16:34:04.975] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-17 16:34-04_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-17 16:34:04.977] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-17 16:34:04.988] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-17 16:39:19.563] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-17 16:39:19.868] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-17 16:39:19.873] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-17 16:39:19.878] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-17 16:39:19.879] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-17 16:39:19.882] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-17 16:39:19.891] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-17 16:39-19_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-17 16:39:19.894] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-17 16:39:19.903] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-17 16:46:19.622] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-17 16:46:19.964] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-17 16:46:19.970] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-17 16:46:19.974] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-17 16:46:19.976] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-17 16:46:19.978] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-17 16:46:19.989] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-17 16:46-19_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-17 16:46:19.992] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-17 16:46:20.001] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-17 16:54:32.265] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-17 16:54:32.632] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-17 16:54:32.637] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-17 16:54:32.641] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-17 16:54:32.643] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-17 16:54:32.645] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-17 16:54:32.657] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-17 16:54-32_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-17 16:54:32.658] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-17 16:54:32.669] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-17 17:01:44.633] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-17 17:01:44.989] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-17 17:01:44.994] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-17 17:01:44.998] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-17 17:01:45.000] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-17 17:01:46.124] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:01:47.160] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:01:49.189] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:01:51.397] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:01:53.448] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:01:55.495] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:01:57.572] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:01:59.631] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:03:06.145] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-07-17 17:03:06.465] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-17 17:03:06.470] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-17 17:03:06.474] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-17 17:03:06.475] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-17 17:03:07.578] [ERROR] [9] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:03:08.631] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:03:10.650] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:03:12.847] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:03:14.899] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:03:16.947] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:08:29.597] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-17 17:08:29.944] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-17 17:08:29.949] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-17 17:08:29.954] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-17 17:08:29.955] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-17 17:08:29.958] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-17 17:08:29.969] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-17 17:08-29_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-17 17:08:29.971] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-17 17:08:29.980] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-17 17:11:51.024] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-17 17:11:51.346] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-17 17:11:51.352] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-17 17:11:51.356] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-17 17:11:51.358] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-17 17:11:51.361] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-07-17 17:11:51.372] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-07-17 17:11-51_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-07-17 17:11:51.374] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-07-17 17:11:51.382] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-07-17 17:18:21.935] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-07-17 17:18:22.364] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-07-17 17:18:22.370] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-07-17 17:18:22.374] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-07-17 17:18:22.375] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-07-17 17:18:23.480] [ERROR] [10] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:24.559] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:26.606] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:28.732] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:30.776] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:32.814] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:44.058] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:46.112] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:48.167] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:50.226] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:52.280] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:54.326] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:56.387] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:18:58.443] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:19:00.498] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:19:02.546] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:19:04.591] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:19:06.646] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:19:08.695] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:19:10.762] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007
+[2019-07-17 17:19:12.815] [ERROR] [ReConnectThreadProc] [MNet3EScanUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 192.168.51.9:7007

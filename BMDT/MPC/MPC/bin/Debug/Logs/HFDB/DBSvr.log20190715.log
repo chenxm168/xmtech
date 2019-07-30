@@ -1,0 +1,26 @@
+[2019-07-15 16:24:48.231] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 16:25:06.473] [DEBUG] [9] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [UPDATE  EQUIPMENT   SET  EQUIPMENTNAME = 'C1CCL01' ,  RMSUSEFLAG = 'N' ,  CURRENTSTATUSTIME = '2019-04-24 16:02:47.924' ,  EQUIPMENTSTATUS = 'Run' ,  EQUIPMENTTYPE = 'Cassette Cleaner' ,  OLDEQUIPMENTSTATUS = 'Run' ,  ONLINECONTROLSTATUS = 'Offline' ,  SHOP = 'Array' ,  PROJECTTYPE = 'New' ,  STATUSCODE = '' ,  DESCRIPTION = 'Cassette Cleaner'   WHERE  EQUIPMENTNAME = 'C1CCL01' ]
+[2019-07-15 16:25:07.249] [DEBUG] [9] [SQLiteHelper][CloseConnection] -DB connection Close.
+[2019-07-15 16:45:41.006] [DEBUG] [8] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 16:46:07.506] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 16:52:59.634] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 16:58:33.083] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 16:58:40.236] [DEBUG] [9] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [UPDATE  EQUIPMENT   SET  EQUIPMENTNAME = 'C1CCL01' ,  RMSUSEFLAG = 'N' ,  CURRENTSTATUSTIME = '2019-04-24 16:02:47.924' ,  EQUIPMENTSTATUS = 'Run' ,  EQUIPMENTTYPE = 'Cassette Cleaner' ,  OLDEQUIPMENTSTATUS = 'Run' ,  ONLINECONTROLSTATUS = 'Offline' ,  SHOP = 'Array' ,  PROJECTTYPE = 'New' ,  STATUSCODE = '' ,  DESCRIPTION = 'Cassette Cleaner'   WHERE  EQUIPMENTNAME = 'C1CCL01' ]
+[2019-07-15 16:58:40.811] [DEBUG] [9] [SQLiteHelper][CloseConnection] -DB connection Close.
+[2019-07-15 17:02:28.431] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 17:02:41.342] [DEBUG] [9] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [UPDATE  EQUIPMENT   SET  EQUIPMENTNAME = 'C1CCL01' ,  RMSUSEFLAG = 'N' ,  CURRENTSTATUSTIME = '2019-04-24 16:02:47.924' ,  EQUIPMENTSTATUS = 'Run' ,  EQUIPMENTTYPE = 'Cassette Cleaner' ,  OLDEQUIPMENTSTATUS = 'Run' ,  ONLINECONTROLSTATUS = 'Offline' ,  SHOP = 'Array' ,  PROJECTTYPE = 'New' ,  STATUSCODE = '' ,  DESCRIPTION = 'Cassette Cleaner'   WHERE  EQUIPMENTNAME = 'C1CCL01' ]
+[2019-07-15 17:02:41.693] [DEBUG] [9] [SQLiteHelper][CloseConnection] -DB connection Close.
+[2019-07-15 17:08:56.645] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 17:09:14.225] [DEBUG] [10] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [UPDATE  EQUIPMENT   SET  EQUIPMENTNAME = 'C1CCL01' ,  RMSUSEFLAG = 'N' ,  CURRENTSTATUSTIME = '2019-04-24 16:02:47.924' ,  EQUIPMENTSTATUS = 'Run' ,  EQUIPMENTTYPE = 'Cassette Cleaner' ,  OLDEQUIPMENTSTATUS = 'Run' ,  ONLINECONTROLSTATUS = 'Offline' ,  SHOP = 'Array' ,  PROJECTTYPE = 'New' ,  STATUSCODE = '' ,  DESCRIPTION = 'Cassette Cleaner'   WHERE  EQUIPMENTNAME = 'C1CCL01' ]
+[2019-07-15 17:09:14.869] [DEBUG] [10] [SQLiteHelper][CloseConnection] -DB connection Close.
+[2019-07-15 17:11:18.745] [DEBUG] [8] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 17:11:42.643] [DEBUG] [8] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [UPDATE  EQUIPMENT   SET  EQUIPMENTNAME = 'C1CCL01' ,  RMSUSEFLAG = 'N' ,  CURRENTSTATUSTIME = '2019-04-24 16:02:47.924' ,  EQUIPMENTSTATUS = 'Run' ,  EQUIPMENTTYPE = 'Cassette Cleaner' ,  OLDEQUIPMENTSTATUS = 'Run' ,  ONLINECONTROLSTATUS = 'Offline' ,  SHOP = 'Array' ,  PROJECTTYPE = 'New' ,  STATUSCODE = '' ,  DESCRIPTION = 'Cassette Cleaner'   WHERE  EQUIPMENTNAME = 'C1CCL01' ]
+[2019-07-15 17:11:42.954] [DEBUG] [8] [SQLiteHelper][CloseConnection] -DB connection Close.
+[2019-07-15 17:19:50.431] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 17:20:04.456] [DEBUG] [10] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [UPDATE  EQUIPMENT   SET  EQUIPMENTNAME = 'C1CCL01' ,  RMSUSEFLAG = 'N' ,  CURRENTSTATUSTIME = '2019-04-24 16:02:47.924' ,  EQUIPMENTSTATUS = 'Run' ,  EQUIPMENTTYPE = 'Cassette Cleaner' ,  OLDEQUIPMENTSTATUS = 'Run' ,  ONLINECONTROLSTATUS = 'Offline' ,  SHOP = 'Array' ,  PROJECTTYPE = 'New' ,  STATUSCODE = '' ,  DESCRIPTION = 'Cassette Cleaner'   WHERE  EQUIPMENTNAME = 'C1CCL01' ]
+[2019-07-15 17:20:04.853] [DEBUG] [10] [SQLiteHelper][CloseConnection] -DB connection Close.
+[2019-07-15 17:28:57.320] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 17:41:26.518] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 17:47:33.860] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 17:50:07.579] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-15 17:57:39.087] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.

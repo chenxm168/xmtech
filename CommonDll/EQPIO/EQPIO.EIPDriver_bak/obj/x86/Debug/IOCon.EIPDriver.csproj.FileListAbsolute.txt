@@ -1,0 +1,9 @@
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\x86\Debug\IOCon.EIPDriver.IOCon.EIPDriver.Compiler.Resources.Description.resources
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\x86\Debug\IOCon.EIPDriver.csproj.GenerateResource.Cache
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\x86\Debug\IOCon.EIPDriver.csprojResolveAssemblyReference.cache
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\bin\x86\Debug\IOCon.EIPDriver.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\bin\x86\Debug\IOCon.EIPDriver.pdb
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\bin\x86\Debug\log4net.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\bin\x86\Debug\VariableCompolet.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\x86\Debug\IOCon.EIPDriver.dll
+D:\桌面\新建文件夹\EAS\IOCon\IOCon\IOCon.EIPDriver\obj\x86\Debug\IOCon.EIPDriver.pdb

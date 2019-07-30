@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<STATION>
+  <STATIONINFO>
+    <LOGDIR>D:\hsms\pj\Log</LOGDIR>
+  </STATIONINFO>
+  <TYPELIST>
+    <module>
+      <SMDPATH>D:\DevRepository\hsmsbuild\BMDT\Type\module\SDMTLINE.smd</SMDPATH>
+      <DRVVER>SEComDriver4.0.0.1</DRVVER>
+    </module>
+  </TYPELIST>
+  <SECOMDRIVERLIST>
+  </SECOMDRIVERLIST>
+</STATION>

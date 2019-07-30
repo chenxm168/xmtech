@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6145BEC9-2E65-44A4-A2E1-270AEDBA309F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TIBMessageIo</RootNamespace>
+    <AssemblyName>TIBMessageIo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\MPC\MPC\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TIBCO.Rendezvous, Version=1.0.4002.32157, Culture=neutral, PublicKeyToken=1a696d1f90f6158a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\tibco\tibrv\8.4\bin\TIBCO.Rendezvous.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConstantDef\ConstrantType1.cs" />
+    <Compile Include="IMessage.cs" />
+    <Compile Include="ISendable.cs" />
+    <Compile Include="MessageInfo.cs" />
+    <Compile Include="MessageSet\AbstractMessage.cs" />
+    <Compile Include="MessageSet\AbstractMessageBody.cs" />
+    <Compile Include="MessageSet\AreYouThereRequest2.cs" />
+    <Compile Include="MessageSet\AreYouThereRequest.cs" />
+    <Compile Include="MessageSet\AreYouThereRequestBody.cs" />
+    <Compile Include="MessageSet\LotProcessInfoBody.cs" />
+    <Compile Include="MessageSet\CurrentDateTimeRequest.cs" />
+    <Compile Include="MessageSet\CurrentDateTimeRequestBody.cs" />
+    <Compile Include="MessageSet\CurrentDateTimeResponse.cs" />
+    <Compile Include="MessageSet\CurrentDateTimeResponseBody.cs" />
+    <Compile Include="MessageSet\LotProcessInfo.cs" />
+    <Compile Include="MessageSet\MachineControlStateMessage.cs" />
+    <Compile Include="MessageSet\MachineControlStateBody.cs" />
+    <Compile Include="MessageSet\MachineDataBody.cs" />
+    <Compile Include="MessageSet\MachineDataMessage.cs" />
+    <Compile Include="MessageSet\MachineOnlineParameterDataBody.cs" />
+    <Compile Include="MessageSet\MachineOnlineParameterDataMessage.cs" />
+    <Compile Include="MessageSet\MachineStateBody.cs" />
+    <Compile Include="MessageSet\MachineStateMessage.cs" />
+    <Compile Include="MessageSet\MessageHead.cs" />
+    <Compile Include="MessageSet\MessageReturn.cs" />
+    <Compile Include="MessageSet\OpCallSendBody.cs" />
+    <Compile Include="MessageSet\OpCallSendMessage.cs" />
+    <Compile Include="MessageSet\PortDataBody.cs" />
+    <Compile Include="MessageSet\PortDataMessage.cs" />
+    <Compile Include="MessageSet\ProcessDataMessage.cs" />
+    <Compile Include="MessageSet\ProductInOutMessage.cs" />
+    <Compile Include="MessageSet\RecipeListBody.cs" />
+    <Compile Include="MessageSet\RecipeListMessage.cs" />
+    <Compile Include="MessageSet\RecipeParameterBody.cs" />
+    <Compile Include="MessageSet\RecipeParameterMessage.cs" />
+    <Compile Include="MessageSet\StaticVarible.cs" />
+    <Compile Include="MessageSet\Util.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TIBAdapter.cs" />
+    <Compile Include="TIBMessageService.cs" />
+    <Compile Include="Tibtest.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="DLL\TIBCO.Rendezvous.dll" />
+    <Content Include="DLL\tibrv.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DLL\TIBCO.Rendezvous.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DLL\TIBCO.Rendezvous.netmodule">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
