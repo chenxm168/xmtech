@@ -159,12 +159,15 @@
   <ItemGroup>
     <Content Include="Config\EQPConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Config\MNetConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Config\PLCMap.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Log4Net.config.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

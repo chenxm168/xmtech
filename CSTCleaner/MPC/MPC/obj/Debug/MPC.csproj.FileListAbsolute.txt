@@ -177,9 +177,7 @@ D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Resources\MNetConfig2.xml
 D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Config\EQPConfig.xml
 D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Config\MNetConfig.xml
 D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Config\PLCMap.xml
-D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\MPC.exe.config
-D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.exe
-D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.pdb
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\ECS.DB
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Resources\EQPConfig.xml
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Resources\MNetConfig2.xml
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\DLL\tibrv.dll
@@ -192,6 +190,7 @@ D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Log4Net.config.xml
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-quartz.xml
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\tibrv.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\MPC.exe.config
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\MPC.exe
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\MPC.pdb
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.Core.dll
@@ -262,4 +261,5 @@ D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.csprojResolveAssemblyReference
 D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.Form1.resources
 D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.Properties.Resources.resources
 D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.csproj.GenerateResource.Cache
-D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\ECS.DB
+D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.exe
+D:\DevRepository\CSTCleaner\MPC\MPC\obj\Debug\MPC.pdb

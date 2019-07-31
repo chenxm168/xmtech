@@ -106,7 +106,7 @@ namespace MPC
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Server.ControlStatusHandler.ControlStatusChangeToOffline();
+           // Server.ControlStatusHandler.ControlStatusChangeToOffline();
             var svr = ObjectManager.getObject("serverManager") as Server.ServerManager;
             svr.Dispose();
         }

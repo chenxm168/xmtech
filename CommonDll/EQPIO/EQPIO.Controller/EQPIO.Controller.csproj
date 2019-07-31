@@ -108,7 +108,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\MNetConfig.xml" />
-    <EmbeddedResource Include="Resources\PLCMap.xml" />
+    <EmbeddedResource Include="Resources\PLCMap.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\MNetConfig2.xml">

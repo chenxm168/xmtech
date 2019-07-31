@@ -36,8 +36,10 @@ namespace MPC.Server
                    }
                    
                    portInfo.PORTNAME=port.PortName;
-                   portInfo.PORTTYPE = port.PortType;
+                  // portInfo.PORTTYPE = port.PortType;
+                   portInfo.PORTUSETYPE = port.PortUseType;
                    portInfo.CARRIERTYPE =port.CassetteType;
+                   portInfo.CARRIERNAME = "  ";
 
                    var mSvr = ServiceManager.GetEquipmentService();
 
@@ -82,7 +84,7 @@ namespace MPC.Server
                    }
 
                    portInfo.PORTNAME = port.PortName;
-                   portInfo.PORTTYPE = port.PortType;
+                   portInfo.PORTUSETYPE = port.PortUseType;
                    portInfo.CARRIERTYPE = port.CassetteType;
                    portInfo.CARRIERNAME = cstid;
 

@@ -22,7 +22,7 @@ namespace MPC.Server.EQP
             {
                 case "L2_Port#1LoadRequestReport":
 
-
+                    {
                     keys.Add("EQUIPMENTNAME", GlobalVariable.EQP_ID);
                     keys.Add("PORTNAME", "PL01");
                     var port = portSvr.FindByKey(keys, null, false);
@@ -43,9 +43,9 @@ namespace MPC.Server.EQP
 
                     break;
 
-
+                    }
                 case "L2_Port#1UnloadRequestReport":
-
+                    { 
 
                     keys.Add("EQUIPMENTNAME", GlobalVariable.EQP_ID);
                     keys.Add("PORTNAME", "PL01");
@@ -78,12 +78,12 @@ namespace MPC.Server.EQP
 
 
                     break;
-
+                    }
                 case "L2_Port#2UnloadRequestReport":
 
-
+                    { 
                     keys.Add("EQUIPMENTNAME", GlobalVariable.EQP_ID);
-                    keys.Add("PORTNAME", "PL01");
+                    keys.Add("PORTNAME", "PU01");
                     var port3 = portSvr.FindByKey(keys, null, false);
                     Dictionary<string, string> txValues3;
                     string cstid3 = String.Empty;
@@ -117,19 +117,19 @@ namespace MPC.Server.EQP
 
 
 
-
+                    }
 
                 case "L2_Port#2PortStatusChangeReport":
 
-
+                    { 
                     keys.Add("EQUIPMENTNAME", GlobalVariable.EQP_ID);
                     keys.Add("PORTNAME", "PU01");
                       var port4 = portSvr.FindByKey(keys, null, false);
                     Dictionary<string, string> txValues4;
                     string cstid4 = String.Empty;
-                    if (msg.MessageBody.ReadDataList.TryGetValue("L2_W_Port#2UnloadRequestReportBlock", out txValues3))
+                    if (msg.MessageBody.ReadDataList.TryGetValue("L2_W_Port#2UnloadRequestReportBlock", out txValues4))
                     {
-                        if (!txValues3.TryGetValue("CassetteId", out cstid3))
+                        if (!txValues4.TryGetValue("CassetteId", out cstid4))
                         {
                             return;
                         }
@@ -149,7 +149,7 @@ namespace MPC.Server.EQP
 
 
                     break;
-
+                    }
                 default:
                     break;
             }

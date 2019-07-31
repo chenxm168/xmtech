@@ -33,23 +33,7 @@
       <Item Name="Port#2LoadRequestReport" Offset="16" Points="1" Representation="BIT" />
       <Item Name="Port#2UnloadRequestReport" Offset="17" Points="1" Representation="BIT" />
     </Block>
-	<!--
-    <Block Name="L2_B_Port#1PortStatusChangeReportReply" DeviceCode="B" HeadDevice="0x0006093" Points="1">
-      <Item Name="Port#1PortStatusChangeReportReply" Offset="0" Points="1" Representation="BIT" />
-    </Block>
-	
-    <Block Name="L2_B_Port#2PortStatusChangeReportReply" DeviceCode="B" HeadDevice="0x0006094" Points="1">
-      <Item Name="Port#2PortStatusChangeReportReply" Offset="0" Points="1" Representation="BIT" />
-    </Block>  
-	
-	   <Block Name="L2_B_Port#1PortStatusChangeReportReply" DeviceCode="B" HeadDevice="0x0001093" Points="1">
-      <Item Name="Port#1PortStatusChangeReportReply" Offset="0" Points="1" Representation="BIT" />
-    </Block>
-	
-    <Block Name="L2_B_Port#2PortStatusChangeReportReply" DeviceCode="B" HeadDevice="0x0001094" Points="1">
-      <Item Name="Port#2PortStatusChangeReportReply" Offset="0" Points="1" Representation="BIT" />
-    </Block>
-     -->
+
 	 <Block Name="L2_W_Port#1UnloadRequestReportBlock" DeviceCode="W" HeadDevice="0x0006" Points="6">
      <Item Name="CassetteId" Offset="0" Points="6" Representation="A" />
     </Block>

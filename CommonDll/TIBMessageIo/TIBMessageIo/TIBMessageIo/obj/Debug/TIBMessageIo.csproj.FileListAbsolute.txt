@@ -37,6 +37,6 @@ D:\DevRepository\CommonDll\TIBMessageIo\TIBMessageIo\TIBMessageIo\bin\Debug\TIBM
 D:\DevRepository\CommonDll\TIBMessageIo\TIBMessageIo\TIBMessageIo\bin\Debug\TIBMessageIo.pdb
 D:\DevRepository\CommonDll\TIBMessageIo\TIBMessageIo\TIBMessageIo\bin\Debug\TIBCO.Rendezvous.dll
 D:\DevRepository\CommonDll\TIBMessageIo\TIBMessageIo\TIBMessageIo\bin\Debug\TIBCO.Rendezvous.netmodule
-D:\DevRepository\CommonDll\TIBMessageIo\TIBMessageIo\TIBMessageIo\obj\Debug\TIBMessageIo.csprojResolveAssemblyReference.cache
 D:\DevRepository\CommonDll\TIBMessageIo\TIBMessageIo\TIBMessageIo\obj\Debug\TIBMessageIo.dll
 D:\DevRepository\CommonDll\TIBMessageIo\TIBMessageIo\TIBMessageIo\obj\Debug\TIBMessageIo.pdb
+D:\DevRepository\CommonDll\TIBMessageIo\TIBMessageIo\TIBMessageIo\obj\Debug\TIBMessageIo.csprojResolveAssemblyReference.cache

@@ -43,6 +43,5 @@ D:\DevRepository\CommonDll\HF.DB\HF.DB\bin\Debug\System.Data.SQLite.Linq.dll
 D:\DevRepository\CommonDll\HF.DB\HF.DB\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
 D:\DevRepository\CommonDll\HF.DB\HF.DB\bin\Debug\log4net.xml
 D:\DevRepository\CommonDll\HF.DB\HF.DB\bin\Debug\System.Data.SQLite.xml
-D:\DevRepository\CommonDll\HF.DB\HF.DB\obj\Debug\HF.DB.csprojResolveAssemblyReference.cache
 D:\DevRepository\CommonDll\HF.DB\HF.DB\obj\Debug\HF.DB.dll
 D:\DevRepository\CommonDll\HF.DB\HF.DB\obj\Debug\HF.DB.pdb

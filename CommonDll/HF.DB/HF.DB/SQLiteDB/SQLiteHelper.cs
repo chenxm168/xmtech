@@ -111,7 +111,9 @@ namespace HF.DB.SQLiteDB
            try
            {
                DataTable dt = new DataTable();
+               logger.DebugFormat("Pre Excute sql [{0}]", cmd.CommandText);
                var reader = cmd.ExecuteReader();
+             
                dt.Load(reader);
                return dt;
 
