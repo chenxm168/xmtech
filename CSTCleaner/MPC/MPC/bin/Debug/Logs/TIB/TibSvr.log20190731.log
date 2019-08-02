@@ -1,0 +1,101 @@
+[2019-07-31 11:31:50.778] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-31 11:31:50.974] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-31 11:33:51.162] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-31 11:33:51.173] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-31 11:40:02.160] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-31 11:40:02.340] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-31 11:44:24.765] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-31 11:44:24.956] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-31 11:46:29.781] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-31 11:46:29.941] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-31 11:53:26.561] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-31 11:53:26.647] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-31 13:40:12.616] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-31 13:40:12.626] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-31 13:40:48.666] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190731134048614000</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PU01</PORTNAME>
+        <PORTTRANSFERSTATENAME>UR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>PT111133</CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-07-31 13:42:28.078] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190731134228078000</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>UR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>PT111133</CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-07-31 13:43:48.862] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190731134348862000</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>LR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>  </CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>

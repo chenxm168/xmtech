@@ -28,10 +28,12 @@
 
 <BlockMap>
     <Block Name="L2_B_LTM_H" DeviceCode="B" HeadDevice="0x0004A0" Points="32">
-      <Item Name="Port#1LoadRequestReport" Offset="0" Points="1" Representation="BIT" />
-      <Item Name="Port#1UnloadRequestReport" Offset="1" Points="1" Representation="BIT" />
-      <Item Name="Port#2LoadRequestReport" Offset="16" Points="1" Representation="BIT" />
-      <Item Name="Port#2UnloadRequestReport" Offset="17" Points="1" Representation="BIT" />
+
+      <Item Name="Port#2LoadRequestReport" Offset="0" Points="1" Representation="BIT" />
+      <Item Name="Port#2UnloadRequestReport" Offset="1" Points="1" Representation="BIT" />
+
+      <Item Name="Port#1LoadRequestReport" Offset="16" Points="1" Representation="BIT" />
+      <Item Name="Port#1UnloadRequestReport" Offset="17" Points="1" Representation="BIT" />
     </Block>
 
 	 <Block Name="L2_W_Port#1UnloadRequestReportBlock" DeviceCode="W" HeadDevice="0x0006" Points="6">
@@ -99,7 +101,12 @@
         </MultiBlock>
       </Trx>
       -->
-	 </Receive> 
+	 </Receive>
+
+  <Send>
+    
+    
+  </Send>
 </Transaction>
    
 <DataGathering>
