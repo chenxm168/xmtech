@@ -104,7 +104,16 @@
 	 </Receive>
 
   <Send>
-    
+       <Trx Name="L2_BIT_AllPortState">
+        <MultiBlock Name="L2_MB_BIT_AllPort" Action="R" LogMode="NORMAL">
+          <Block Name="L2_B_LTM_H" />
+        </MultiBlock>
+       
+        <MultiBlock Name="L2_MW_ALL_PortCarrier" Action="R" LogMode="NORMAL">
+          <Block Name="L2_W_Port#1UnloadRequestReportBlock" />
+         <Block Name="L2_W_Port#2UnloadRequestReportBlock" />
+        </MultiBlock>
+      </Trx>
     
   </Send>
 </Transaction>

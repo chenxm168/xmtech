@@ -92,6 +92,12 @@ namespace MPC.Server.EQP
                     OnConnected(null, null);
                     
                 }
+                IEPQEventHandler handler;
+               if( EventHandlers.TryGetValue(msg.MessageName,out handler))
+                {
+                    handler.EQPEventProcess(null);
+                }
+                
                 return;
                 
             }

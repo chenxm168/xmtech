@@ -113,7 +113,10 @@
     <Compile Include="Schedule\SchdService.cs" />
     <Compile Include="Schedule\SchedulJob.cs" />
     <Compile Include="Server\ControlStatusHandler.cs" />
+    <Compile Include="Server\EQP\ConnectionHandler.cs" />
     <Compile Include="Server\EQP\EQPEventHandler.cs" />
+    <Compile Include="Server\EQP\InitPortState.cs" />
+    <Compile Include="Server\EQP\PLCRequest.cs" />
     <Compile Include="Server\EQP\PortStatusChange.cs" />
     <Compile Include="Server\IMessageHandler.cs" />
     <Compile Include="Server\PortHandler.cs" />
@@ -186,6 +189,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\CommonDll\EQPIO\EQPIO.Common\EPQIO.Common.csproj">
+      <Project>{e50a938a-1891-4a55-b117-ae88cc32eb53}</Project>
+      <Name>EPQIO.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\CommonDll\EQPIO\EQPIO.Controller\EQPIO.Controller.csproj">
       <Project>{9c96f329-1883-4879-af93-2a580197a36d}</Project>
       <Name>EQPIO.Controller</Name>

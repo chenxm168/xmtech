@@ -22,6 +22,11 @@
   </object>-->
   
    <object id="portStatusChange" type="MPC.Server.EQP.PortStatusChange,MPC" />
+  <object id="connectionHandler" type="MPC.Server.EQP.ConnectionHandler,MPC" />
+  <object id="initPortState" type="MPC.Server.EQP.InitPortState,MPC" />
+  <object id="plcRequest" type="MPC.Server.EQP.PLCRequest,MPC">
+    <property name="Plc" ref="controlManager"/>
+  </object>
 
   <object id="m_EQPEventProcess" type="MPC.Server.EQP.EQPEventHandler,MPC"  >
     <property name="EventHandlers">
@@ -30,6 +35,8 @@
         <entry key="L2_Port#1UnloadRequestReport" value-ref="portStatusChange"/>
         <entry key="L2_Port#2LoadRequestReport" value-ref="portStatusChange"/>
         <entry key="L2_Port#2UnloadRequestReport" value-ref="portStatusChange"/>
+        <entry key="Connection" value-ref="connectionHandler"/>
+        <entry key="L2_BIT_AllPortState" value-ref="initPortState"/>
       </dictionary>
     </property>
   </object>

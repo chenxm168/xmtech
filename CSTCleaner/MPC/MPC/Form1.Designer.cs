@@ -31,14 +31,14 @@
             this.btExit = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.lbConnection = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.cbControlStatus = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btControlStatus = new System.Windows.Forms.Button();
+            this.cbControlStatus = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -63,7 +63,6 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // groupBox1
@@ -77,6 +76,26 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "EQP Info";
+            // 
+            // lbConnection
+            // 
+            this.lbConnection.AutoSize = true;
+            this.lbConnection.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.lbConnection.Location = new System.Drawing.Point(254, 51);
+            this.lbConnection.Name = "lbConnection";
+            this.lbConnection.Size = new System.Drawing.Size(98, 16);
+            this.lbConnection.TabIndex = 1;
+            this.lbConnection.Text = "Connection";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(15, 53);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(175, 14);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Communication Status:";
             // 
             // groupBox2
             // 
@@ -93,55 +112,17 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Host Info";
             // 
-            // label1
+            // btControlStatus
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(15, 53);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(175, 14);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Communication Status:";
-            // 
-            // lbConnection
-            // 
-            this.lbConnection.AutoSize = true;
-            this.lbConnection.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbConnection.Location = new System.Drawing.Point(254, 51);
-            this.lbConnection.Name = "lbConnection";
-            this.lbConnection.Size = new System.Drawing.Size(98, 16);
-            this.lbConnection.TabIndex = 1;
-            this.lbConnection.Text = "Connection";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(15, 33);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(183, 14);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Communication  Status:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(254, 33);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 16);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Connection";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(15, 84);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(135, 14);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Control  Status:";
+            this.btControlStatus.Font = new System.Drawing.Font("黑体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btControlStatus.Location = new System.Drawing.Point(363, 118);
+            this.btControlStatus.Margin = new System.Windows.Forms.Padding(2);
+            this.btControlStatus.Name = "btControlStatus";
+            this.btControlStatus.Size = new System.Drawing.Size(79, 33);
+            this.btControlStatus.TabIndex = 5;
+            this.btControlStatus.Text = "更  改";
+            this.btControlStatus.UseVisualStyleBackColor = true;
+            this.btControlStatus.Click += new System.EventHandler(this.btControlStatus_Click);
             // 
             // cbControlStatus
             // 
@@ -156,17 +137,35 @@
             this.cbControlStatus.Size = new System.Drawing.Size(121, 24);
             this.cbControlStatus.TabIndex = 4;
             // 
-            // btControlStatus
+            // label4
             // 
-            this.btControlStatus.Font = new System.Drawing.Font("黑体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btControlStatus.Location = new System.Drawing.Point(363, 118);
-            this.btControlStatus.Margin = new System.Windows.Forms.Padding(2);
-            this.btControlStatus.Name = "btControlStatus";
-            this.btControlStatus.Size = new System.Drawing.Size(79, 33);
-            this.btControlStatus.TabIndex = 5;
-            this.btControlStatus.Text = "更  改";
-            this.btControlStatus.UseVisualStyleBackColor = true;
-            this.btControlStatus.Click += new System.EventHandler(this.btControlStatus_Click);
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Location = new System.Drawing.Point(15, 84);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(135, 14);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Control  Status:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label3.Location = new System.Drawing.Point(254, 33);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(98, 16);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Connection";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(15, 33);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(183, 14);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Communication  Status:";
             // 
             // Form1
             // 

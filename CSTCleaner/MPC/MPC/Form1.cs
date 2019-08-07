@@ -14,6 +14,7 @@ using TIBMessageIo.MessageSet;
 using HF.DB;
 using HF.DB.ObjectService;
 using log4net;
+using MPC.Server.EQP;
 
 namespace MPC
 {
@@ -40,7 +41,7 @@ namespace MPC
         {
             ////Class1.CloseEQPIO();
             //var m = AreYouThereRequest.getInstance();
-            var Tsensder = ObjectManager.getObject("TibSender") as ISendable;
+           // var Tsensder = ObjectManager.getObject("TibSender") as ISendable;
             ////Tsensder.Send(m);
 
             //var port = new HF.DB.ObjectService.Type1.Pojo.Port();
@@ -78,8 +79,10 @@ namespace MPC
 
             //s.UpdatePort(port, "LoadRequest");
             //((IDisposable)s).Dispose();
-            
 
+            var rs = ObjectManager.getObject("plcRequest") as PLCRequest;
+
+            rs.SendRequest("L2_BIT_AllPortState", "R");
         }
 
         public void Init()
