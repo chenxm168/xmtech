@@ -106,6 +106,109 @@ namespace MPC.Server
            }//end foreach
        }//end lock
 
+       public static void PortLoadComplateReport(string portid, string cstid)
+       {
+           var portSvr = ServiceManager.GetPortService();
+           if (portSvr == null)
+           {
+               return;
+           }
+
+
+           var ports = portSvr.FindAll();
+           foreach (var port in ports)
+           {
+               //if(port.PortStatus=="LoadRequest")
+               if (port.PortName == portid)
+               {
+                   var TibSend = ObjectManager.getObject("TibSender") as TIBMessageIo.ISendable;
+
+                   var portInfo = new PortBaseInfo();
+                  // if (port.PortStatus.ToUpper().Trim() == "LOADCOMPLATE")
+                  // {
+                       portInfo.PORTTRANSFERSTATENAME = "LC";
+                  // }
+
+                   portInfo.PORTNAME = port.PortName;
+                   portInfo.PORTUSETYPE = port.PortUseType;
+                   portInfo.CARRIERTYPE = port.CassetteType;
+                   portInfo.CARRIERNAME = cstid;
+
+                   var mSvr = ServiceManager.GetEquipmentService();
+
+                   var eq = mSvr.FindAll().FirstOrDefault<HF.DB.ObjectService.Type1.Pojo.Equipment>();
+                   if (eq != null)
+                   {
+                       portInfo.MACHINESTATENAME = eq.EquipmentStatus;
+                       portInfo.MACHINECONTROLSTATENAME = eq.OnlineControlStatus;
+                   }
+                   PortBaseInfo[] ps = new PortBaseInfo[] { portInfo };
+                   var sendMsg = PortDataMessage.getPortTransferStateChangedMessage(ps);
+
+                   TibSend.Send(sendMsg);
+
+
+               }
+           }//end foreach
+       }//end lock
+
+       public static void PortUnloadComplateReport(string portid)
+       {
+           var portSvr = ServiceManager.GetPortService();
+           if (portSvr == null)
+           {
+               return;
+           }
+
+
+           var ports = portSvr.FindAll();
+           foreach (var port in ports)
+           {
+               //if(port.PortStatus=="LoadRequest")
+              
+               if (port.PortName == portid)
+               {
+                   if (port.CarrierId == null || port.CarrierId.Trim().Length < 1)
+                   {
+                       return;
+                   }
+                   var TibSend = ObjectManager.getObject("TibSender") as TIBMessageIo.ISendable;
+
+                   var portInfo = new PortBaseInfo();
+                   // if (port.PortStatus.ToUpper().Trim() == "LOADCOMPLATE")
+                   // {
+                   portInfo.PORTTRANSFERSTATENAME = "UC";
+                   // }
+
+                   portInfo.PORTNAME = port.PortName;
+                   portInfo.PORTUSETYPE = port.PortUseType;
+                   portInfo.CARRIERTYPE = port.CassetteType;
+                   portInfo.CARRIERNAME = port.CarrierId;
+
+                   var mSvr = ServiceManager.GetEquipmentService();
+
+                   var eq = mSvr.FindAll().FirstOrDefault<HF.DB.ObjectService.Type1.Pojo.Equipment>();
+                   if (eq != null)
+                   {
+                       portInfo.MACHINESTATENAME = eq.EquipmentStatus;
+                       portInfo.MACHINECONTROLSTATENAME = eq.OnlineControlStatus;
+                   }
+                   PortBaseInfo[] ps = new PortBaseInfo[] { portInfo };
+                   var sendMsg = PortDataMessage.getPortTransferStateChangedMessage(ps);
+
+                   TibSend.Send(sendMsg);
+
+                   port.CarrierId = "";
+
+                   port.PortStatus = "UnloadComplate";
+                   portSvr.UpdatePort(port);
+
+               }
+           }//end foreach
+       }//end lock
+
+
+
        
        public static void PortStatusReport()
        {

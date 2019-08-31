@@ -10,18 +10,17 @@
  Target Server Version : 3017000
  File Encoding         : 65001
 
- Date: 31/08/2019 08:32:53
+ Date: 31/08/2019 08:33:05
 */
 
 PRAGMA foreign_keys = false;
 
 -- ----------------------------
--- Table structure for PORT
+-- Table structure for PORTHISTORY
 -- ----------------------------
-DROP TABLE IF EXISTS "PORT";
-CREATE TABLE "PORT" (
-  "EQUIPMENTNAME" Varchar(10) NOT NULL,
-  "PORTNAME" Varchar(20) NOT NULL,
+DROP TABLE IF EXISTS "PORTHISTORY";
+CREATE TABLE "PORTHISTORY" (
+  "OBJECTNO" Varchar(255) NOT NULL,
   "BCREXIST" Integer,
   "CAPACITY" Integer,
   "CASSETTESEQNO" Integer,
@@ -41,16 +40,14 @@ CREATE TABLE "PORT" (
   "PORTTRANSFERMODE" Varchar(20),
   "PORTTYPE" Varchar(20),
   "PORTTYPEAUTOMODE" Varchar(20),
-  "PORTUSETYPE" Varchar(4),
+  "PORTUSETYPE" Varchar(2),
+  "EVENTNAME" Varchar(40) NOT NULL,
+  "HISTORYTIME" DATETIME NOT NULL,
+  "MACHINENAME" Varchar(20) NOT NULL,
+  "PORTNAME" Varchar(20) NOT NULL,
   "CARRIERID"  Varchar(12),
   "DESCRIPTION" Varchar(255),
-  PRIMARY KEY ("EQUIPMENTNAME", "PORTNAME")
+  PRIMARY KEY ("OBJECTNO")
 );
-
--- ----------------------------
--- Records of "PORT"
--- ----------------------------
-INSERT INTO "PORT" VALUES ('C1CCL01', 'PL01', 0, 0, 0, 'NORMAL', '2019-04-29 12:11:47.275', 0, 0, 2, 0, 0, 'Enable', '', 'TFT', 1, 10, 'UnloadRequest', 'StockerInline', 'PL', 'Disable', 'CF',' ', 'PORT#1');
-INSERT INTO "PORT" VALUES ('C1CCL01', 'PU01', 0, 0, 0, 'NORMAL', '2019-04-29 10:53:45.401', 0, 0, 2, 0, 0, 'Enable', '', 'TFT', 1, 10, 'Reserved', 'StockerInline', 'PU', 'Disable', 'CF', ' ','PORT#2');
 
 PRAGMA foreign_keys = true;

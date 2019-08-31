@@ -186,6 +186,7 @@
     </Content>
     <Content Include="tibrv.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>

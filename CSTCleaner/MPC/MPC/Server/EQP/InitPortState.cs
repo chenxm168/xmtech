@@ -45,9 +45,33 @@ namespace MPC.Server.EQP
                 {
                     if(P2_UR.Trim()=="1")
                     {
-                        if (P2_CST != null && P2_CST != string.Empty && P2_CST.Trim().Length > 0)
+                        var ks1 = new Dictionary<string, object>();
+                        ks1.Add("EQUIPMENTNAME", GlobalVariable.EQP_ID);
+                        ks1.Add("PORTNAME", "PU01");
+                        var p2 = portSvr.FindByKey(ks1, null, false);
+
+                        if (p2!= null)
                         {
-                            PortHandler.PortUnloadRequestReport("PU01", P2_CST);
+                            p2.PortStatus = "UnloadRequest";
+                            p2.CarrierId = P2_CST;
+                            if (portSvr.UpdatePort(p2, "UnloadRequest") > 0)
+                            {
+                                if (P2_CST != null && P2_CST != string.Empty && P2_CST.Trim().Length > 0)
+                                {
+                                    PortHandler.PortLoadComplateReport("PU01", P2_CST);
+                                    System.Threading.Thread.Sleep(3000);
+                                    PortHandler.PortUnloadRequestReport("PU01", P2_CST);
+                                }
+                            }
+                        }
+
+
+
+                    }else
+                    {
+                        if(P2_UR.Trim()=="0")
+                        {
+
                         }
                     }
 
@@ -58,7 +82,19 @@ namespace MPC.Server.EQP
                 {
                     if (P1_LR.Trim() == "1")
                     {
-                        PortHandler.PortLoadRequestReport("PL01");
+                        var ks1 = new Dictionary<string, object>();
+                        ks1.Add("EQUIPMENTNAME", GlobalVariable.EQP_ID);
+                        ks1.Add("PORTNAME", "PL01");
+                       var p1 = portSvr.FindByKey(ks1, null, false);
+                      
+                        if(p1!=null)
+                        {
+                            p1.PortStatus = "LoadRequest";
+                            if (portSvr.UpdatePort(p1, "LoadRequest") > 0)
+                            {
+                                PortHandler.PortLoadRequestReport("PL01");
+                            }
+                        }                       
                     }
                 }
 
@@ -67,10 +103,28 @@ namespace MPC.Server.EQP
                 {
                     if(P1_UR.Trim()=="1")
                     {
-                        if (P1_CST != null && P1_CST != string.Empty && P1_CST.Trim().Length > 0)
+
+                        var ks1 = new Dictionary<string, object>();
+                        ks1.Add("EQUIPMENTNAME", GlobalVariable.EQP_ID);
+                        ks1.Add("PORTNAME", "PU01");
+                        var p2 = portSvr.FindByKey(ks1, null, false);
+
+                        if (p2 != null)
                         {
-                            PortHandler.PortUnloadRequestReport("PL01", P1_CST);
+                            p2.PortStatus = "UnloadRequest";
+                            if (portSvr.UpdatePort(p2, "UnloadRequest") > 0)
+                            {
+
+                                if (P1_CST != null && P1_CST != string.Empty && P1_CST.Trim().Length > 0)
+                                {
+                                    PortHandler.PortUnloadRequestReport("PL01", P1_CST);
+                                }
+                            }
                         }
+
+
+
+
                            
                     }
                 }

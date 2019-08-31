@@ -165,6 +165,12 @@ namespace HF.DB.ObjectService.Type1.Pojo
             set;
         }
 
+        public string CarrierId
+        {
+            get;
+            set;
+        }
+
         public string Description  //
         {
             get;

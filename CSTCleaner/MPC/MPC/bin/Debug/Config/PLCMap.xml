@@ -36,11 +36,11 @@
       <Item Name="Port#1UnloadRequestReport" Offset="17" Points="1" Representation="BIT" />
     </Block>
 
-	 <Block Name="L2_W_Port#1UnloadRequestReportBlock" DeviceCode="W" HeadDevice="0x0006" Points="6">
+	 <Block Name="L2_W_Port#1UnloadRequestReportBlock" DeviceCode="W" HeadDevice="0x1000" Points="6">
      <Item Name="CassetteId" Offset="0" Points="6" Representation="A" />
     </Block>
 	
-    <Block Name="L2_W_Port#2UnloadRequestReportBlock" DeviceCode="W" HeadDevice="0x0000" Points="6">
+    <Block Name="L2_W_Port#2UnloadRequestReportBlock" DeviceCode="W" HeadDevice="0x830" Points="6">
       <Item Name="CassetteId" Offset="0" Points="6" Representation="A" />
     </Block>
 
@@ -55,11 +55,17 @@
         -->
       </Trx>
 
-      <Trx Name="L2_Port#1UnloadRequestReport" Key="L_MB_LTM.L2_B_LTM_H.Port#1UnloadRequestReport" BitOffEvent="false" BitOffEventReport="false" BitOffReadAction="false">
+      <Trx Name="L2_Port#1UnloadRequestReport" Key="L_MB_LTM.L2_B_LTM_H.Port#1UnloadRequestReport" BitOffEvent="true" BitOffEventReport="true" BitOffReadAction="true">
         <MultiBlock Name="L2_MB_Port#1UnloadRequestReportBlock" Action="R" LogMode="NORMAL">
           <Block Name="L2_W_Port#1UnloadRequestReportBlock" />
         </MultiBlock>
       </Trx>
+        <!--
+      <Trx Name="L2_Port#1UnloadRequestReport" Key="L_MB_LTM.L2_B_LTM_H.Port#1UnloadRequestReport" BitOffEvent="false" BitOffEventReport="false" BitOffReadAction="false">
+        <MultiBlock Name="L2_MB_Port#1UnloadRequestReportBlock" Action="R" LogMode="NORMAL">
+          <Block Name="L2_W_Port#1UnloadRequestReportBlock" />
+        </MultiBlock>
+      </Trx> -->
 
 
       <Trx Name="L2_Port#2LoadRequestReport" Key="L_MB_LTM.L2_B_LTM_H.Port#2LoadRequestReport" BitOffEvent="false" BitOffEventReport="false" BitOffReadAction="false">
@@ -70,7 +76,7 @@
         -->
       </Trx>
 
-      <Trx Name="L2_Port#2UnloadRequestReport" Key="L_MB_LTM.L2_B_LTM_H.Port#2UnloadRequestReport" BitOffEvent="false" BitOffEventReport="false" BitOffReadAction="false">
+      <Trx Name="L2_Port#2UnloadRequestReport" Key="L_MB_LTM.L2_B_LTM_H.Port#2UnloadRequestReport" BitOffEvent="true" BitOffEventReport="true" BitOffReadAction="true">
         <MultiBlock Name="L2_MB_Port#2UnloadRequestReportBlock" Action="R" LogMode="NORMAL">
           <Block Name="L2_W_Port#2UnloadRequestReportBlock" />
         </MultiBlock>
@@ -120,7 +126,7 @@
    
 <DataGathering>
     <Scan>
-      <MultiBlock Name="L_MB_LTM" Interval="200" StartUp="true" Priority="5" LogMode="NORMAL">
+      <MultiBlock Name="L_MB_LTM" Interval="800" StartUp="true" Priority="5" LogMode="NORMAL">
         <Block Name="L2_B_LTM_H" Trigger="D" />
       </MultiBlock>
     </Scan>

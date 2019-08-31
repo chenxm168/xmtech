@@ -46,7 +46,7 @@ namespace MPC.Server.EQP
                     }
                 case "L2_Port#1UnloadRequestReport":
                     { 
-
+                     
                     keys.Add("EQUIPMENTNAME", GlobalVariable.EQP_ID);
                     keys.Add("PORTNAME", "PL01");
                     var port2 = portSvr.FindByKey(keys, null, false);
@@ -81,12 +81,16 @@ namespace MPC.Server.EQP
                     }
                 case "L2_Port#2UnloadRequestReport":
 
-                    { 
-                    keys.Add("EQUIPMENTNAME", GlobalVariable.EQP_ID);
-                    keys.Add("PORTNAME", "PU01");
-                    var port3 = portSvr.FindByKey(keys, null, false);
-                    Dictionary<string, string> txValues3;
-                    string cstid3 = String.Empty;
+                    {
+                        keys.Add("EQUIPMENTNAME", GlobalVariable.EQP_ID);
+                        keys.Add("PORTNAME", "PU01");
+                        var port3 = portSvr.FindByKey(keys, null, false);
+                        Dictionary<string, string> txValues3;
+                        string cstid3 = String.Empty;
+                         if(msg.MessageBody.EventValue=="1")
+
+                         { 
+ 
                     if (msg.MessageBody.ReadDataList.TryGetValue("L2_W_Port#2UnloadRequestReportBlock", out txValues3))
                     {
                         if (!txValues3.TryGetValue("CassetteId", out cstid3))
@@ -99,13 +103,22 @@ namespace MPC.Server.EQP
                     if (port3 != null)
                     {
                         port3.PortStatus = "UnloadRequest";
+                        port3.CarrierId = cstid3;
 
                     }
 
                     if (portSvr.UpdatePort(port3, "UnloadRequest") > 0)
                     {
+                        PortHandler.PortLoadComplateReport("PU01", cstid3);
+                        System.Threading.Thread.Sleep(3000);
                         PortHandler.PortUnloadRequestReport("PU01", cstid3);
                     }
+                         }
+                        else
+                         {
+                             PortHandler.PortUnloadComplateReport("PU01");
+
+                         }
 
 
                     //string status = data<

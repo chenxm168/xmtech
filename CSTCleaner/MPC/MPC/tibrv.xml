@@ -42,7 +42,7 @@
 		<service>8200</service>
 		<network>;225.11.11.2</network>
 		<daemon>tcp:10.116.110.103:7500</daemon>		
-		<sourceSubject>TRULY.G5A.EAP.PRD.FAB.${eos.name}</sourceSubject>
+		<sourceSubject>TRULY.G5A.EAP.PRD.FAB.C1CCL01</sourceSubject>
 		<targetSubject>TRULY.G5A.MES.PRD.FAB.PEMsvr</targetSubject>
 		<fieldName>xmlData</fieldName>
 		<messageSet>\tibrv\mes.xml</messageSet>
@@ -52,8 +52,10 @@
 	<daemon>tcp:10.116.110.102:7500</daemon>	
 	</daemonList>
 </configuration>
+
 -->
-<!--TEST-->
+
+<!--TEST -->
 
 <configuration>
   <tibrvProxy name="mesProxy">
