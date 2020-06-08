@@ -1,0 +1,479 @@
+2020-03-23 17:10:36,542 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2020-03-23 17:10:37,533 [Thread: 8       ] [DEBUG] -- Loading XML object definitions from file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml]
+2020-03-23 17:10:37,670 [Thread: 8       ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2020-03-23 17:10:37,867 [Thread: 8       ] [DEBUG] -- Loading object definitions.
+2020-03-23 17:10:37,873 [Thread: 8       ] [DEBUG] -- Loading object definitions...
+2020-03-23 17:10:37,878 [Thread: 8       ] [DEBUG] -- Default lazy init 'false'.
+2020-03-23 17:10:37,881 [Thread: 8       ] [DEBUG] -- Default dependency check 'none'.
+2020-03-23 17:10:37,884 [Thread: 8       ] [DEBUG] -- Default autowire 'no'.
+2020-03-23 17:10:37,887 [Thread: 8       ] [DEBUG] -- Default merge 'false'.
+2020-03-23 17:10:37,900 [Thread: 8       ] [DEBUG] -- Default init method ''.
+2020-03-23 17:10:37,903 [Thread: 8       ] [DEBUG] -- Default destroy method ''.
+2020-03-23 17:10:37,906 [Thread: 8       ] [DEBUG] -- Default autowire candidates ''.
+2020-03-23 17:10:37,907 [Thread: 8       ] [DEBUG] -- Default init method ''.
+2020-03-23 17:10:37,909 [Thread: 8       ] [DEBUG] -- Default destroy method ''.
+2020-03-23 17:10:37,980 [Thread: 8       ] [DEBUG] -- Registering object definition with id 'reader'.
+2020-03-23 17:10:37,987 [Thread: 8       ] [DEBUG] -- Found 1 <object> elements defining objects.
+2020-03-23 17:10:37,990 [Thread: 8       ] [DEBUG] -- Loaded 1 object definitions from location [spring-objects.xml]
+2020-03-23 17:10:37,993 [Thread: 8       ] [DEBUG] -- Refreshed ObjectFactory for application context 'spring.root'.
+2020-03-23 17:10:37,995 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2020-03-23 17:10:38,001 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2020-03-23 17:10:38,003 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2020-03-23 17:10:38,005 [Thread: 8       ] [DEBUG] -- 1 objects defined in application context [spring.root].
+2020-03-23 17:10:38,006 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2020-03-23 17:10:38,350 [Thread: 8       ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [spring.root].
+2020-03-23 17:10:38,357 [Thread: 8       ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [spring.root].
+2020-03-23 17:10:38,362 [Thread: 8       ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2020-03-23 17:10:38,369 [Thread: 8       ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2020-03-23 17:10:38,374 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2020-03-23 17:10:38,377 [Thread: 8       ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2020-03-23 17:10:38,382 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:10:38,387 [Thread: 8       ] [DEBUG] -- Creating shared instance of singleton object 'reader'
+2020-03-23 17:10:38,547 [Thread: 8       ] [DEBUG] -- Creating instance of Object 'reader' with merged definition [RootObjectDefinition : Class [TCPSrv.Reader.VCReaderTCP]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 26].
+2020-03-23 17:10:38,552 [Thread: 8       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'reader'.
+2020-03-23 17:10:38,565 [Thread: 8       ] [DEBUG] -- Eagerly caching object 'reader' to allow for resolving potential circular references
+2020-03-23 17:10:38,568 [Thread: 8       ] [DEBUG] -- Configuring object using definition 'reader'
+2020-03-23 17:10:38,574 [Thread: 8       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'reader'
+2020-03-23 17:10:38,747 [Thread: 8       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'reader'
+2020-03-23 17:10:38,751 [Thread: 8       ] [DEBUG] -- Cached shared instance of singleton object 'reader'
+2020-03-23 17:10:38,755 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:10:38,763 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:10:38,768 [Thread: 8       ] [DEBUG] -- Publishing event in context [spring.root] : ContextRefreshedEventArgs [Refreshed]
+2020-03-23 17:10:38,773 [Thread: 8       ] [INFO ] -- ApplicationContext Refresh: Completed
+2020-03-23 17:10:38,777 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:10:38,778 [Thread: 8       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:10:38,943 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:10:38,946 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:10:40,039 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:10:40,040 [Thread: 8       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:10:40,041 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:10:40,042 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:10:41,389 [Thread: 10      ] [ERROR] -- VCReader TCP Connected fail[Connect Fail!]
+2020-03-23 17:10:46,897 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:10:46,898 [Thread: 8       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:10:46,899 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:10:46,900 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:11:32,647 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:11:32,650 [Thread: 8       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:11:32,660 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:11:32,661 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:11:32,662 [Thread: 8       ] [DEBUG] -- Reader Stop Request
+2020-03-23 17:12:45,569 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2020-03-23 17:12:45,701 [Thread: 8       ] [DEBUG] -- Loading XML object definitions from file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml]
+2020-03-23 17:12:45,728 [Thread: 8       ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2020-03-23 17:12:45,732 [Thread: 8       ] [DEBUG] -- Loading object definitions.
+2020-03-23 17:12:45,735 [Thread: 8       ] [DEBUG] -- Loading object definitions...
+2020-03-23 17:12:45,736 [Thread: 8       ] [DEBUG] -- Default lazy init 'false'.
+2020-03-23 17:12:45,737 [Thread: 8       ] [DEBUG] -- Default dependency check 'none'.
+2020-03-23 17:12:45,738 [Thread: 8       ] [DEBUG] -- Default autowire 'no'.
+2020-03-23 17:12:45,739 [Thread: 8       ] [DEBUG] -- Default merge 'false'.
+2020-03-23 17:12:45,740 [Thread: 8       ] [DEBUG] -- Default init method ''.
+2020-03-23 17:12:45,741 [Thread: 8       ] [DEBUG] -- Default destroy method ''.
+2020-03-23 17:12:45,743 [Thread: 8       ] [DEBUG] -- Default autowire candidates ''.
+2020-03-23 17:12:45,811 [Thread: 8       ] [DEBUG] -- Default init method ''.
+2020-03-23 17:12:45,812 [Thread: 8       ] [DEBUG] -- Default destroy method ''.
+2020-03-23 17:12:45,826 [Thread: 8       ] [DEBUG] -- Registering object definition with id 'reader'.
+2020-03-23 17:12:45,828 [Thread: 8       ] [DEBUG] -- Found 1 <object> elements defining objects.
+2020-03-23 17:12:45,829 [Thread: 8       ] [DEBUG] -- Loaded 1 object definitions from location [spring-objects.xml]
+2020-03-23 17:12:45,830 [Thread: 8       ] [DEBUG] -- Refreshed ObjectFactory for application context 'spring.root'.
+2020-03-23 17:12:45,831 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2020-03-23 17:12:45,833 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2020-03-23 17:12:45,834 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2020-03-23 17:12:46,011 [Thread: 8       ] [DEBUG] -- 1 objects defined in application context [spring.root].
+2020-03-23 17:12:46,012 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2020-03-23 17:12:46,046 [Thread: 8       ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [spring.root].
+2020-03-23 17:12:46,048 [Thread: 8       ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [spring.root].
+2020-03-23 17:12:46,050 [Thread: 8       ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2020-03-23 17:12:46,052 [Thread: 8       ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2020-03-23 17:12:46,054 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2020-03-23 17:12:46,055 [Thread: 8       ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2020-03-23 17:12:46,212 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:12:46,215 [Thread: 8       ] [DEBUG] -- Creating shared instance of singleton object 'reader'
+2020-03-23 17:12:46,217 [Thread: 8       ] [DEBUG] -- Creating instance of Object 'reader' with merged definition [RootObjectDefinition : Class [TCPSrv.Reader.VCReaderTCP]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 26].
+2020-03-23 17:12:46,218 [Thread: 8       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'reader'.
+2020-03-23 17:12:46,221 [Thread: 8       ] [DEBUG] -- Eagerly caching object 'reader' to allow for resolving potential circular references
+2020-03-23 17:12:46,411 [Thread: 8       ] [DEBUG] -- Configuring object using definition 'reader'
+2020-03-23 17:12:46,414 [Thread: 8       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'reader'
+2020-03-23 17:12:46,416 [Thread: 8       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'reader'
+2020-03-23 17:12:46,435 [Thread: 8       ] [DEBUG] -- Cached shared instance of singleton object 'reader'
+2020-03-23 17:12:46,436 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:12:46,439 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:12:46,440 [Thread: 8       ] [DEBUG] -- Publishing event in context [spring.root] : ContextRefreshedEventArgs [Refreshed]
+2020-03-23 17:12:46,442 [Thread: 8       ] [INFO ] -- ApplicationContext Refresh: Completed
+2020-03-23 17:12:46,611 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:12:46,612 [Thread: 8       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:12:46,613 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:12:46,614 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:12:47,732 [Thread: 10      ] [ERROR] -- VCReader TCP Connected fail[Connect Fail!]
+2020-03-23 17:13:10,426 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:13:10,427 [Thread: 8       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:13:10,428 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:13:10,429 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:13:10,431 [Thread: 10      ] [DEBUG] -- VCReader TCP Connected!
+2020-03-23 17:13:17,084 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:13:17,085 [Thread: 8       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:13:17,086 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:13:17,086 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:13:17,112 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:13:17,756 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:13:25,212 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:13:26,214 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:13:26,215 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:13:26,757 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:13:34,290 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:13:35,308 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:13:35,313 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:13:35,836 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:13:43,388 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:13:44,390 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:13:44,391 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:13:45,032 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:13:52,450 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:13:53,451 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:13:53,454 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:13:53,983 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:14:01,527 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:14:02,528 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:14:02,530 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:14:03,224 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:14:09,567 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:14:09,569 [Thread: 8       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:14:09,570 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:14:09,571 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:14:09,572 [Thread: 8       ] [DEBUG] -- Reader Stop Request
+2020-03-23 17:14:10,651 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:14:10,651 [Thread: VCR Read thread] [DEBUG] -- Reader Stop
+2020-03-23 17:15:50,137 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2020-03-23 17:15:51,418 [Thread: 10      ] [DEBUG] -- Loading XML object definitions from file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml]
+2020-03-23 17:15:51,815 [Thread: 10      ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2020-03-23 17:15:51,950 [Thread: 10      ] [DEBUG] -- Loading object definitions.
+2020-03-23 17:15:51,954 [Thread: 10      ] [DEBUG] -- Loading object definitions...
+2020-03-23 17:15:51,956 [Thread: 10      ] [DEBUG] -- Default lazy init 'false'.
+2020-03-23 17:15:51,958 [Thread: 10      ] [DEBUG] -- Default dependency check 'none'.
+2020-03-23 17:15:51,960 [Thread: 10      ] [DEBUG] -- Default autowire 'no'.
+2020-03-23 17:15:51,961 [Thread: 10      ] [DEBUG] -- Default merge 'false'.
+2020-03-23 17:15:51,964 [Thread: 10      ] [DEBUG] -- Default init method ''.
+2020-03-23 17:15:51,966 [Thread: 10      ] [DEBUG] -- Default destroy method ''.
+2020-03-23 17:15:51,967 [Thread: 10      ] [DEBUG] -- Default autowire candidates ''.
+2020-03-23 17:15:51,969 [Thread: 10      ] [DEBUG] -- Default init method ''.
+2020-03-23 17:15:51,970 [Thread: 10      ] [DEBUG] -- Default destroy method ''.
+2020-03-23 17:15:52,007 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'reader'.
+2020-03-23 17:15:52,009 [Thread: 10      ] [DEBUG] -- Found 1 <object> elements defining objects.
+2020-03-23 17:15:52,018 [Thread: 10      ] [DEBUG] -- Loaded 1 object definitions from location [spring-objects.xml]
+2020-03-23 17:15:52,020 [Thread: 10      ] [DEBUG] -- Refreshed ObjectFactory for application context 'spring.root'.
+2020-03-23 17:15:52,021 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2020-03-23 17:15:52,023 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2020-03-23 17:15:52,024 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2020-03-23 17:15:52,025 [Thread: 10      ] [DEBUG] -- 1 objects defined in application context [spring.root].
+2020-03-23 17:15:52,026 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2020-03-23 17:15:52,170 [Thread: 10      ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [spring.root].
+2020-03-23 17:15:52,220 [Thread: 10      ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [spring.root].
+2020-03-23 17:15:52,223 [Thread: 10      ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2020-03-23 17:15:52,227 [Thread: 10      ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2020-03-23 17:15:52,229 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2020-03-23 17:15:52,230 [Thread: 10      ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2020-03-23 17:15:52,232 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:15:52,236 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'reader'
+2020-03-23 17:15:52,420 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'reader' with merged definition [RootObjectDefinition : Class [TCPSrv.Reader.VCReaderTCP]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 26].
+2020-03-23 17:15:52,423 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'reader'.
+2020-03-23 17:15:52,429 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'reader' to allow for resolving potential circular references
+2020-03-23 17:15:52,431 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'reader'
+2020-03-23 17:15:52,435 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'reader'
+2020-03-23 17:15:52,622 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'reader'
+2020-03-23 17:15:52,626 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'reader'
+2020-03-23 17:15:52,631 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:15:52,637 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:15:52,640 [Thread: 10      ] [DEBUG] -- Publishing event in context [spring.root] : ContextRefreshedEventArgs [Refreshed]
+2020-03-23 17:15:52,645 [Thread: 10      ] [INFO ] -- ApplicationContext Refresh: Completed
+2020-03-23 17:15:52,647 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:15:52,648 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:15:52,650 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:15:52,819 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:15:53,591 [Thread: 12      ] [DEBUG] -- VCReader TCP Connected!
+2020-03-23 17:16:00,652 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:16:00,653 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:16:00,654 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:16:00,655 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:16:00,750 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:16:01,435 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:16:08,817 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:16:09,820 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:16:09,822 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:16:10,348 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:16:17,912 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:16:18,917 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:16:18,918 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:16:19,739 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:16:26,978 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:16:27,979 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:16:27,980 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:16:28,511 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:16:36,038 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:16:37,039 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:16:37,041 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:16:37,563 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:16:45,087 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:16:46,090 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:16:46,091 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:16:46,730 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:16:54,189 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:16:55,191 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:16:55,192 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:16:55,723 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:17:03,354 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:17:04,354 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:17:04,354 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:17:04,998 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:17:12,407 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:17:13,409 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:17:13,410 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:17:13,939 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:17:21,472 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:17:22,473 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:17:22,474 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:17:23,275 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:17:30,527 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:17:31,528 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:17:31,535 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:17:32,059 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:17:39,602 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:17:40,602 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:17:40,603 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:17:43,994 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:17:48,635 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:17:49,637 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:17:49,637 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:17:50,331 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:17:57,718 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:17:58,720 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:17:58,721 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:17:59,250 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:18:06,801 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:18:07,802 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:18:07,803 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:18:08,474 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:18:15,891 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:18:16,898 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:18:16,900 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:18:18,884 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:18:24,938 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:18:25,943 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:18:25,948 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:18:26,470 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:18:33,984 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:18:34,986 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:18:34,989 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:18:35,512 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:18:43,064 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:18:44,069 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:18:44,074 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:18:44,596 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:18:52,188 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:18:53,189 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:18:53,190 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:18:53,723 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:19:01,248 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:19:02,249 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:19:02,250 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:19:02,779 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:19:52,125 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:19:52,133 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:19:52,134 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:19:52,136 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:19:52,137 [Thread: 10      ] [DEBUG] -- Reader Stop Request
+2020-03-23 17:19:56,140 [Thread: VCR Read thread] [ERROR] -- Reader Ack Timeout[8000ms]
+2020-03-23 17:19:56,144 [Thread: VCR Read thread] [DEBUG] -- Reader Stop
+2020-03-23 17:20:45,483 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2020-03-23 17:20:45,691 [Thread: 9       ] [DEBUG] -- Loading XML object definitions from file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml]
+2020-03-23 17:20:45,703 [Thread: 9       ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2020-03-23 17:20:45,707 [Thread: 9       ] [DEBUG] -- Loading object definitions.
+2020-03-23 17:20:45,709 [Thread: 9       ] [DEBUG] -- Loading object definitions...
+2020-03-23 17:20:45,711 [Thread: 9       ] [DEBUG] -- Default lazy init 'false'.
+2020-03-23 17:20:45,712 [Thread: 9       ] [DEBUG] -- Default dependency check 'none'.
+2020-03-23 17:20:45,713 [Thread: 9       ] [DEBUG] -- Default autowire 'no'.
+2020-03-23 17:20:45,714 [Thread: 9       ] [DEBUG] -- Default merge 'false'.
+2020-03-23 17:20:45,714 [Thread: 9       ] [DEBUG] -- Default init method ''.
+2020-03-23 17:20:45,715 [Thread: 9       ] [DEBUG] -- Default destroy method ''.
+2020-03-23 17:20:45,716 [Thread: 9       ] [DEBUG] -- Default autowire candidates ''.
+2020-03-23 17:20:45,718 [Thread: 9       ] [DEBUG] -- Default init method ''.
+2020-03-23 17:20:45,718 [Thread: 9       ] [DEBUG] -- Default destroy method ''.
+2020-03-23 17:20:45,927 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'reader'.
+2020-03-23 17:20:45,931 [Thread: 9       ] [DEBUG] -- Found 1 <object> elements defining objects.
+2020-03-23 17:20:45,933 [Thread: 9       ] [DEBUG] -- Loaded 1 object definitions from location [spring-objects.xml]
+2020-03-23 17:20:45,935 [Thread: 9       ] [DEBUG] -- Refreshed ObjectFactory for application context 'spring.root'.
+2020-03-23 17:20:45,936 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2020-03-23 17:20:45,939 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2020-03-23 17:20:45,941 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2020-03-23 17:20:45,942 [Thread: 9       ] [DEBUG] -- 1 objects defined in application context [spring.root].
+2020-03-23 17:20:45,944 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2020-03-23 17:20:46,119 [Thread: 9       ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [spring.root].
+2020-03-23 17:20:46,122 [Thread: 9       ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [spring.root].
+2020-03-23 17:20:46,124 [Thread: 9       ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2020-03-23 17:20:46,126 [Thread: 9       ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2020-03-23 17:20:46,128 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2020-03-23 17:20:46,130 [Thread: 9       ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2020-03-23 17:20:46,132 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:20:46,294 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'reader'
+2020-03-23 17:20:46,296 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'reader' with merged definition [RootObjectDefinition : Class [TCPSrv.Reader.VCReaderTCP]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 26].
+2020-03-23 17:20:46,297 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'reader'.
+2020-03-23 17:20:46,301 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'reader' to allow for resolving potential circular references
+2020-03-23 17:20:46,302 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'reader'
+2020-03-23 17:20:46,499 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'reader'
+2020-03-23 17:20:46,506 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'reader'
+2020-03-23 17:20:46,511 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'reader'
+2020-03-23 17:20:46,515 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:20:46,519 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:20:46,521 [Thread: 9       ] [DEBUG] -- Publishing event in context [spring.root] : ContextRefreshedEventArgs [Refreshed]
+2020-03-23 17:20:46,523 [Thread: 9       ] [INFO ] -- ApplicationContext Refresh: Completed
+2020-03-23 17:20:46,524 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:20:46,692 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:20:46,693 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:20:46,694 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:20:46,821 [Thread: 11      ] [DEBUG] -- VCReader TCP Connected!
+2020-03-23 17:20:54,202 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:20:54,203 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:20:54,204 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:20:54,205 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:20:54,209 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:20:54,742 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:20:55,744 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:20:55,745 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:20:56,262 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:20:57,270 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:20:57,271 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:20:57,792 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:20:58,793 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:20:58,794 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:20:59,316 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:00,318 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:00,319 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:00,848 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:01,849 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:01,850 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:02,375 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:03,377 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:03,383 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:03,900 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:04,901 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:04,903 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:05,427 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:06,430 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:06,432 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:06,955 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:07,956 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:07,959 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:08,481 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:09,482 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:09,494 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:10,010 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:11,011 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:11,012 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:11,533 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:12,534 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:12,535 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:13,050 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:14,050 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:14,056 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:14,582 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:15,584 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:15,585 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:16,104 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:17,104 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:17,104 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:17,625 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:18,628 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:18,629 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:19,151 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:20,161 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:20,163 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:20,685 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:21,686 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:21,687 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:22,210 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:23,212 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:23,214 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:23,736 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:24,738 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:24,739 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:25,261 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:26,262 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:26,263 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:26,784 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:27,785 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:27,786 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:28,315 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:29,316 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:29,321 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:29,847 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:30,847 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:30,847 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:31,375 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:32,376 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:32,376 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:32,900 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:33,901 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:33,908 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:34,432 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:35,433 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:35,440 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:35,961 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:21:36,962 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:21:36,964 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:21:37,487 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:04,007 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:04,009 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:04,530 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:05,531 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:05,532 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:06,057 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:07,059 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:07,061 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:07,592 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:08,593 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:08,593 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:09,114 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:10,115 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:10,116 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:10,636 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:11,638 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:11,641 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:12,163 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:13,165 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:13,211 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:13,740 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:14,741 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:14,742 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:15,264 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:16,266 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:16,266 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:16,789 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:17,793 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:17,795 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:18,313 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:19,315 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:19,317 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:19,840 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:20,841 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:20,842 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:21,363 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:22,364 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:22,366 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:22,888 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:23,889 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:23,889 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:24,412 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:25,413 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:25,414 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:25,936 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:26,936 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:26,936 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:27,457 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:28,607 [Thread: VCR Read thread] [DEBUG] -- Start Next Cycle
+2020-03-23 17:22:28,608 [Thread: VCR Read thread] [DEBUG] -- Send Read Command
+2020-03-23 17:22:28,610 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-23 17:22:28,611 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-23 17:22:28,612 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-23 17:22:28,613 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-23 17:22:28,614 [Thread: 9       ] [DEBUG] -- Reader Stop Request
+2020-03-23 17:22:29,135 [Thread: VCR Read thread] [DEBUG] -- Received [02DBH0R373]
+2020-03-23 17:22:29,135 [Thread: VCR Read thread] [DEBUG] -- Reader Stop

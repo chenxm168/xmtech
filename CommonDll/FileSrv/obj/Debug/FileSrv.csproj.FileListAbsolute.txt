@@ -1,0 +1,7 @@
+D:\DevRepository\CommonDll\FileSrv\obj\Debug\FileSrv.csprojResolveAssemblyReference.cache
+D:\DevRepository\CommonDll\FileSrv\bin\Debug\FileSrv.dll
+D:\DevRepository\CommonDll\FileSrv\bin\Debug\FileSrv.pdb
+D:\DevRepository\CommonDll\FileSrv\bin\Debug\log4net.dll
+D:\DevRepository\CommonDll\FileSrv\bin\Debug\log4net.xml
+D:\DevRepository\CommonDll\FileSrv\obj\Debug\FileSrv.dll
+D:\DevRepository\CommonDll\FileSrv\obj\Debug\FileSrv.pdb

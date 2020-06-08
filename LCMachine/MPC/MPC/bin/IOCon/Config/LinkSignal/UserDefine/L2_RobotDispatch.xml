@@ -1,0 +1,16 @@
+<UserDefine>
+  <BlockGroup>
+    <Block Name="L2_W_C/VMonitoring#3Block" />
+    <Block Name="L3_W_JobDataforDownstreamBlock1" />
+    <Block Name="L2_W_RobotArmMonitoringBlock" />
+    <Block Name="L2_W_Port#1PortStatusBlock" />
+    <Block Name="L2_W_Port#2PortStatusBlock" />
+    <Block Name="L2_B_LINKSIGNAL_H_UPSTREAM" />
+    <Block Name="L2_B_LINKSIGNAL_H_DOWNSTREAM" />
+    <Block Name="L2_B_CIMMode" />
+    <Block Name="L2_W_C/VMonitoring#4Block" />
+    <Block Name="L2_W_C/VMonitoring#1Block" />
+    <Block Name="L2_B_INDEXER_MONITORING_STATUS" />
+    <Block Name="L3_W_JobCountBlock" />
+  </BlockGroup>
+</UserDefine>

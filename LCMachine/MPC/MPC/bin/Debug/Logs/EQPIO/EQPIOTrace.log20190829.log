@@ -1,0 +1,1147 @@
+[2019-08-29 09:26:59.111] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-08-29 09:26:59.453] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-08-29 09:26:59.459] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-08-29 09:26:59.464] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7006
+[2019-08-29 09:26:59.465] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-08-29 09:26:59.468] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7007
+[2019-08-29 09:26:59.480] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-08-29 09:26-59_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 09:26:59.482] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-08-29 09:26:59.500] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-08-29 09:27:02.662] [INFO ] [mProtocol_OnEventReceived] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : ReadRequest 
+, Transaction Name : 20190829092702661_Server 
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       : L2_BIT_AllPortState 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_B_LTM_H 
+, ==Read Item List== 
+, Read ItemName : Port#2LoadRequestReport, Value :  
+, Read ItemName : Port#2UnloadRequestReport, Value :  
+, Read ItemName : Port#1LoadRequestReport, Value :  
+, Read ItemName : Port#1UnloadRequestReport, Value :  
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+}
+[2019-08-29 09:27:02.889] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#2LoadRequestReport, Data : 0
+[2019-08-29 09:27:03.066] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#2UnloadRequestReport, Data : 1
+[2019-08-29 09:27:03.067] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#1LoadRequestReport, Data : 1
+[2019-08-29 09:27:03.067] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#1UnloadRequestReport, Data : 0
+[2019-08-29 09:27:03.090] [INFO ] [mProtocol_OnEventReceived] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : 
+[2019-08-29 09:27:03.299] [INFO ] [mProtocol_OnEventReceived] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A1331
+[2019-08-29 09:27:03.300] [INFO ] [mProtocol_OnEventReceived] [MProtocolProxy][ReadData] -ReadData
+[2019-08-29 09:27:03.300] [INFO ] [mProtocol_OnEventReceived] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : ReadReply 
+, Transaction Name : 20190829092702661_Server 
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       : L2_BIT_AllPortState 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_B_LTM_H 
+, ==Read Item List== 
+, Read ItemName : Port#2LoadRequestReport, Value : 0 
+, Read ItemName : Port#2UnloadRequestReport, Value : 1 
+, Read ItemName : Port#1LoadRequestReport, Value : 1 
+, Read ItemName : Port#1UnloadRequestReport, Value : 0 
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A1331 
+}
+[2019-08-29 09:27:03.306] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 09:27:56.205] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 09:27:56.206] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-08-29 09:27:56.221] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 09:29:41.265] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-08-29 09:29:41.639] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-08-29 09:29:41.645] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-08-29 09:29:41.648] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7006
+[2019-08-29 09:29:41.650] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-08-29 09:29:41.654] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7007
+[2019-08-29 09:29:41.664] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-08-29 09:29-41_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 09:29:41.666] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-08-29 09:29:41.684] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-08-29 09:29:44.672] [INFO ] [mProtocol_OnEventReceived] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : ReadRequest 
+, Transaction Name : 20190829092944671_Server 
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       : L2_BIT_AllPortState 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_B_LTM_H 
+, ==Read Item List== 
+, Read ItemName : Port#2LoadRequestReport, Value :  
+, Read ItemName : Port#2UnloadRequestReport, Value :  
+, Read ItemName : Port#1LoadRequestReport, Value :  
+, Read ItemName : Port#1UnloadRequestReport, Value :  
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+}
+[2019-08-29 09:29:44.874] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#2LoadRequestReport, Data : 0
+[2019-08-29 09:29:45.059] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#2UnloadRequestReport, Data : 1
+[2019-08-29 09:29:45.059] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#1LoadRequestReport, Data : 1
+[2019-08-29 09:29:45.060] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#1UnloadRequestReport, Data : 0
+[2019-08-29 09:29:45.076] [INFO ] [mProtocol_OnEventReceived] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : 
+[2019-08-29 09:29:45.274] [INFO ] [mProtocol_OnEventReceived] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A1331
+[2019-08-29 09:29:45.275] [INFO ] [mProtocol_OnEventReceived] [MProtocolProxy][ReadData] -ReadData
+[2019-08-29 09:29:45.459] [INFO ] [mProtocol_OnEventReceived] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : ReadReply 
+, Transaction Name : 20190829092944671_Server 
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       : L2_BIT_AllPortState 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_B_LTM_H 
+, ==Read Item List== 
+, Read ItemName : Port#2LoadRequestReport, Value : 0 
+, Read ItemName : Port#2UnloadRequestReport, Value : 1 
+, Read ItemName : Port#1LoadRequestReport, Value : 1 
+, Read ItemName : Port#1UnloadRequestReport, Value : 0 
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A1331 
+}
+[2019-08-29 09:29:45.478] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 09:30:54.471] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 09:30:54.492] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-08-29 09:30:54.510] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 09:34:57.100] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-08-29 09:34:57.423] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-08-29 09:34:57.430] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-08-29 09:34:57.435] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7006
+[2019-08-29 09:34:57.437] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-08-29 09:34:57.440] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7007
+[2019-08-29 09:34:57.452] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-08-29 09:34-57_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 09:34:57.454] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-08-29 09:34:57.476] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-08-29 09:35:00.654] [INFO ] [mProtocol_OnEventReceived] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : ReadRequest 
+, Transaction Name : 20190829093500653_Server 
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       : L2_BIT_AllPortState 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_B_LTM_H 
+, ==Read Item List== 
+, Read ItemName : Port#2LoadRequestReport, Value :  
+, Read ItemName : Port#2UnloadRequestReport, Value :  
+, Read ItemName : Port#1LoadRequestReport, Value :  
+, Read ItemName : Port#1UnloadRequestReport, Value :  
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+}
+[2019-08-29 09:35:00.858] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#2LoadRequestReport, Data : 0
+[2019-08-29 09:35:01.031] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#2UnloadRequestReport, Data : 1
+[2019-08-29 09:35:01.032] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#1LoadRequestReport, Data : 1
+[2019-08-29 09:35:01.032] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#1UnloadRequestReport, Data : 0
+[2019-08-29 09:35:01.059] [INFO ] [mProtocol_OnEventReceived] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : 
+[2019-08-29 09:35:01.246] [INFO ] [mProtocol_OnEventReceived] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A1331
+[2019-08-29 09:35:01.247] [INFO ] [mProtocol_OnEventReceived] [MProtocolProxy][ReadData] -ReadData
+[2019-08-29 09:35:01.247] [INFO ] [mProtocol_OnEventReceived] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : ReadReply 
+, Transaction Name : 20190829093500653_Server 
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       : L2_BIT_AllPortState 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_B_LTM_H 
+, ==Read Item List== 
+, Read ItemName : Port#2LoadRequestReport, Value : 0 
+, Read ItemName : Port#2UnloadRequestReport, Value : 1 
+, Read ItemName : Port#1LoadRequestReport, Value : 1 
+, Read ItemName : Port#1UnloadRequestReport, Value : 0 
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A1331 
+}
+[2019-08-29 09:35:01.271] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 09:54:55.546] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-08-29 09:54:55.657] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 09:54:55.671] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 10:10:58.486] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-08-29 10:10:58.826] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-08-29 10:10:58.834] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-08-29 10:10:58.841] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7006
+[2019-08-29 10:10:58.843] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-08-29 10:10:58.847] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7007
+[2019-08-29 10:10:58.859] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-08-29 10:10-58_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 10:10:58.861] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-08-29 10:10:58.880] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-08-29 10:11:02.035] [INFO ] [mProtocol_OnEventReceived] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : ReadRequest 
+, Transaction Name : 20190829101102034_Server 
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       : L2_BIT_AllPortState 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_B_LTM_H 
+, ==Read Item List== 
+, Read ItemName : Port#2LoadRequestReport, Value :  
+, Read ItemName : Port#2UnloadRequestReport, Value :  
+, Read ItemName : Port#1LoadRequestReport, Value :  
+, Read ItemName : Port#1UnloadRequestReport, Value :  
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+}
+[2019-08-29 10:11:02.264] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#2LoadRequestReport, Data : 0
+[2019-08-29 10:11:02.432] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#2UnloadRequestReport, Data : 1
+[2019-08-29 10:11:02.433] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#1LoadRequestReport, Data : 1
+[2019-08-29 10:11:02.433] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#1UnloadRequestReport, Data : 0
+[2019-08-29 10:11:02.451] [INFO ] [mProtocol_OnEventReceived] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : 
+[2019-08-29 10:11:02.650] [INFO ] [mProtocol_OnEventReceived] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A1331
+[2019-08-29 10:11:02.650] [INFO ] [mProtocol_OnEventReceived] [MProtocolProxy][ReadData] -ReadData
+[2019-08-29 10:11:02.651] [INFO ] [mProtocol_OnEventReceived] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : ReadReply 
+, Transaction Name : 20190829101102034_Server 
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       : L2_BIT_AllPortState 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_B_LTM_H 
+, ==Read Item List== 
+, Read ItemName : Port#2LoadRequestReport, Value : 0 
+, Read ItemName : Port#2UnloadRequestReport, Value : 1 
+, Read ItemName : Port#1LoadRequestReport, Value : 1 
+, Read ItemName : Port#1UnloadRequestReport, Value : 0 
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A1331 
+}
+[2019-08-29 10:11:02.673] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 10:14:16.144] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-08-29 10:14:16.171] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 10:14:16.190] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 10:15:43.294] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-08-29 10:15:43.635] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-08-29 10:15:43.642] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-08-29 10:15:43.646] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7006
+[2019-08-29 10:15:43.648] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-08-29 10:15:43.651] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7007
+[2019-08-29 10:15:43.663] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-08-29 10:15-43_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 10:15:43.665] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-08-29 10:15:43.684] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-08-29 10:15:46.659] [INFO ] [mProtocol_OnEventReceived] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : ReadRequest 
+, Transaction Name : 20190829101546657_Server 
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       : L2_BIT_AllPortState 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_B_LTM_H 
+, ==Read Item List== 
+, Read ItemName : Port#2LoadRequestReport, Value :  
+, Read ItemName : Port#2UnloadRequestReport, Value :  
+, Read ItemName : Port#1LoadRequestReport, Value :  
+, Read ItemName : Port#1UnloadRequestReport, Value :  
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+}
+[2019-08-29 10:15:46.893] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#2LoadRequestReport, Data : 0
+[2019-08-29 10:15:47.055] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#2UnloadRequestReport, Data : 1
+[2019-08-29 10:15:47.056] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#1LoadRequestReport, Data : 1
+[2019-08-29 10:15:47.056] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#1UnloadRequestReport, Data : 0
+[2019-08-29 10:15:47.074] [INFO ] [mProtocol_OnEventReceived] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : 
+[2019-08-29 10:15:47.284] [INFO ] [mProtocol_OnEventReceived] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A1331
+[2019-08-29 10:15:47.457] [INFO ] [mProtocol_OnEventReceived] [MProtocolProxy][ReadData] -ReadData
+[2019-08-29 10:15:47.458] [INFO ] [mProtocol_OnEventReceived] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : ReadReply 
+, Transaction Name : 20190829101546657_Server 
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       : L2_BIT_AllPortState 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_B_LTM_H 
+, ==Read Item List== 
+, Read ItemName : Port#2LoadRequestReport, Value : 0 
+, Read ItemName : Port#2UnloadRequestReport, Value : 1 
+, Read ItemName : Port#1LoadRequestReport, Value : 1 
+, Read ItemName : Port#1UnloadRequestReport, Value : 0 
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A1331 
+}
+[2019-08-29 10:15:47.463] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 10:54:25.032] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 10:54:25.034] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 10:54:25.455] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A1331
+[2019-08-29 10:54:25.456] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 10:54-25_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829105425423 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A1331 
+}
+[2019-08-29 10:54:25.456] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 10:54:25.456] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 10:54:26.023] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 10:54:26.092] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 10:54:26.443] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A1331
+[2019-08-29 10:54:26.444] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 10:54-26_3 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829105426423 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A1331 
+}
+[2019-08-29 10:54:26.481] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 10:54:26.452] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 10:54:27.034] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 10:54:27.081] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 10:54:36.043] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 10:54-36_4 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829105436043 
+, Event Name       : L2_Port#2LoadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 10:54:36.043] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2LoadRequestReport, Item Value : 1, index : 0
+[2019-08-29 10:54:36.053] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 10:56:49.669] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2LoadRequestReport
+[2019-08-29 10:56:49.671] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2LoadRequestReport, Item Value : 0, index : 0
+[2019-08-29 10:57:45.898] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A0688
+[2019-08-29 10:57:45.898] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 10:57-45_5 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829105745878 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A0688 
+}
+[2019-08-29 10:57:45.898] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 10:57:45.939] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 11:00:52.123] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1LoadRequestReport
+[2019-08-29 11:00:52.125] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 0, index : 16
+[2019-08-29 11:00:52.154] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : 
+[2019-08-29 11:00:52.154] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 11:00-52_6 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829110052126 
+, Event Name       : L2_Port#1UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+}
+[2019-08-29 11:00:52.155] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1UnloadRequestReport, Item Value : 1, index : 17
+[2019-08-29 11:00:52.162] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 11:00:52.303] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1UnloadRequestReport
+[2019-08-29 11:00:52.326] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1UnloadRequestReport, Item Value : 0, index : 17
+[2019-08-29 11:00:52.733] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : 
+[2019-08-29 11:00:52.733] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 11:00-52_7 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829110052713 
+, Event Name       : L2_Port#1UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+}
+[2019-08-29 11:00:52.733] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1UnloadRequestReport, Item Value : 1, index : 17
+[2019-08-29 11:00:52.742] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 11:00:53.113] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1UnloadRequestReport
+[2019-08-29 11:00:53.126] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1UnloadRequestReport, Item Value : 0, index : 17
+[2019-08-29 11:00:53.583] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : 
+[2019-08-29 11:00:53.735] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 11:00-53_8 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829110053563 
+, Event Name       : L2_Port#1UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+}
+[2019-08-29 11:00:53.738] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 11:00:53.935] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1UnloadRequestReport, Item Value : 1, index : 17
+[2019-08-29 11:01:21.782] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1UnloadRequestReport
+[2019-08-29 11:01:21.784] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1UnloadRequestReport, Item Value : 0, index : 17
+[2019-08-29 11:02:55.600] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 11:02-55_9 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829110255600 
+, Event Name       : L2_Port#1LoadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 11:02:55.600] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 1, index : 16
+[2019-08-29 11:02:55.621] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 11:05:52.616] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 11:05:52.617] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 11:05:53.235] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A0688
+[2019-08-29 11:05:53.235] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 11:05-53_10 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829110553215 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A0688 
+}
+[2019-08-29 11:05:53.236] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 11:05:53.245] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 11:05:53.635] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 11:05:53.635] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 11:05:54.035] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A0688
+[2019-08-29 11:05:54.059] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 11:05-54_11 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829110554016 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A0688 
+}
+[2019-08-29 11:05:54.059] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 11:05:54.069] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 11:05:54.615] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 11:05:54.659] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 11:06:03.635] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 11:06-03_12 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829110603635 
+, Event Name       : L2_Port#2LoadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 11:06:03.635] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2LoadRequestReport, Item Value : 1, index : 0
+[2019-08-29 11:06:03.645] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 11:20:42.322] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2LoadRequestReport
+[2019-08-29 11:20:42.324] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2LoadRequestReport, Item Value : 0, index : 0
+[2019-08-29 11:21:38.391] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A1331
+[2019-08-29 11:21:38.392] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 11:21-38_13 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829112138371 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A1331 
+}
+[2019-08-29 11:21:38.393] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 11:21:38.396] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 12:04:33.234] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 12:04:33.236] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 12:04:33.844] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A1331
+[2019-08-29 12:04:33.844] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 12:04-33_14 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829120433824 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A1331 
+}
+[2019-08-29 12:04:33.845] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 12:04:33.853] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 12:04:34.024] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 12:04:34.064] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 12:04:35.064] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A1331
+[2019-08-29 12:04:35.064] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 12:04-35_15 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829120435044 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A1331 
+}
+[2019-08-29 12:04:35.065] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 12:04:35.073] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 12:04:35.244] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 12:04:35.265] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 12:04:44.074] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 12:04-44_16 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829120444074 
+, Event Name       : L2_Port#2LoadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 12:04:44.074] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2LoadRequestReport, Item Value : 1, index : 0
+[2019-08-29 12:04:44.077] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 13:34:44.214] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1LoadRequestReport
+[2019-08-29 13:34:44.215] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 0, index : 16
+[2019-08-29 13:34:52.809] [ERROR] [ScanThreadProc] [Make3EProtocol][Reader] -[Error] IOException Error : 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。
+[2019-08-29 13:34:52.810] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 13:34-52_17 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829133444217 
+, Event Name       : L2_Port#1UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+}
+[2019-08-29 13:34:52.810] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1UnloadRequestReport, Item Value : 1, index : 17
+[2019-08-29 13:34:52.816] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 13:35:14.223] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1UnloadRequestReport
+[2019-08-29 13:35:14.224] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1UnloadRequestReport, Item Value : 0, index : 17
+[2019-08-29 13:36:47.852] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 13:36-47_18 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829133647852 
+, Event Name       : L2_Port#1LoadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 13:36:47.853] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 1, index : 16
+[2019-08-29 13:36:47.885] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 13:54:34.203] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2LoadRequestReport
+[2019-08-29 13:54:34.205] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2LoadRequestReport, Item Value : 0, index : 0
+[2019-08-29 13:55:30.283] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 13:55-30_19 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829135530222 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+}
+[2019-08-29 13:55:30.284] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 13:55:30.293] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 15:06:09.182] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 15:06:09.184] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 15:06:09.185] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1LoadRequestReport
+[2019-08-29 15:06:09.185] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 0, index : 16
+[2019-08-29 15:06:13.372] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 15:06-13_20 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829150613372 
+, Event Name       : L2_Port#1LoadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 15:06:13.372] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 1, index : 16
+[2019-08-29 15:06:13.377] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 15:06:13.995] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 15:06-13_21 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829150613982 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+}
+[2019-08-29 15:06:14.200] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 15:06:14.002] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 15:08:30.449] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 15:08:30.450] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 15:11:22.335] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 15:11-22_22 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829151122284 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+}
+[2019-08-29 15:11:22.335] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 15:11:22.344] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 15:39:41.370] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 15:39:41.371] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 15:39:41.790] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 15:39-41_23 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829153941770 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+}
+[2019-08-29 15:39:41.791] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 15:39:41.792] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 15:39:42.170] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 15:39:42.170] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 15:39:42.827] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 15:39-42_24 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829153942804 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+}
+[2019-08-29 15:39:42.828] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 15:39:42.834] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 15:39:43.379] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 15:39:43.379] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 15:40:43.780] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1LoadRequestReport
+[2019-08-29 15:40:43.781] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 0, index : 16
+[2019-08-29 15:40:43.819] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 15:40-43_25 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829154043781 
+, Event Name       : L2_Port#1UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+}
+[2019-08-29 15:40:43.820] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1UnloadRequestReport, Item Value : 1, index : 17
+[2019-08-29 15:40:43.824] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 15:40:44.378] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1UnloadRequestReport
+[2019-08-29 15:40:44.379] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1UnloadRequestReport, Item Value : 0, index : 17
+[2019-08-29 15:40:44.807] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 15:40-44_26 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829154044768 
+, Event Name       : L2_Port#1UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+}
+[2019-08-29 15:40:44.807] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1UnloadRequestReport, Item Value : 1, index : 17
+[2019-08-29 15:40:44.808] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 15:44:31.023] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1UnloadRequestReport
+[2019-08-29 15:44:31.025] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1UnloadRequestReport, Item Value : 0, index : 17
+[2019-08-29 15:46:04.841] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 15:46-04_27 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829154604841 
+, Event Name       : L2_Port#1LoadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 15:46:04.842] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 1, index : 16
+[2019-08-29 15:46:04.865] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 16:02:12.373] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 16:02-12_28 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829160212355 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+}
+[2019-08-29 16:02:12.374] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 16:02:12.385] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 16:24:38.730] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 16:24:38.732] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 16:24:39.354] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 16:24-39_29 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829162439340 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+}
+[2019-08-29 16:24:39.354] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 16:24:39.357] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 16:24:39.542] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 16:24:39.542] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 16:24:40.154] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 16:24-40_30 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829162440140 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+}
+[2019-08-29 16:24:40.155] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 16:24:40.160] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 16:24:40.742] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 16:24:40.742] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 16:29:43.782] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1LoadRequestReport
+[2019-08-29 16:29:43.784] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 0, index : 16
+[2019-08-29 16:31:47.849] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 16:31-47_31 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829163147849 
+, Event Name       : L2_Port#1LoadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 16:31:47.850] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 1, index : 16
+[2019-08-29 16:31:47.863] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 16:51:52.369] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1LoadRequestReport
+[2019-08-29 16:51:52.371] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 0, index : 16
+[2019-08-29 16:51:56.578] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 16:51-56_32 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829165156578 
+, Event Name       : L2_Port#1LoadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 16:51:56.578] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 1, index : 16
+[2019-08-29 16:51:56.580] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 17:10:22.318] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 17:10-22_33 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829171022279 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+}
+[2019-08-29 17:10:22.319] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 17:10:22.329] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 17:19:14.587] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-08-29 17:19:14.597] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 17:19:14.609] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 17:19:32.889] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-08-29 17:19:33.235] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-08-29 17:19:33.242] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-08-29 17:19:34.360] [ERROR] [10] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:19:34.375] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7007
+[2019-08-29 17:19:34.378] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-08-29 17:19:34.405] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-08-29 17:19:35.393] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:19:37.588] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:19:41.196] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:19:43.229] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:19:45.329] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:19:47.449] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:19:49.477] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:19:51.489] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:19:53.505] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:19:55.532] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:19:57.554] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:19:59.570] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:20:01.649] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:20:03.668] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:20:04.422] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-08-29 17:20:04.451] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 17:20:04.471] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 17:20:58.701] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-08-29 17:20:59.059] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-08-29 17:20:59.067] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-08-29 17:21:00.129] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:21:00.136] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7007
+[2019-08-29 17:21:00.140] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-08-29 17:21:00.162] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-08-29 17:21:01.160] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:21:03.185] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:21:05.212] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:21:07.236] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:21:09.282] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:21:11.309] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:21:13.415] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:21:14.684] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-08-29 17:21:14.720] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 17:21:14.745] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 17:22:55.716] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-08-29 17:22:56.132] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-08-29 17:22:56.141] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-08-29 17:22:57.231] [ERROR] [9] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:22:57.237] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7007
+[2019-08-29 17:22:57.239] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-08-29 17:22:57.270] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-08-29 17:22:58.277] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:23:00.298] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:23:02.391] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:23:04.486] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:23:06.666] [ERROR] [17] [MNet3EUnit][Connect] -[Connection] Ethernet SocketException : 由于目标计算机积极拒绝，无法连接。 10.116.11.112:7006
+[2019-08-29 17:23:07.110] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-08-29 17:23:07.120] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 17:23:07.159] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 17:30:30.168] [INFO ] [9] [ControlManager][Init] -Init ControlManager
+[2019-08-29 17:30:30.502] [INFO ] [9] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-08-29 17:30:30.511] [INFO ] [9] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-08-29 17:30:30.516] [INFO ] [9] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7006
+[2019-08-29 17:30:30.518] [INFO ] [9] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-08-29 17:30:30.522] [INFO ] [9] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 10.116.11.112 , PortNo : 7007
+[2019-08-29 17:30:30.535] [INFO ] [9] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-08-29 17:30-30_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 17:30:30.539] [INFO ] [9] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-08-29 17:30:30.682] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...
+[2019-08-29 17:30:33.530] [INFO ] [mProtocol_OnEventReceived] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : ReadRequest 
+, Transaction Name : 20190829173033529_Server 
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       : L2_BIT_AllPortState 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_B_LTM_H 
+, ==Read Item List== 
+, Read ItemName : Port#2LoadRequestReport, Value :  
+, Read ItemName : Port#2UnloadRequestReport, Value :  
+, Read ItemName : Port#1LoadRequestReport, Value :  
+, Read ItemName : Port#1UnloadRequestReport, Value :  
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+}
+[2019-08-29 17:30:33.742] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#2LoadRequestReport, Data : 0
+[2019-08-29 17:30:33.923] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#2UnloadRequestReport, Data : 0
+[2019-08-29 17:30:33.923] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#1LoadRequestReport, Data : 1
+[2019-08-29 17:30:33.923] [INFO ] [mProtocol_OnEventReceived] [MNet3EUnit][ReadBit] -[ReadBit] Item Name : Port#1UnloadRequestReport, Data : 0
+[2019-08-29 17:30:33.964] [INFO ] [mProtocol_OnEventReceived] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : 
+[2019-08-29 17:30:34.142] [INFO ] [mProtocol_OnEventReceived] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data :          
+[2019-08-29 17:30:34.322] [INFO ] [mProtocol_OnEventReceived] [MProtocolProxy][ReadData] -ReadData
+[2019-08-29 17:30:34.323] [INFO ] [mProtocol_OnEventReceived] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : ReadReply 
+, Transaction Name : 20190829173033529_Server 
+, MessageType      : ETHERNET 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       : L2_BIT_AllPortState 
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_B_LTM_H 
+, ==Read Item List== 
+, Read ItemName : Port#2LoadRequestReport, Value : 0 
+, Read ItemName : Port#2UnloadRequestReport, Value : 0 
+, Read ItemName : Port#1LoadRequestReport, Value : 1 
+, Read ItemName : Port#1UnloadRequestReport, Value : 0 
+, Read BlockName : L2_W_Port#1UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value :           
+}
+[2019-08-29 17:30:34.323] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 17:34:52.161] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#1LoadRequestReport
+[2019-08-29 17:34:52.163] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 0, index : 16
+[2019-08-29 17:36:55.982] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 17:36-55_2 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829173655982 
+, Event Name       : L2_Port#1LoadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-08-29 17:36:55.983] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#1LoadRequestReport, Item Value : 1, index : 16
+[2019-08-29 17:36:56.003] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 17:53:03.167] [INFO ] [ScanThreadProc] [Make3EProtocol][GetItemReadWord] -[ASCII] Item Name : CassetteId, Data : S517A5350
+[2019-08-29 17:53:03.169] [INFO ] [ScanThreadProc] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Event 
+, Transaction Name : 2019-08-29 17:53-03_3 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       : 20190829175303149 
+, Event Name       : L2_Port#2UnloadRequestReport 
+, Event Value      : 1 
+, Return Code      : 0 
+, Return Message   :  
+, Read BlockName : L2_W_Port#2UnloadRequestReportBlock 
+, ==Read Item List== 
+, Read ItemName : CassetteId, Value : S517A5350 
+}
+[2019-08-29 17:53:03.169] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 1, index : 1
+[2019-08-29 17:53:03.176] [INFO ] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventQ.Dequeue! As soon as mqProxy will be Sending, Remind EventQ Size : 1
+[2019-08-29 18:08:58.483] [INFO ] [ScanThreadProc] [MProtocolProxy][unit_EventScanReceived] -BitOffEventReport is false, Trx : L2_Port#2UnloadRequestReport
+[2019-08-29 18:08:58.500] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[EVENT] Local Name : L2 , Item Name: Port#2UnloadRequestReport, Item Value : 0, index : 1
+[2019-08-29 18:35:32.300] [ERROR] [EventProcessingProc] [ControlManager][EventProcessingProc] -EventProcessingProc Error : 正在中止线程。
+[2019-08-29 18:35:32.324] [ERROR] [TraceDataProcessingProc] [ControlManager][TraceDataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。
+[2019-08-29 18:35:32.334] [ERROR] [RGADataProcessingProc] [ControlManager][RGADataProcessingProc] -TraceDataProcessingProc Error : 正在中止线程。

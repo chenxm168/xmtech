@@ -40,7 +40,7 @@
      <Item Name="CassetteId" Offset="0" Points="6" Representation="A" />
     </Block>
 	
-    <Block Name="L2_W_Port#2UnloadRequestReportBlock" DeviceCode="W" HeadDevice="0x830" Points="6">
+    <Block Name="L2_W_Port#2UnloadRequestReportBlock" DeviceCode="W" HeadDevice="0x800" Points="6">
       <Item Name="CassetteId" Offset="0" Points="6" Representation="A" />
     </Block>
 
@@ -126,7 +126,7 @@
    
 <DataGathering>
     <Scan>
-      <MultiBlock Name="L_MB_LTM" Interval="800" StartUp="true" Priority="5" LogMode="NORMAL">
+      <MultiBlock Name="L_MB_LTM" Interval="1000" StartUp="true" Priority="5" LogMode="NORMAL">
         <Block Name="L2_B_LTM_H" Trigger="D" />
       </MultiBlock>
     </Scan>

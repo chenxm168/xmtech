@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CSVConfig   FilePath="CSV/Defect.csv" ItemHead="ID,Category,DefectCode,上传标志"   />

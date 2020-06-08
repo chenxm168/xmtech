@@ -1,0 +1,318 @@
+2020-03-04 14:19:38,710 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2020-03-04 14:19:38,879 [Thread: 9       ] [DEBUG] -- Loading XML object definitions from file [D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\spring-objects.xml]
+2020-03-04 14:19:38,935 [Thread: 9       ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2020-03-04 14:19:39,140 [Thread: 9       ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2020-03-04 14:19:39,142 [Thread: 9       ] [DEBUG] -- Loading object definitions.
+2020-03-04 14:19:39,144 [Thread: 9       ] [DEBUG] -- Loading object definitions...
+2020-03-04 14:19:39,146 [Thread: 9       ] [DEBUG] -- Default lazy init 'false'.
+2020-03-04 14:19:39,147 [Thread: 9       ] [DEBUG] -- Default dependency check 'none'.
+2020-03-04 14:19:39,149 [Thread: 9       ] [DEBUG] -- Default autowire 'no'.
+2020-03-04 14:19:39,150 [Thread: 9       ] [DEBUG] -- Default merge 'false'.
+2020-03-04 14:19:39,155 [Thread: 9       ] [DEBUG] -- Default init method ''.
+2020-03-04 14:19:39,156 [Thread: 9       ] [DEBUG] -- Default destroy method ''.
+2020-03-04 14:19:39,157 [Thread: 9       ] [DEBUG] -- Default autowire candidates ''.
+2020-03-04 14:19:39,158 [Thread: 9       ] [DEBUG] -- Default init method ''.
+2020-03-04 14:19:39,159 [Thread: 9       ] [DEBUG] -- Default destroy method ''.
+2020-03-04 14:19:39,188 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'class1'.
+2020-03-04 14:19:39,222 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'NHibernateSessionFactory'.
+2020-03-04 14:19:39,223 [Thread: 9       ] [DEBUG] -- Found 3 <object> elements defining objects.
+2020-03-04 14:19:39,224 [Thread: 9       ] [DEBUG] -- Loaded 3 object definitions from location [spring-objects.xml]
+2020-03-04 14:19:39,225 [Thread: 9       ] [DEBUG] -- Refreshed ObjectFactory for application context 'spring.root'.
+2020-03-04 14:19:39,226 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2020-03-04 14:19:39,228 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2020-03-04 14:19:39,229 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2020-03-04 14:19:39,231 [Thread: 9       ] [DEBUG] -- 3 objects defined in application context [spring.root].
+2020-03-04 14:19:39,378 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2020-03-04 14:19:39,395 [Thread: 9       ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [spring.root].
+2020-03-04 14:19:39,399 [Thread: 9       ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [spring.root].
+2020-03-04 14:19:39,404 [Thread: 9       ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2020-03-04 14:19:39,408 [Thread: 9       ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2020-03-04 14:19:39,411 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2020-03-04 14:19:39,412 [Thread: 9       ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2020-03-04 14:19:39,581 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name class1 => canonical name class1
+2020-03-04 14:19:39,611 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'class1'
+2020-03-04 14:19:39,613 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'class1' with merged definition [RootObjectDefinition : Class [MPC.Class1]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\spring-objects.xml] line 24].
+2020-03-04 14:19:39,638 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'class1'.
+2020-03-04 14:19:39,640 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'class1' to allow for resolving potential circular references
+2020-03-04 14:19:39,779 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'class1'
+2020-03-04 14:19:39,787 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'class1'
+2020-03-04 14:19:39,791 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'class1'
+2020-03-04 14:19:39,794 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'class1'
+2020-03-04 14:19:39,799 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'class1'.
+2020-03-04 14:19:39,803 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname class1
+2020-03-04 14:19:39,805 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name &DbProvider => canonical name DbProvider
+2020-03-04 14:19:39,806 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'DbProvider'
+2020-03-04 14:19:39,978 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'DbProvider' with merged definition [RootObjectDefinition : Class [Spring.Data.Common.DbProviderFactoryObject]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ].
+2020-03-04 14:19:39,979 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'DbProvider'.
+2020-03-04 14:19:39,981 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'DbProvider' to allow for resolving potential circular references
+2020-03-04 14:19:39,986 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'DbProvider'
+2020-03-04 14:19:40,056 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'DbProvider'
+2020-03-04 14:19:40,057 [Thread: 9       ] [DEBUG] -- Calling AfterPropertiesSet() on object with name 'DbProvider'.
+2020-03-04 14:19:40,178 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'DbProvider'
+2020-03-04 14:19:40,180 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'DbProvider'
+2020-03-04 14:19:40,187 [Thread: 9       ] [DEBUG] -- Calling code asked for IFactoryObject instance for name 'DbProvider'.
+2020-03-04 14:19:40,189 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname &DbProvider
+2020-03-04 14:19:40,191 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name DbProvider => canonical name DbProvider
+2020-03-04 14:19:40,192 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'DbProvider'.
+2020-03-04 14:19:40,193 [Thread: 9       ] [DEBUG] -- Object with name 'DbProvider' is a factory object.
+2020-03-04 14:19:40,194 [Thread: 9       ] [DEBUG] -- Dereferencing Object with name 'DbProvider'
+2020-03-04 14:19:40,384 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2020-03-04 14:19:40,408 [Thread: 9       ] [DEBUG] -- Loading XML object definitions from assembly [Spring.Data, Version=2.0.1.45000, Culture=neutral, PublicKeyToken=65e474d141e25e07], resource [Spring.Data.Common.dbproviders.xml]
+2020-03-04 14:19:40,413 [Thread: 9       ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2020-03-04 14:19:40,437 [Thread: 9       ] [DEBUG] -- Loading object definitions.
+2020-03-04 14:19:40,439 [Thread: 9       ] [DEBUG] -- Loading object definitions...
+2020-03-04 14:19:40,441 [Thread: 9       ] [DEBUG] -- Default lazy init 'false'.
+2020-03-04 14:19:40,443 [Thread: 9       ] [DEBUG] -- Default dependency check 'none'.
+2020-03-04 14:19:40,445 [Thread: 9       ] [DEBUG] -- Default autowire 'no'.
+2020-03-04 14:19:40,446 [Thread: 9       ] [DEBUG] -- Default merge 'false'.
+2020-03-04 14:19:40,449 [Thread: 9       ] [DEBUG] -- Default init method ''.
+2020-03-04 14:19:40,578 [Thread: 9       ] [DEBUG] -- Default destroy method ''.
+2020-03-04 14:19:40,581 [Thread: 9       ] [DEBUG] -- Default autowire candidates ''.
+2020-03-04 14:19:40,588 [Thread: 9       ] [DEBUG] -- Default init method ''.
+2020-03-04 14:19:40,591 [Thread: 9       ] [DEBUG] -- Default destroy method ''.
+2020-03-04 14:19:40,602 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#3017EF8]
+2020-03-04 14:19:40,607 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SqlServer-1.1'.
+2020-03-04 14:19:40,611 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#33D55D9]
+2020-03-04 14:19:40,612 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SqlServer-2.0'.
+2020-03-04 14:19:40,614 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#D2BFCE]
+2020-03-04 14:19:40,779 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SqlServer-4.0'.
+2020-03-04 14:19:40,785 [Thread: 9       ] [DEBUG] -- Registering alias 'System.Data.SqlClient' for object with name 'SqlServer-2.0'.
+2020-03-04 14:19:40,790 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#1C0B811]
+2020-03-04 14:19:40,794 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SqlServerCe-3.1'.
+2020-03-04 14:19:40,796 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#3DD7AC2]
+2020-03-04 14:19:40,799 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SqlServerCe-3.5.1'.
+2020-03-04 14:19:40,802 [Thread: 9       ] [DEBUG] -- Registering alias 'System.Data.SqlServerCe' for object with name 'SqlServerCe-3.5.1'.
+2020-03-04 14:19:40,979 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#278A92B]
+2020-03-04 14:19:40,981 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'OleDb-1.1'.
+2020-03-04 14:19:40,988 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#15317FD]
+2020-03-04 14:19:40,990 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'OleDb-2.0'.
+2020-03-04 14:19:40,993 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#24ED790]
+2020-03-04 14:19:40,995 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'OleDb-4.0'.
+2020-03-04 14:19:40,998 [Thread: 9       ] [DEBUG] -- Registering alias 'System.Data.OleDb' for object with name 'OleDb-2.0'.
+2020-03-04 14:19:41,003 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#2A08626]
+2020-03-04 14:19:41,178 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'OracleClient-2.0'.
+2020-03-04 14:19:41,179 [Thread: 9       ] [DEBUG] -- Registering alias 'System.Data.OracleClient' for object with name 'OracleClient-2.0'.
+2020-03-04 14:19:41,181 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#3B57C27]
+2020-03-04 14:19:41,185 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'OracleODP-2.0'.
+2020-03-04 14:19:41,186 [Thread: 9       ] [DEBUG] -- Registering alias 'Oracle.DataAccess.Client' for object with name 'OracleODP-2.0'.
+2020-03-04 14:19:41,196 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#10E266]
+2020-03-04 14:19:41,197 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'OracleODP-11-2.0'.
+2020-03-04 14:19:41,378 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#2B44259]
+2020-03-04 14:19:41,383 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'OracleODP-11-4.0'.
+2020-03-04 14:19:41,386 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#2DEA064]
+2020-03-04 14:19:41,388 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'OracleODP-12-2.0'.
+2020-03-04 14:19:41,390 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#1A7B00E]
+2020-03-04 14:19:41,392 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'OracleODP-12-4.0'.
+2020-03-04 14:19:41,393 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#3DB3248]
+2020-03-04 14:19:41,579 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'OracleODP-Managed-12-4.0'.
+2020-03-04 14:19:41,591 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#21B0DAD]
+2020-03-04 14:19:41,595 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'MySql'.
+2020-03-04 14:19:41,600 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#25530BC]
+2020-03-04 14:19:41,605 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'MySql-1.0.9'.
+2020-03-04 14:19:41,607 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#3A4CE1E]
+2020-03-04 14:19:41,609 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'MySql-5.0'.
+2020-03-04 14:19:41,611 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#16502E5]
+2020-03-04 14:19:41,778 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'MySql-5.0.8.1'.
+2020-03-04 14:19:41,782 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#12D76CA]
+2020-03-04 14:19:41,786 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'MySql-5.1'.
+2020-03-04 14:19:41,787 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#48066D]
+2020-03-04 14:19:41,789 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'MySql-5.1.4'.
+2020-03-04 14:19:41,791 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#3890798]
+2020-03-04 14:19:41,792 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'MySql-5.2.3'.
+2020-03-04 14:19:41,794 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#F2377C]
+2020-03-04 14:19:41,979 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'MySql-6.1.3'.
+2020-03-04 14:19:41,982 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#2CAE2F1]
+2020-03-04 14:19:41,991 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'MySql-6.2.2'.
+2020-03-04 14:19:41,993 [Thread: 9       ] [DEBUG] -- Registering alias 'MySql.Data.MySqlClient' for object with name 'MySql-6.2.2'.
+2020-03-04 14:19:41,995 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#27E58B9]
+2020-03-04 14:19:41,997 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'Npgsql-1.0'.
+2020-03-04 14:19:42,004 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#23C35BD]
+2020-03-04 14:19:42,178 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'Npgsql-2.0-beta1'.
+2020-03-04 14:19:42,181 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#3A49B4D]
+2020-03-04 14:19:42,186 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'Npgsql-2.0'.
+2020-03-04 14:19:42,188 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#15CDF63]
+2020-03-04 14:19:42,190 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'DB2-9.0.0-1.1'.
+2020-03-04 14:19:42,192 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#3DFC6DF]
+2020-03-04 14:19:42,194 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'DB2-9.0.0-2.0'.
+2020-03-04 14:19:42,196 [Thread: 9       ] [DEBUG] -- Registering alias 'IBM.Data.DB2' for object with name 'DB2-9.0.0-2.0'.
+2020-03-04 14:19:42,378 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#2D6D9CB]
+2020-03-04 14:19:42,380 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'DB2-9.1.0-1.1'.
+2020-03-04 14:19:42,386 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#68E198]
+2020-03-04 14:19:42,388 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'DB2-9.1.0.2'.
+2020-03-04 14:19:42,391 [Thread: 9       ] [DEBUG] -- Registering alias 'IBM.Data.DB2.9.1.0' for object with name 'DB2-9.1.0.2'.
+2020-03-04 14:19:42,393 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#CC215E]
+2020-03-04 14:19:42,395 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'iDB2-10.0.0.0'.
+2020-03-04 14:19:42,579 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#B1581F]
+2020-03-04 14:19:42,584 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SQLite-1.0.43'.
+2020-03-04 14:19:42,590 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#671D03]
+2020-03-04 14:19:42,593 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SQLite-1.0.44'.
+2020-03-04 14:19:42,596 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#83A59C]
+2020-03-04 14:19:42,605 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SQLite-1.0.47'.
+2020-03-04 14:19:42,627 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#1158623]
+2020-03-04 14:19:42,778 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SQLite-1.0.56'.
+2020-03-04 14:19:42,780 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#727BB9]
+2020-03-04 14:19:42,783 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SQLite-1.0.65'.
+2020-03-04 14:19:42,785 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#255D0A6]
+2020-03-04 14:19:42,787 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SQLite-1.0.66'.
+2020-03-04 14:19:42,789 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#3BE6A9B]
+2020-03-04 14:19:42,791 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SQLite-1.0.72'.
+2020-03-04 14:19:42,793 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#17F12F3]
+2020-03-04 14:19:42,978 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SQLite-1.0.80'.
+2020-03-04 14:19:42,980 [Thread: 9       ] [DEBUG] -- Registering alias 'System.Data.SQLite' for object with name 'SQLite-1.0.80'.
+2020-03-04 14:19:42,985 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#15A08EC]
+2020-03-04 14:19:42,987 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'Firebird-2.1'.
+2020-03-04 14:19:42,989 [Thread: 9       ] [DEBUG] -- Registering alias 'FirebirdSql.Data.FirebirdClient' for object with name 'Firebird-2.1'.
+2020-03-04 14:19:42,991 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#36B6DF2]
+2020-03-04 14:19:42,993 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SybaseAse-12'.
+2020-03-04 14:19:43,178 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#349BD4]
+2020-03-04 14:19:43,181 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SybaseAse-15'.
+2020-03-04 14:19:43,186 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#6CF50C]
+2020-03-04 14:19:43,188 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'SybaseAse-AdoNet2'.
+2020-03-04 14:19:43,190 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#1733EFA]
+2020-03-04 14:19:43,192 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'IfxOdbc'.
+2020-03-04 14:19:43,194 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#3751628]
+2020-03-04 14:19:43,196 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'IfxSQLI-3.0.0.2'.
+2020-03-04 14:19:43,379 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#1C08C87]
+2020-03-04 14:19:43,390 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'IfxDRDA-9.0.0.2'.
+2020-03-04 14:19:43,393 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#3D681AF]
+2020-03-04 14:19:43,397 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'Odbc-1.1'.
+2020-03-04 14:19:43,406 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#15AC522]
+2020-03-04 14:19:43,407 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'Odbc-2.0'.
+2020-03-04 14:19:43,409 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#3899289]
+2020-03-04 14:19:43,578 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'Odbc-4.0'.
+2020-03-04 14:19:43,579 [Thread: 9       ] [DEBUG] -- Registering alias 'System.Data.Odbc' for object with name 'Odbc-2.0'.
+2020-03-04 14:19:43,584 [Thread: 9       ] [DEBUG] -- Neither XML 'id' nor 'name' specified - using generated object name [Spring.Data.Common.DbMetadata#10877F4]
+2020-03-04 14:19:43,586 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'Cache-2.0.0.1'.
+2020-03-04 14:19:43,587 [Thread: 9       ] [DEBUG] -- Registering alias 'InterSystems.Data.CacheClient' for object with name 'Cache-2.0.0.1'.
+2020-03-04 14:19:43,589 [Thread: 9       ] [DEBUG] -- Found 51 <object> elements defining objects.
+2020-03-04 14:19:43,590 [Thread: 9       ] [DEBUG] -- Loaded 51 object definitions from location [assembly://Spring.Data, Version=2.0.1.45000, Culture=neutral, PublicKeyToken=65e474d141e25e07/Spring.Data.Common/dbproviders.xml]
+2020-03-04 14:19:43,591 [Thread: 9       ] [DEBUG] -- Refreshed ObjectFactory for application context 'DBPROVIDERFACTORY_CONTEXT'.
+2020-03-04 14:19:43,778 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2020-03-04 14:19:43,781 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2020-03-04 14:19:43,784 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2020-03-04 14:19:43,786 [Thread: 9       ] [DEBUG] -- 51 objects defined in application context [DBPROVIDERFACTORY_CONTEXT].
+2020-03-04 14:19:43,788 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2020-03-04 14:19:43,793 [Thread: 9       ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [DBPROVIDERFACTORY_CONTEXT].
+2020-03-04 14:19:43,801 [Thread: 9       ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [DBPROVIDERFACTORY_CONTEXT].
+2020-03-04 14:19:43,989 [Thread: 9       ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2020-03-04 14:19:43,993 [Thread: 9       ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2020-03-04 14:19:43,997 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2020-03-04 14:19:44,000 [Thread: 9       ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2020-03-04 14:19:44,006 [Thread: 9       ] [DEBUG] -- Publishing event in context [DBPROVIDERFACTORY_CONTEXT] : ContextRefreshedEventArgs [Refreshed]
+2020-03-04 14:19:44,008 [Thread: 9       ] [INFO ] -- ApplicationContext Refresh: Completed
+2020-03-04 14:19:44,011 [Thread: 9       ] [INFO ] -- 51 DbProviders Available. [SqlServer-1.1,SqlServer-2.0,SqlServer-4.0,SqlServerCe-3.1,SqlServerCe-3.5.1,OleDb-1.1,OleDb-2.0,OleDb-4.0,OracleClient-2.0,OracleODP-2.0,OracleODP-11-2.0,OracleODP-11-4.0,OracleODP-12-2.0,OracleODP-12-4.0,OracleODP-Managed-12-4.0,MySql,MySql-1.0.9,MySql-5.0,MySql-5.0.8.1,MySql-5.1,MySql-5.1.4,MySql-5.2.3,MySql-6.1.3,MySql-6.2.2,Npgsql-1.0,Npgsql-2.0-beta1,Npgsql-2.0,DB2-9.0.0-1.1,DB2-9.0.0-2.0,DB2-9.1.0-1.1,DB2-9.1.0.2,iDB2-10.0.0.0,SQLite-1.0.43,SQLite-1.0.44,SQLite-1.0.47,SQLite-1.0.56,SQLite-1.0.65,SQLite-1.0.66,SQLite-1.0.72,SQLite-1.0.80,Firebird-2.1,SybaseAse-12,SybaseAse-15,SybaseAse-AdoNet2,IfxOdbc,IfxSQLI-3.0.0.2,IfxDRDA-9.0.0.2,Odbc-1.1,Odbc-2.0,Odbc-4.0,Cache-2.0.0.1]
+2020-03-04 14:19:44,178 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name FirebirdSql.Data.FirebirdClient => canonical name Firebird-2.1
+2020-03-04 14:19:44,179 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'FirebirdSql.Data.FirebirdClient' with merged definition [RootObjectDefinition : Class [Spring.Data.Common.DbProvider]; Abstract = False; Parent = ; Scope = prototype; Singleton = False; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = assembly [Spring.Data, Version=2.0.1.45000, Culture=neutral, PublicKeyToken=65e474d141e25e07], resource [Spring.Data.Common.dbproviders.xml] line 1864].
+2020-03-04 14:19:44,378 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'FirebirdSql.Data.FirebirdClient'.
+2020-03-04 14:19:44,382 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'Spring.Data.Common.DbMetadata#15A08EC' with merged definition [RootObjectDefinition : Class [Spring.Data.Common.DbMetadata]; Abstract = False; Parent = ; Scope = prototype; Singleton = False; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = assembly [Spring.Data, Version=2.0.1.45000, Culture=neutral, PublicKeyToken=65e474d141e25e07], resource [Spring.Data.Common.dbproviders.xml] line 1866].
+2020-03-04 14:19:44,580 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'Spring.Data.Common.DbMetadata#15A08EC'.
+2020-03-04 14:19:45,883 [Thread: 9       ] [DEBUG] -- Object 'Spring.Data.Common.DbMetadata#15A08EC' instantiated via constructor [Void .ctor(System.String, System.String, System.Type, System.Type, System.Type, System.Type, System.Type, System.String, System.Type, System.String, System.String, System.String, System.Type, Boolean, Boolean, Boolean, System.String)].
+2020-03-04 14:19:45,885 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'Spring.Data.Common.DbMetadata#15A08EC'
+2020-03-04 14:19:45,891 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'Spring.Data.Common.DbMetadata#15A08EC'
+2020-03-04 14:19:45,893 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'Spring.Data.Common.DbMetadata#15A08EC'
+2020-03-04 14:19:45,894 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'Spring.Data.Common.DbMetadata#15A08EC'.
+2020-03-04 14:19:45,895 [Thread: 9       ] [DEBUG] -- Object 'FirebirdSql.Data.FirebirdClient' instantiated via constructor [Void .ctor(Spring.Data.Common.IDbMetadata)].
+2020-03-04 14:19:45,907 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'FirebirdSql.Data.FirebirdClient'
+2020-03-04 14:19:45,908 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'FirebirdSql.Data.FirebirdClient'
+2020-03-04 14:19:45,909 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'FirebirdSql.Data.FirebirdClient'
+2020-03-04 14:19:45,910 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname FirebirdSql.Data.FirebirdClient
+2020-03-04 14:19:45,911 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'DbProvider'
+2020-03-04 14:19:45,912 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname DbProvider
+2020-03-04 14:19:45,915 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name &NHibernateSessionFactory => canonical name NHibernateSessionFactory
+2020-03-04 14:19:46,107 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'NHibernateSessionFactory'
+2020-03-04 14:19:46,109 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'NHibernateSessionFactory' with merged definition [RootObjectDefinition : Class [Spring.Data.NHibernate.LocalSessionFactoryObject]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\spring-objects.xml] line 28].
+2020-03-04 14:19:46,110 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'NHibernateSessionFactory'.
+2020-03-04 14:19:46,111 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'NHibernateSessionFactory' to allow for resolving potential circular references
+2020-03-04 14:19:46,308 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'NHibernateSessionFactory'
+2020-03-04 14:19:46,310 [Thread: 9       ] [DEBUG] -- Resolving reference from property 'DbProvider' in object 'NHibernateSessionFactory' to object 'DbProvider'.
+2020-03-04 14:19:46,312 [Thread: 9       ] [DEBUG] --       GetObjectInternal: obtaining instance for name DbProvider => canonical name DbProvider
+2020-03-04 14:19:46,313 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'DbProvider'.
+2020-03-04 14:19:46,315 [Thread: 9       ] [DEBUG] -- Object with name 'DbProvider' is a factory object.
+2020-03-04 14:19:46,322 [Thread: 9       ] [DEBUG] -- Returning factory product from cache for Object with name 'DbProvider'
+2020-03-04 14:19:46,323 [Thread: 9       ] [DEBUG] --    GetObjectInternal: returning instance for objectname DbProvider
+2020-03-04 14:19:46,329 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'NHibernateSessionFactory'
+2020-03-04 14:19:46,508 [Thread: 9       ] [DEBUG] -- Calling AfterPropertiesSet() on object with name 'NHibernateSessionFactory'.
+2020-03-04 14:19:47,039 [Thread: 9       ] [INFO ] -- NHibernate 3.3.1.4000 (3.3.1.4000)
+2020-03-04 14:19:47,060 [Thread: 9       ] [INFO ] -- hibernate-configuration section not found in application configuration file
+2020-03-04 14:19:47,061 [Thread: 9       ] [INFO ] -- Bytecode provider name : lcg
+2020-03-04 14:19:47,063 [Thread: 9       ] [INFO ] -- Using reflection optimizer
+2020-03-04 14:19:47,073 [Thread: 9       ] [INFO ] -- Searching for mapped documents in assembly: MPC
+2020-03-04 14:19:47,075 [Thread: 9       ] [WARN ] -- No mapped documents found in assembly: MPC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2020-03-04 14:19:47,077 [Thread: 9       ] [INFO ] -- checking mappings queue
+2020-03-04 14:19:47,078 [Thread: 9       ] [INFO ] -- processing one-to-many association mappings
+2020-03-04 14:19:47,079 [Thread: 9       ] [INFO ] -- processing one-to-one association property references
+2020-03-04 14:19:47,080 [Thread: 9       ] [INFO ] -- processing foreign key constraints
+2020-03-04 14:19:47,085 [Thread: 9       ] [INFO ] -- processing filters (second pass)
+2020-03-04 14:19:47,258 [Thread: 9       ] [INFO ] -- Building new Hibernate SessionFactory
+2020-03-04 14:19:47,260 [Thread: 9       ] [INFO ] -- checking mappings queue
+2020-03-04 14:19:47,262 [Thread: 9       ] [INFO ] -- processing one-to-many association mappings
+2020-03-04 14:19:47,264 [Thread: 9       ] [INFO ] -- processing one-to-one association property references
+2020-03-04 14:19:47,268 [Thread: 9       ] [INFO ] -- processing foreign key constraints
+2020-03-04 14:19:47,270 [Thread: 9       ] [INFO ] -- processing filters (second pass)
+2020-03-04 14:19:47,334 [Thread: 9       ] [INFO ] -- Using dialect: NHibernate.Dialect.FirebirdDialect
+2020-03-04 14:19:47,351 [Thread: 9       ] [INFO ] -- Using dialect: NHibernate.Dialect.FirebirdDialect
+2020-03-04 14:19:47,424 [Thread: 9       ] [INFO ] -- Using dialect defined converter
+2020-03-04 14:19:47,426 [Thread: 9       ] [INFO ] -- Generate SQL with comments: disabled
+2020-03-04 14:19:47,428 [Thread: 9       ] [INFO ] -- Initializing connection provider: Spring.Data.NHibernate.LocalSessionFactoryObject+DbProviderWrapper, Spring.Data.NHibernate3, Version=2.0.1.45000, Culture=neutral, PublicKeyToken=65e474d141e25e07
+2020-03-04 14:19:47,475 [Thread: 9       ] [INFO ] -- Configuring ConnectionProvider
+2020-03-04 14:19:47,522 [Thread: 9       ] [INFO ] -- setting ADO.NET command timeout to 60 seconds
+2020-03-04 14:19:47,523 [Thread: 9       ] [INFO ] -- Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2020-03-04 14:19:47,525 [Thread: 9       ] [INFO ] -- Optimize cache for minimal puts: False
+2020-03-04 14:19:47,527 [Thread: 9       ] [INFO ] -- Connection release mode: auto
+2020-03-04 14:19:47,528 [Thread: 9       ] [INFO ] -- Default batch fetch size: 1
+2020-03-04 14:19:47,529 [Thread: 9       ] [INFO ] -- Statistics: disabled
+2020-03-04 14:19:47,535 [Thread: 9       ] [INFO ] -- Deleted entity synthetic identifier rollback: disabled
+2020-03-04 14:19:47,542 [Thread: 9       ] [INFO ] -- Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2020-03-04 14:19:47,661 [Thread: 9       ] [INFO ] -- Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N'}
+2020-03-04 14:19:47,665 [Thread: 9       ] [INFO ] -- cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2020-03-04 14:19:47,672 [Thread: 9       ] [INFO ] -- Order SQL inserts for batching: enabled
+2020-03-04 14:19:47,674 [Thread: 9       ] [DEBUG] -- Wrap result sets: disabled
+2020-03-04 14:19:47,677 [Thread: 9       ] [INFO ] -- Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2020-03-04 14:19:47,679 [Thread: 9       ] [INFO ] -- Default entity-mode: Poco
+2020-03-04 14:19:47,686 [Thread: 9       ] [INFO ] -- Named query checking : enabled
+2020-03-04 14:19:47,707 [Thread: 9       ] [INFO ] -- building session factory
+2020-03-04 14:19:47,860 [Thread: 9       ] [DEBUG] -- Session factory constructed with filter configurations : {}
+2020-03-04 14:19:47,864 [Thread: 9       ] [DEBUG] -- instantiating session factory with properties: {'use_reflection_optimizer'='True', 'connection.connection_string'='User=SYSDBA; Password=masterkey; Database=D:\\CIMPC.fdb; DataSource=LOCALHOST; Port=3050; Dialect=3; Charset=NONE; Role=; Connection lifetime=15; Pooling=true; MinPoolSize=0; MaxPoolSize=50; Packet Size=8192; ServerType=0', 'connection.provider'='Spring.Data.NHibernate.LocalSessionFactoryObject+DbProviderWrapper, Spring.Data.NHibernate3, Version=2.0.1.45000, Culture=neutral, PublicKeyToken=65e474d141e25e07', 'current_session_context_class'='Spring.Data.NHibernate.SpringSessionContext, Spring.Data.NHibernate3, Version=2.0.1.45000, Culture=neutral, PublicKeyToken=65e474d141e25e07', 'use_outer_join'='true', 'dialect'='NHibernate.Dialect.FirebirdDialect', 'query.substitutions'='true 1, false 0, yes 'Y', no 'N', 'cache.use_query_cache'='false', 'adonet.batch_size'='10', 'cache.use_second_level_cache'='true', 'command_timeout'='60', 'show_sql'='false', 'hbm2ddl.auto'='update'}
+2020-03-04 14:19:48,768 [Thread: 9       ] [DEBUG] -- Closing connection
+2020-03-04 14:19:48,786 [Thread: 9       ] [DEBUG] -- initializing class SessionFactoryObjectFactory
+2020-03-04 14:19:48,788 [Thread: 9       ] [DEBUG] -- registered: 89af58b7f1444b89b28986660271b45e(unnamed)
+2020-03-04 14:19:48,793 [Thread: 9       ] [INFO ] -- no name configured
+2020-03-04 14:19:48,795 [Thread: 9       ] [DEBUG] -- Instantiated session factory
+2020-03-04 14:19:48,843 [Thread: 9       ] [INFO ] -- Using dialect: NHibernate.Dialect.FirebirdDialect
+2020-03-04 14:19:48,850 [Thread: 9       ] [INFO ] -- Running hbm2ddl schema update
+2020-03-04 14:19:48,857 [Thread: 9       ] [INFO ] -- fetching database metadata
+2020-03-04 14:19:48,860 [Thread: 9       ] [INFO ] -- Initializing connection provider: Spring.Data.NHibernate.LocalSessionFactoryObject+DbProviderWrapper, Spring.Data.NHibernate3, Version=2.0.1.45000, Culture=neutral, PublicKeyToken=65e474d141e25e07
+2020-03-04 14:19:48,862 [Thread: 9       ] [INFO ] -- Configuring ConnectionProvider
+2020-03-04 14:19:48,865 [Thread: 9       ] [INFO ] -- setting ADO.NET command timeout to 60 seconds
+2020-03-04 14:19:49,075 [Thread: 9       ] [INFO ] -- updating schema
+2020-03-04 14:19:49,078 [Thread: 9       ] [INFO ] -- checking mappings queue
+2020-03-04 14:19:49,079 [Thread: 9       ] [INFO ] -- processing one-to-many association mappings
+2020-03-04 14:19:49,081 [Thread: 9       ] [INFO ] -- processing one-to-one association property references
+2020-03-04 14:19:49,084 [Thread: 9       ] [INFO ] -- processing foreign key constraints
+2020-03-04 14:19:49,085 [Thread: 9       ] [INFO ] -- processing filters (second pass)
+2020-03-04 14:19:49,087 [Thread: 9       ] [INFO ] -- schema update complete
+2020-03-04 14:19:49,088 [Thread: 9       ] [DEBUG] -- Closing connection
+2020-03-04 14:19:49,092 [Thread: 9       ] [DEBUG] -- Checking 0 named HQL queries
+2020-03-04 14:19:49,093 [Thread: 9       ] [DEBUG] -- Checking 0 named SQL queries
+2020-03-04 14:19:49,094 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'NHibernateSessionFactory'
+2020-03-04 14:19:49,188 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'NHibernateSessionFactory'
+2020-03-04 14:19:49,190 [Thread: 9       ] [DEBUG] -- Calling code asked for IFactoryObject instance for name 'NHibernateSessionFactory'.
+2020-03-04 14:19:49,195 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname &NHibernateSessionFactory
+2020-03-04 14:19:49,199 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name NHibernateSessionFactory => canonical name NHibernateSessionFactory
+2020-03-04 14:19:49,208 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'NHibernateSessionFactory'.
+2020-03-04 14:19:49,210 [Thread: 9       ] [DEBUG] -- Object with name 'NHibernateSessionFactory' is a factory object.
+2020-03-04 14:19:49,212 [Thread: 9       ] [DEBUG] -- Dereferencing Object with name 'NHibernateSessionFactory'
+2020-03-04 14:19:49,215 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'NHibernateSessionFactory'
+2020-03-04 14:19:49,388 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname NHibernateSessionFactory
+2020-03-04 14:19:49,390 [Thread: 9       ] [DEBUG] -- Publishing event in context [spring.root] : ContextRefreshedEventArgs [Refreshed]
+2020-03-04 14:19:49,392 [Thread: 9       ] [INFO ] -- ApplicationContext Refresh: Completed
+2020-03-04 14:19:49,395 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name class1 => canonical name class1
+2020-03-04 14:19:49,397 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'class1'.
+2020-03-04 14:19:49,404 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'class1'.
+2020-03-04 14:19:49,406 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname class1
+2020-03-04 14:19:49,408 [Thread: 9       ] [DEBUG] -- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+2020-03-04 14:19:54,681 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name class1 => canonical name class1
+2020-03-04 14:19:54,684 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'class1'.
+2020-03-04 14:19:54,685 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'class1'.
+2020-03-04 14:19:54,686 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname class1
+2020-03-04 14:19:54,687 [Thread: 9       ] [DEBUG] -- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

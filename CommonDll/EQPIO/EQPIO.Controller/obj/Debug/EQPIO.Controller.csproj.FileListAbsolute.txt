@@ -95,8 +95,8 @@ D:\DevRepository\CommonDll\EQPIO\EQPIO.Controller\bin\Debug\EQPIO.EIPDriver.pdb
 D:\DevRepository\CommonDll\EQPIO\EQPIO.Controller\bin\Debug\EQPIO.MessageData.pdb
 D:\DevRepository\CommonDll\EQPIO\EQPIO.Controller\bin\Debug\EQPIO.MNetDriver.pdb
 D:\DevRepository\CommonDll\EQPIO\EQPIO.Controller\bin\Debug\EQPIO.MNetProtocol.pdb
+D:\DevRepository\CommonDll\EQPIO\EQPIO.Controller\obj\Debug\EQPIO.Controller.csprojResolveAssemblyReference.cache
 D:\DevRepository\CommonDll\EQPIO\EQPIO.Controller\obj\Debug\EQPIO.Controller.Properties.Resources.resources
 D:\DevRepository\CommonDll\EQPIO\EQPIO.Controller\obj\Debug\EQPIO.Controller.csproj.GenerateResource.Cache
 D:\DevRepository\CommonDll\EQPIO\EQPIO.Controller\obj\Debug\EQPIO.Controller.dll
 D:\DevRepository\CommonDll\EQPIO\EQPIO.Controller\obj\Debug\EQPIO.Controller.pdb
-D:\DevRepository\CommonDll\EQPIO\EQPIO.Controller\obj\Debug\EQPIO.Controller.csprojResolveAssemblyReference.cache

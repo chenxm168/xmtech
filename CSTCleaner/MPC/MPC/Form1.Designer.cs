@@ -63,6 +63,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // groupBox1
@@ -122,11 +123,13 @@
             this.btControlStatus.TabIndex = 5;
             this.btControlStatus.Text = "更  改";
             this.btControlStatus.UseVisualStyleBackColor = true;
+            this.btControlStatus.Visible = false;
             this.btControlStatus.Click += new System.EventHandler(this.btControlStatus_Click);
             // 
             // cbControlStatus
             // 
             this.cbControlStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbControlStatus.Enabled = false;
             this.cbControlStatus.FormattingEnabled = true;
             this.cbControlStatus.Items.AddRange(new object[] {
             "OFFLINE",

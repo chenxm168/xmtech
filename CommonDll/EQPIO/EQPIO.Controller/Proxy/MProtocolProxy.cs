@@ -26,6 +26,8 @@ namespace EQPIO.Controller.Proxy
 		private Configuration ethernetConfig;
 
 		private bool m_bConnection = false;
+        private bool mpUnitConected = false;  //cxm 20191210
+        private bool mpScanUnitConected = false; //cxm 20191210
 
 		private Dictionary<string, PLCMap> mMapList = new Dictionary<string, PLCMap>();
 
@@ -68,6 +70,31 @@ namespace EQPIO.Controller.Proxy
 				m_bConnection = value;
 			}
 		}
+
+
+        public bool MpUnitConnected
+        {
+            get
+            {
+                return mpUnitConected;
+            }
+            set
+            {
+                mpUnitConected = value;
+            }
+        }
+
+        public bool MpScanConnected
+        {
+            get
+            {
+                return mpScanUnitConected;
+            }
+            set
+            {
+                mpScanUnitConected = value;
+            }
+        }
 
 		public Dictionary<string, PLCMap> MapList
         {
@@ -276,22 +303,36 @@ namespace EQPIO.Controller.Proxy
 			IMNetUnit iMNetUnit = sender as IMNetUnit;
 			iMNetUnit.ThreadStart();
 			iMNetUnit.StopConnect();
+            /* cxm 20191210
 			if (m_bConnection)
 			{
-				this.OnConnected(this);
+				//cxm 20191210 this.OnConnected(this);
+                this.OnConnected(sender);//cxm 20191210
 			}
 			m_bConnection = true;
+             * */
+
+            this.OnConnected(sender);
+            mpUnitConected = true;
+            m_bConnection = mpUnitConected & mpScanUnitConected;   //cxm 20191210
+
 			logger.Info(string.Format("MelsecEthernet OnConnected : {0} ",iMNetUnit.Name));
 		}
 
 		private void Unit_OnDisconnected(object sender, DisconnectedEventArgs e)
 		{
 			IMNetUnit iMNetUnit = sender as IMNetUnit;
+            /* cxm 20191210
 			if (!m_bConnection)
 			{
 				this.OnDisconnected(this);
 			}
 			m_bConnection = false;
+             */
+            this.OnDisconnected(sender);
+            mpUnitConected = false;
+            m_bConnection = mpUnitConected & mpScanUnitConected;  //cxm 20191210
+
 			iMNetUnit.ThreadStop();
 			iMNetUnit.Close();
 			iMNetUnit.ReConnect();
@@ -307,11 +348,19 @@ namespace EQPIO.Controller.Proxy
 			iMNetScanUnit.RGAScanReceived += unit_RGADataReport;
 			iMNetScanUnit.ThreadStart();
 			iMNetScanUnit.StopReconnect();
+            /* cxm 20191210
 			if (m_bConnection)
 			{
-				this.OnConnected(this);
+				//this.OnConnected(this);
+                this.OnConnected(sender); //cxm 20191210
 			}
 			m_bConnection = true;
+             */
+            this.OnConnected(sender);
+            mpScanUnitConected = true;
+            m_bConnection = mpUnitConected & mpScanUnitConected;  //cxm 20191210
+            
+
 			logger.Info(string.Format("Scan MelsecEthernet OnConnected : {0} ",iMNetScanUnit.ConnectionUnitName));
 		}
 
@@ -323,12 +372,19 @@ namespace EQPIO.Controller.Proxy
 			iMNetScanUnit.RGAScanReceived -= unit_RGADataReport;
 			if (iMNetScanUnit.IsConnection)
 			{
+                /* cxm 20191210
 				iMNetScanUnit.IsConnection = false;
 				m_bConnection = false;
 				if (!m_bConnection)
 				{
 					this.OnDisconnected(this);
 				}
+              */
+                this.OnDisconnected(sender); //cxm 20191210
+                mpScanUnitConected = false; //cxm 20191210
+                m_bConnection = mpUnitConected & mpScanUnitConected; //cxm 20191210
+
+
 				iMNetScanUnit.ThreadStop();
 				iMNetScanUnit.Close();
 				iMNetScanUnit.StartReconnect();

@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<VCRConfigTCP   Enable="true" RemoteIp="192.168.0.60"   TcpPort="27110" ReadInterval="2000" ReveiveTimeout="8000"  Terminator="13" NGString="BR" />

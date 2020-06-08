@@ -1,0 +1,485 @@
+[2019-08-28 10:32:26.469] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-28 10:32:26.495] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-28 10:36:23.032] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-28 10:36:23.038] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-28 10:39:27.730] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-28 10:39:27.759] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-28 10:40:00.344] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828104000242800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>  </CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 10:50:02.853] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-28 10:50:02.877] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-28 10:53:09.579] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-28 10:53:09.588] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-28 10:55:28.816] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-28 10:55:28.998] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-28 10:55:39.568] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828105539530800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>LR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>  </CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 11:00:32.850] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-28 11:00:32.861] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-28 11:01:01.762] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828110101709800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>LR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>  </CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 11:17:57.277] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828111757277800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>LR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>  </CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 11:21:44.875] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828112144875800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PU01</PORTNAME>
+        <PORTTRANSFERSTATENAME>UR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME />
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 14:56:10.066] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-28 14:56:10.076] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-28 14:59:15.707] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-28 14:59:15.721] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-28 16:10:03.035] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-28 16:10:03.046] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-28 16:34:15.062] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828163415029800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PU01</PORTNAME>
+        <PORTTRANSFERSTATENAME>UR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME />
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 16:36:40.219] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828163640219800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PU01</PORTNAME>
+        <PORTTRANSFERSTATENAME>UR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME />
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 16:36:41.223] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828163641223800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PU01</PORTNAME>
+        <PORTTRANSFERSTATENAME>UR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME />
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 16:38:34.243] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828163834243800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>LR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>  </CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 17:09:55.614] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828170955614800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PU01</PORTNAME>
+        <PORTTRANSFERSTATENAME>UR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME />
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 17:26:15.009] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-28 17:26:15.199] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-28 17:26:31.249] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828172631196800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PU01</PORTNAME>
+        <PORTTRANSFERSTATENAME>UR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>S517A1331</CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 17:26:32.176] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828172632176800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>LR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>  </CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 17:48:23.206] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828174823206800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>UR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME />
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 17:48:24.211] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828174824211800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>UR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME />
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 17:48:25.217] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828174825216800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>UR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME />
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-08-28 17:50:26.669] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190828175026669800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>LR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>  </CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>

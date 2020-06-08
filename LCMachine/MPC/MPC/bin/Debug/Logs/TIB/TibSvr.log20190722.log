@@ -1,0 +1,405 @@
+[2019-07-22 15:08:16.562] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 15:08:16.703] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 15:08:37.339] [INFO ] [10] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722150837286800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Remote</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>
+[2019-07-22 15:09:32.308] [INFO ] [10] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722150932304800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Local</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>
+[2019-07-22 15:41:15.734] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 15:41:15.928] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 15:42:48.593] [INFO ] [9] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722154248500800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>
+[2019-07-22 15:45:23.932] [DEBUG] [8] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 15:45:23.953] [DEBUG] [8] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 15:57:35.229] [INFO ] [8] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722155735134800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>
+[2019-07-22 16:23:00.440] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 16:23:00.612] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 16:29:20.450] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 16:29:20.462] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 16:29:32.254] [INFO ] [9] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722162932152800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>
+[2019-07-22 16:39:08.696] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 16:39:08.705] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 16:39:31.379] [INFO ] [9] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722163931295800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>
+[2019-07-22 16:43:47.269] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 16:43:47.463] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 16:45:02.912] [INFO ] [9] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722164502818800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>
+[2019-07-22 16:47:27.776] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 16:47:27.957] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 16:55:41.419] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 16:55:41.590] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 16:57:23.350] [INFO ] [10] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722165723242800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>
+[2019-07-22 16:59:58.990] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 16:59:59.007] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 17:01:54.006] [INFO ] [10] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722170153909800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>
+[2019-07-22 17:15:23.054] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 17:15:23.066] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 17:16:20.330] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722171617825800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>LR</PORTTRANSFERSTATENAME>
+        <PORTTYPE>Loader</PORTTYPE>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-07-22 17:30:16.131] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 17:30:16.144] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 17:38:38.063] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 17:38:38.217] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 17:39:25.224] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722173922367800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>UR</PORTTRANSFERSTATENAME>
+        <PORTTYPE>Loader</PORTTYPE>
+        <CARRIERNAME>334455667788</CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-07-22 17:42:25.202] [INFO ] [10] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722174225119800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>
+[2019-07-22 17:45:37.336] [DEBUG] [8] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 17:45:37.511] [DEBUG] [8] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 17:46:34.798] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722174632033800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PU01</PORTNAME>
+        <PORTTYPE>Unloader</PORTTYPE>
+        <CARRIERNAME />
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-07-22 17:47:01.948] [INFO ] [8] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722174701879800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>
+[2019-07-22 17:47:32.500] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 17:47:32.693] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 17:47:41.575] [INFO ] [9] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722174741502800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>
+[2019-07-22 17:48:15.360] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-07-22 17:48:15.375] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-07-22 17:48:47.301] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722174844743800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PU01</PORTNAME>
+        <PORTTYPE>Unloader</PORTTYPE>
+        <CARRIERNAME>AABBCCDDEEFF</CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>
+[2019-07-22 17:51:12.627] [INFO ] [9] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>MachineControlStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190722175112540800</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+    <TRACELEVEL>M</TRACELEVEL>
+  </Body>
+</Message>

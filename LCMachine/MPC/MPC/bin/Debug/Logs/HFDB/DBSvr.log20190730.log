@@ -1,0 +1,9 @@
+[2019-07-30 18:06:46.520] [DEBUG] [9] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-30 18:06:46.593] [ERROR] [9] [SQLiteHelper][ExecuteSqlGetDt] -SQL logic error
+no such table: EQUIPMENT
+[2019-07-30 18:08:18.219] [ERROR] [9] [SQLiteHelper][ExecuteSqlGetDt] -SQL logic error
+no such table: EQUIPMENT
+[2019-07-30 18:08:18.474] [DEBUG] [9] [SQLiteHelper][CloseConnection] -DB connection Close.
+[2019-07-30 18:09:50.390] [DEBUG] [10] [SQLiteHelper][OpenConnection] -DB connection Open.
+[2019-07-30 18:12:31.011] [DEBUG] [10] [SQLiteHelper][ExecuteNonQuery] -Pre Excute sql [UPDATE  EQUIPMENT   SET  EQUIPMENTNAME = 'C1CCL01' ,  RMSUSEFLAG = 'N' ,  CURRENTSTATUSTIME = '2019-04-24 16:02:47.924' ,  EQUIPMENTSTATUS = 'Run' ,  EQUIPMENTTYPE = 'Cassette Cleaner' ,  OLDEQUIPMENTSTATUS = 'Run' ,  ONLINECONTROLSTATUS = 'Offline' ,  SHOP = 'Array' ,  PROJECTTYPE = 'New' ,  STATUSCODE = '' ,  DESCRIPTION = 'Cassette Cleaner'   WHERE  EQUIPMENTNAME = 'C1CCL01' ]
+[2019-07-30 18:12:31.316] [DEBUG] [10] [SQLiteHelper][CloseConnection] -DB connection Close.

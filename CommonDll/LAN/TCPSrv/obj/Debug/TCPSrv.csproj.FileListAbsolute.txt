@@ -1,0 +1,7 @@
+D:\DevRepository\CommonDll\LAN\TCPSrv\bin\Debug\TCPSrv.dll
+D:\DevRepository\CommonDll\LAN\TCPSrv\bin\Debug\TCPSrv.pdb
+D:\DevRepository\CommonDll\LAN\TCPSrv\bin\Debug\log4net.dll
+D:\DevRepository\CommonDll\LAN\TCPSrv\bin\Debug\log4net.xml
+D:\DevRepository\CommonDll\LAN\TCPSrv\obj\Debug\TCPSrv.dll
+D:\DevRepository\CommonDll\LAN\TCPSrv\obj\Debug\TCPSrv.pdb
+D:\DevRepository\CommonDll\LAN\TCPSrv\obj\Debug\TCPSrv.csprojResolveAssemblyReference.cache

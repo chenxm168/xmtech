@@ -2,6 +2,7 @@ using EQPIO.Common;
 using EQPIO.Controller.Proxy;
 //using EQPIO.LinkSignalTest;
 using EQPIO.MessageData;
+using EQPIO.MNetProtocol;
 using EQPIO.RabbitMQInterface.Parser;
 using EQPIO.RabbitMQInterface.Parser.Impl;
 using log4net;
@@ -305,13 +306,31 @@ namespace EQPIO.Controller
 
 		private void mProtocolProxy_OnConnected(object sender)
 		{
-			MessageData<PLCMessageBody> messageData = new MessageData<PLCMessageBody>();
+            MessageData<PLCMessageBody> messageData = new MessageData<PLCMessageBody>();
+            messageData.MessageBody = new PLCMessageBody();
+            //cxm 20191210 start
+            string sType = sender.GetType().ToString();
+            if(sType.ToLower().Contains("scan"))
+            {
+                messageData.MessageBody.EventName = "ScanUnitOnConnected";
+                IMNetScanUnit u = sender as IMNetScanUnit;
+                messageData.MachineName = u.ConnectionUnitName; //cxm 20191210
+            }else
+            {
+                messageData.MessageBody.EventName = "UnitOnConnected";
+                IMNetUnit u = sender as IMNetUnit;
+                messageData.MachineName = u.Name; //cxm 2019121
+            }
+
+           //20191223 IMNetUnit iMNetUnit = sender as IMNetUnit; //cxm 20191012 end
+			
             //messageData.MessageType = "Ethernet";
             messageData.MessageType = "MelsecEthernet";
 			messageData.MessageName = "Connection";
-			messageData.MachineName = "L2";
+			//20191210 messageData.MachineName = "L2";
+          
 			messageData.Transaction = MakeNewTransactionNo();
-			messageData.MessageBody = new PLCMessageBody();
+			
 			messageData.ReturnCode = 0;
 			messageData.ReturnMessage = string.Empty;
             if(mqProxy!=null)
@@ -332,14 +351,33 @@ namespace EQPIO.Controller
 
 		private void mProtocolProxy_OnDisconnected(object sender)
 		{
+            IMNetUnit iMNetUnit = sender as IMNetUnit; //cxm 20191012
 			MessageData<PLCMessageBody> messageData = new MessageData<PLCMessageBody>();
+            messageData.MessageBody = new PLCMessageBody();
             //messageData.MessageType = "Ethernet";
+            //20191223 
+               string sType = sender.GetType().ToString();
+               if (sType.ToLower().Contains("scan"))
+               {
+                   messageData.MessageBody.EventName = "ScanUnitOnDisonnected";
+                   IMNetScanUnit u = sender as IMNetScanUnit;
+                   messageData.MachineName = u.ConnectionUnitName; //cxm 20191210
+               }
+               else
+               {
+                   messageData.MessageBody.EventName = "UnitOnDisconnected";
+                   IMNetUnit u = sender as IMNetUnit;
+                   messageData.MachineName = u.Name;
+               }
+
+            //20191223 end
 
             messageData.MessageType = "MelsecEthernet";
 			messageData.MessageName = "Disconnection";
-			messageData.MachineName = "L2";
+			//cxm 20191210 messageData.MachineName = "L2";
+           // messageData.MachineName = iMNetUnit.Name; //cxm 20191210
 			messageData.Transaction = MakeNewTransactionNo();
-			messageData.MessageBody = new PLCMessageBody();
+			//messageData.MessageBody = new PLCMessageBody();
 			messageData.ReturnCode = 0;
 			messageData.ReturnMessage = string.Empty;
             if(mqProxy!=null)

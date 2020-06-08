@@ -1,0 +1,440 @@
+2019-07-30 18:06:39,606 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2019-07-30 18:06:39,662 [Thread: 9       ] [DEBUG] -- Loading XML object definitions from file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml]
+2019-07-30 18:06:39,672 [Thread: 9       ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2019-07-30 18:06:39,675 [Thread: 9       ] [DEBUG] -- Loading object definitions.
+2019-07-30 18:06:39,677 [Thread: 9       ] [DEBUG] -- Loading object definitions...
+2019-07-30 18:06:39,679 [Thread: 9       ] [DEBUG] -- Default lazy init 'false'.
+2019-07-30 18:06:39,680 [Thread: 9       ] [DEBUG] -- Default dependency check 'none'.
+2019-07-30 18:06:39,681 [Thread: 9       ] [DEBUG] -- Default autowire 'no'.
+2019-07-30 18:06:39,682 [Thread: 9       ] [DEBUG] -- Default merge 'false'.
+2019-07-30 18:06:39,683 [Thread: 9       ] [DEBUG] -- Default init method ''.
+2019-07-30 18:06:39,684 [Thread: 9       ] [DEBUG] -- Default destroy method ''.
+2019-07-30 18:06:39,685 [Thread: 9       ] [DEBUG] -- Default autowire candidates ''.
+2019-07-30 18:06:39,822 [Thread: 9       ] [DEBUG] -- Default init method ''.
+2019-07-30 18:06:39,823 [Thread: 9       ] [DEBUG] -- Default destroy method ''.
+2019-07-30 18:06:39,848 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'portStatusChange'.
+2019-07-30 18:06:39,852 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'm_EQPEventProcess'.
+2019-07-30 18:06:39,854 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'controlManagerFactory'.
+2019-07-30 18:06:39,855 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'controlManager'.
+2019-07-30 18:06:39,860 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'tibMessageInfo'.
+2019-07-30 18:06:39,861 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'tIBMessageService'.
+2019-07-30 18:06:39,862 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'TibSender'.
+2019-07-30 18:06:39,872 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'TibMessageHandler'.
+2019-07-30 18:06:40,023 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'serverManager'.
+2019-07-30 18:06:40,024 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'MachineControlStateChangeRequestProc'.
+2019-07-30 18:06:40,025 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'CurrentDateTimeRequestProc'.
+2019-07-30 18:06:40,026 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'AreYouThereResponseProc'.
+2019-07-30 18:06:40,027 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'MachineControlStateRequestProc'.
+2019-07-30 18:06:40,028 [Thread: 9       ] [DEBUG] -- Found 13 <object> elements defining objects.
+2019-07-30 18:06:40,029 [Thread: 9       ] [DEBUG] -- Loaded 13 object definitions from location [spring-objects.xml]
+2019-07-30 18:06:40,031 [Thread: 9       ] [DEBUG] -- Refreshed ObjectFactory for application context 'spring.root'.
+2019-07-30 18:06:40,222 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2019-07-30 18:06:40,224 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2019-07-30 18:06:40,225 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2019-07-30 18:06:40,226 [Thread: 9       ] [DEBUG] -- 13 objects defined in application context [spring.root].
+2019-07-30 18:06:40,227 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2019-07-30 18:06:40,239 [Thread: 9       ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [spring.root].
+2019-07-30 18:06:40,241 [Thread: 9       ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [spring.root].
+2019-07-30 18:06:40,243 [Thread: 9       ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2019-07-30 18:06:40,424 [Thread: 9       ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2019-07-30 18:06:40,426 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2019-07-30 18:06:40,427 [Thread: 9       ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2019-07-30 18:06:40,429 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name portStatusChange => canonical name portStatusChange
+2019-07-30 18:06:40,431 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'portStatusChange'
+2019-07-30 18:06:40,433 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'portStatusChange' with merged definition [RootObjectDefinition : Class [MPC.Server.EQP.PortStatusChange]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 24].
+2019-07-30 18:06:40,623 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'portStatusChange'.
+2019-07-30 18:06:40,626 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'portStatusChange' to allow for resolving potential circular references
+2019-07-30 18:06:40,627 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'portStatusChange'
+2019-07-30 18:06:40,630 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'portStatusChange'
+2019-07-30 18:06:40,632 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'portStatusChange'
+2019-07-30 18:06:40,638 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'portStatusChange'
+2019-07-30 18:06:40,823 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'portStatusChange'.
+2019-07-30 18:06:40,824 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname portStatusChange
+2019-07-30 18:06:40,825 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name m_EQPEventProcess => canonical name m_EQPEventProcess
+2019-07-30 18:06:40,826 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'm_EQPEventProcess'
+2019-07-30 18:06:40,827 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'm_EQPEventProcess' with merged definition [RootObjectDefinition : Class [MPC.Server.EQP.EQPEventHandler]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 26].
+2019-07-30 18:06:41,023 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'm_EQPEventProcess'.
+2019-07-30 18:06:41,024 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'm_EQPEventProcess' to allow for resolving potential circular references
+2019-07-30 18:06:41,025 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'm_EQPEventProcess'
+2019-07-30 18:06:41,029 [Thread: 9       ] [DEBUG] -- Resolving reference from property 'EventHandlers[L2_Port#2UnloadRequestReport]' in object 'm_EQPEventProcess' to object 'portStatusChange'.
+2019-07-30 18:06:41,031 [Thread: 9       ] [DEBUG] --       GetObjectInternal: obtaining instance for name portStatusChange => canonical name portStatusChange
+2019-07-30 18:06:41,032 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'portStatusChange'.
+2019-07-30 18:06:41,222 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'portStatusChange'.
+2019-07-30 18:06:41,224 [Thread: 9       ] [DEBUG] --    GetObjectInternal: returning instance for objectname portStatusChange
+2019-07-30 18:06:41,226 [Thread: 9       ] [DEBUG] -- Resolving reference from property 'EventHandlers[L2_Port#1LoadRequestReport]' in object 'm_EQPEventProcess' to object 'portStatusChange'.
+2019-07-30 18:06:41,227 [Thread: 9       ] [DEBUG] --       GetObjectInternal: obtaining instance for name portStatusChange => canonical name portStatusChange
+2019-07-30 18:06:41,228 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'portStatusChange'.
+2019-07-30 18:06:41,229 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'portStatusChange'.
+2019-07-30 18:06:41,230 [Thread: 9       ] [DEBUG] --    GetObjectInternal: returning instance for objectname portStatusChange
+2019-07-30 18:06:41,231 [Thread: 9       ] [DEBUG] -- Resolving reference from property 'EventHandlers[L2_Port#2LoadRequestReport]' in object 'm_EQPEventProcess' to object 'portStatusChange'.
+2019-07-30 18:06:41,422 [Thread: 9       ] [DEBUG] --       GetObjectInternal: obtaining instance for name portStatusChange => canonical name portStatusChange
+2019-07-30 18:06:41,423 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'portStatusChange'.
+2019-07-30 18:06:41,425 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'portStatusChange'.
+2019-07-30 18:06:41,425 [Thread: 9       ] [DEBUG] --    GetObjectInternal: returning instance for objectname portStatusChange
+2019-07-30 18:06:41,426 [Thread: 9       ] [DEBUG] -- Resolving reference from property 'EventHandlers[L2_Port#1UnloadRequestReport]' in object 'm_EQPEventProcess' to object 'portStatusChange'.
+2019-07-30 18:06:41,427 [Thread: 9       ] [DEBUG] --       GetObjectInternal: obtaining instance for name portStatusChange => canonical name portStatusChange
+2019-07-30 18:06:41,622 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'portStatusChange'.
+2019-07-30 18:06:41,623 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'portStatusChange'.
+2019-07-30 18:06:41,624 [Thread: 9       ] [DEBUG] --    GetObjectInternal: returning instance for objectname portStatusChange
+2019-07-30 18:06:41,675 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'm_EQPEventProcess'
+2019-07-30 18:06:41,676 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'm_EQPEventProcess'
+2019-07-30 18:06:41,678 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'm_EQPEventProcess'
+2019-07-30 18:06:41,678 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'm_EQPEventProcess'.
+2019-07-30 18:06:41,679 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname m_EQPEventProcess
+2019-07-30 18:06:41,823 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name controlManagerFactory => canonical name controlManagerFactory
+2019-07-30 18:06:41,824 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'controlManagerFactory'
+2019-07-30 18:06:41,825 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'controlManagerFactory' with merged definition [RootObjectDefinition : Class [EQPIO.Controller.ControlManagerFactory]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 37].
+2019-07-30 18:06:41,826 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'controlManagerFactory'.
+2019-07-30 18:06:42,023 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'controlManagerFactory' to allow for resolving potential circular references
+2019-07-30 18:06:42,024 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'controlManagerFactory'
+2019-07-30 18:06:42,025 [Thread: 9       ] [DEBUG] -- Resolving reference from property 'EQPEventHandler' in object 'controlManagerFactory' to object 'm_EQPEventProcess'.
+2019-07-30 18:06:42,026 [Thread: 9       ] [DEBUG] --       GetObjectInternal: obtaining instance for name m_EQPEventProcess => canonical name m_EQPEventProcess
+2019-07-30 18:06:42,027 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'm_EQPEventProcess'.
+2019-07-30 18:06:42,031 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'm_EQPEventProcess'.
+2019-07-30 18:06:42,032 [Thread: 9       ] [DEBUG] --    GetObjectInternal: returning instance for objectname m_EQPEventProcess
+2019-07-30 18:06:42,033 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'controlManagerFactory'
+2019-07-30 18:06:42,222 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'controlManagerFactory'
+2019-07-30 18:06:42,223 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'controlManagerFactory'
+2019-07-30 18:06:42,224 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'controlManagerFactory'.
+2019-07-30 18:06:42,225 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname controlManagerFactory
+2019-07-30 18:06:42,226 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name controlManager => canonical name controlManager
+2019-07-30 18:06:42,227 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'controlManager'
+2019-07-30 18:06:42,228 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'controlManager' with merged definition [RootObjectDefinition : Class [EQPIO.Controller.ControlManager]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = getControlManager; FactoryObjectName = controlManagerFactory; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 43].
+2019-07-30 18:06:42,423 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'controlManager'.
+2019-07-30 18:06:42,429 [Thread: 9       ] [DEBUG] --       GetObjectInternal: obtaining instance for name controlManagerFactory => canonical name controlManagerFactory
+2019-07-30 18:06:42,432 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'controlManagerFactory'.
+2019-07-30 18:06:42,434 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'controlManagerFactory'.
+2019-07-30 18:06:42,624 [Thread: 9       ] [DEBUG] --    GetObjectInternal: returning instance for objectname controlManagerFactory
+2019-07-30 18:06:42,634 [Thread: 9       ] [DEBUG] --       GetObjectInternal: obtaining instance for name controlManagerFactory => canonical name controlManagerFactory
+2019-07-30 18:06:42,637 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'controlManagerFactory'.
+2019-07-30 18:06:42,639 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'controlManagerFactory'.
+2019-07-30 18:06:42,641 [Thread: 9       ] [DEBUG] --    GetObjectInternal: returning instance for objectname controlManagerFactory
+2019-07-30 18:06:43,072 [Thread: 9       ] [DEBUG] -- Object 'controlManager' instantiated via factory method [EQPIO.Controller.ControlManager getControlManager()].
+2019-07-30 18:06:43,073 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'controlManager' to allow for resolving potential circular references
+2019-07-30 18:06:43,253 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'controlManager'
+2019-07-30 18:06:43,254 [Thread: 9       ] [DEBUG] -- Resolving reference from property 'EQPEventHandler' in object 'controlManager' to object 'm_EQPEventProcess'.
+2019-07-30 18:06:43,256 [Thread: 9       ] [DEBUG] --       GetObjectInternal: obtaining instance for name m_EQPEventProcess => canonical name m_EQPEventProcess
+2019-07-30 18:06:43,259 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'm_EQPEventProcess'.
+2019-07-30 18:06:43,261 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'm_EQPEventProcess'.
+2019-07-30 18:06:43,264 [Thread: 9       ] [DEBUG] --    GetObjectInternal: returning instance for objectname m_EQPEventProcess
+2019-07-30 18:06:43,267 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'controlManager'
+2019-07-30 18:06:43,455 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'controlManager'
+2019-07-30 18:06:43,457 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'controlManager'
+2019-07-30 18:06:43,458 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'controlManager'.
+2019-07-30 18:06:43,460 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname controlManager
+2019-07-30 18:06:43,461 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name tibMessageInfo => canonical name tibMessageInfo
+2019-07-30 18:06:43,462 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'tibMessageInfo'
+2019-07-30 18:06:43,463 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'tibMessageInfo' with merged definition [RootObjectDefinition : Class [TIBMessageIo.MessageInfo]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 51].
+2019-07-30 18:06:43,652 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'tibMessageInfo'.
+2019-07-30 18:06:43,675 [Thread: 9       ] [DEBUG] -- Object 'tibMessageInfo' instantiated via constructor [Void .ctor(System.String, System.String)].
+2019-07-30 18:06:43,677 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'tibMessageInfo' to allow for resolving potential circular references
+2019-07-30 18:06:43,678 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'tibMessageInfo'
+2019-07-30 18:06:43,679 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'tibMessageInfo'
+2019-07-30 18:06:43,853 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'tibMessageInfo'
+2019-07-30 18:06:43,854 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'tibMessageInfo'
+2019-07-30 18:06:43,855 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'tibMessageInfo'.
+2019-07-30 18:06:43,856 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname tibMessageInfo
+2019-07-30 18:06:43,857 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name tIBMessageService => canonical name tIBMessageService
+2019-07-30 18:06:43,857 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'tIBMessageService'
+2019-07-30 18:06:43,858 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'tIBMessageService' with merged definition [RootObjectDefinition : Class [TIBMessageIo.TIBMessageService]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 56].
+2019-07-30 18:06:44,052 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'tIBMessageService'.
+2019-07-30 18:06:44,053 [Thread: 9       ] [DEBUG] -- Resolving reference from property 'constructor argument with name msginfo' in object 'tIBMessageService' to object 'tibMessageInfo'.
+2019-07-30 18:06:44,055 [Thread: 9       ] [DEBUG] --       GetObjectInternal: obtaining instance for name tibMessageInfo => canonical name tibMessageInfo
+2019-07-30 18:06:44,056 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'tibMessageInfo'.
+2019-07-30 18:06:44,057 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'tibMessageInfo'.
+2019-07-30 18:06:44,253 [Thread: 9       ] [DEBUG] --    GetObjectInternal: returning instance for objectname tibMessageInfo
+2019-07-30 18:06:44,470 [Thread: 9       ] [DEBUG] -- Object 'tIBMessageService' instantiated via constructor [Void .ctor(TIBMessageIo.MessageInfo)].
+2019-07-30 18:06:44,471 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'tIBMessageService' to allow for resolving potential circular references
+2019-07-30 18:06:44,472 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'tIBMessageService'
+2019-07-30 18:06:44,473 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'tIBMessageService'
+2019-07-30 18:06:44,474 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'tIBMessageService'
+2019-07-30 18:06:44,482 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'tIBMessageService'
+2019-07-30 18:06:44,483 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'tIBMessageService'.
+2019-07-30 18:06:44,653 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname tIBMessageService
+2019-07-30 18:06:44,654 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name TibSender => canonical name TibSender
+2019-07-30 18:06:44,655 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'TibSender'
+2019-07-30 18:06:44,655 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'TibSender' with merged definition [RootObjectDefinition : Class [TIBMessageIo.TIBAdapter]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 61].
+2019-07-30 18:06:44,657 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'TibSender'.
+2019-07-30 18:06:44,853 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'TibSender' to allow for resolving potential circular references
+2019-07-30 18:06:44,854 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'TibSender'
+2019-07-30 18:06:44,855 [Thread: 9       ] [DEBUG] -- Resolving reference from property 'TIB' in object 'TibSender' to object 'tIBMessageService'.
+2019-07-30 18:06:44,856 [Thread: 9       ] [DEBUG] --       GetObjectInternal: obtaining instance for name tIBMessageService => canonical name tIBMessageService
+2019-07-30 18:06:44,856 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'tIBMessageService'.
+2019-07-30 18:06:44,858 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'tIBMessageService'.
+2019-07-30 18:06:44,859 [Thread: 9       ] [DEBUG] --    GetObjectInternal: returning instance for objectname tIBMessageService
+2019-07-30 18:06:44,860 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'TibSender'
+2019-07-30 18:06:45,052 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'TibSender'
+2019-07-30 18:06:45,053 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'TibSender'
+2019-07-30 18:06:45,054 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'TibSender'.
+2019-07-30 18:06:45,055 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname TibSender
+2019-07-30 18:06:45,056 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name TibMessageHandler => canonical name TibMessageHandler
+2019-07-30 18:06:45,057 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'TibMessageHandler'
+2019-07-30 18:06:45,058 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'TibMessageHandler' with merged definition [RootObjectDefinition : Class [MPC.Server.TIB.TIBMessageHandler]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 66].
+2019-07-30 18:06:45,252 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'TibMessageHandler'.
+2019-07-30 18:06:45,254 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'TibMessageHandler' to allow for resolving potential circular references
+2019-07-30 18:06:45,255 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'TibMessageHandler'
+2019-07-30 18:06:45,256 [Thread: 9       ] [DEBUG] -- Resolving reference from property 'ListenerReceived' in object 'TibMessageHandler' to object 'tIBMessageService'.
+2019-07-30 18:06:45,257 [Thread: 9       ] [DEBUG] --       GetObjectInternal: obtaining instance for name tIBMessageService => canonical name tIBMessageService
+2019-07-30 18:06:45,452 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'tIBMessageService'.
+2019-07-30 18:06:45,453 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'tIBMessageService'.
+2019-07-30 18:06:45,454 [Thread: 9       ] [DEBUG] --    GetObjectInternal: returning instance for objectname tIBMessageService
+2019-07-30 18:06:45,456 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'TibMessageHandler'
+2019-07-30 18:06:45,457 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'TibMessageHandler'
+2019-07-30 18:06:45,458 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'TibMessageHandler'
+2019-07-30 18:06:45,461 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'TibMessageHandler'.
+2019-07-30 18:06:45,462 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname TibMessageHandler
+2019-07-30 18:06:45,652 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name serverManager => canonical name serverManager
+2019-07-30 18:06:45,654 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'serverManager'
+2019-07-30 18:06:45,654 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'serverManager' with merged definition [RootObjectDefinition : Class [MPC.Server.ServerManager]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 72].
+2019-07-30 18:06:45,655 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'serverManager'.
+2019-07-30 18:06:45,853 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'serverManager' to allow for resolving potential circular references
+2019-07-30 18:06:45,854 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'serverManager'
+2019-07-30 18:06:45,855 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'serverManager'
+2019-07-30 18:06:45,856 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'serverManager'
+2019-07-30 18:06:45,856 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'serverManager'
+2019-07-30 18:06:45,857 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'serverManager'.
+2019-07-30 18:06:45,858 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname serverManager
+2019-07-30 18:06:45,860 [Thread: 9       ] [DEBUG] -- Publishing event in context [spring.root] : ContextRefreshedEventArgs [Refreshed]
+2019-07-30 18:06:46,066 [Thread: 9       ] [INFO ] -- ApplicationContext Refresh: Completed
+2019-07-30 18:06:46,067 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name m_EQPEventProcess => canonical name m_EQPEventProcess
+2019-07-30 18:06:46,068 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'm_EQPEventProcess'.
+2019-07-30 18:06:46,069 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'm_EQPEventProcess'.
+2019-07-30 18:06:46,069 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname m_EQPEventProcess
+2019-07-30 18:06:46,070 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name serverManager => canonical name serverManager
+2019-07-30 18:06:46,071 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'serverManager'.
+2019-07-30 18:06:46,072 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'serverManager'.
+2019-07-30 18:06:46,253 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname serverManager
+2019-07-30 18:06:46,254 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name controlManager => canonical name controlManager
+2019-07-30 18:06:46,255 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'controlManager'.
+2019-07-30 18:06:46,255 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'controlManager'.
+2019-07-30 18:06:46,256 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname controlManager
+2019-07-30 18:06:46,257 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name TibSender => canonical name TibSender
+2019-07-30 18:06:46,258 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'TibSender'.
+2019-07-30 18:06:46,258 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'TibSender'.
+2019-07-30 18:06:46,452 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname TibSender
+2019-07-30 18:08:18,316 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name serverManager => canonical name serverManager
+2019-07-30 18:08:18,317 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'serverManager'.
+2019-07-30 18:08:18,318 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'serverManager'.
+2019-07-30 18:08:18,319 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname serverManager
+2019-07-30 18:09:43,568 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2019-07-30 18:09:43,646 [Thread: 10      ] [DEBUG] -- Loading XML object definitions from file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml]
+2019-07-30 18:09:43,660 [Thread: 10      ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2019-07-30 18:09:43,663 [Thread: 10      ] [DEBUG] -- Loading object definitions.
+2019-07-30 18:09:43,666 [Thread: 10      ] [DEBUG] -- Loading object definitions...
+2019-07-30 18:09:43,668 [Thread: 10      ] [DEBUG] -- Default lazy init 'false'.
+2019-07-30 18:09:43,669 [Thread: 10      ] [DEBUG] -- Default dependency check 'none'.
+2019-07-30 18:09:43,671 [Thread: 10      ] [DEBUG] -- Default autowire 'no'.
+2019-07-30 18:09:43,672 [Thread: 10      ] [DEBUG] -- Default merge 'false'.
+2019-07-30 18:09:43,673 [Thread: 10      ] [DEBUG] -- Default init method ''.
+2019-07-30 18:09:43,674 [Thread: 10      ] [DEBUG] -- Default destroy method ''.
+2019-07-30 18:09:43,675 [Thread: 10      ] [DEBUG] -- Default autowire candidates ''.
+2019-07-30 18:09:43,805 [Thread: 10      ] [DEBUG] -- Default init method ''.
+2019-07-30 18:09:43,806 [Thread: 10      ] [DEBUG] -- Default destroy method ''.
+2019-07-30 18:09:43,819 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'portStatusChange'.
+2019-07-30 18:09:43,824 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'm_EQPEventProcess'.
+2019-07-30 18:09:43,826 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'controlManagerFactory'.
+2019-07-30 18:09:43,827 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'controlManager'.
+2019-07-30 18:09:43,831 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'tibMessageInfo'.
+2019-07-30 18:09:43,833 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'tIBMessageService'.
+2019-07-30 18:09:43,834 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'TibSender'.
+2019-07-30 18:09:43,837 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'TibMessageHandler'.
+2019-07-30 18:09:44,005 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'serverManager'.
+2019-07-30 18:09:44,006 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'MachineControlStateChangeRequestProc'.
+2019-07-30 18:09:44,007 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'CurrentDateTimeRequestProc'.
+2019-07-30 18:09:44,009 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'AreYouThereResponseProc'.
+2019-07-30 18:09:44,010 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'MachineControlStateRequestProc'.
+2019-07-30 18:09:44,011 [Thread: 10      ] [DEBUG] -- Found 13 <object> elements defining objects.
+2019-07-30 18:09:44,012 [Thread: 10      ] [DEBUG] -- Loaded 13 object definitions from location [spring-objects.xml]
+2019-07-30 18:09:44,014 [Thread: 10      ] [DEBUG] -- Refreshed ObjectFactory for application context 'spring.root'.
+2019-07-30 18:09:44,204 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2019-07-30 18:09:44,206 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2019-07-30 18:09:44,207 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2019-07-30 18:09:44,212 [Thread: 10      ] [DEBUG] -- 13 objects defined in application context [spring.root].
+2019-07-30 18:09:44,213 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2019-07-30 18:09:44,225 [Thread: 10      ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [spring.root].
+2019-07-30 18:09:44,227 [Thread: 10      ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [spring.root].
+2019-07-30 18:09:44,229 [Thread: 10      ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2019-07-30 18:09:44,406 [Thread: 10      ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2019-07-30 18:09:44,416 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2019-07-30 18:09:44,418 [Thread: 10      ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2019-07-30 18:09:44,420 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name portStatusChange => canonical name portStatusChange
+2019-07-30 18:09:44,422 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'portStatusChange'
+2019-07-30 18:09:44,424 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'portStatusChange' with merged definition [RootObjectDefinition : Class [MPC.Server.EQP.PortStatusChange]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 24].
+2019-07-30 18:09:44,605 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'portStatusChange'.
+2019-07-30 18:09:44,608 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'portStatusChange' to allow for resolving potential circular references
+2019-07-30 18:09:44,609 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'portStatusChange'
+2019-07-30 18:09:44,612 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'portStatusChange'
+2019-07-30 18:09:44,614 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'portStatusChange'
+2019-07-30 18:09:44,621 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'portStatusChange'
+2019-07-30 18:09:44,805 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'portStatusChange'.
+2019-07-30 18:09:44,807 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname portStatusChange
+2019-07-30 18:09:44,808 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name m_EQPEventProcess => canonical name m_EQPEventProcess
+2019-07-30 18:09:44,809 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'm_EQPEventProcess'
+2019-07-30 18:09:44,809 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'm_EQPEventProcess' with merged definition [RootObjectDefinition : Class [MPC.Server.EQP.EQPEventHandler]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 26].
+2019-07-30 18:09:45,004 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'm_EQPEventProcess'.
+2019-07-30 18:09:45,006 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'm_EQPEventProcess' to allow for resolving potential circular references
+2019-07-30 18:09:45,007 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'm_EQPEventProcess'
+2019-07-30 18:09:45,011 [Thread: 10      ] [DEBUG] -- Resolving reference from property 'EventHandlers[L2_Port#2UnloadRequestReport]' in object 'm_EQPEventProcess' to object 'portStatusChange'.
+2019-07-30 18:09:45,013 [Thread: 10      ] [DEBUG] --       GetObjectInternal: obtaining instance for name portStatusChange => canonical name portStatusChange
+2019-07-30 18:09:45,014 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'portStatusChange'.
+2019-07-30 18:09:45,204 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'portStatusChange'.
+2019-07-30 18:09:45,206 [Thread: 10      ] [DEBUG] --    GetObjectInternal: returning instance for objectname portStatusChange
+2019-07-30 18:09:45,208 [Thread: 10      ] [DEBUG] -- Resolving reference from property 'EventHandlers[L2_Port#1LoadRequestReport]' in object 'm_EQPEventProcess' to object 'portStatusChange'.
+2019-07-30 18:09:45,209 [Thread: 10      ] [DEBUG] --       GetObjectInternal: obtaining instance for name portStatusChange => canonical name portStatusChange
+2019-07-30 18:09:45,210 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'portStatusChange'.
+2019-07-30 18:09:45,211 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'portStatusChange'.
+2019-07-30 18:09:45,212 [Thread: 10      ] [DEBUG] --    GetObjectInternal: returning instance for objectname portStatusChange
+2019-07-30 18:09:45,213 [Thread: 10      ] [DEBUG] -- Resolving reference from property 'EventHandlers[L2_Port#2LoadRequestReport]' in object 'm_EQPEventProcess' to object 'portStatusChange'.
+2019-07-30 18:09:45,404 [Thread: 10      ] [DEBUG] --       GetObjectInternal: obtaining instance for name portStatusChange => canonical name portStatusChange
+2019-07-30 18:09:45,406 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'portStatusChange'.
+2019-07-30 18:09:45,407 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'portStatusChange'.
+2019-07-30 18:09:45,408 [Thread: 10      ] [DEBUG] --    GetObjectInternal: returning instance for objectname portStatusChange
+2019-07-30 18:09:45,409 [Thread: 10      ] [DEBUG] -- Resolving reference from property 'EventHandlers[L2_Port#1UnloadRequestReport]' in object 'm_EQPEventProcess' to object 'portStatusChange'.
+2019-07-30 18:09:45,410 [Thread: 10      ] [DEBUG] --       GetObjectInternal: obtaining instance for name portStatusChange => canonical name portStatusChange
+2019-07-30 18:09:45,604 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'portStatusChange'.
+2019-07-30 18:09:45,605 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'portStatusChange'.
+2019-07-30 18:09:45,606 [Thread: 10      ] [DEBUG] --    GetObjectInternal: returning instance for objectname portStatusChange
+2019-07-30 18:09:45,636 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'm_EQPEventProcess'
+2019-07-30 18:09:45,637 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'm_EQPEventProcess'
+2019-07-30 18:09:45,638 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'm_EQPEventProcess'
+2019-07-30 18:09:45,639 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'm_EQPEventProcess'.
+2019-07-30 18:09:45,640 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname m_EQPEventProcess
+2019-07-30 18:09:45,805 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name controlManagerFactory => canonical name controlManagerFactory
+2019-07-30 18:09:45,806 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'controlManagerFactory'
+2019-07-30 18:09:45,807 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'controlManagerFactory' with merged definition [RootObjectDefinition : Class [EQPIO.Controller.ControlManagerFactory]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 37].
+2019-07-30 18:09:45,808 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'controlManagerFactory'.
+2019-07-30 18:09:46,005 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'controlManagerFactory' to allow for resolving potential circular references
+2019-07-30 18:09:46,014 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'controlManagerFactory'
+2019-07-30 18:09:46,015 [Thread: 10      ] [DEBUG] -- Resolving reference from property 'EQPEventHandler' in object 'controlManagerFactory' to object 'm_EQPEventProcess'.
+2019-07-30 18:09:46,016 [Thread: 10      ] [DEBUG] --       GetObjectInternal: obtaining instance for name m_EQPEventProcess => canonical name m_EQPEventProcess
+2019-07-30 18:09:46,017 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'm_EQPEventProcess'.
+2019-07-30 18:09:46,021 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'm_EQPEventProcess'.
+2019-07-30 18:09:46,023 [Thread: 10      ] [DEBUG] --    GetObjectInternal: returning instance for objectname m_EQPEventProcess
+2019-07-30 18:09:46,024 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'controlManagerFactory'
+2019-07-30 18:09:46,204 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'controlManagerFactory'
+2019-07-30 18:09:46,206 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'controlManagerFactory'
+2019-07-30 18:09:46,207 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'controlManagerFactory'.
+2019-07-30 18:09:46,208 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname controlManagerFactory
+2019-07-30 18:09:46,209 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name controlManager => canonical name controlManager
+2019-07-30 18:09:46,210 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'controlManager'
+2019-07-30 18:09:46,211 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'controlManager' with merged definition [RootObjectDefinition : Class [EQPIO.Controller.ControlManager]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = getControlManager; FactoryObjectName = controlManagerFactory; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 43].
+2019-07-30 18:09:46,404 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'controlManager'.
+2019-07-30 18:09:46,407 [Thread: 10      ] [DEBUG] --       GetObjectInternal: obtaining instance for name controlManagerFactory => canonical name controlManagerFactory
+2019-07-30 18:09:46,408 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'controlManagerFactory'.
+2019-07-30 18:09:46,409 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'controlManagerFactory'.
+2019-07-30 18:09:46,604 [Thread: 10      ] [DEBUG] --    GetObjectInternal: returning instance for objectname controlManagerFactory
+2019-07-30 18:09:46,609 [Thread: 10      ] [DEBUG] --       GetObjectInternal: obtaining instance for name controlManagerFactory => canonical name controlManagerFactory
+2019-07-30 18:09:46,610 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'controlManagerFactory'.
+2019-07-30 18:09:46,611 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'controlManagerFactory'.
+2019-07-30 18:09:46,612 [Thread: 10      ] [DEBUG] --    GetObjectInternal: returning instance for objectname controlManagerFactory
+2019-07-30 18:09:47,132 [Thread: 10      ] [DEBUG] -- Object 'controlManager' instantiated via factory method [EQPIO.Controller.ControlManager getControlManager()].
+2019-07-30 18:09:47,133 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'controlManager' to allow for resolving potential circular references
+2019-07-30 18:09:47,134 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'controlManager'
+2019-07-30 18:09:47,135 [Thread: 10      ] [DEBUG] -- Resolving reference from property 'EQPEventHandler' in object 'controlManager' to object 'm_EQPEventProcess'.
+2019-07-30 18:09:47,327 [Thread: 10      ] [DEBUG] --       GetObjectInternal: obtaining instance for name m_EQPEventProcess => canonical name m_EQPEventProcess
+2019-07-30 18:09:47,328 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'm_EQPEventProcess'.
+2019-07-30 18:09:47,329 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'm_EQPEventProcess'.
+2019-07-30 18:09:47,330 [Thread: 10      ] [DEBUG] --    GetObjectInternal: returning instance for objectname m_EQPEventProcess
+2019-07-30 18:09:47,334 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'controlManager'
+2019-07-30 18:09:47,335 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'controlManager'
+2019-07-30 18:09:47,336 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'controlManager'
+2019-07-30 18:09:47,526 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'controlManager'.
+2019-07-30 18:09:47,528 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname controlManager
+2019-07-30 18:09:47,529 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name tibMessageInfo => canonical name tibMessageInfo
+2019-07-30 18:09:47,530 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'tibMessageInfo'
+2019-07-30 18:09:47,531 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'tibMessageInfo' with merged definition [RootObjectDefinition : Class [TIBMessageIo.MessageInfo]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 51].
+2019-07-30 18:09:47,726 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'tibMessageInfo'.
+2019-07-30 18:09:47,748 [Thread: 10      ] [DEBUG] -- Object 'tibMessageInfo' instantiated via constructor [Void .ctor(System.String, System.String)].
+2019-07-30 18:09:47,749 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'tibMessageInfo' to allow for resolving potential circular references
+2019-07-30 18:09:47,750 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'tibMessageInfo'
+2019-07-30 18:09:47,751 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'tibMessageInfo'
+2019-07-30 18:09:47,752 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'tibMessageInfo'
+2019-07-30 18:09:47,753 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'tibMessageInfo'
+2019-07-30 18:09:47,754 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'tibMessageInfo'.
+2019-07-30 18:09:47,926 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname tibMessageInfo
+2019-07-30 18:09:47,927 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name tIBMessageService => canonical name tIBMessageService
+2019-07-30 18:09:47,928 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'tIBMessageService'
+2019-07-30 18:09:47,929 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'tIBMessageService' with merged definition [RootObjectDefinition : Class [TIBMessageIo.TIBMessageService]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 56].
+2019-07-30 18:09:48,126 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'tIBMessageService'.
+2019-07-30 18:09:48,128 [Thread: 10      ] [DEBUG] -- Resolving reference from property 'constructor argument with name msginfo' in object 'tIBMessageService' to object 'tibMessageInfo'.
+2019-07-30 18:09:48,129 [Thread: 10      ] [DEBUG] --       GetObjectInternal: obtaining instance for name tibMessageInfo => canonical name tibMessageInfo
+2019-07-30 18:09:48,130 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'tibMessageInfo'.
+2019-07-30 18:09:48,131 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'tibMessageInfo'.
+2019-07-30 18:09:48,132 [Thread: 10      ] [DEBUG] --    GetObjectInternal: returning instance for objectname tibMessageInfo
+2019-07-30 18:09:48,336 [Thread: 10      ] [DEBUG] -- Object 'tIBMessageService' instantiated via constructor [Void .ctor(TIBMessageIo.MessageInfo)].
+2019-07-30 18:09:48,338 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'tIBMessageService' to allow for resolving potential circular references
+2019-07-30 18:09:48,338 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'tIBMessageService'
+2019-07-30 18:09:48,339 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'tIBMessageService'
+2019-07-30 18:09:48,340 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'tIBMessageService'
+2019-07-30 18:09:48,348 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'tIBMessageService'
+2019-07-30 18:09:48,350 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'tIBMessageService'.
+2019-07-30 18:09:48,526 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname tIBMessageService
+2019-07-30 18:09:48,527 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name TibSender => canonical name TibSender
+2019-07-30 18:09:48,528 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'TibSender'
+2019-07-30 18:09:48,529 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'TibSender' with merged definition [RootObjectDefinition : Class [TIBMessageIo.TIBAdapter]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 61].
+2019-07-30 18:09:48,530 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'TibSender'.
+2019-07-30 18:09:48,727 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'TibSender' to allow for resolving potential circular references
+2019-07-30 18:09:48,728 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'TibSender'
+2019-07-30 18:09:48,729 [Thread: 10      ] [DEBUG] -- Resolving reference from property 'TIB' in object 'TibSender' to object 'tIBMessageService'.
+2019-07-30 18:09:48,730 [Thread: 10      ] [DEBUG] --       GetObjectInternal: obtaining instance for name tIBMessageService => canonical name tIBMessageService
+2019-07-30 18:09:48,731 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'tIBMessageService'.
+2019-07-30 18:09:48,732 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'tIBMessageService'.
+2019-07-30 18:09:48,733 [Thread: 10      ] [DEBUG] --    GetObjectInternal: returning instance for objectname tIBMessageService
+2019-07-30 18:09:48,734 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'TibSender'
+2019-07-30 18:09:48,926 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'TibSender'
+2019-07-30 18:09:48,927 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'TibSender'
+2019-07-30 18:09:48,928 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'TibSender'.
+2019-07-30 18:09:48,929 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname TibSender
+2019-07-30 18:09:48,930 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name TibMessageHandler => canonical name TibMessageHandler
+2019-07-30 18:09:48,931 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'TibMessageHandler'
+2019-07-30 18:09:48,932 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'TibMessageHandler' with merged definition [RootObjectDefinition : Class [MPC.Server.TIB.TIBMessageHandler]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 66].
+2019-07-30 18:09:49,126 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'TibMessageHandler'.
+2019-07-30 18:09:49,128 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'TibMessageHandler' to allow for resolving potential circular references
+2019-07-30 18:09:49,129 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'TibMessageHandler'
+2019-07-30 18:09:49,130 [Thread: 10      ] [DEBUG] -- Resolving reference from property 'ListenerReceived' in object 'TibMessageHandler' to object 'tIBMessageService'.
+2019-07-30 18:09:49,131 [Thread: 10      ] [DEBUG] --       GetObjectInternal: obtaining instance for name tIBMessageService => canonical name tIBMessageService
+2019-07-30 18:09:49,334 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'tIBMessageService'.
+2019-07-30 18:09:49,335 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'tIBMessageService'.
+2019-07-30 18:09:49,336 [Thread: 10      ] [DEBUG] --    GetObjectInternal: returning instance for objectname tIBMessageService
+2019-07-30 18:09:49,338 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'TibMessageHandler'
+2019-07-30 18:09:49,339 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'TibMessageHandler'
+2019-07-30 18:09:49,342 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'TibMessageHandler'
+2019-07-30 18:09:49,344 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'TibMessageHandler'.
+2019-07-30 18:09:49,344 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname TibMessageHandler
+2019-07-30 18:09:49,526 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name serverManager => canonical name serverManager
+2019-07-30 18:09:49,531 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'serverManager'
+2019-07-30 18:09:49,532 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'serverManager' with merged definition [RootObjectDefinition : Class [MPC.Server.ServerManager]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml] line 72].
+2019-07-30 18:09:49,533 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'serverManager'.
+2019-07-30 18:09:49,727 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'serverManager' to allow for resolving potential circular references
+2019-07-30 18:09:49,728 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'serverManager'
+2019-07-30 18:09:49,729 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'serverManager'
+2019-07-30 18:09:49,730 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'serverManager'
+2019-07-30 18:09:49,731 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'serverManager'
+2019-07-30 18:09:49,732 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'serverManager'.
+2019-07-30 18:09:49,733 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname serverManager
+2019-07-30 18:09:49,735 [Thread: 10      ] [DEBUG] -- Publishing event in context [spring.root] : ContextRefreshedEventArgs [Refreshed]
+2019-07-30 18:09:49,927 [Thread: 10      ] [INFO ] -- ApplicationContext Refresh: Completed
+2019-07-30 18:09:49,928 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name m_EQPEventProcess => canonical name m_EQPEventProcess
+2019-07-30 18:09:49,929 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'm_EQPEventProcess'.
+2019-07-30 18:09:49,930 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'm_EQPEventProcess'.
+2019-07-30 18:09:49,931 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname m_EQPEventProcess
+2019-07-30 18:09:49,933 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name serverManager => canonical name serverManager
+2019-07-30 18:09:49,934 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'serverManager'.
+2019-07-30 18:09:49,935 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'serverManager'.
+2019-07-30 18:09:50,128 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname serverManager
+2019-07-30 18:09:50,130 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name controlManager => canonical name controlManager
+2019-07-30 18:09:50,132 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'controlManager'.
+2019-07-30 18:09:50,134 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'controlManager'.
+2019-07-30 18:09:50,136 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname controlManager
+2019-07-30 18:09:50,138 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name TibSender => canonical name TibSender
+2019-07-30 18:09:50,140 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'TibSender'.
+2019-07-30 18:09:50,142 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'TibSender'.
+2019-07-30 18:09:50,328 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname TibSender
+2019-07-30 18:12:31,111 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name TibSender => canonical name TibSender
+2019-07-30 18:12:31,112 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'TibSender'.
+2019-07-30 18:12:31,113 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'TibSender'.
+2019-07-30 18:12:31,114 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname TibSender
+2019-07-30 18:12:31,214 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name serverManager => canonical name serverManager
+2019-07-30 18:12:31,215 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'serverManager'.
+2019-07-30 18:12:31,217 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'serverManager'.
+2019-07-30 18:12:31,218 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname serverManager

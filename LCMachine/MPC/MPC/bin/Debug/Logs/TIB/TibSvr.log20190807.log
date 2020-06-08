@@ -1,0 +1,54 @@
+[2019-08-07 11:05:15.802] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 11:05:15.942] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 11:05:45.153] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 11:05:45.159] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 11:10:09.933] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 11:10:09.947] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 11:12:04.777] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 11:12:04.797] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 11:14:45.206] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 11:14:45.212] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 11:35:51.473] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 11:35:51.479] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 11:37:22.483] [DEBUG] [8] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 11:37:22.670] [DEBUG] [8] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 11:41:04.755] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 11:41:04.761] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 11:47:17.970] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 11:47:17.977] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 12:06:18.379] [DEBUG] [8] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 12:06:18.398] [DEBUG] [8] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 12:10:08.864] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 12:10:08.876] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 14:21:05.105] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 14:21:05.297] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 14:24:04.302] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-08-07 14:24:04.313] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-08-07 14:24:27.929] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190807142427866400</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>  </CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>

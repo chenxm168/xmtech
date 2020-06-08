@@ -1,0 +1,4 @@
+2019-10-13 21:39:39,270 [Thread: mProtocol_OnEventReceived] [DEBUG] --    GetObjectInternal: obtaining instance for name TibSender => canonical name TibSender
+2019-10-13 21:39:39,274 [Thread: mProtocol_OnEventReceived] [DEBUG] -- Returning cached instance of singleton object 'TibSender'.
+2019-10-13 21:39:39,275 [Thread: mProtocol_OnEventReceived] [DEBUG] -- Calling code asked for normal instance for name 'TibSender'.
+2019-10-13 21:39:39,277 [Thread: mProtocol_OnEventReceived] [DEBUG] -- GetObjectInternal: returning instance for objectname TibSender

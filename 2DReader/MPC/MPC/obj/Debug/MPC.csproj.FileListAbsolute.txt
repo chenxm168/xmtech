@@ -1,0 +1,157 @@
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\MPC.exe.config
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\spring-objects.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\MPC.exe
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\MPC.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.Core.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Iesi.Collections.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\log4net.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\NHibernate.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Quartz.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Aop.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Core.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Data.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.Core.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.Core.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Iesi.Collections.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\log4net.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\NHibernate.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Aop.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Aop.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Core.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Core.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Data.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Data.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\obj\Debug\MPC.csprojResolveAssemblyReference.cache
+D:\000\Documents\Visual Studio 2012\MPC\MPC\obj\Debug\MPC.Form1.resources
+D:\000\Documents\Visual Studio 2012\MPC\MPC\obj\Debug\MPC.Properties.Resources.resources
+D:\000\Documents\Visual Studio 2012\MPC\MPC\obj\Debug\MPC.csproj.GenerateResource.Cache
+D:\000\Documents\Visual Studio 2012\MPC\MPC\obj\Debug\MPC.exe
+D:\000\Documents\Visual Studio 2012\MPC\MPC\obj\Debug\MPC.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Log4Net.config.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\spring-quartz.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.dll
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Quartz.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Quartz.xml
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.pdb
+D:\000\Documents\Visual Studio 2012\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\MPC.exe.config
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\obj\Debug\MPC.exe
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\obj\Debug\MPC.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Log4Net.config.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\spring-objects.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\spring-quartz.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\MPC.exe
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\MPC.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.Core.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Iesi.Collections.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\log4net.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\NHibernate.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Quartz.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Aop.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Core.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Data.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.dll
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.Core.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.Core.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Iesi.Collections.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\log4net.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\NHibernate.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Quartz.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Quartz.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Aop.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Aop.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Core.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Core.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Data.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Data.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.pdb
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.xml
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\obj\Debug\MPC.csprojResolveAssemblyReference.cache
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\obj\Debug\MPC.Form1.resources
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\obj\Debug\MPC.Properties.Resources.resources
+D:\develop\MPC_spring_Nhibernate_Quartz\MPC\MPC\obj\Debug\MPC.csproj.GenerateResource.Cache
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Log4Net.config.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-quartz.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\MPC.exe.config
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\MPC.exe
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\MPC.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Common.Logging.Core.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Common.Logging.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Iesi.Collections.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\log4net.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\NHibernate.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Quartz.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\RS232Srv.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Aop.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Core.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Data.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\TCPSrv.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\TCPSrv.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\RS232Srv.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Common.Logging.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Common.Logging.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Common.Logging.Core.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Common.Logging.Core.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Iesi.Collections.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\log4net.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\NHibernate.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Quartz.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Quartz.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Aop.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Aop.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Core.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Core.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Data.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Data.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.xml
+D:\DevRepository\2DReader\MPC\MPC\obj\Debug\MPC.csprojResolveAssemblyReference.cache
+D:\DevRepository\2DReader\MPC\MPC\obj\Debug\MPC.Form1.resources
+D:\DevRepository\2DReader\MPC\MPC\obj\Debug\MPC.Properties.Resources.resources
+D:\DevRepository\2DReader\MPC\MPC\obj\Debug\MPC.csproj.GenerateResource.Cache
+D:\DevRepository\2DReader\MPC\MPC\obj\Debug\MPC.exe
+D:\DevRepository\2DReader\MPC\MPC\obj\Debug\MPC.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\VCRConfigTCP.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\FileSrv.dll
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\FileSrv.pdb
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\CSVConfig.xml
+D:\DevRepository\2DReader\MPC\MPC\obj\Debug\MPC.Forms.DefectList.resources
+D:\DevRepository\2DReader\MPC\MPC\obj\Debug\MPC.Forms.mainform.resources
+D:\DevRepository\2DReader\MPC\MPC\obj\Debug\MPC.Forms.DefectInput.resources
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Config\DefectList.csv
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Config\CSVConfig.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Config\VCRConfigTCP.xml
+D:\DevRepository\2DReader\MPC\MPC\bin\Debug\Config\GLASSID.txt
+D:\DevRepository\2DReader\MPC\MPC\obj\Debug\MPC.Forms.MatchResult.resources

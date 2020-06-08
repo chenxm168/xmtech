@@ -9,6 +9,7 @@ namespace EQPIO.MNetProtocol
     using System.IO;
     using System.Runtime.CompilerServices;
     using System.Text;
+    using System.Threading;
 
     internal class Make3EProtocol
     {
@@ -538,7 +539,7 @@ namespace EQPIO.MNetProtocol
             }
             catch (IOException exception)
             {
-                this.logger.Error(string.Format("[Error] IOException Error : {0}", exception.Message));
+                this.logger.Error(string.Format("[ReceiveStatus][Error] IOException Error : {0}", exception.Message));
                 return null;
             }
             catch (Exception exception2)
@@ -580,7 +581,7 @@ namespace EQPIO.MNetProtocol
             }
             catch (IOException exception)
             {
-                this.logger.Error(string.Format("[Error] IOException Error : {0}", exception.Message));
+                this.logger.Error(string.Format("[isCacheFun] [Error] IOException Error : {0}", exception.Message));
                 return null;
             }
             catch (Exception exception2)
@@ -931,6 +932,7 @@ namespace EQPIO.MNetProtocol
                         return "0";
                     }
                     this.m_MelsecWriter.Write(dataArry, 0, dataArry.Length);
+                    Thread.Sleep(300);  //cxm delay read response
                     str = this.Reader(status);
                 }
             }
@@ -959,6 +961,7 @@ namespace EQPIO.MNetProtocol
                     lock (this.readWriteObj)
                     {
                         this.m_MelsecWriter.Write(dataArry, 0, dataArry.Length);
+                        Thread.Sleep(800); //cxm delay for read reply
                         buffer = this.Reader(status, isCacheFun);
                     }
                 }

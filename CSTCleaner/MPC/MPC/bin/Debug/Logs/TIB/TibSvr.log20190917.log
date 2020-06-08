@@ -1,0 +1,33 @@
+[2019-09-17 16:59:37.366] [DEBUG] [10] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-09-17 16:59:37.384] [DEBUG] [10] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-09-17 17:08:01.628] [DEBUG] [9] [TIBMessageService][createTransport] -Create Transport Deamon[tcp:10.116.111.201:7500], serverice[8200],network[;225.11.11.2]
+[2019-09-17 17:08:01.789] [DEBUG] [9] [TIBMessageService][createListener] -Creat Listen subject[TRULY.G5A.EAP.TST.FAB.C1CCL01]
+[2019-09-17 17:08:05.274] [INFO ] [mProtocol_OnEventReceived] [TIBMessageService][Send] -Send Message:
+<?xml version="1.0" encoding="utf-8"?>
+<Message>
+  <Header>
+    <MESSAGENAME>PortTransferStateChanged</MESSAGENAME>
+    <TRANSACTIONID>20190917170805182000</TRANSACTIONID>
+    <ORIGINALTRANSACTIONID />
+    <EVENTUSER>C1CCL01</EVENTUSER>
+    <EVENTCOMMENT />
+  </Header>
+  <Return>
+    <RETURNCODE>0</RETURNCODE>
+    <RETURNMESSAGE />
+  </Return>
+  <Body>
+    <MACHINENAME>C1CCL01</MACHINENAME>
+    <PORTLIST>
+      <PORT>
+        <PORTNAME>PL01</PORTNAME>
+        <PORTTRANSFERSTATENAME>LR</PORTTRANSFERSTATENAME>
+        <PORTUSETYPE>CF</PORTUSETYPE>
+        <CARRIERNAME>  </CARRIERNAME>
+        <CARRIERTYPE>NORMAL</CARRIERTYPE>
+        <MACHINECONTROLSTATENAME>Offline</MACHINECONTROLSTATENAME>
+        <MACHINESTATENAME>Run</MACHINESTATENAME>
+      </PORT>
+    </PORTLIST>
+  </Body>
+</Message>

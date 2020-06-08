@@ -177,7 +177,6 @@ D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Resources\MNetConfig2.xml
 D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Config\EQPConfig.xml
 D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Config\MNetConfig.xml
 D:\develop\CSTCleanerProject\MPC\MPC\bin\Debug\Config\PLCMap.xml
-D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\ECS.DB
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Resources\EQPConfig.xml
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Resources\MNetConfig2.xml
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\DLL\tibrv.dll
@@ -190,12 +189,14 @@ D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Log4Net.config.xml
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-objects.xml
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\spring-quartz.xml
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\tibrv.xml
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\ECS.DB
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\MPC.exe.config
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\MPC.exe
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\MPC.pdb
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.Core.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Common.Logging.Log4Net1213.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.Common.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.Controller.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.MessageData.dll
@@ -211,7 +212,6 @@ D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Data.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\TIBMessageIo.dll
-D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.Common.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.EIPDriver.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.MNetDriver.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.MNetProtocol.dll
@@ -222,6 +222,7 @@ D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\VariableCompolet.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\HF.BC.JSON.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\RabbitMQ.Client.dll
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\fastJSON.dll
+D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.Common.pdb
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.Controller.pdb
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.MessageData.pdb
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.pdb
@@ -249,7 +250,6 @@ D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.pdb
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Data.NHibernate3.xml
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.pdb
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\Spring.Scheduling.Quartz2.xml
-D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.Common.pdb
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.EIPDriver.pdb
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.MNetDriver.pdb
 D:\DevRepository\CSTCleaner\MPC\MPC\bin\Debug\EQPIO.MNetProtocol.pdb

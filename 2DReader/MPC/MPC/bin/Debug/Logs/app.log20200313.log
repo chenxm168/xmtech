@@ -1,0 +1,245 @@
+2020-03-13 10:23:51,353 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2020-03-13 10:23:51,455 [Thread: 8       ] [DEBUG] -- Loading XML object definitions from file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml]
+2020-03-13 10:23:51,502 [Thread: 8       ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2020-03-13 10:23:51,506 [Thread: 8       ] [DEBUG] -- Loading object definitions.
+2020-03-13 10:23:51,508 [Thread: 8       ] [DEBUG] -- Loading object definitions...
+2020-03-13 10:23:51,510 [Thread: 8       ] [DEBUG] -- Default lazy init 'false'.
+2020-03-13 10:23:51,511 [Thread: 8       ] [DEBUG] -- Default dependency check 'none'.
+2020-03-13 10:23:51,512 [Thread: 8       ] [DEBUG] -- Default autowire 'no'.
+2020-03-13 10:23:51,513 [Thread: 8       ] [DEBUG] -- Default merge 'false'.
+2020-03-13 10:23:51,514 [Thread: 8       ] [DEBUG] -- Default init method ''.
+2020-03-13 10:23:51,515 [Thread: 8       ] [DEBUG] -- Default destroy method ''.
+2020-03-13 10:23:51,516 [Thread: 8       ] [DEBUG] -- Default autowire candidates ''.
+2020-03-13 10:23:51,589 [Thread: 8       ] [DEBUG] -- Default init method ''.
+2020-03-13 10:23:51,590 [Thread: 8       ] [DEBUG] -- Default destroy method ''.
+2020-03-13 10:23:51,615 [Thread: 8       ] [DEBUG] -- Registering object definition with id 'reader'.
+2020-03-13 10:23:51,624 [Thread: 8       ] [DEBUG] -- Registering object definition with id 'sport'.
+2020-03-13 10:23:51,625 [Thread: 8       ] [DEBUG] -- Found 2 <object> elements defining objects.
+2020-03-13 10:23:51,627 [Thread: 8       ] [DEBUG] -- Loaded 2 object definitions from location [spring-objects.xml]
+2020-03-13 10:23:51,628 [Thread: 8       ] [DEBUG] -- Refreshed ObjectFactory for application context 'spring.root'.
+2020-03-13 10:23:51,630 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2020-03-13 10:23:51,633 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2020-03-13 10:23:51,634 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2020-03-13 10:23:51,789 [Thread: 8       ] [DEBUG] -- 2 objects defined in application context [spring.root].
+2020-03-13 10:23:51,790 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2020-03-13 10:23:51,801 [Thread: 8       ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [spring.root].
+2020-03-13 10:23:51,803 [Thread: 8       ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [spring.root].
+2020-03-13 10:23:51,805 [Thread: 8       ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2020-03-13 10:23:51,807 [Thread: 8       ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2020-03-13 10:23:51,809 [Thread: 8       ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2020-03-13 10:23:51,989 [Thread: 8       ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2020-03-13 10:23:51,991 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-13 10:23:51,993 [Thread: 8       ] [DEBUG] -- Creating shared instance of singleton object 'reader'
+2020-03-13 10:23:51,995 [Thread: 8       ] [DEBUG] -- Creating instance of Object 'reader' with merged definition [RootObjectDefinition : Class [MPC.LAN.ReaderTCP]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 24].
+2020-03-13 10:23:51,996 [Thread: 8       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'reader'.
+2020-03-13 10:23:52,192 [Thread: 8       ] [DEBUG] -- Eagerly caching object 'reader' to allow for resolving potential circular references
+2020-03-13 10:23:52,193 [Thread: 8       ] [DEBUG] -- Configuring object using definition 'reader'
+2020-03-13 10:23:52,195 [Thread: 8       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'reader'
+2020-03-13 10:23:52,197 [Thread: 8       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'reader'
+2020-03-13 10:23:52,208 [Thread: 8       ] [DEBUG] -- Cached shared instance of singleton object 'reader'
+2020-03-13 10:23:52,209 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-13 10:23:52,211 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-13 10:23:52,212 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name sport => canonical name sport
+2020-03-13 10:23:52,389 [Thread: 8       ] [DEBUG] -- Creating shared instance of singleton object 'sport'
+2020-03-13 10:23:52,390 [Thread: 8       ] [DEBUG] -- Creating instance of Object 'sport' with merged definition [RootObjectDefinition : Class [RS232Srv.RS232]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 26].
+2020-03-13 10:23:52,391 [Thread: 8       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'sport'.
+2020-03-13 10:23:52,392 [Thread: 8       ] [DEBUG] -- Eagerly caching object 'sport' to allow for resolving potential circular references
+2020-03-13 10:23:52,393 [Thread: 8       ] [DEBUG] -- Configuring object using definition 'sport'
+2020-03-13 10:23:52,589 [Thread: 8       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'sport'
+2020-03-13 10:23:52,590 [Thread: 8       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'sport'
+2020-03-13 10:23:52,591 [Thread: 8       ] [DEBUG] -- Cached shared instance of singleton object 'sport'
+2020-03-13 10:23:52,591 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'sport'.
+2020-03-13 10:23:52,592 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname sport
+2020-03-13 10:23:52,594 [Thread: 8       ] [DEBUG] -- Publishing event in context [spring.root] : ContextRefreshedEventArgs [Refreshed]
+2020-03-13 10:23:52,595 [Thread: 8       ] [INFO ] -- ApplicationContext Refresh: Completed
+2020-03-13 10:23:52,596 [Thread: 8       ] [DEBUG] --    GetObjectInternal: obtaining instance for name sport => canonical name sport
+2020-03-13 10:23:52,597 [Thread: 8       ] [DEBUG] -- Returning cached instance of singleton object 'sport'.
+2020-03-13 10:23:52,789 [Thread: 8       ] [DEBUG] -- Calling code asked for normal instance for name 'sport'.
+2020-03-13 10:23:52,790 [Thread: 8       ] [DEBUG] -- GetObjectInternal: returning instance for objectname sport
+2020-03-13 10:24:38,217 [Thread: 8       ] [ERROR] -- Receive Bytes Timeout[30000ms]
+2020-03-13 10:30:28,739 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2020-03-13 10:30:28,823 [Thread: 10      ] [DEBUG] -- Loading XML object definitions from file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml]
+2020-03-13 10:30:28,834 [Thread: 10      ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2020-03-13 10:30:28,837 [Thread: 10      ] [DEBUG] -- Loading object definitions.
+2020-03-13 10:30:28,839 [Thread: 10      ] [DEBUG] -- Loading object definitions...
+2020-03-13 10:30:28,840 [Thread: 10      ] [DEBUG] -- Default lazy init 'false'.
+2020-03-13 10:30:28,841 [Thread: 10      ] [DEBUG] -- Default dependency check 'none'.
+2020-03-13 10:30:28,842 [Thread: 10      ] [DEBUG] -- Default autowire 'no'.
+2020-03-13 10:30:28,843 [Thread: 10      ] [DEBUG] -- Default merge 'false'.
+2020-03-13 10:30:28,844 [Thread: 10      ] [DEBUG] -- Default init method ''.
+2020-03-13 10:30:28,844 [Thread: 10      ] [DEBUG] -- Default destroy method ''.
+2020-03-13 10:30:28,845 [Thread: 10      ] [DEBUG] -- Default autowire candidates ''.
+2020-03-13 10:30:28,955 [Thread: 10      ] [DEBUG] -- Default init method ''.
+2020-03-13 10:30:28,956 [Thread: 10      ] [DEBUG] -- Default destroy method ''.
+2020-03-13 10:30:28,987 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'reader'.
+2020-03-13 10:30:28,993 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'sport'.
+2020-03-13 10:30:28,995 [Thread: 10      ] [DEBUG] -- Found 2 <object> elements defining objects.
+2020-03-13 10:30:28,996 [Thread: 10      ] [DEBUG] -- Loaded 2 object definitions from location [spring-objects.xml]
+2020-03-13 10:30:28,997 [Thread: 10      ] [DEBUG] -- Refreshed ObjectFactory for application context 'spring.root'.
+2020-03-13 10:30:28,998 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2020-03-13 10:30:29,000 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2020-03-13 10:30:29,001 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2020-03-13 10:30:29,155 [Thread: 10      ] [DEBUG] -- 2 objects defined in application context [spring.root].
+2020-03-13 10:30:29,156 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2020-03-13 10:30:29,166 [Thread: 10      ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [spring.root].
+2020-03-13 10:30:29,168 [Thread: 10      ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [spring.root].
+2020-03-13 10:30:29,170 [Thread: 10      ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2020-03-13 10:30:29,172 [Thread: 10      ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2020-03-13 10:30:29,174 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2020-03-13 10:30:29,355 [Thread: 10      ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2020-03-13 10:30:29,357 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-13 10:30:29,359 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'reader'
+2020-03-13 10:30:29,361 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'reader' with merged definition [RootObjectDefinition : Class [MPC.LAN.ReaderTCP]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 24].
+2020-03-13 10:30:29,362 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'reader'.
+2020-03-13 10:30:29,558 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'reader' to allow for resolving potential circular references
+2020-03-13 10:30:29,559 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'reader'
+2020-03-13 10:30:29,562 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'reader'
+2020-03-13 10:30:29,564 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'reader'
+2020-03-13 10:30:29,565 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'reader'
+2020-03-13 10:30:29,567 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-13 10:30:29,569 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-13 10:30:29,570 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name sport => canonical name sport
+2020-03-13 10:30:29,755 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'sport'
+2020-03-13 10:30:29,756 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'sport' with merged definition [RootObjectDefinition : Class [RS232Srv.RS232]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 26].
+2020-03-13 10:30:29,757 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'sport'.
+2020-03-13 10:30:29,758 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'sport' to allow for resolving potential circular references
+2020-03-13 10:30:29,759 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'sport'
+2020-03-13 10:30:29,955 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'sport'
+2020-03-13 10:30:29,956 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'sport'
+2020-03-13 10:30:29,957 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'sport'
+2020-03-13 10:30:29,957 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'sport'.
+2020-03-13 10:30:29,958 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname sport
+2020-03-13 10:30:29,959 [Thread: 10      ] [DEBUG] -- Publishing event in context [spring.root] : ContextRefreshedEventArgs [Refreshed]
+2020-03-13 10:30:29,961 [Thread: 10      ] [INFO ] -- ApplicationContext Refresh: Completed
+2020-03-13 10:30:29,962 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name sport => canonical name sport
+2020-03-13 10:30:29,963 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'sport'.
+2020-03-13 10:30:30,155 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'sport'.
+2020-03-13 10:30:30,156 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname sport
+2020-03-13 10:31:57,011 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name sport => canonical name sport
+2020-03-13 10:31:57,013 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'sport'.
+2020-03-13 10:31:57,015 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'sport'.
+2020-03-13 10:31:57,017 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname sport
+2020-03-13 10:34:40,019 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name sport => canonical name sport
+2020-03-13 10:34:40,026 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'sport'.
+2020-03-13 10:34:40,028 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'sport'.
+2020-03-13 10:34:40,029 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname sport
+2020-03-13 10:46:32,341 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2020-03-13 10:46:32,391 [Thread: 9       ] [DEBUG] -- Loading XML object definitions from file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml]
+2020-03-13 10:46:32,412 [Thread: 9       ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2020-03-13 10:46:32,415 [Thread: 9       ] [DEBUG] -- Loading object definitions.
+2020-03-13 10:46:32,417 [Thread: 9       ] [DEBUG] -- Loading object definitions...
+2020-03-13 10:46:32,418 [Thread: 9       ] [DEBUG] -- Default lazy init 'false'.
+2020-03-13 10:46:32,419 [Thread: 9       ] [DEBUG] -- Default dependency check 'none'.
+2020-03-13 10:46:32,420 [Thread: 9       ] [DEBUG] -- Default autowire 'no'.
+2020-03-13 10:46:32,421 [Thread: 9       ] [DEBUG] -- Default merge 'false'.
+2020-03-13 10:46:32,422 [Thread: 9       ] [DEBUG] -- Default init method ''.
+2020-03-13 10:46:32,423 [Thread: 9       ] [DEBUG] -- Default destroy method ''.
+2020-03-13 10:46:32,424 [Thread: 9       ] [DEBUG] -- Default autowire candidates ''.
+2020-03-13 10:46:32,556 [Thread: 9       ] [DEBUG] -- Default init method ''.
+2020-03-13 10:46:32,557 [Thread: 9       ] [DEBUG] -- Default destroy method ''.
+2020-03-13 10:46:32,569 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'reader'.
+2020-03-13 10:46:32,581 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'sport'.
+2020-03-13 10:46:32,583 [Thread: 9       ] [DEBUG] -- Found 2 <object> elements defining objects.
+2020-03-13 10:46:32,584 [Thread: 9       ] [DEBUG] -- Loaded 2 object definitions from location [spring-objects.xml]
+2020-03-13 10:46:32,585 [Thread: 9       ] [DEBUG] -- Refreshed ObjectFactory for application context 'spring.root'.
+2020-03-13 10:46:32,585 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2020-03-13 10:46:32,587 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2020-03-13 10:46:32,588 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2020-03-13 10:46:32,756 [Thread: 9       ] [DEBUG] -- 2 objects defined in application context [spring.root].
+2020-03-13 10:46:32,757 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2020-03-13 10:46:32,767 [Thread: 9       ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [spring.root].
+2020-03-13 10:46:32,769 [Thread: 9       ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [spring.root].
+2020-03-13 10:46:32,771 [Thread: 9       ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2020-03-13 10:46:32,774 [Thread: 9       ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2020-03-13 10:46:32,776 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2020-03-13 10:46:32,956 [Thread: 9       ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2020-03-13 10:46:32,958 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-13 10:46:32,960 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'reader'
+2020-03-13 10:46:32,962 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'reader' with merged definition [RootObjectDefinition : Class [MPC.LAN.ReaderTCP]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 24].
+2020-03-13 10:46:32,963 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'reader'.
+2020-03-13 10:46:33,159 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'reader' to allow for resolving potential circular references
+2020-03-13 10:46:33,160 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'reader'
+2020-03-13 10:46:33,162 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'reader'
+2020-03-13 10:46:33,164 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'reader'
+2020-03-13 10:46:33,165 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'reader'
+2020-03-13 10:46:33,166 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-13 10:46:33,168 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-13 10:46:33,169 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name sport => canonical name sport
+2020-03-13 10:46:33,356 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'sport'
+2020-03-13 10:46:33,361 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'sport' with merged definition [RootObjectDefinition : Class [RS232Srv.RS232]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 26].
+2020-03-13 10:46:33,362 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'sport'.
+2020-03-13 10:46:33,363 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'sport' to allow for resolving potential circular references
+2020-03-13 10:46:33,364 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'sport'
+2020-03-13 10:46:33,556 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'sport'
+2020-03-13 10:46:33,557 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'sport'
+2020-03-13 10:46:33,558 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'sport'
+2020-03-13 10:46:33,558 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'sport'.
+2020-03-13 10:46:33,559 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname sport
+2020-03-13 10:46:33,560 [Thread: 9       ] [DEBUG] -- Publishing event in context [spring.root] : ContextRefreshedEventArgs [Refreshed]
+2020-03-13 10:46:33,562 [Thread: 9       ] [INFO ] -- ApplicationContext Refresh: Completed
+2020-03-13 10:46:33,563 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-13 10:46:33,564 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-13 10:46:33,756 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-13 10:46:33,761 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-13 10:46:33,766 [Thread: 9       ] [DEBUG] -- Reader Start Connect
+2020-03-13 10:46:36,672 [Thread: 9       ] [INFO ] -- Reader TCP Connect Successs!
+2020-03-13 10:51:30,892 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2020-03-13 10:51:30,975 [Thread: 9       ] [DEBUG] -- Loading XML object definitions from file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml]
+2020-03-13 10:51:30,997 [Thread: 9       ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2020-03-13 10:51:31,000 [Thread: 9       ] [DEBUG] -- Loading object definitions.
+2020-03-13 10:51:31,002 [Thread: 9       ] [DEBUG] -- Loading object definitions...
+2020-03-13 10:51:31,003 [Thread: 9       ] [DEBUG] -- Default lazy init 'false'.
+2020-03-13 10:51:31,005 [Thread: 9       ] [DEBUG] -- Default dependency check 'none'.
+2020-03-13 10:51:31,005 [Thread: 9       ] [DEBUG] -- Default autowire 'no'.
+2020-03-13 10:51:31,006 [Thread: 9       ] [DEBUG] -- Default merge 'false'.
+2020-03-13 10:51:31,007 [Thread: 9       ] [DEBUG] -- Default init method ''.
+2020-03-13 10:51:31,008 [Thread: 9       ] [DEBUG] -- Default destroy method ''.
+2020-03-13 10:51:31,009 [Thread: 9       ] [DEBUG] -- Default autowire candidates ''.
+2020-03-13 10:51:31,098 [Thread: 9       ] [DEBUG] -- Default init method ''.
+2020-03-13 10:51:31,099 [Thread: 9       ] [DEBUG] -- Default destroy method ''.
+2020-03-13 10:51:31,113 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'reader'.
+2020-03-13 10:51:31,122 [Thread: 9       ] [DEBUG] -- Registering object definition with id 'sport'.
+2020-03-13 10:51:31,124 [Thread: 9       ] [DEBUG] -- Found 2 <object> elements defining objects.
+2020-03-13 10:51:31,145 [Thread: 9       ] [DEBUG] -- Loaded 2 object definitions from location [spring-objects.xml]
+2020-03-13 10:51:31,146 [Thread: 9       ] [DEBUG] -- Refreshed ObjectFactory for application context 'spring.root'.
+2020-03-13 10:51:31,148 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2020-03-13 10:51:31,150 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2020-03-13 10:51:31,152 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2020-03-13 10:51:31,298 [Thread: 9       ] [DEBUG] -- 2 objects defined in application context [spring.root].
+2020-03-13 10:51:31,299 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2020-03-13 10:51:31,309 [Thread: 9       ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [spring.root].
+2020-03-13 10:51:31,311 [Thread: 9       ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [spring.root].
+2020-03-13 10:51:31,313 [Thread: 9       ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2020-03-13 10:51:31,316 [Thread: 9       ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2020-03-13 10:51:31,317 [Thread: 9       ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2020-03-13 10:51:31,498 [Thread: 9       ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2020-03-13 10:51:31,500 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-13 10:51:31,502 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'reader'
+2020-03-13 10:51:31,504 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'reader' with merged definition [RootObjectDefinition : Class [MPC.LAN.ReaderTCP]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 24].
+2020-03-13 10:51:31,506 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'reader'.
+2020-03-13 10:51:31,700 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'reader' to allow for resolving potential circular references
+2020-03-13 10:51:31,702 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'reader'
+2020-03-13 10:51:31,704 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'reader'
+2020-03-13 10:51:31,706 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'reader'
+2020-03-13 10:51:31,707 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'reader'
+2020-03-13 10:51:31,708 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-13 10:51:31,711 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-13 10:51:31,711 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name sport => canonical name sport
+2020-03-13 10:51:31,898 [Thread: 9       ] [DEBUG] -- Creating shared instance of singleton object 'sport'
+2020-03-13 10:51:31,899 [Thread: 9       ] [DEBUG] -- Creating instance of Object 'sport' with merged definition [RootObjectDefinition : Class [RS232Srv.RS232]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 26].
+2020-03-13 10:51:31,900 [Thread: 9       ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'sport'.
+2020-03-13 10:51:31,901 [Thread: 9       ] [DEBUG] -- Eagerly caching object 'sport' to allow for resolving potential circular references
+2020-03-13 10:51:31,902 [Thread: 9       ] [DEBUG] -- Configuring object using definition 'sport'
+2020-03-13 10:51:32,098 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'sport'
+2020-03-13 10:51:32,099 [Thread: 9       ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'sport'
+2020-03-13 10:51:32,100 [Thread: 9       ] [DEBUG] -- Cached shared instance of singleton object 'sport'
+2020-03-13 10:51:32,101 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'sport'.
+2020-03-13 10:51:32,101 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname sport
+2020-03-13 10:51:32,103 [Thread: 9       ] [DEBUG] -- Publishing event in context [spring.root] : ContextRefreshedEventArgs [Refreshed]
+2020-03-13 10:51:32,104 [Thread: 9       ] [INFO ] -- ApplicationContext Refresh: Completed
+2020-03-13 10:51:32,106 [Thread: 9       ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-03-13 10:51:32,106 [Thread: 9       ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-03-13 10:51:32,298 [Thread: 9       ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-03-13 10:51:32,299 [Thread: 9       ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-03-13 10:51:32,305 [Thread: 9       ] [DEBUG] -- Reader Start Connect
+2020-03-13 10:51:35,394 [Thread: 9       ] [INFO ] -- Reader TCP Connect Successs!

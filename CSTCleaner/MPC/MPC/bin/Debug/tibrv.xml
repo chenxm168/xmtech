@@ -36,7 +36,7 @@
 </configuration>
 -->
 <!--CELL PRD-->
-<!--
+<!-- -->
 <configuration>
 	<tibrvProxy name="mesProxy">
 		<service>8200</service>
@@ -53,9 +53,9 @@
 	</daemonList>
 </configuration>
 
--->
 
-<!--TEST -->
+
+<!--TEST 
 
 <configuration>
   <tibrvProxy name="mesProxy">
@@ -68,7 +68,7 @@
     <messageSet>\tibrv\mes.xml</messageSet>
   </tibrvProxy>
 </configuration>
-
+-->
 <!-- Local -->
 <!--
 <configuration>

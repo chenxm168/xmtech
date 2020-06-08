@@ -20,3 +20,14 @@ D:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\bin\Debug\log4net.xml
 D:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\obj\Debug\EQPIO.MNetProtocol.csprojResolveAssemblyReference.cache
 D:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\obj\Debug\EQPIO.MNetProtocol.dll
 D:\develop\CommonDll\EQPIO\EQPIO.MNetProtocol\obj\Debug\EQPIO.MNetProtocol.pdb
+D:\DevRepository\CommonDll\EQPIO\EQPIO.MNetProtocol\bin\Debug\EQPIO.MNetProtocol.dll
+D:\DevRepository\CommonDll\EQPIO\EQPIO.MNetProtocol\bin\Debug\EQPIO.MNetProtocol.pdb
+D:\DevRepository\CommonDll\EQPIO\EQPIO.MNetProtocol\bin\Debug\EQPIO.Common.dll
+D:\DevRepository\CommonDll\EQPIO\EQPIO.MNetProtocol\bin\Debug\EQPIO.MessageData.dll
+D:\DevRepository\CommonDll\EQPIO\EQPIO.MNetProtocol\bin\Debug\log4net.dll
+D:\DevRepository\CommonDll\EQPIO\EQPIO.MNetProtocol\bin\Debug\EQPIO.Common.pdb
+D:\DevRepository\CommonDll\EQPIO\EQPIO.MNetProtocol\bin\Debug\EQPIO.MessageData.pdb
+D:\DevRepository\CommonDll\EQPIO\EQPIO.MNetProtocol\bin\Debug\log4net.xml
+D:\DevRepository\CommonDll\EQPIO\EQPIO.MNetProtocol\obj\Debug\EQPIO.MNetProtocol.csprojResolveAssemblyReference.cache
+D:\DevRepository\CommonDll\EQPIO\EQPIO.MNetProtocol\obj\Debug\EQPIO.MNetProtocol.dll
+D:\DevRepository\CommonDll\EQPIO\EQPIO.MNetProtocol\obj\Debug\EQPIO.MNetProtocol.pdb
