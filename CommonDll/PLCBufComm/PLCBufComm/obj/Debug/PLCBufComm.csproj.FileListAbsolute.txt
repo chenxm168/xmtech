@@ -1,0 +1,7 @@
+D:\DevRepository\CommonDll\PLCBufComm\PLCBufComm\bin\Debug\PLCBufComm.dll
+D:\DevRepository\CommonDll\PLCBufComm\PLCBufComm\bin\Debug\PLCBufComm.pdb
+D:\DevRepository\CommonDll\PLCBufComm\PLCBufComm\bin\Debug\log4net.dll
+D:\DevRepository\CommonDll\PLCBufComm\PLCBufComm\bin\Debug\log4net.xml
+D:\DevRepository\CommonDll\PLCBufComm\PLCBufComm\obj\Debug\PLCBufComm.csprojResolveAssemblyReference.cache
+D:\DevRepository\CommonDll\PLCBufComm\PLCBufComm\obj\Debug\PLCBufComm.dll
+D:\DevRepository\CommonDll\PLCBufComm\PLCBufComm\obj\Debug\PLCBufComm.pdb

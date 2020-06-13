@@ -1,0 +1,7 @@
+<UserDefine>
+  <BlockGroup>
+    <Block Name="L2_W_AlarmBlock" />
+    <Block Name="L2_B_AlarmStateChangeReport" />
+    <Block Name="L2_B_AlarmStateChangeReportReply" />
+  </BlockGroup>
+</UserDefine>

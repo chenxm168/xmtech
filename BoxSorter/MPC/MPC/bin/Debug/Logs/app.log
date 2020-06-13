@@ -1,0 +1,4 @@
+2019-10-14 08:25:19,967 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name serverManager => canonical name serverManager
+2019-10-14 08:25:19,973 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'serverManager'.
+2019-10-14 08:25:19,975 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'serverManager'.
+2019-10-14 08:25:19,977 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname serverManager

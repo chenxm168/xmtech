@@ -1,0 +1,20 @@
+[2019-04-30 13:55:37.642] [INFO ] [10] [ControlManager][Init] -Init ControlManager
+[2019-04-30 13:55:37.978] [INFO ] [10] [MProtocolProxy][InitXml] -MProtocolProxy : InitXxml
+[2019-04-30 13:55:37.983] [INFO ] [10] [MProtocolProxy][InitMEthernet] -MProtocolProxy : InitMEthernet
+[2019-04-30 13:55:37.988] [INFO ] [10] [MNet3EUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7006
+[2019-04-30 13:55:37.989] [INFO ] [10] [MProtocolProxy][Unit_OnConnected] -MelsecEthernet OnConnected : L2 
+[2019-04-30 13:55:38.011] [INFO ] [10] [MNet3EScanUnit][Connect] -[Connection] Melsec Connect Address : 192.168.51.9 , PortNo : 7007
+[2019-04-30 13:55:38.020] [INFO ] [10] [ControlManager][PLCWriteLog] -{
+, ==========================================
+, Message Name     : Connection 
+, Transaction Name : 2019-04-30 13:55-38_1 
+, MessageType      : MelsecEthernet 
+, MachineName      : L2 
+, Event Time       :  
+, Event Name       :  
+, Event Value      :  
+, Return Code      : 0 
+, Return Message   :  
+}
+[2019-04-30 13:55:38.022] [INFO ] [10] [MProtocolProxy][mPScanUnit_OnConnected] -Scan MelsecEthernet OnConnected : L2 
+[2019-04-30 13:55:38.099] [INFO ] [ScanThreadProc] [MNet3EScanUnit][ScanBit] -[L2_B_LTM_H] Block Scan Started...

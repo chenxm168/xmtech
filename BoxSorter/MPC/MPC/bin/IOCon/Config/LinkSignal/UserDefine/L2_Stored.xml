@@ -1,0 +1,6 @@
+<UserDefine>
+  <BlockGroup>
+    <Block Name="L2_W_StoredJobDataBlock" />
+    <Block Name="L2_W_StoredJobDataSubBlock" />
+  </BlockGroup>
+</UserDefine>

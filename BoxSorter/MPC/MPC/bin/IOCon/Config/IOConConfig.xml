@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<IOConConfig>
+	<Driver name = "MQ">
+		<ConnectionInfo name = "MQ" path = "../IOCon/Config/MQ/EQInterface.xml" use = "false"/>
+	</Driver>
+	<Driver name = "MelsecBoard">
+		<ConnectionInfo name = "Board" path = "../IOCon/Config/MelsecBoard/MNetConfig.xml" use = "false"/>
+	</Driver>
+	<Driver name = "MelsecEthernet">
+		<ConnectionInfo name = "Ethernet" path = "../IOCon/Config/MelsecEthernet/MNetConfig.xml" use = "true"/>		
+	</Driver>
+	<Driver name = "EIP">
+		<ConnectionInfo name = "EIP" path = "../IOCon/Config/EIP/(BOEFZ)CF-BM_Photo_Inline(FPHT01)-EIP_Tag_Map-V1.7_20161215-131448.xml" use = "false"/>		
+	</Driver>
+</IOConConfig>
