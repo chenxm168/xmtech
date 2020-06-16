@@ -155,9 +155,13 @@ namespace PLCBufComm
 
                     IMessageEncoder encoder = MessageEncoderFactory.getEncoder(ecType);
                     byte[] bRtn = encoder.getRtnBytes(bytes);
-                    ns.Write(bRtn, 0, bRtn.Length);
-                    ns.Flush();
-                    logger.InfoFormat("Response Plc![Ascii:{0}]", ASCIIEncoding.UTF8.GetString(bRtn));
+                    if(bRtn!=null)
+                    {
+                        ns.Write(bRtn, 0, bRtn.Length);
+                        ns.Flush();
+                        logger.InfoFormat("Response Plc![{0}]", "0");
+                    }
+                    
 
                     string message="";
                       int iRt = encoder.getMessageString(bytes,out message);

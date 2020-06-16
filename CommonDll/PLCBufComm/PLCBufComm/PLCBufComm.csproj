@@ -45,15 +45,21 @@
     <Compile Include="AbsPLCTCPListener.cs" />
     <Compile Include="FixedBufAsciiEncoder.cs" />
     <Compile Include="FixedBufBinaryEndcoder.cs" />
+    <Compile Include="FixedBufNoProcedureEncoder.cs" />
     <Compile Include="IMessageEncoder.cs" />
     <Compile Include="IPLCSendable.cs" />
     <Compile Include="MessageEncoderFactory.cs" />
+    <Compile Include="PLCData.cs" />
     <Compile Include="PLCEtherService.cs" />
     <Compile Include="PLCListener.cs" />
     <Compile Include="PLCListenerFactory.cs" />
     <Compile Include="PLCTcpListener.cs" />
+    <Compile Include="PLCUdpListener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TcpPLCSender.cs" />
+    <Compile Include="PLCTcpSender.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="datamap.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

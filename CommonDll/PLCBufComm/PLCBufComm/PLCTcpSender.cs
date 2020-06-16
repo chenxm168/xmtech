@@ -10,11 +10,11 @@ using log4net;
 
 namespace PLCBufComm
 {
-   public class TcpPLCSender:IPLCSendable
+   public class PLCTcpSender:IPLCSendable
     {
 
        public event EventHandler<object> ResponseTimeout;
-       private ILog logger = LogManager.GetLogger(typeof(TcpPLCSender));
+       private ILog logger = LogManager.GetLogger(typeof(PLCTcpSender));
        private TcpClient client;
 
        public bool KeepAlive
@@ -31,13 +31,14 @@ namespace PLCBufComm
 
       // private Queue<object> waitSendQueue = new Queue<object>();
 
-       public TcpPLCSender(string remoteip, int remoteport)
+       public PLCTcpSender(string remoteip, int remoteport)
        {
            this.remoteip= remoteip;
            this.remoteport =remoteport;
            this.KeepAlive = false;
            this.EcType = "FIXEDBUFFERASCII";
            this.Timeout = 50000;
+         
        }
         public int SendMessage(string message)
         {
@@ -98,6 +99,13 @@ namespace PLCBufComm
                 NetworkStream ns = client.GetStream();
                 ns.Write(bytes, 0, bytes.Length);
                 ns.Flush();
+                var ec = MessageEncoderFactory.getEncoder(EcType);
+                if(ec.getName()=="FIXEDBUFFERNOPROCEDURE")
+                {
+                    ns.Close();
+                    client.Close();
+                }
+
                 int count = 1;
                 while(true)
                 {
@@ -113,7 +121,7 @@ namespace PLCBufComm
 
                         byte[] bRtn = listbyte.ToArray<byte>();
 
-                        var ec = MessageEncoderFactory.getEncoder(EcType);
+                        
                         int iRt= ec.getSendResponseCode(bRtn);
                         if(!KeepAlive)
                         {

@@ -24,5 +24,7 @@ namespace PLCBufComm
 
        int getValueStringLH(byte[] bytes ,out string values);
 
+       string getName();
+
     }
 }

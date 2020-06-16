@@ -10,7 +10,7 @@ namespace PLCBufComm
     public   class FixedBufAsciiEncoder:IMessageEncoder
     {
         ILog logger = LogManager.GetLogger(typeof(FixedBufAsciiEncoder));
-        public const string AnalyzerName = "FIXEDBUFFERASCII";
+        public const string NAME = "FIXEDBUFFERASCII";
 
 
 
@@ -192,7 +192,7 @@ namespace PLCBufComm
                        {
                            values += "-";
                        }
-                       values = values + h + l;
+                       values = values + h+"-" + l;
                        i += 4;
                     }
                     return 0;
@@ -230,7 +230,7 @@ namespace PLCBufComm
                         {
                             values += "-";
                         }
-                        values = values + l + h;
+                        values = values + l +"-"+ h;
                         i += 4;
                     }
                     return 0;
@@ -243,6 +243,12 @@ namespace PLCBufComm
                 values = "";
                 return -1;
             }
+        }
+
+
+        public string getName()
+        {
+            return NAME;
         }
     }
 }

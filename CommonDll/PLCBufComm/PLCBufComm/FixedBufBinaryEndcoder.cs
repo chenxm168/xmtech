@@ -8,6 +8,7 @@ namespace PLCBufComm
 {
    public class FixedBufBinaryEndcoder:IMessageEncoder
     {
+       public const string NAME = "FIXEDBUFFERBINARY";
         public int getMessageString(byte[] bytes, out string message)
         {
             int len =getMessageLen(bytes);
@@ -87,6 +88,7 @@ namespace PLCBufComm
                        s += "-";
                    }
                    s += Convert.ToString(bytes[i + 1], 16);
+                   s+="-";
                    s += Convert.ToString(bytes[i ], 16);
 
                    i = i + 2;
@@ -114,6 +116,7 @@ namespace PLCBufComm
                        s += "-";
                    }
                    s += Convert.ToString(bytes[i ], 16);
+                   s += "-";
                    s += Convert.ToString(bytes[i + 1], 16);
 
                    i = i + 2;
@@ -121,6 +124,12 @@ namespace PLCBufComm
 
                return 0;
            }
+       }
+
+
+       public string getName()
+       {
+           return NAME;
        }
     }
 }
