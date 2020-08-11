@@ -1,0 +1,7 @@
+D:\桌面\VCR\TrulyVcrLoader\TrulyVcrLoader\bin\Debug\TrulyVcrLoader.pdb
+D:\桌面\VCR\TrulyVcrLoader\TrulyVcrLoader\obj\Debug\TrulyVcrLoader.Properties.Resources.resources
+D:\桌面\VCR\TrulyVcrLoader\TrulyVcrLoader\obj\Debug\TrulyVcrLoader.csproj.GenerateResource.Cache
+D:\桌面\VCR\TrulyVcrLoader\TrulyVcrLoader\obj\Debug\TrulyVcrLoader.pdb
+D:\桌面\VCR\TrulyVcrLoader\TrulyVcrLoader\bin\Debug\TrulyVcrLoader.dll.config
+D:\桌面\VCR\TrulyVcrLoader\TrulyVcrLoader\bin\Debug\TrulyVcrLoader.dll
+D:\桌面\VCR\TrulyVcrLoader\TrulyVcrLoader\obj\Debug\TrulyVcrLoader.dll

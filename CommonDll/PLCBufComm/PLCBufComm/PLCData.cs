@@ -31,30 +31,30 @@ namespace PLCBufComm
            get;
            set;
        }
-       public override string toString()
-       {
+       //public override string toString()
+       //{
 
-           string sRt = "";
-           switch(ValueRepresentation)
-           {
+       //    string sRt = "";
+       //    switch(ValueRepresentation)
+       //    {
 
-               case Representation.ASCII:
+       //        case Representation.ASCII:
 
-                   break;
+       //            break;
 
-               case Representation.INTEGER:
-                   break;
+       //        case Representation.INTEGER:
+       //            break;
 
 
-               default:
+       //        default:
                   
-                   break;
-           }
+       //            break;
+       //    }
 
 
-           return sRt;
+       //    return sRt;
 
-       }
+       //}
      
     }
 

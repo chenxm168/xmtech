@@ -32,8 +32,41 @@ namespace PLCBufComm
                 message = "Message Length Error";
                 return iRt;
             }
-            
-            message= s.Substring(4, s.Length - 4);
+            string msg1 = s.Substring(8);
+
+            string[] msgworldlist = new string[len];
+            for (int i = 0; i < len;i++ )
+            {
+                msgworldlist[i] = msg1.Substring(i * 4, 4);
+
+            }
+
+            string[] msgbytelist = new string[len * 2];
+            for (int i = 0; i < msgworldlist.Length;i++ )
+            {
+                string ls = msgworldlist[i].Substring(2, 2);
+                string hs = msgworldlist[i].Substring(0, 2);
+
+              byte lb=  Convert.ToByte(ls.Substring(0, 1), 16);
+              byte hb = Convert.ToByte(hs.Substring(1, 1), 16);
+
+
+
+
+
+              msgbytelist[i * 2] = ls;
+              msgbytelist[i * 2 + 1] = hs;
+
+            }
+
+            string mes3 = "";
+            for (int i = 0; i < msgbytelist.Length;i++ )
+            {
+                mes3 += msgbytelist[i];
+            }
+
+            message = mes3;
+               // message = s.Substring(4, s.Length - 4);
 
             return iRt;
         }

@@ -1,0 +1,7 @@
+D:\DevRepository\CommonDll\FileDataLoader\FileDataLoader\bin\Debug\FileDataLoader.dll
+D:\DevRepository\CommonDll\FileDataLoader\FileDataLoader\bin\Debug\FileDataLoader.pdb
+D:\DevRepository\CommonDll\FileDataLoader\FileDataLoader\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\DevRepository\CommonDll\FileDataLoader\FileDataLoader\obj\Debug\FileDataLoader.csprojResolveAssemblyReference.cache
+D:\DevRepository\CommonDll\FileDataLoader\FileDataLoader\obj\Debug\FileDataLoader.dll
+D:\DevRepository\CommonDll\FileDataLoader\FileDataLoader\obj\Debug\FileDataLoader.pdb
+D:\DevRepository\CommonDll\FileDataLoader\FileDataLoader\bin\Debug\Config\VCRConfig.ini

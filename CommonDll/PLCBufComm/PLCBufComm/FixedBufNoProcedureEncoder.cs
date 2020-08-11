@@ -59,6 +59,7 @@ namespace PLCBufComm
             {
 
             }
+            return null;
         }
 
         public int getValueStringHL(byte[] bytes, out string values)

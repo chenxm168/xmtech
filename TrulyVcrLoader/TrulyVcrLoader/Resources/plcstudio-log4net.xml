@@ -1,0 +1,21 @@
+<log4net>   
+    <appender name="TCPIP" type="MYT.Log4net.Appender.DynamicFileAppender">
+    		<rootDir value="./log" />
+        <file value="TCPICommunicationWithPLC/IO/%d{yyyy_MM_dd_HH}.log" />
+        <deleteDatePattern value="dd" />
+        <deletePeriod value="3" />
+        <deletePath value="IO" />
+        <deleteExtension value="*.log" />
+        <appendToFile value="true" />
+        <!-- A1 uses PatternLayout -->
+        <layout type="log4net.Layout.PatternLayout">
+            <conversionPattern value="%d [%class.%method %L][%t] %-5p %m%n" />
+        </layout>
+        <immediateFlush value="true"/>
+    </appender>    
+    
+    <root>
+        <level value="DEBUG" />
+        <appender-ref ref="TCPIP" />
+    </root>    
+</log4net>

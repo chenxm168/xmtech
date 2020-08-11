@@ -1,0 +1,90 @@
+2020-07-24 09:36:57,862 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Refreshing object factory 
+2020-07-24 09:36:58,338 [Thread: 10      ] [DEBUG] -- Loading XML object definitions from file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml]
+2020-07-24 09:36:58,866 [Thread: 10      ] [DEBUG] -- Using the following XmlReader implementation : System.Xml.XsdValidatingReader
+2020-07-24 09:36:58,957 [Thread: 10      ] [DEBUG] -- Loading object definitions.
+2020-07-24 09:36:58,964 [Thread: 10      ] [DEBUG] -- Loading object definitions...
+2020-07-24 09:36:58,968 [Thread: 10      ] [DEBUG] -- Default lazy init 'false'.
+2020-07-24 09:36:58,970 [Thread: 10      ] [DEBUG] -- Default dependency check 'none'.
+2020-07-24 09:36:58,973 [Thread: 10      ] [DEBUG] -- Default autowire 'no'.
+2020-07-24 09:36:58,975 [Thread: 10      ] [DEBUG] -- Default merge 'false'.
+2020-07-24 09:36:58,978 [Thread: 10      ] [DEBUG] -- Default init method ''.
+2020-07-24 09:36:58,980 [Thread: 10      ] [DEBUG] -- Default destroy method ''.
+2020-07-24 09:36:58,983 [Thread: 10      ] [DEBUG] -- Default autowire candidates ''.
+2020-07-24 09:36:58,985 [Thread: 10      ] [DEBUG] -- Default init method ''.
+2020-07-24 09:36:58,987 [Thread: 10      ] [DEBUG] -- Default destroy method ''.
+2020-07-24 09:36:59,232 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'reader'.
+2020-07-24 09:36:59,241 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'defects'.
+2020-07-24 09:36:59,255 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'csvwriter'.
+2020-07-24 09:36:59,258 [Thread: 10      ] [DEBUG] -- Registering object definition with id 'glass'.
+2020-07-24 09:36:59,261 [Thread: 10      ] [DEBUG] -- Found 4 <object> elements defining objects.
+2020-07-24 09:36:59,264 [Thread: 10      ] [DEBUG] -- Loaded 4 object definitions from location [spring-objects.xml]
+2020-07-24 09:36:59,272 [Thread: 10      ] [DEBUG] -- Refreshed ObjectFactory for application context 'spring.root'.
+2020-07-24 09:36:59,275 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Registering well-known processors and objects
+2020-07-24 09:36:59,281 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Custom post processing object factory
+2020-07-24 09:36:59,284 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using pre-registered processors
+2020-07-24 09:36:59,287 [Thread: 10      ] [DEBUG] -- 4 objects defined in application context [spring.root].
+2020-07-24 09:36:59,289 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Post processing object factory using defined processors
+2020-07-24 09:36:59,385 [Thread: 10      ] [DEBUG] -- processed 0 IFactoryObjectPostProcessors defined in application context [spring.root].
+2020-07-24 09:36:59,392 [Thread: 10      ] [DEBUG] -- processed 0 IObjectPostProcessors defined in application context [spring.root].
+2020-07-24 09:36:59,397 [Thread: 10      ] [DEBUG] -- No IEventRegistry found with name 'eventRegistry' : using default 'Spring.Objects.Events.Support.EventRegistry'.
+2020-07-24 09:36:59,405 [Thread: 10      ] [DEBUG] -- No IMessageSource found with name 'messageSource' : using default 'StaticMessageSource : '.
+2020-07-24 09:36:59,480 [Thread: 10      ] [DEBUG] -- ApplicationContext Refresh: Preinstantiating singletons
+2020-07-24 09:36:59,485 [Thread: 10      ] [DEBUG] -- Pre-instantiating singletons in factory [Spring.Objects.Factory.Support.DefaultListableObjectFactory]
+2020-07-24 09:36:59,490 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-07-24 09:36:59,497 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'reader'
+2020-07-24 09:36:59,504 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'reader' with merged definition [RootObjectDefinition : Class [TCPSrv.Reader.VCReaderTCP]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 26].
+2020-07-24 09:36:59,679 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'reader'.
+2020-07-24 09:37:00,297 [Thread: 10      ] [DEBUG] -- Object 'reader' instantiated via constructor [Void .ctor(System.String)].
+2020-07-24 09:37:00,298 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'reader' to allow for resolving potential circular references
+2020-07-24 09:37:00,299 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'reader'
+2020-07-24 09:37:00,301 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'reader'
+2020-07-24 09:37:00,303 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'reader'
+2020-07-24 09:37:00,304 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'reader'
+2020-07-24 09:37:00,306 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-07-24 09:37:00,308 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-07-24 09:37:00,309 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name defects => canonical name defects
+2020-07-24 09:37:00,317 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'defects'
+2020-07-24 09:37:00,318 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'defects' with merged definition [RootObjectDefinition : Class [MPC.DefectCollection]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 29].
+2020-07-24 09:37:00,319 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'defects'.
+2020-07-24 09:37:00,514 [Thread: 10      ] [DEBUG] -- Object 'defects' instantiated via constructor [Void .ctor(System.String)].
+2020-07-24 09:37:00,515 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'defects' to allow for resolving potential circular references
+2020-07-24 09:37:00,517 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'defects'
+2020-07-24 09:37:00,518 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'defects'
+2020-07-24 09:37:00,519 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'defects'
+2020-07-24 09:37:00,520 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'defects'
+2020-07-24 09:37:00,521 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'defects'.
+2020-07-24 09:37:00,522 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname defects
+2020-07-24 09:37:00,523 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name csvwriter => canonical name csvwriter
+2020-07-24 09:37:00,524 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'csvwriter'
+2020-07-24 09:37:00,718 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'csvwriter' with merged definition [RootObjectDefinition : Class [FileSrv.csv.CSVWriter]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 33].
+2020-07-24 09:37:00,719 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'csvwriter'.
+2020-07-24 09:37:00,721 [Thread: 10      ] [DEBUG] -- Object 'csvwriter' instantiated via constructor [Void .ctor(System.String)].
+2020-07-24 09:37:00,722 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'csvwriter' to allow for resolving potential circular references
+2020-07-24 09:37:00,725 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'csvwriter'
+2020-07-24 09:37:00,917 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'csvwriter'
+2020-07-24 09:37:00,918 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'csvwriter'
+2020-07-24 09:37:00,919 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'csvwriter'
+2020-07-24 09:37:00,920 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'csvwriter'.
+2020-07-24 09:37:00,921 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname csvwriter
+2020-07-24 09:37:00,922 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name glass => canonical name glass
+2020-07-24 09:37:00,923 [Thread: 10      ] [DEBUG] -- Creating shared instance of singleton object 'glass'
+2020-07-24 09:37:00,925 [Thread: 10      ] [DEBUG] -- Creating instance of Object 'glass' with merged definition [RootObjectDefinition : Class [MPC.GlassDefectColection]; Abstract = False; Parent = ; Scope = singleton; Singleton = True; LazyInit = False; Autowire = No; Autowire-Candidate = True; Primary = False; DependencyCheck = None; InitMethodName = ; DestroyMethodName = ; FactoryMethodName = ; FactoryObjectName = ; defined in = file [D:\DevRepository\2DReader\MPC\MPC\bin\Debug\spring-objects.xml] line 37].
+2020-07-24 09:37:01,117 [Thread: 10      ] [DEBUG] -- Invoking IInstantiationAwareObjectPostProcessors before the instantiation of 'glass'.
+2020-07-24 09:37:01,119 [Thread: 10      ] [DEBUG] -- Object 'glass' instantiated via constructor [Void .ctor(System.String)].
+2020-07-24 09:37:01,119 [Thread: 10      ] [DEBUG] -- Eagerly caching object 'glass' to allow for resolving potential circular references
+2020-07-24 09:37:01,120 [Thread: 10      ] [DEBUG] -- Configuring object using definition 'glass'
+2020-07-24 09:37:01,121 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors before initialization of object 'glass'
+2020-07-24 09:37:01,317 [Thread: 10      ] [DEBUG] -- Invoking IObjectPostProcessors after initialization of object 'glass'
+2020-07-24 09:37:01,318 [Thread: 10      ] [DEBUG] -- Cached shared instance of singleton object 'glass'
+2020-07-24 09:37:01,319 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'glass'.
+2020-07-24 09:37:01,319 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname glass
+2020-07-24 09:37:01,321 [Thread: 10      ] [DEBUG] -- Publishing event in context [spring.root] : ContextRefreshedEventArgs [Refreshed]
+2020-07-24 09:37:01,342 [Thread: 10      ] [INFO ] -- ApplicationContext Refresh: Completed
+2020-07-24 09:37:01,343 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name reader => canonical name reader
+2020-07-24 09:37:01,344 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'reader'.
+2020-07-24 09:37:01,345 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'reader'.
+2020-07-24 09:37:01,517 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname reader
+2020-07-24 09:37:04,339 [Thread: 10      ] [DEBUG] --    GetObjectInternal: obtaining instance for name defects => canonical name defects
+2020-07-24 09:37:04,363 [Thread: 10      ] [DEBUG] -- Returning cached instance of singleton object 'defects'.
+2020-07-24 09:37:04,364 [Thread: 10      ] [DEBUG] -- Calling code asked for normal instance for name 'defects'.
+2020-07-24 09:37:04,365 [Thread: 10      ] [DEBUG] -- GetObjectInternal: returning instance for objectname defects

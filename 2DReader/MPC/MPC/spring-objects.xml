@@ -38,4 +38,24 @@
   <constructor-arg  name="file" value="Config/GLASSID.txt"/>
   </object>
 
+  <object id="prodlist" type="MPC.ProductSpecColection, MPC "  >
+    <constructor-arg  name="file" value="Config/prodlist.csv"/>
+  </object>
+  
+
+    <object id="db" type="FileDataLoader.DBSrv.OracleDBService, FileDataLoader "  >
+    <constructor-arg  name="configfile" value="Config/VCRConfig.ini"/>
+  </object>
+    
+  <!--
+    <object id="uploader" type="FileDataLoader.FileUpload.FtpUploader, FileDataLoader "  >
+    <constructor-arg  name="configfile" value="Config/VCRConfig.ini"/>
+  </object> -->
+   
+<!--
+      <object id="vcrloader" type="TrulyVcrLoader.TrulyVcr, TrulyVcrLoader "  >
+  <constructor-arg  name="TrulyVcrLoader" value="CSV"/>
+  </object>
+   -->
+
 </objects>

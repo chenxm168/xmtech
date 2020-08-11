@@ -63,6 +63,9 @@
       <HintPath>..\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\..\..\CommonDll\VCRDLL\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
     <Reference Include="Quartz, Version=2.3.1.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
       <HintPath>..\packages\Quartz.2.3.1\lib\net40\Quartz.dll</HintPath>
       <Private>True</Private>
@@ -131,11 +134,18 @@
     <Compile Include="Forms\MatchResult.Designer.cs">
       <DependentUpon>MatchResult.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\PanelInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PanelInfo.Designer.cs">
+      <DependentUpon>PanelInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="GlassDefectColection.cs" />
     <Compile Include="GlobalVariable.cs" />
     <Compile Include="LAN\IReader.cs" />
     <Compile Include="LAN\ReaderTCP.cs" />
     <Compile Include="ObjectManager.cs" />
+    <Compile Include="ProductSpecColection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Schedule\Class1.cs" />
@@ -143,6 +153,7 @@
     <Compile Include="Schedule\ExtendQuartzSchedul.cs" />
     <Compile Include="Schedule\SchdService.cs" />
     <Compile Include="Schedule\SchedulJob.cs" />
+    <Compile Include="Utils.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +169,9 @@
     <EmbeddedResource Include="Forms\MatchResult.resx">
       <DependentUpon>MatchResult.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PanelInfo.resx">
+      <DependentUpon>PanelInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -169,6 +183,9 @@
     </Compile>
     <None Include="Config\DefectList.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\prodlist.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="job_scheduling_data_2_0.xsd">
       <SubType>Designer</SubType>
@@ -188,9 +205,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Config\add.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\add2.png" />
+    <Content Include="Config\add3.png" />
     <Content Include="Config\CSVConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Config\delete.png" />
     <Content Include="Config\GLASSID.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -216,6 +239,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\CommonDll\FileDataLoader\FileDataLoader\FileDataLoader.csproj">
+      <Project>{98ca2058-9fcb-4732-babd-b57335f51d53}</Project>
+      <Name>FileDataLoader</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\CommonDll\FileSrv\FileSrv.csproj">
       <Project>{11c4cf4d-adaf-4006-8e81-810876820cf9}</Project>
       <Name>FileSrv</Name>

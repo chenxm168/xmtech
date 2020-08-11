@@ -11,15 +11,22 @@ using System.Collections;
 using MPC;
 using TCPSrv.Reader;
 using FileSrv.csv;
+using FileDataLoader;
+using log4net;
+using FileDataLoader.FileUpload;
 
 namespace MPC.Forms
 {
     public partial class mainform : Form
     {
 
+        ILog logger = LogManager.GetLogger(typeof(mainform));
+
         bool defectBySheet = true;
         bool IsConnected = false;
         bool IsReading = false;
+        string preProdSpec = "";
+        string preDefectCode = "";
 
         IVCReader reader;
 
@@ -31,6 +38,8 @@ namespace MPC.Forms
         {
             InitializeComponent();
             Init();
+
+            
         }
 
 
@@ -295,6 +304,7 @@ namespace MPC.Forms
             DefectInput fm = new DefectInput();
            if( fm.ShowDialog()==DialogResult.OK)
            {
+               
                string sCodeName = fm.DefectCodeAndName;
                if(sCodeName!=null&&sCodeName.Length>0)
                {
@@ -318,7 +328,6 @@ namespace MPC.Forms
         private void btReadStart_Click(object sender, EventArgs e)
         {
 
-           
 
         }
 
@@ -398,8 +407,12 @@ namespace MPC.Forms
             var wt = ObjectManager.getObject("csvwriter") as CSVWriter;
             string sItem = "";
             var args = arg as VCREeventArgs;
-            string id = args.Message.Trim().ToUpper();
-            if(rbSelectDefectBySheet.Checked)
+            string vcrid = args.Message.Trim().ToUpper();
+            string panelid="";
+            /*
+             * moidfy by cxm 20200806
+             * 
+            if (rbSelectDefectBySheet.Checked)
             {
                 DefectInput di = new DefectInput();
                 string defectCodeAndName = "";
@@ -412,11 +425,75 @@ namespace MPC.Forms
 
 
                 sItem = id + "," + defectCodeAndName + "," + "N";
-            }else
+            }
+            else
             {
                 sItem = id + "," + lbDefectCode.Text.Trim() + "," + lbDefectName.Text + "," + "N";
             }
+             */
 
+            if (rbSelectDefectBySheet.Checked)
+            {
+                frmPanelInfo frm = new frmPanelInfo();
+                frm.PreProductSpec = this.preProdSpec;
+                frm.PreDefectCode = this.preDefectCode;
+                frm.VCRID = vcrid;
+
+                if(frm.ShowDialog()==DialogResult.OK)
+                {
+                    sItem = sItem + DateTime.Now.ToString("yyyyMMddHHmmss") + ",";
+                    sItem = sItem + frm.ProductSpec + ",";
+                    this.preProdSpec = frm.ProductSpec;
+                    string tem = frm.ProductSpec.Substring(0, 2);
+                    panelid = tem + vcrid;
+                    string lotid = panelid.Substring(0, panelid.Length - 3);
+                    string glassid = panelid.Substring(0, panelid.Length - 2);
+                    sItem = sItem + panelid + ",";
+                    //sItem = sItem + glassid + ",";
+                    
+                    //sItem = sItem + tem + vcrid + ",";
+                    sItem = sItem + vcrid + ",";
+
+                    sItem = sItem + frm.DefectCode + ",";
+                    sItem = sItem + Convert.ToInt16(frm.IsCell) + ",";
+                    sItem = sItem + Convert.ToInt16(frm.IsLB) + ",";
+                    sItem = sItem + Convert.ToInt16(frm.IsZH) + ",";
+                    Dictionary<int, string> map = frm.dtImage;
+                    if(map.Count>0)
+                    {
+                        sItem = sItem + Utils.getLocalImagePath(map) + ",";
+                        sItem = sItem + Utils.getImages(map) + ",";
+
+                        string ftppath = "";
+                        string penelid =vcrid+ frm.ProductSpec.Substring(1, 2);
+                        //string lotid = penelid.Substring(0, 9);
+                        //string glassid = penelid.Substring(0, 10);
+                        ftppath = "VCR\\" + frm.ProductSpec.ToUpper().Trim() + "\\" + lotid.ToUpper() + "\\" + glassid.ToUpper()  ;
+                        sItem = sItem + ftppath + ",";
+
+
+                    }else
+                    {
+                        sItem = sItem + ",,,";
+                    }
+
+                    var db = ObjectManager.getObject("db");
+                   // var uploader = ObjectManager.getObject("uploader");
+
+                    if(Utils.UploadDefectData(db,sItem))
+                    {
+                        sItem = sItem + "Y";
+                    }
+
+                    else
+                    {
+                        sItem = sItem + "N";
+                    }
+
+                    
+
+                }
+            }
             
             wt.AppendFileAsyn(sItem);
 
@@ -511,6 +588,64 @@ namespace MPC.Forms
             //txIformation.Text = tx;
             txIformation.Lines = list.ToArray<string>();
             
+        }
+
+        private void btTest_Click(object sender, EventArgs e)
+        {
+            
+                
+            
+            
+
+            //var cfg = ConfigLoader.getConfigInstance("Config\\VcrConfig.ini");
+            //string s1= cfg.getParam("ConnString1");
+
+            //string s21 = cfg.getParam("ConnString2");
+
+            //string s3 = cfg.getAsciiParam("ConnString3");
+
+            //string cs1 = cfg.getAsciiParam("ConnString1");
+            //string cs2 = cfg.getAsciiParam("ConnString2");
+
+
+            //getAsciiString(s1);
+            //getAsciiString(s21);
+
+
+
+
+
+
+
+            VCREeventArgs args = new VCREeventArgs("12E4606422");
+            ReadSuccessHandler(this, args);
+
+            //Utils.ProductSpecValidation("A01A-084WD");
+
+            //frmPanelInfo frm = new frmPanelInfo();
+            //if (frm.ShowDialog() == DialogResult.OK)
+            //{
+            //    Utils.getImages(frm.dtImage);
+            //}
+            //else
+            //{
+
+            //}
+        }
+
+        private string getAsciiString(string str)
+        {
+            string s2 = "";
+            byte[] bs = System.Text.Encoding.ASCII.GetBytes(str);
+            foreach (byte b in bs)
+            {
+                s2 += Convert.ToString(b, 16).PadLeft(2, '0');
+            }
+
+            logger.Debug(s2);
+
+            return s2;
+
         }
 
     }

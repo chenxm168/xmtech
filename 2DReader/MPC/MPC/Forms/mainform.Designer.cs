@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainform));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btTest = new System.Windows.Forms.Button();
             this.btUpate = new System.Windows.Forms.Button();
             this.txIpPort = new System.Windows.Forms.TextBox();
             this.txIpaddress = new System.Windows.Forms.TextBox();
@@ -39,6 +40,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pnVCRMode = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lbDefectCategory = new System.Windows.Forms.Label();
+            this.lbDefectName = new System.Windows.Forms.Label();
+            this.lbDefectCode = new System.Windows.Forms.Label();
             this.btDefectChange = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -49,6 +53,9 @@
             this.tcOutput = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.txIformation = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.型号 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pnControl = new System.Windows.Forms.Panel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btReadStop = new System.Windows.Forms.Button();
@@ -56,9 +63,6 @@
             this.btRead = new System.Windows.Forms.Button();
             this.rbCycleRead = new System.Windows.Forms.RadioButton();
             this.rbReadBySheet = new System.Windows.Forms.RadioButton();
-            this.lbDefectCode = new System.Windows.Forms.Label();
-            this.lbDefectName = new System.Windows.Forms.Label();
-            this.lbDefectCategory = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.pnVCRMode.SuspendLayout();
@@ -66,6 +70,7 @@
             this.pnOutput.SuspendLayout();
             this.tcOutput.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.pnControl.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
@@ -87,15 +92,16 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.42024F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.42024F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.15952F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(995, 604);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(985, 662);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btTest);
             this.groupBox1.Controls.Add(this.btUpate);
             this.groupBox1.Controls.Add(this.txIpPort);
             this.groupBox1.Controls.Add(this.txIpaddress);
@@ -104,18 +110,28 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox1.Location = new System.Drawing.Point(659, 23);
+            this.groupBox1.Location = new System.Drawing.Point(651, 23);
             this.groupBox1.Name = "groupBox1";
             this.tableLayoutPanel1.SetRowSpan(this.groupBox1, 2);
-            this.groupBox1.Size = new System.Drawing.Size(312, 370);
+            this.groupBox1.Size = new System.Drawing.Size(308, 296);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "VCR Information";
             // 
+            // btTest
+            // 
+            this.btTest.Location = new System.Drawing.Point(23, 226);
+            this.btTest.Name = "btTest";
+            this.btTest.Size = new System.Drawing.Size(75, 23);
+            this.btTest.TabIndex = 9;
+            this.btTest.Text = "test";
+            this.btTest.UseVisualStyleBackColor = true;
+            this.btTest.Click += new System.EventHandler(this.btTest_Click);
+            // 
             // btUpate
             // 
             this.btUpate.BackColor = System.Drawing.SystemColors.Control;
-            this.btUpate.Location = new System.Drawing.Point(191, 317);
+            this.btUpate.Location = new System.Drawing.Point(191, 240);
             this.btUpate.Name = "btUpate";
             this.btUpate.Size = new System.Drawing.Size(100, 35);
             this.btUpate.TabIndex = 5;
@@ -143,7 +159,7 @@
             // btConnect
             // 
             this.btConnect.BackColor = System.Drawing.SystemColors.Control;
-            this.btConnect.Location = new System.Drawing.Point(191, 222);
+            this.btConnect.Location = new System.Drawing.Point(191, 184);
             this.btConnect.Name = "btConnect";
             this.btConnect.Size = new System.Drawing.Size(100, 35);
             this.btConnect.TabIndex = 2;
@@ -176,7 +192,7 @@
             this.pnVCRMode.Location = new System.Drawing.Point(23, 23);
             this.pnVCRMode.Name = "pnVCRMode";
             this.tableLayoutPanel1.SetRowSpan(this.pnVCRMode, 2);
-            this.pnVCRMode.Size = new System.Drawing.Size(312, 370);
+            this.pnVCRMode.Size = new System.Drawing.Size(308, 296);
             this.pnVCRMode.TabIndex = 1;
             // 
             // groupBox2
@@ -194,15 +210,39 @@
             this.groupBox2.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(312, 370);
+            this.groupBox2.Size = new System.Drawing.Size(308, 296);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "VCR 读码模式";
             // 
+            // lbDefectCategory
+            // 
+            this.lbDefectCategory.AutoSize = true;
+            this.lbDefectCategory.Location = new System.Drawing.Point(158, 184);
+            this.lbDefectCategory.Name = "lbDefectCategory";
+            this.lbDefectCategory.Size = new System.Drawing.Size(0, 20);
+            this.lbDefectCategory.TabIndex = 8;
+            // 
+            // lbDefectName
+            // 
+            this.lbDefectName.AutoSize = true;
+            this.lbDefectName.Location = new System.Drawing.Point(158, 270);
+            this.lbDefectName.Name = "lbDefectName";
+            this.lbDefectName.Size = new System.Drawing.Size(0, 20);
+            this.lbDefectName.TabIndex = 7;
+            // 
+            // lbDefectCode
+            // 
+            this.lbDefectCode.AutoSize = true;
+            this.lbDefectCode.Location = new System.Drawing.Point(158, 229);
+            this.lbDefectCode.Name = "lbDefectCode";
+            this.lbDefectCode.Size = new System.Drawing.Size(0, 20);
+            this.lbDefectCode.TabIndex = 6;
+            // 
             // btDefectChange
             // 
             this.btDefectChange.BackColor = System.Drawing.SystemColors.Control;
-            this.btDefectChange.Location = new System.Drawing.Point(219, 317);
+            this.btDefectChange.Location = new System.Drawing.Point(228, 240);
             this.btDefectChange.Name = "btDefectChange";
             this.btDefectChange.Size = new System.Drawing.Size(74, 35);
             this.btDefectChange.TabIndex = 5;
@@ -213,7 +253,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(53, 270);
+            this.label5.Location = new System.Drawing.Point(53, 255);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 20);
             this.label5.TabIndex = 4;
@@ -222,7 +262,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(53, 229);
+            this.label4.Location = new System.Drawing.Point(53, 214);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 20);
             this.label4.TabIndex = 3;
@@ -231,7 +271,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 184);
+            this.label3.Location = new System.Drawing.Point(53, 169);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 20);
             this.label3.TabIndex = 2;
@@ -240,7 +280,7 @@
             // rbSelectDefectForSheets
             // 
             this.rbSelectDefectForSheets.AutoSize = true;
-            this.rbSelectDefectForSheets.Location = new System.Drawing.Point(27, 133);
+            this.rbSelectDefectForSheets.Location = new System.Drawing.Point(27, 118);
             this.rbSelectDefectForSheets.Name = "rbSelectDefectForSheets";
             this.rbSelectDefectForSheets.Size = new System.Drawing.Size(153, 24);
             this.rbSelectDefectForSheets.TabIndex = 1;
@@ -266,20 +306,21 @@
             this.tableLayoutPanel1.SetColumnSpan(this.pnOutput, 3);
             this.pnOutput.Controls.Add(this.tcOutput);
             this.pnOutput.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnOutput.Location = new System.Drawing.Point(23, 399);
+            this.pnOutput.Location = new System.Drawing.Point(23, 325);
             this.pnOutput.Name = "pnOutput";
-            this.pnOutput.Size = new System.Drawing.Size(948, 182);
+            this.pnOutput.Size = new System.Drawing.Size(936, 312);
             this.pnOutput.TabIndex = 3;
             // 
             // tcOutput
             // 
             this.tcOutput.Controls.Add(this.tabPage1);
+            this.tcOutput.Controls.Add(this.tabPage2);
             this.tcOutput.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tcOutput.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tcOutput.Location = new System.Drawing.Point(0, 0);
             this.tcOutput.Name = "tcOutput";
             this.tcOutput.SelectedIndex = 0;
-            this.tcOutput.Size = new System.Drawing.Size(948, 182);
+            this.tcOutput.Size = new System.Drawing.Size(936, 312);
             this.tcOutput.TabIndex = 0;
             // 
             // tabPage1
@@ -288,7 +329,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(940, 154);
+            this.tabPage1.Size = new System.Drawing.Size(928, 284);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "读码信息";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -301,18 +342,39 @@
             this.txIformation.Multiline = true;
             this.txIformation.Name = "txIformation";
             this.txIformation.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.txIformation.Size = new System.Drawing.Size(934, 148);
+            this.txIformation.Size = new System.Drawing.Size(922, 278);
             this.txIformation.TabIndex = 0;
             this.txIformation.Text = "Read Information";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.listView1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Size = new System.Drawing.Size(928, 284);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Panel列表";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // listView1
+            // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.型号});
+            this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView1.Location = new System.Drawing.Point(0, 0);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(928, 284);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // pnControl
             // 
             this.pnControl.Controls.Add(this.groupBox4);
             this.pnControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnControl.Location = new System.Drawing.Point(341, 23);
+            this.pnControl.Location = new System.Drawing.Point(337, 23);
             this.pnControl.Name = "pnControl";
             this.tableLayoutPanel1.SetRowSpan(this.pnControl, 2);
-            this.pnControl.Size = new System.Drawing.Size(312, 370);
+            this.pnControl.Size = new System.Drawing.Size(308, 296);
             this.pnControl.TabIndex = 4;
             // 
             // groupBox4
@@ -326,7 +388,7 @@
             this.groupBox4.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox4.Location = new System.Drawing.Point(0, 0);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(312, 370);
+            this.groupBox4.Size = new System.Drawing.Size(308, 296);
             this.groupBox4.TabIndex = 2;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Control";
@@ -334,7 +396,7 @@
             // btReadStop
             // 
             this.btReadStop.BackColor = System.Drawing.SystemColors.Control;
-            this.btReadStop.Location = new System.Drawing.Point(104, 246);
+            this.btReadStop.Location = new System.Drawing.Point(114, 229);
             this.btReadStop.Name = "btReadStop";
             this.btReadStop.Size = new System.Drawing.Size(74, 35);
             this.btReadStop.TabIndex = 8;
@@ -345,7 +407,7 @@
             // btReadStart
             // 
             this.btReadStart.BackColor = System.Drawing.SystemColors.Control;
-            this.btReadStart.Location = new System.Drawing.Point(24, 255);
+            this.btReadStart.Location = new System.Drawing.Point(24, 229);
             this.btReadStart.Name = "btReadStart";
             this.btReadStart.Size = new System.Drawing.Size(74, 35);
             this.btReadStart.TabIndex = 7;
@@ -357,7 +419,7 @@
             // btRead
             // 
             this.btRead.BackColor = System.Drawing.SystemColors.Control;
-            this.btRead.Location = new System.Drawing.Point(198, 317);
+            this.btRead.Location = new System.Drawing.Point(203, 240);
             this.btRead.Name = "btRead";
             this.btRead.Size = new System.Drawing.Size(74, 35);
             this.btRead.TabIndex = 6;
@@ -368,7 +430,7 @@
             // rbCycleRead
             // 
             this.rbCycleRead.AutoSize = true;
-            this.rbCycleRead.Location = new System.Drawing.Point(24, 203);
+            this.rbCycleRead.Location = new System.Drawing.Point(24, 153);
             this.rbCycleRead.Name = "rbCycleRead";
             this.rbCycleRead.Size = new System.Drawing.Size(121, 24);
             this.rbCycleRead.TabIndex = 5;
@@ -389,35 +451,11 @@
             this.rbReadBySheet.UseVisualStyleBackColor = true;
             this.rbReadBySheet.CheckedChanged += new System.EventHandler(this.rbReadBySheet_CheckedChanged);
             // 
-            // lbDefectCode
-            // 
-            this.lbDefectCode.AutoSize = true;
-            this.lbDefectCode.Location = new System.Drawing.Point(158, 229);
-            this.lbDefectCode.Name = "lbDefectCode";
-            this.lbDefectCode.Size = new System.Drawing.Size(0, 20);
-            this.lbDefectCode.TabIndex = 6;
-            // 
-            // lbDefectName
-            // 
-            this.lbDefectName.AutoSize = true;
-            this.lbDefectName.Location = new System.Drawing.Point(158, 270);
-            this.lbDefectName.Name = "lbDefectName";
-            this.lbDefectName.Size = new System.Drawing.Size(0, 20);
-            this.lbDefectName.TabIndex = 7;
-            // 
-            // lbDefectCategory
-            // 
-            this.lbDefectCategory.AutoSize = true;
-            this.lbDefectCategory.Location = new System.Drawing.Point(158, 184);
-            this.lbDefectCategory.Name = "lbDefectCategory";
-            this.lbDefectCategory.Size = new System.Drawing.Size(0, 20);
-            this.lbDefectCategory.TabIndex = 8;
-            // 
             // mainform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(995, 604);
+            this.ClientSize = new System.Drawing.Size(985, 662);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "mainform";
@@ -434,6 +472,7 @@
             this.tcOutput.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
             this.pnControl.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
@@ -473,5 +512,9 @@
         private System.Windows.Forms.Label lbDefectCategory;
         private System.Windows.Forms.Label lbDefectName;
         private System.Windows.Forms.Label lbDefectCode;
+        private System.Windows.Forms.Button btTest;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader 型号;
     }
 }
