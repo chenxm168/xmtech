@@ -10,6 +10,7 @@ namespace FileDataLoader.DBSrv
 {
    public class OracleDBService : IDBService,IDisposable
     {
+       public event EventHandler DBConnectFail;
        public string ConnString1
        {get;set;}
 
@@ -71,7 +72,7 @@ namespace FileDataLoader.DBSrv
            Dispose();
        }
 
-       public bool InertSql(string sql)
+       public bool ExcNonQuerySql(string sql)
        {
            bool bRtn = false;
            try
@@ -87,31 +88,66 @@ namespace FileDataLoader.DBSrv
                    Clog.error("DB Faill");
                    return bRtn;
                }
-               OracleCommand insertCmd = new OracleCommand(sql, conn);
+              using( OracleCommand cmd = new OracleCommand(sql, conn))
+              {
                int result = 0;
                if (connectState())
-                   result = insertCmd.ExecuteNonQuery();
+                   result = cmd.ExecuteNonQuery();
 
                if (result == 1)
                {
-                  Clog.info(string.Format("Success insert,insertSql:{0}", sql));
+                  Clog.info(string.Format("Success Execute,NonQuerySQL:{0}", sql));
                    //Form1.loginfo.Info(string.Format("Success insert,insertSql:{0}", sql));
                   bRtn = true;
                }
+                   
                else
                {
                    //  Form1.loginfo.Info(string.Format("Failed insert,insertSql:{0}", sql));
-                   Clog.error(string.Format("Failed insert,insertSql:{0}", sql));
+                   Clog.error(string.Format("Failed Execute,NonQuerySQL:{0}", sql));
                }
+               } //end useing
+           
            }
            catch (Exception ex)
            {
-               Clog.error("Insert Exception:" + sql + "\n" + ex.Message);
+               Clog.error("NonQuerySQL Execution Exception:" + sql + "\n" + ex.Message);
            }
 
            return bRtn;
        }
 
+       public DataTable QueryData(string sql)
+       {
+           try
+           {
+               if (conn == null)
+               {
+                   Clog.error("DB connected fail");
+                   oracleFailOver();
+               }
+               if (conn == null)
+               {
+                   Clog.error("DB connected Faill");
+                   return null;
+               }
+
+               using (OracleCommand cmd = new OracleCommand(sql, conn))
+               {
+                   OracleDataAdapter adapter = new OracleDataAdapter(cmd);
+                   DataTable datatable = new DataTable();
+                   adapter.Fill(datatable);
+                   return datatable;
+
+               } //end useing
+
+               
+           }catch(Exception e)
+           {
+               Clog.error("Query Data Exception:" + sql + e.Message);
+               return null;
+           }
+       }
 
 
 

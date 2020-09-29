@@ -170,5 +170,11 @@ namespace MPC.LAN
            bytes = null;
            return true;
        }
+
+
+       public void DisconnectSuccess()
+       {
+           //TODO
+       }
     }
 }

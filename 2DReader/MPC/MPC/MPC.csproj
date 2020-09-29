@@ -103,6 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="CNS.cs" />
     <Compile Include="DefectCollection.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -121,6 +122,12 @@
     </Compile>
     <Compile Include="Forms\DefectList.Designer.cs">
       <DependentUpon>DefectList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProductSpecInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProductSpecInput.Designer.cs">
+      <DependentUpon>frmProductSpecInput.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\mainform.cs">
       <SubType>Form</SubType>
@@ -144,6 +151,7 @@
     <Compile Include="GlobalVariable.cs" />
     <Compile Include="LAN\IReader.cs" />
     <Compile Include="LAN\ReaderTCP.cs" />
+    <Compile Include="ModReadPanelInfo.cs" />
     <Compile Include="ObjectManager.cs" />
     <Compile Include="ProductSpecColection.cs" />
     <Compile Include="Program.cs" />
@@ -162,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\DefectList.resx">
       <DependentUpon>DefectList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProductSpecInput.resx">
+      <DependentUpon>frmProductSpecInput.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\mainform.resx">
       <DependentUpon>mainform.cs</DependentUpon>
@@ -212,6 +223,7 @@
     <Content Include="Config\add3.png" />
     <Content Include="Config\CSVConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Config\delete.png" />
     <Content Include="Config\GLASSID.txt">
@@ -219,6 +231,7 @@
     </Content>
     <Content Include="Config\VCRConfigTCP.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="CSVConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

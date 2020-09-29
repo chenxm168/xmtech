@@ -123,6 +123,33 @@ namespace TCPSrv
 
        }
 
+       public void Disconnet(IConnectStateCallback callback)
+        {
+            if (tcp != null)
+            {
+                lock (WRLocker)
+                {
+                    if (tcp != null)
+                    {
+                        try
+                        {
+                            tcp.Close();
+                            if(callback!=null)
+                            {
+                                callback.DisconnectSuccess();
+                            }
+                        }
+                        catch (Exception e)
+                        {
+                            logger.ErrorFormat("TCP Disconnect Error[{0}]", e.Message);
+                        }
+                    }
+                }
+
+            }
+
+        }
+
         protected virtual void ConnectCallBack(IAsyncResult ar)
         {
             TcpClient t = (TcpClient)ar.AsyncState;

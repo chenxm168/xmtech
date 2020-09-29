@@ -107,7 +107,7 @@ namespace FileDataLoader
                             "('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}','{13}')",
                             _DATE, _DEFECTCODE, _PRODUCTSPEC, _PANELID.Substring(0, _PANELID.Length - 2), _PANELID, _VCRID, _ISCELL, _ISLB, _ISZH, "", _FTPPATH, _LOCALIMAGEPATH, image, defectNo);
                         
-                        DbService.InertSql(sql);
+                        DbService.ExcNonQuerySql(sql);
                         defectNo = defectNo + 1;
                         Fileuploader.UpLoadFile(_LOCALIMAGEPATH + "\\" + image, _FTPPATH, image);
                         

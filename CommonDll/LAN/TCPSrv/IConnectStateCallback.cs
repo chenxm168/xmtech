@@ -10,6 +10,7 @@ namespace TCPSrv
     {
       void ConnectSuccess(object sender,string message);
       void ConnectFail(object sender, string messsage);
+      void DisconnectSuccess();
 
     }
 }

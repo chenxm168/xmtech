@@ -295,6 +295,7 @@ namespace MPC.Forms
                {
                    SendKeys.Send("{TAB}");
                }
+            
 
         }
 
@@ -309,6 +310,7 @@ namespace MPC.Forms
             {
                 SendKeys.Send("{TAB}");
             }
+            
         }
 
         private void cbIsLB_KeyUp(object sender, KeyEventArgs e)
@@ -334,6 +336,11 @@ namespace MPC.Forms
             //{
             //    cbIsZH.Checked = !cbIsZH.Checked;
             //}
+        }
+
+        private void btCancel_Click(object sender, EventArgs e)
+        {
+
         }
 
 

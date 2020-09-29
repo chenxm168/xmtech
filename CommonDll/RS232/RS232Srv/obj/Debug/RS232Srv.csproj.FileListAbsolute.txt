@@ -1,7 +1,7 @@
+D:\DevRepository\CommonDll\RS232\RS232Srv\obj\Debug\RS232Srv.csprojResolveAssemblyReference.cache
 D:\DevRepository\CommonDll\RS232\RS232Srv\bin\Debug\RS232Srv.dll
 D:\DevRepository\CommonDll\RS232\RS232Srv\bin\Debug\RS232Srv.pdb
 D:\DevRepository\CommonDll\RS232\RS232Srv\bin\Debug\log4net.dll
 D:\DevRepository\CommonDll\RS232\RS232Srv\bin\Debug\log4net.xml
-D:\DevRepository\CommonDll\RS232\RS232Srv\obj\Debug\RS232Srv.csprojResolveAssemblyReference.cache
 D:\DevRepository\CommonDll\RS232\RS232Srv\obj\Debug\RS232Srv.dll
 D:\DevRepository\CommonDll\RS232\RS232Srv\obj\Debug\RS232Srv.pdb

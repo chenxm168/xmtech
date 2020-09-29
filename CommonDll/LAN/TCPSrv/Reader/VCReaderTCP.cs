@@ -19,7 +19,7 @@ namespace TCPSrv.Reader
     {
        public event EventHandler ConnectedSuccessEvent;
        public event EventHandler<VCREeventArgs> ConnectedFailEvent;
-
+       public event EventHandler DisconnectedEvent;
        public event EventHandler<VCREeventArgs> ReadSuccess;
        public event EventHandler<VCREeventArgs> ReadFail;
 
@@ -65,6 +65,9 @@ namespace TCPSrv.Reader
            get;
            set;
        }
+
+
+       protected string configfile = "";
         object ConnectedLock = new object();
         //public bool IsConnected
         //{
@@ -89,14 +92,17 @@ namespace TCPSrv.Reader
        public VCReaderTCP():base()
        {
            IsConnected = false;
-           Init("VCRConfigTCP.xml");
+           this.configfile = "VCRConfigTCP.xml";
+           Init(configfile);
            //Init();
        }
 
        public VCReaderTCP(string file):base()
        {
            IsConnected = false;
+           this.configfile = file;
            Init(file);
+
        }
 
        public VCRConfigTCP Config
@@ -129,7 +135,7 @@ namespace TCPSrv.Reader
 
        public void Connect()
        {
-           if(Init("VCRConfigTCP.xml"))
+           if (Init(configfile))
            {
                StartConnect(this, RemoteIp, TcpPort);
            }
@@ -138,7 +144,8 @@ namespace TCPSrv.Reader
 
        public void ConnectAsyn()
        {
-           if (Init("VCRConfigTCP.xml"))
+
+           if (Init(configfile))
            {
                StartConnectAsyn(this, RemoteIp, TcpPort);
            }
@@ -413,6 +420,15 @@ namespace TCPSrv.Reader
        {
            VCReadState = ReadState.StopRequest;
            logger.Debug("Reader Stop Request");
+       }
+
+
+       public void DisconnectSuccess()
+       {
+          if(DisconnectedEvent!=null)
+          {
+              DisconnectedEvent(this, null);
+          }
        }
     }
 }

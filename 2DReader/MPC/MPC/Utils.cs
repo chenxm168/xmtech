@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using FileDataLoader.DBSrv;
 using FileDataLoader.FileUpload;
 using System.Threading;
+using System.Data;
 
 
 namespace MPC
@@ -79,7 +80,7 @@ namespace MPC
        public static bool UploadDefectData(object db ,  string itemline)
        {
            bool bRtn = true;
-           IDBService DbService = db as IDBService;
+           IDBService idb = db as IDBService;
            
            string[] panelItem = itemline.Split(',');
            string _DATE = panelItem[0];
@@ -105,9 +106,9 @@ namespace MPC
                    _DATE, _DEFECTCODE, _PRODUCTSPEC, _PANELID.Substring(0, _PANELID.Length - 2), _PANELID, _VCRID, _ISCELL, _ISLB, _ISZH, "", _FTPPATH, _LOCALIMAGEPATH, image, defectNo);
 
               // DbService.InertSql(sql);
-              
 
-             if(!  DbService.InertSql(sql))
+
+               if (!idb.ExcNonQuerySql(sql))
              {
                  bRtn = false;
              }
@@ -128,6 +129,15 @@ namespace MPC
 
            return bRtn;
 
+       }
+
+
+       //TODO
+       public static string[] GetProductSpecList(IDBService db)
+       {
+           string sql ="";
+          //  DataTable dt = db.QueryData
+           return null;
        }
 
 
@@ -152,6 +162,69 @@ namespace MPC
           }
 
        }
+
+
+      public static bool InserToDB(Dictionary<string, string> data, string table ,Object db)
+      {
+          bool bRtn = true;
+          IDBService DbService = db as IDBService;
+          int idx = 0;
+          StringBuilder sbItem = new StringBuilder();
+          StringBuilder sbValue = new StringBuilder();
+          foreach(KeyValuePair<string,string> p in data)
+          {
+              if(idx !=data.Keys.Count-1)
+              {
+                  sbItem.Append(p.Key.ToString().Trim());
+                  sbItem.Append(",");
+                  sbValue.Append(p.Value.ToString().Trim());
+                  sbItem.Append(",");
+              }else
+              {
+                  sbItem.Append(p.Key.ToString().Trim());
+                  sbValue.Append(p.Value.ToString().Trim());
+              }
+              idx++;
+          }
+
+          string sql = string.Format("INSERT TO {0} ( {1} ) VALUES ( {2} )  ", table, sbItem.ToString(), sbValue.ToString());
+          if (!DbService.ExcNonQuerySql(sql))
+          {
+              bRtn = false;
+          }
+
+          return bRtn;
+      }
+
+      public static bool UpdateToDb( Dictionary<string,string> primaryKeys, Dictionary<string, string> data, string table,object db)
+      {
+          bool bRtn = true;
+          IDBService DbService = db as IDBService;
+          int idx = 0;
+          StringBuilder sbItem = new StringBuilder();
+          StringBuilder sbValue = new StringBuilder();
+          foreach (KeyValuePair<string, string> p in data)
+          {
+              if (idx != data.Keys.Count - 1)
+              {
+                  sbItem.Append(p.Key.ToString().Trim());
+                  sbItem.Append(",");
+                  sbValue.Append(p.Value.ToString().Trim());
+                  sbItem.Append(",");
+              }
+              else
+              {
+                  sbItem.Append(p.Key.ToString().Trim());
+                  sbValue.Append(p.Value.ToString().Trim());
+              }
+              idx++;
+          }
+
+          //TODO
+
+          return bRtn;
+      }
+
 
 
     }

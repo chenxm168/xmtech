@@ -58,6 +58,9 @@
             this.型号 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pnControl = new System.Windows.Forms.Panel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txProductSpec = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.btReadStop = new System.Windows.Forms.Button();
             this.btReadStart = new System.Windows.Forms.Button();
             this.btRead = new System.Windows.Forms.Button();
@@ -126,6 +129,7 @@
             this.btTest.TabIndex = 9;
             this.btTest.Text = "test";
             this.btTest.UseVisualStyleBackColor = true;
+            this.btTest.Visible = false;
             this.btTest.Click += new System.EventHandler(this.btTest_Click);
             // 
             // btUpate
@@ -379,6 +383,9 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Controls.Add(this.txProductSpec);
+            this.groupBox4.Controls.Add(this.label6);
             this.groupBox4.Controls.Add(this.btReadStop);
             this.groupBox4.Controls.Add(this.btReadStart);
             this.groupBox4.Controls.Add(this.btRead);
@@ -393,10 +400,41 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Control";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("微软雅黑", 10.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.ForeColor = System.Drawing.Color.Red;
+            this.label7.Location = new System.Drawing.Point(141, 192);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(64, 19);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "例：001";
+            // 
+            // txProductSpec
+            // 
+            this.txProductSpec.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txProductSpec.Location = new System.Drawing.Point(24, 188);
+            this.txProductSpec.MaxLength = 3;
+            this.txProductSpec.Name = "txProductSpec";
+            this.txProductSpec.Size = new System.Drawing.Size(100, 26);
+            this.txProductSpec.TabIndex = 10;
+            this.txProductSpec.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txProductSpec_KeyPress);
+            this.txProductSpec.Validating += new System.ComponentModel.CancelEventHandler(this.txProductSpec_Validating);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(20, 153);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(136, 20);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "输入ASD产品型号：";
+            // 
             // btReadStop
             // 
             this.btReadStop.BackColor = System.Drawing.SystemColors.Control;
-            this.btReadStop.Location = new System.Drawing.Point(114, 229);
+            this.btReadStop.Location = new System.Drawing.Point(113, 255);
             this.btReadStop.Name = "btReadStop";
             this.btReadStop.Size = new System.Drawing.Size(74, 35);
             this.btReadStop.TabIndex = 8;
@@ -407,7 +445,7 @@
             // btReadStart
             // 
             this.btReadStart.BackColor = System.Drawing.SystemColors.Control;
-            this.btReadStart.Location = new System.Drawing.Point(24, 229);
+            this.btReadStart.Location = new System.Drawing.Point(6, 248);
             this.btReadStart.Name = "btReadStart";
             this.btReadStart.Size = new System.Drawing.Size(74, 35);
             this.btReadStart.TabIndex = 7;
@@ -419,7 +457,7 @@
             // btRead
             // 
             this.btRead.BackColor = System.Drawing.SystemColors.Control;
-            this.btRead.Location = new System.Drawing.Point(203, 240);
+            this.btRead.Location = new System.Drawing.Point(210, 248);
             this.btRead.Name = "btRead";
             this.btRead.Size = new System.Drawing.Size(74, 35);
             this.btRead.TabIndex = 6;
@@ -430,7 +468,7 @@
             // rbCycleRead
             // 
             this.rbCycleRead.AutoSize = true;
-            this.rbCycleRead.Location = new System.Drawing.Point(24, 153);
+            this.rbCycleRead.Location = new System.Drawing.Point(24, 85);
             this.rbCycleRead.Name = "rbCycleRead";
             this.rbCycleRead.Size = new System.Drawing.Size(121, 24);
             this.rbCycleRead.TabIndex = 5;
@@ -442,7 +480,7 @@
             // 
             this.rbReadBySheet.AutoSize = true;
             this.rbReadBySheet.Checked = true;
-            this.rbReadBySheet.Location = new System.Drawing.Point(24, 60);
+            this.rbReadBySheet.Location = new System.Drawing.Point(24, 38);
             this.rbReadBySheet.Name = "rbReadBySheet";
             this.rbReadBySheet.Size = new System.Drawing.Size(121, 24);
             this.rbReadBySheet.TabIndex = 4;
@@ -516,5 +554,8 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ColumnHeader 型号;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txProductSpec;
+        private System.Windows.Forms.Label label6;
     }
 }

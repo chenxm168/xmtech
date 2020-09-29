@@ -34,7 +34,7 @@ namespace FileDataLoader
                 {
                     Directory.CreateDirectory( "logs");
                 }
-                File.AppendAllText("logs//loader" + DateTime.Now.ToString("yyyyMMdd") + ".log", "[" + DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss.fff") + "]" + log+"\n", Encoding.Default);
+                File.AppendAllText("logs//loader" + DateTime.Now.ToString("yyyyMMdd") + ".log", "[" + DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss.fff") + "]" + log+"\n", Encoding.UTF8);
             }
     }
 }
